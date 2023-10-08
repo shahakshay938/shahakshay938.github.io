@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Aluminium Calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+</head>
+
+<body>
+    <div class="flex justify-center mt-3">
+        <div class="border px-5 py-3 rounded shadow">
+            <h2 class="text-base font-semibold leading-7 text-gray-900">Calculate</h2>
+
+            <div>
+                <div class="mt-2">
+                    <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Number 1</label>
+                    <input type="number" name="number1" id="number1" autocomplete="off"
+                        class="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                </div>
+            </div>
+
+            <div>
+                <div class="mt-2">
+                    <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Number 2</label>
+                    <input type="number" name="number2" id="number2" autocomplete="off"
+                        class="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                </div>
+            </div>
+
+            <div>
+                Output: <span id="output">0</span>
+            </div>
+
+            <button type="button"
+            id="addition"
+                class="mt-6 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                onclick="calculate(this.id)"
+            >
+                Addition (+)
+            </button>
+
+            <button type="button"
+            id="subtraction"
+            onclick="calculate(this.id)"
+                class="mt-6 rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">
+                Subtraction (-)
+            </button>
+
+            <button type="button"
+            id="division"
+            onclick="calculate(this.id)"
+                class="mt-6 rounded-md bg-yellow-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600">
+                Division (/)
+            </button>
+        </div>
+    </div>
+
+
+
+    <script>
+        function addition(num1, num2) {
+            let value1_wholePart = getWholePart(num1);
+            let value1_fractionalPart = getFractionalPart(num1);
+
+            let value2_wholePart = getWholePart(num2);
+            let value2_fractionalPart = getFractionalPart(num2);
+
+            let fractionValue_wholePart = getWholePart((value1_fractionalPart + value2_fractionalPart) / 8);
+            let fractionValue_fractionalPart = parseFloat('0.' + ((value1_fractionalPart + value2_fractionalPart) % 8));
+
+            const answer = (value1_wholePart + value2_wholePart + fractionValue_wholePart + fractionValue_fractionalPart).toFixed(1);
+
+            document.getElementById('output').innerHTML = answer;
+        }
+
+        function subtraction(num1, num2) {
+            let value1_wholePart = getWholePart(num1);
+            let value1_fractionalPart = getFractionalPart(num1);
+
+            let value2_wholePart = getWholePart(num2);
+            let value2_fractionalPart = getFractionalPart(num2);
+
+            let fractionValue_wholePart = getWholePart((value1_fractionalPart + value2_fractionalPart) / 8);
+            let fractionValue_fractionalPart = parseFloat('0.' + (8 + ((value1_fractionalPart - value2_fractionalPart) % 8)));
+
+            const answer = (((value1_wholePart - value2_wholePart - fractionValue_wholePart) + fractionValue_fractionalPart)).toFixed(1);
+
+            document.getElementById('output').innerHTML = answer;
+        }
+
+        function division(num1, num2) {
+
+            let fractionValue_wholePart = getWholePart(num1 / num2);
+            let fractionValue_fractionalPart = parseFloat('0.' + getFractionalPart((num1 / num2).toFixed(1)));
+            if(fractionValue_fractionalPart == 0.8) {
+                fractionValue_wholePart +=1;
+                fractionValue_fractionalPart = parseFloat('0.' + 0);
+            }
+
+            const answer = (((fractionValue_wholePart) + fractionValue_fractionalPart)).toFixed(1);
+            
+            document.getElementById('output').innerHTML = answer;
+        }
+
+        function getWholePart(num) {
+            return Math.floor(num.toString().split('.')[0]);
+        }
+
+        function getFractionalPart(num) {
+            return Math.floor(num.toString().split('.')[1]);
+        }
+
+        function calculate(clicked_id)
+        {
+            let num1 = document.getElementById('number1').value;
+            let num2 = document.getElementById('number2').value;
+
+            switch (clicked_id) {
+                case 'addition':
+                    addition(num1, num2)
+                    break;
+
+                case 'subtraction':
+                    subtraction(num1, num2)
+                    break;
+
+                case 'division':
+                    division(num1, num2)
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>
