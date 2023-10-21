@@ -11,6 +11,11 @@
             "src": "assets/images/sa.png",
             "type": "image/png",
             "sizes": "512x512"
+        },
+        {
+            "src": "assets/images/sa.png",
+            "type": "image/png",
+            "sizes": "192x192"
         }
     ]
 }
