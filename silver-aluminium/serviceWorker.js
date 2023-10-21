@@ -5,6 +5,10 @@ const assets = [
     "assets/css/style.css",
     "assets/css/fontawesome-all.css",
     "assets/images/sa.png",
+    "assets/webfonts/fa-regular-400.ttf",
+    "assets/webfonts/fa-regular-400.woff2",
+    "assets/webfonts/fa-solid-900.ttf",
+    "assets/webfonts/fa-solid-900.woff2",
 ]
 
 self.addEventListener("install", installEvent => {
@@ -17,8 +21,8 @@ self.addEventListener("install", installEvent => {
 
 self.addEventListener("fetch", fetchEvent => {
     fetchEvent.respondWith(
-      caches.match(fetchEvent.request).then(res => {
-        return res || fetch(fetchEvent.request)
-      })
+        caches.match(fetchEvent.request).then(res => {
+            return res || fetch(fetchEvent.request)
+        })
     )
-  })
+})
