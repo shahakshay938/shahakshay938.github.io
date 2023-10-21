@@ -4,98 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Silver Aluminium Calculator</title>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            outline: none;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: #292D36;
-        }
-
-        .container {
-            max-width: 360px;
-            max-height: 640px;
-            padding: 0 20px;
-        }
-
-        .row {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        button {
-            width: 70px;
-            border: none;
-            background-color: #272B33;
-            border-radius: 50px;
-            padding: 22px;
-            transition: all .3;
-        }
-
-        button:active {
-            background-color: #1f2229;
-        }
-
-        button i {
-            font-size: 24px;
-            color: #EFEFF0;
-        }
-
-        .mb-20 {
-            margin-bottom: 20px;
-        }
-
-        .cyan {
-            color: #26FFD7 !important;
-        }
-
-        .red {
-            color: #D76061 !important;
-        }
-
-        .output {
-            width: 100;
-            height: calc(100vh - 420px);
-        }
-
-        .inputs {
-            padding-top: calc(216px - 28px - 32px - 40px);
-        }
-
-        .inputs input {
-            width: 100%;
-            border: none;
-            background-color: transparent;
-            height: 100%;
-            text-align: right;
-            overflow-x: auto;
-            color: #fff;
-            font-size: 32px;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            margin-bottom: 10px;
-        }
-
-        .answer input {
-            width: 100%;
-            border: none;
-            background-color: transparent;
-            height: 100%;
-            font-size: 24px;
-            text-align: right;
-            color: #9b9b9b;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-        }
-    </style>
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    <meta name="theme-color" content="black">
+    <link rel="manifest" href="manifest.json" />
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"> -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
@@ -181,6 +97,17 @@
             </div>
         </div>
     </div>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker
+                    .register("/serviceWorker.js")
+                    .then(res => console.log("service worker registered"))
+                    .catch(err => console.log("service worker not registered", err))
+            })
+        }
+    </script>
 </body>
 
 </html>
