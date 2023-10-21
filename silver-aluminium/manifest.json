@@ -1,7 +1,7 @@
 {
     "name": "Silver Aluminium Calculator",
     "short_name": "Silver Aluminium",
-    "start_url": "index.html",
+    "start_url": "/new-ui.html",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
