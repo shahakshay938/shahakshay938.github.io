@@ -1,168 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="transition-colors duration-300">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Silver Aluminium Calculator</title>
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
 </head>
 
-<body>
-    <div class="flex justify-center mt-3 p-5">
-        <div class="border px-5 py-3 rounded shadow">
-            <h2 class="text-base font-semibold leading-7 text-gray-900">Calculate</h2>
+<body
+    class="min-h-screen flex items-center justify-center p-4 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white">
+    <main id="calculator" class="w-full max-w-md bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+        <header class="mb-4 flex justify-between items-center">
             <div>
-                <div class="mt-2">
-                    <label for="number1" class="block text-sm font-medium leading-6 text-gray-900">Number 1</label>
-                    <input type="number" name="number1" id="number1" autocomplete="off"
-                        class="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 outline-none focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" />
+                <h1 class="text-2xl font-bold">Silver Aluminium Calculator</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-300">1 Inches = 8 Guntha</p>
+            </div>
+            <button id="mode-toggle" onclick="toggleTheme()" class="text-gray-600 dark:text-gray-300">
+                <i id="theme-icon" class="fa-solid fa-circle-half-stroke text-xl"></i>
+            </button>
+        </header>
+
+        <section class="space-y-4">
+            <div>
+                <label for="number1" class="block text-sm font-medium text-gray-700 dark:text-gray-300">First
+                    Value</label>
+                <input type="number" step="0.01" name="number1" id="number1" placeholder="e.g., 3.6"
+                    class="mt-1 w-full rounded-md border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm text-gray-900 dark:text-white dark:bg-gray-700 shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            </div>
+
+            <div>
+                <label for="number2" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Second
+                    Value</label>
+                <input type="number" step="0.01" name="number2" id="number2" placeholder="e.g., 1.2"
+                    class="mt-1 w-full rounded-md border border-gray-300 dark:border-gray-600 px-3 py-2 text-sm text-gray-900 dark:text-white dark:bg-gray-700 shadow-sm focus:ring-blue-500 focus:border-blue-500" />
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300">Result</label>
+                <div id="output"
+                    class="mt-1 text-lg font-semibold text-blue-700 dark:text-blue-400 bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-md text-center">
+                    0.0
                 </div>
             </div>
 
-            <div>
-                <div class="mt-2">
-                    <label for="number2" class="block text-sm font-medium leading-6 text-gray-900">Number 2</label>
-                    <input type="number" name="number2" id="number2" autocomplete="off"
-                        class="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 outline-none focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" />
-                </div>
+            <div class="grid grid-cols-4 gap-3 mt-2">
+                <button id="addition" onclick="calculate(this.id)" class="btn-op"><i
+                        class="fa-solid fa-plus"></i></button>
+                <button id="subtraction" onclick="calculate(this.id)" class="btn-op"><i
+                        class="fa-solid fa-minus"></i></button>
+                <button id="division" onclick="calculate(this.id)" class="btn-op"><i
+                        class="fa-solid fa-divide"></i></button>
+                <button id="multiplication" onclick="calculate(this.id)" class="btn-op"><i
+                        class="fa-solid fa-xmark"></i></button>
             </div>
 
-            <div class="mt-3">
-                Output: <span id="output">0.0</span>
-            </div>
-
-            <div class="flex flex-wrap flex-grow gap-2 justify-between mt-3">
-                <button type="button" id="addition" onclick="calculate(this.id)"
-                    class="rounded-md bg-gray-200 px-3 py-2 text-sm font-semibold text-black hover:bg-gray-300 transition duration-300 ease-in-out focus:bg-gray-300">
-                    <i class="fa-solid fa-plus"></i>
-                </button>
-
-                <button type="button" id="subtraction" onclick="calculate(this.id)"
-                    class="rounded-md bg-gray-200 px-3 py-2 text-sm font-semibold text-black hover:bg-gray-300 transition duration-300 ease-in-out focus:bg-gray-300">
-                    <i class="fa-solid fa-minus"></i>
-                </button>
-
-                <button type="button" id="division" onclick="calculate(this.id)"
-                    class="rounded-md bg-gray-200 px-3 py-2 text-sm font-semibold text-black hover:bg-gray-300 transition duration-300 ease-in-out focus:bg-gray-300">
-                    <i class="fa-solid fa-divide"></i>
-                </button>
-
-                <button type="button" id="multiplication" onclick="calculate(this.id)"
-                    class="rounded-md bg-gray-200 px-3 py-2 text-sm font-semibold text-black hover:bg-gray-300 transition duration-300 ease-in-out focus:bg-gray-300">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
-            </div>
-            <div class="flex flex-wrap flex-grow gap-2 justify-center mt-3">
-                <button type="button" id="clear" onclick="calculate(this.id)"
-                    class="rounded-md bg-gray-200 px-3 py-2 text-sm font-semibold text-black hover:bg-gray-300 transition duration-300 ease-in-out focus:bg-gray-300">
+            <div class="flex justify-center mt-4">
+                <button id="clear" onclick="calculate(this.id)"
+                    class="bg-red-100 text-red-700 hover:bg-red-200 rounded-md px-4 py-2 text-sm font-semibold">
                     Clear
                 </button>
             </div>
+        </section>
 
-            <p class="mt-3 text-gray-500 text-center text-sm">version: 0.0.6</p>
-            <div>
-                <strong class="mt-3 text-gray-700">What's New:</strong>
-                <ul class="list-disc">
-                    <li class="ml-5 text-gray-500">Added multiplication logic.</li>
-                    <li class="ml-5 text-gray-500">Minor UI improvements.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+        <footer class="mt-6 text-xs text-gray-500 dark:text-gray-400 text-center">
+            <p>Version: 0.3.0</p>
+        </footer>
+    </main>
+
+    <style>
+        .btn-op {
+            background-color: #e5e7eb;
+            padding: 0.5rem 0.75rem;
+            font-weight: 700;
+            border-radius: 0.375rem;
+            transition: background 0.2s;
+        }
+
+        .btn-op:hover {
+            background-color: #d1d5db;
+        }
+
+        .dark .btn-op {
+            background-color: #374151;
+            color: #f9fafb;
+        }
+
+        .dark .btn-op:hover {
+            background-color: #4b5563;
+        }
+    </style>
 
     <script>
-        function multiplication(num1, num2) {
-            let value1_in_gutha = inch_to_gutha(getWholePart(num1)) + getFractionalPart(num1);
-            let value2_in_gutha = inch_to_gutha(getWholePart(num2)) + getFractionalPart(num2);
+        const GUNTHA_INCH = 8;
+        const themeKey = "theme-preference";
 
-            let answer_wholepart = getWholePart((value1_in_gutha + value2_in_gutha) / 8).toString();
-            let answer_fractionalPart = getFractionalPart((value1_in_gutha + value2_in_gutha) / 8);
-
-            const answer = (answer_wholepart + "." + answer_fractionalPart);
-
-            displayAnswer(answer);
+        function toInches(value) {
+            const [g, i] = value.toString().split('.').map(Number);
+            return (g * GUNTHA_INCH) + (i || 0);
         }
 
-        function addition(num1, num2) {
-            let value1_wholePart = getWholePart(num1);
-            let value1_fractionalPart = getFractionalPart(num1);
-
-            let value2_wholePart = getWholePart(num2);
-            let value2_fractionalPart = getFractionalPart(num2);
-
-            let fractionValue_wholePart = getWholePart((value1_fractionalPart + value2_fractionalPart) / 8);
-            let fractionValue_fractionalPart = parseFloat('0.' + ((value1_fractionalPart + value2_fractionalPart) % 8));
-
-            const answer = (value1_wholePart + value2_wholePart + fractionValue_wholePart + fractionValue_fractionalPart).toFixed(1);
-
-            displayAnswer(answer);
+        function fromInches(inches) {
+            const g = Math.floor(inches / GUNTHA_INCH);
+            const i = Math.round(inches % GUNTHA_INCH);
+            return `${g}.${i}`;
         }
 
-        function subtraction(num1, num2) {
-            let value1_in_gutha = inch_to_gutha(getWholePart(num1)) + getFractionalPart(num1);
-            let value2_in_gutha = inch_to_gutha(getWholePart(num2)) + getFractionalPart(num2);
-            let answer_wholepart = getWholePart((Math.abs(value1_in_gutha - value2_in_gutha) / 8)).toString();
-            let answer_fractionalPart = (Math.abs(value1_in_gutha - value2_in_gutha) % 8).toString();
-            const answer = (answer_wholepart + "." + answer_fractionalPart);
-
-            displayAnswer(answer);
+        function addition(n1, n2) {
+            const total = toInches(n1) + toInches(n2);
+            displayAnswer(fromInches(total));
         }
 
-        function division(num1, num2) {
-            let value1_wholePart = getWholePart(num1);
-            let value1_fractionalPart = getFractionalPart(num1);
-            let value1_in_gutha = (value1_wholePart * 8) + value1_fractionalPart;
-
-            let value2_wholePart = getWholePart(num2);
-            let ans = ((value1_in_gutha / value2_wholePart) / 8);
-            let ans_wholePart = getWholePart(ans);
-            let ans_fractionalPart = ((value1_in_gutha / value2_wholePart) % 8);
-
-            const answer = (ans_wholePart.toString() + "." + ans_fractionalPart.toString());
-
-            displayAnswer(answer);
+        function subtraction(n1, n2) {
+            const total = Math.abs(toInches(n1) - toInches(n2));
+            displayAnswer(fromInches(total));
         }
 
-        function clear(num1, num2) {
-            document.getElementById('number1').value = '';
-            document.getElementById('number2').value = '';
-            displayAnswer('0.0');
+        function multiplication(n1, n2) {
+            const total = toInches(n1) * toInches(n2);
+            displayAnswer(fromInches(total));
         }
 
-        function inch_to_gutha(inches) { return inches * 8 }
-        function gutha_to_inch(gutha) { return gutha / 8 }
-        function displayAnswer(result) { document.getElementById('output').innerHTML = result; }
-        function getWholePart(number) { return Math.floor(number.toString().split('.')[0]); }
-        function getFractionalPart(number) { return Math.floor(number.toString().split('.')[1] ?? 0); }
+        function division(n1, n2) {
+            const divisor = toInches(n2);
+            if (divisor === 0) return displayAnswer("∞");
+            const result = toInches(n1) / divisor;
+            displayAnswer(result.toFixed(3));
+        }
 
-        function calculate(clicked_id) {
-            let num1 = document.getElementById('number1').value;
-            let num2 = document.getElementById('number2').value;
+        function displayAnswer(result) {
+            document.getElementById("output").innerText = result;
+            localStorage.setItem("lastOutput", result);
+        }
 
-            switch (clicked_id) {
-                case 'addition':
-                    addition(num1, num2)
+        function clear() {
+            document.getElementById("number1").value = '';
+            document.getElementById("number2").value = '';
+            displayAnswer("0.0");
+        }
+
+        function calculate(op) {
+            const n1 = document.getElementById("number1").value;
+            const n2 = document.getElementById("number2").value;
+
+            if (!n1 || (!n2 && op !== 'clear')) return displayAnswer('0.0');
+
+            localStorage.setItem("lastInput1", n1);
+            localStorage.setItem("lastInput2", n2);
+
+            switch (op) {
+                case 'addition': addition(n1, n2); break;
+                case 'subtraction': subtraction(n1, n2); break;
+                case 'multiplication': multiplication(n1, n2); break;
+                case 'division': division(n1, n2); break;
+                case 'clear': clear(); break;
+            }
+        }
+
+        // Dark Mode System Handling
+        function getSystemTheme() {
+            return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        function setThemeClass(mode) {
+            const root = document.documentElement;
+            if (mode === "dark") {
+                root.classList.add("dark");
+            } else {
+                root.classList.remove("dark");
+            }
+        }
+
+        function updateIcon(mode) {
+            const icon = document.getElementById("theme-icon");
+            switch (mode) {
+                case "light":
+                    icon.className = "fa-solid fa-sun text-xl";
                     break;
-
-                case 'subtraction':
-                    subtraction(num1, num2)
+                case "dark":
+                    icon.className = "fa-solid fa-moon text-xl";
                     break;
-
-                case 'division':
-                    division(num1, num2)
-                    break;
-
-                case 'multiplication':
-                    multiplication(num1, num2)
-                    break;
-
-                case 'clear':
-                    clear(num1, num2);
+                default:
+                    icon.className = "fa-solid fa-circle-half-stroke text-xl";
                     break;
             }
         }
+
+        function applyTheme(mode) {
+            const effectiveMode = mode === "system" ? getSystemTheme() : mode;
+            setThemeClass(effectiveMode);
+            updateIcon(mode);
+        }
+
+        function toggleTheme() {
+            const current = localStorage.getItem(themeKey) || "system";
+            let next;
+            if (current === "light") next = "dark";
+            else if (current === "dark") next = "system";
+            else next = "light";
+
+            localStorage.setItem(themeKey, next);
+            applyTheme(next);
+        }
+
+        window.onload = function () {
+            const saved = localStorage.getItem(themeKey) || "system";
+            applyTheme(saved);
+
+            document.getElementById("number1").value = localStorage.getItem("lastInput1") || '';
+            document.getElementById("number2").value = localStorage.getItem("lastInput2") || '';
+            document.getElementById("output").innerText = localStorage.getItem("lastOutput") || "0.0";
+        };
     </script>
 </body>
 
