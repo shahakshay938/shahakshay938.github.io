@@ -1438,7 +1438,7 @@ http://103.113.103.202:8001/play/a02q/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" tvg-name="Star Sports Select 1 HD (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports Select 1 HD (1080p)
 http://103.113.103.202:8001/play/a02e/index.m3u8
 #EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" tvg-name="Star Sports 2 Hindi HD (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Hindi HD (1080p)
-http://103.113.103.202:8001/play/a028/index.m3u8
+http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8
 #EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-name="Star Gold Romance (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Star Gold Romance (576p)
 http://103.113.103.202:8001/play/a029/index.m3u8
 #EXTINF:-1 tvg-id="StarMoviesSelect.in@HD" tvg-name="Star Movies Select HD (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Movies",Star Movies Select HD (1080p)
