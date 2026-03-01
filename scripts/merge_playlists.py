@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-merge_playlists.py — Merge IPTV playlists
+merge_playlists.py — Merge IPTV playlists with detailed changelog
 - Takes the existing rich playlist as the base (preserves logos, groups, metadata)
 - Updates stream URLs from the new iptv-org source where tvg-id matches
 - Adds completely new channels from iptv-org that don't exist in the base
 - Outputs a clean, merged M3U file
+- Writes a detailed changelog to CHANGELOG.md for GitHub Action commits
 
-Usage: python3 merge_playlists.py <existing.m3u> <new_iptv_org.m3u> <output.m3u>
+Usage: python3 merge_playlists.py <existing.m3u> <new_iptv_org.m3u> <output.m3u> [changelog.md]
 """
 
 import re
 import sys
+import os
 
 def parse_m3u(filepath):
     """Parse an M3U file into a list of channel dicts."""
@@ -87,7 +89,7 @@ def guess_group(name):
         return 'Devotional'
     return 'Entertainment'
 
-def merge_playlists(existing_path, new_path, output_path):
+def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
     print(f"Loading existing playlist: {existing_path}")
     existing = parse_m3u(existing_path)
     print(f"  Found {len(existing)} channels")
@@ -121,6 +123,7 @@ def merge_playlists(existing_path, new_path, output_path):
 
     matched_new_ids = set()
     updated = 0
+    modified_channels = []  # Track modifications
 
     for ch in existing:
         matched = None
@@ -135,10 +138,16 @@ def merge_playlists(existing_path, new_path, output_path):
             if norm in new_by_name:
                 matched = new_by_name[norm]
                 matched_new_ids.add(norm)
-        if matched and matched[0]['url']:
+        if matched and matched[0]['url'] and matched[0]['url'] != ch['url']:
+            old_url = ch['url']
             ch['url'] = matched[0]['url']
             ch['extra'] = matched[0].get('extra', [])
             updated += 1
+            modified_channels.append({
+                'name': ch['name'],
+                'old_url': old_url[:80],
+                'new_url': ch['url'][:80],
+            })
 
     print(f"  Updated {updated} existing channels with new URLs")
 
@@ -158,10 +167,11 @@ def merge_playlists(existing_path, new_path, output_path):
         group = guess_group(ch['name']) if ch['name'] else 'Other'
         tvg_name = ch['name']
         extinf = f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{tvg_name}" tvg-logo="" tvg-country="IN" tvg-language="" group-title="{group}",{tvg_name}'
-        added_channels.append({'extinf': extinf, 'extra': ch.get('extra', []), 'url': ch['url']})
+        added_channels.append({'extinf': extinf, 'extra': ch.get('extra', []), 'url': ch['url'], 'name': tvg_name})
 
     print(f"  Adding {len(added_channels)} new channels from iptv-org")
 
+    # Write merged output
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
         for ch in existing:
@@ -178,9 +188,66 @@ def merge_playlists(existing_path, new_path, output_path):
     total = len(existing) + len(added_channels)
     print(f"\n✅ Merged: {total} channels ({len(existing)} existing + {len(added_channels)} new)")
 
+    # Write changelog
+    changelog_lines = []
+    changelog_lines.append(f"## 📺 Playlist Update Summary\n")
+    changelog_lines.append(f"- **Total channels:** {total}")
+    changelog_lines.append(f"- **URLs updated:** {updated}")
+    changelog_lines.append(f"- **New channels added:** {len(added_channels)}\n")
+
+    if added_channels:
+        changelog_lines.append("### 🆕 Newly Added Channels\n")
+        for ch in added_channels:
+            changelog_lines.append(f"- {ch['name']}")
+        changelog_lines.append("")
+
+    if modified_channels:
+        changelog_lines.append(f"### 🔄 Modified Stream URLs ({len(modified_channels)} channels)\n")
+        # Show first 30 modified channels to keep commit message readable
+        for ch in modified_channels[:30]:
+            changelog_lines.append(f"- **{ch['name']}**")
+        if len(modified_channels) > 30:
+            changelog_lines.append(f"- _...and {len(modified_channels) - 30} more_")
+        changelog_lines.append("")
+
+    changelog_text = '\n'.join(changelog_lines)
+
+    # Write to file if path provided
+    if changelog_path:
+        with open(changelog_path, 'w', encoding='utf-8') as f:
+            f.write(changelog_text)
+        print(f"📋 Changelog written to: {changelog_path}")
+
+    # Also print to stdout for GitHub Actions
+    print("\n" + changelog_text)
+
+    # Write summary to GITHUB_STEP_SUMMARY if available
+    summary_file = os.environ.get('GITHUB_STEP_SUMMARY')
+    if summary_file:
+        with open(summary_file, 'a', encoding='utf-8') as f:
+            f.write(changelog_text)
+        print("📋 Written to GITHUB_STEP_SUMMARY")
+
+    # Export counts as env vars for the workflow
+    env_file = os.environ.get('GITHUB_ENV')
+    if env_file:
+        with open(env_file, 'a', encoding='utf-8') as f:
+            f.write(f"TOTAL_CHANNELS={total}\n")
+            f.write(f"UPDATED_URLS={updated}\n")
+            f.write(f"NEW_CHANNELS={len(added_channels)}\n")
+            added_names = ', '.join(ch['name'] for ch in added_channels[:10])
+            if len(added_channels) > 10:
+                added_names += f' (+{len(added_channels) - 10} more)'
+            f.write(f"NEW_CHANNEL_NAMES={added_names}\n")
+            modified_names = ', '.join(ch['name'] for ch in modified_channels[:10])
+            if len(modified_channels) > 10:
+                modified_names += f' (+{len(modified_channels) - 10} more)'
+            f.write(f"MODIFIED_CHANNEL_NAMES={modified_names}\n")
+
 if __name__ == '__main__':
-    if len(sys.argv) == 4:
-        merge_playlists(sys.argv[1], sys.argv[2], sys.argv[3])
+    if len(sys.argv) >= 4:
+        changelog = sys.argv[4] if len(sys.argv) > 4 else None
+        merge_playlists(sys.argv[1], sys.argv[2], sys.argv[3], changelog)
     else:
-        print("Usage: python3 merge_playlists.py <existing.m3u> <new.m3u> <output.m3u>")
+        print("Usage: python3 merge_playlists.py <existing.m3u> <new.m3u> <output.m3u> [changelog.md]")
         sys.exit(1)
