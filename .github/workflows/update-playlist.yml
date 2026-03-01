@@ -1,0 +1,101 @@
+name: 📺 Daily IPTV Playlist & EPG Update
+
+on:
+  schedule:
+    # Run daily at 3:00 AM IST (9:30 PM UTC previous day)
+    - cron: '30 21 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # ─── Update Playlist ───────────────────────────────
+      - name: 📡 Download latest streams from iptv-org
+        run: |
+          curl -L -o /tmp/iptv_org_in.m3u \
+            --connect-timeout 30 --max-time 120 --retry 3 \
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u"
+
+          LINES=$(wc -l < /tmp/iptv_org_in.m3u)
+          CHANNELS=$(grep -c "^#EXTINF" /tmp/iptv_org_in.m3u || echo 0)
+          echo "✅ Downloaded ${CHANNELS} channels (${LINES} lines)"
+
+          # Abort if file is suspiciously small
+          if [ "$CHANNELS" -lt 50 ]; then
+            echo "❌ Too few channels, source may be broken. Aborting playlist update."
+            echo "PLAYLIST_OK=false" >> $GITHUB_ENV
+          else
+            echo "PLAYLIST_OK=true" >> $GITHUB_ENV
+          fi
+
+      - name: 🔀 Merge playlists
+        if: env.PLAYLIST_OK == 'true'
+        run: |
+          python3 scripts/merge_playlists.py \
+            merged-iptv-playlist.m3u \
+            /tmp/iptv_org_in.m3u \
+            merged-iptv-playlist.m3u
+
+      # ─── Update EPG ────────────────────────────────────
+      - name: 📋 Download latest EPG
+        run: |
+          curl -L -o /tmp/epg_new.xml.gz \
+            --connect-timeout 30 --max-time 180 --retry 3 \
+            -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
+            "https://epg.pw/xmltv/epg_IN.xml.gz" \
+          || echo "⚠️ Primary EPG source failed"
+
+          # Validate: must be real gzip and larger than 100KB
+          if file /tmp/epg_new.xml.gz | grep -q "gzip"; then
+            SIZE=$(stat -c%s /tmp/epg_new.xml.gz)
+            if [ "$SIZE" -gt 100000 ]; then
+              cp /tmp/epg_new.xml.gz epg.xml.gz
+              echo "✅ EPG updated ($(du -h epg.xml.gz | cut -f1))"
+              echo "EPG_OK=true" >> $GITHUB_ENV
+            else
+              echo "❌ EPG file too small (${SIZE} bytes), keeping existing"
+              echo "EPG_OK=false" >> $GITHUB_ENV
+            fi
+          else
+            echo "❌ Downloaded file is not gzip, keeping existing EPG"
+            echo "EPG_OK=false" >> $GITHUB_ENV
+          fi
+
+      # ─── Commit & Push ─────────────────────────────────
+      - name: 📤 Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add merged-iptv-playlist.m3u epg.xml.gz
+
+          if git diff --cached --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            CHANNELS=$(grep -c "^#EXTINF" merged-iptv-playlist.m3u || echo "?")
+            EPG_SIZE=$(du -h epg.xml.gz | cut -f1)
+            DATE=$(date -u +"%Y-%m-%d")
+
+            SUMMARY="📺 Daily update: ${CHANNELS} channels"
+            if [ "${{ env.EPG_OK }}" == "true" ]; then
+              SUMMARY="${SUMMARY}, EPG ${EPG_SIZE}"
+            fi
+            SUMMARY="${SUMMARY} [${DATE}]"
+
+            git commit -m "${SUMMARY}"
+            git push
+            echo "✅ Changes pushed successfully!"
+          fi
