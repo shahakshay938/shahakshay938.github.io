@@ -48,83 +48,81 @@ jobs:
             merged-iptv-playlist.m3u
 
       # ─── Update EPG (Multi-Source with Fallback) ───────
-      - name: 📋 Download latest EPG
+      - name: 📋 Download EPG sources
         run: |
           EPG_UPDATED=false
           EPG_SOURCE=""
 
-          # Source 1: epg.pw (Primary - IDs match our playlist format)
-          echo "🔍 Trying Source 1: epg.pw..."
-          curl -L -o /tmp/epg_candidate.xml.gz \
+          # ── Source 1: JioTV EPG (Primary - most accurate schedule) ──
+          echo "🔍 Trying Source 1: mitthu786/tvepg (JioTV)..."
+          curl -L -o /tmp/epg_jiotv.xml.gz \
+            --connect-timeout 30 --max-time 180 --retry 2 \
+            "https://raw.githubusercontent.com/mitthu786/tvepg/main/jiotv/epg.xml.gz" 2>/dev/null || true
+
+          if file /tmp/epg_jiotv.xml.gz 2>/dev/null | grep -q "gzip"; then
+            SIZE=$(stat -c%s /tmp/epg_jiotv.xml.gz)
+            if [ "$SIZE" -gt 100000 ]; then
+              echo "✅ JioTV EPG downloaded ($(du -h /tmp/epg_jiotv.xml.gz | cut -f1))"
+              echo "JIOTV_EPG_OK=true" >> $GITHUB_ENV
+            else
+              echo "❌ JioTV EPG too small"
+              echo "JIOTV_EPG_OK=false" >> $GITHUB_ENV
+            fi
+          else
+            echo "❌ JioTV EPG download failed or not valid gzip"
+            echo "JIOTV_EPG_OK=false" >> $GITHUB_ENV
+          fi
+
+          # ── Source 2: epg.pw (Fallback - IDs match playlist natively) ──
+          echo "🔍 Trying Source 2: epg.pw..."
+          curl -L -o /tmp/epg_epgpw.xml.gz \
             --connect-timeout 30 --max-time 180 --retry 2 \
             -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
             "https://epg.pw/xmltv/epg_IN.xml.gz" 2>/dev/null || true
 
-          if file /tmp/epg_candidate.xml.gz | grep -q "gzip"; then
-            SIZE=$(stat -c%s /tmp/epg_candidate.xml.gz)
+          if file /tmp/epg_epgpw.xml.gz 2>/dev/null | grep -q "gzip"; then
+            SIZE=$(stat -c%s /tmp/epg_epgpw.xml.gz)
             if [ "$SIZE" -gt 100000 ]; then
-              cp /tmp/epg_candidate.xml.gz epg.xml.gz
-              EPG_UPDATED=true
-              EPG_SOURCE="epg.pw"
-              echo "✅ EPG from epg.pw ($(du -h epg.xml.gz | cut -f1))"
+              echo "✅ epg.pw EPG downloaded ($(du -h /tmp/epg_epgpw.xml.gz | cut -f1))"
+              echo "EPGPW_OK=true" >> $GITHUB_ENV
+            else
+              echo "❌ epg.pw EPG too small"
+              echo "EPGPW_OK=false" >> $GITHUB_ENV
             fi
-          fi
-
-          # Source 2: mitthu786/tvepg JioTV (Fallback - most accurate schedule data)
-          if [ "$EPG_UPDATED" = "false" ]; then
-            echo "🔍 Trying Source 2: mitthu786/tvepg (JioTV)..."
-            curl -L -o /tmp/epg_candidate.xml.gz \
-              --connect-timeout 30 --max-time 180 --retry 2 \
-              "https://raw.githubusercontent.com/mitthu786/tvepg/main/jiotv/epg.xml.gz" 2>/dev/null || true
-
-            if file /tmp/epg_candidate.xml.gz | grep -q "gzip"; then
-              SIZE=$(stat -c%s /tmp/epg_candidate.xml.gz)
-              if [ "$SIZE" -gt 100000 ]; then
-                cp /tmp/epg_candidate.xml.gz epg.xml.gz
-                EPG_UPDATED=true
-                EPG_SOURCE="mitthu786/tvepg (JioTV)"
-                echo "✅ EPG from JioTV ($(du -h epg.xml.gz | cut -f1))"
-              fi
-            fi
-          fi
-
-          # Source 3: mitthu786/tvepg ZEE5 (Second fallback)
-          if [ "$EPG_UPDATED" = "false" ]; then
-            echo "🔍 Trying Source 3: mitthu786/tvepg (ZEE5)..."
-            curl -L -o /tmp/epg_candidate.xml.gz \
-              --connect-timeout 30 --max-time 180 --retry 2 \
-              "https://raw.githubusercontent.com/mitthu786/tvepg/main/zee5/epg.xml.gz" 2>/dev/null || true
-
-            if file /tmp/epg_candidate.xml.gz | grep -q "gzip"; then
-              SIZE=$(stat -c%s /tmp/epg_candidate.xml.gz)
-              if [ "$SIZE" -gt 100000 ]; then
-                cp /tmp/epg_candidate.xml.gz epg.xml.gz
-                EPG_UPDATED=true
-                EPG_SOURCE="mitthu786/tvepg (ZEE5)"
-                echo "✅ EPG from ZEE5 ($(du -h epg.xml.gz | cut -f1))"
-              fi
-            fi
-          fi
-
-          if [ "$EPG_UPDATED" = "false" ]; then
-            echo "⚠️ All EPG sources failed, keeping existing file"
-            git checkout epg.xml.gz 2>/dev/null || true
-          fi
-
-          # Export for commit message
-          EPG_SIZE=$(du -h epg.xml.gz | cut -f1)
-          echo "EPG_UPDATED=$EPG_UPDATED" >> $GITHUB_ENV
-          echo "EPG_SOURCE=$EPG_SOURCE" >> $GITHUB_ENV
-          echo "EPG_SIZE=$EPG_SIZE" >> $GITHUB_ENV
-
-          # Write to job summary
-          echo "## 📋 EPG Update" >> $GITHUB_STEP_SUMMARY
-          if [ "$EPG_UPDATED" = "true" ]; then
-            echo "- **Source:** ${EPG_SOURCE}" >> $GITHUB_STEP_SUMMARY
-            echo "- **Size:** ${EPG_SIZE}" >> $GITHUB_STEP_SUMMARY
           else
-            echo "- ⚠️ No EPG source was reachable, kept existing file" >> $GITHUB_STEP_SUMMARY
+            echo "❌ epg.pw download failed or not valid gzip"
+            echo "EPGPW_OK=false" >> $GITHUB_ENV
           fi
+
+      # ── Map JioTV EPG to our playlist format ──
+      - name: 🔗 Map JioTV EPG channels
+        if: env.JIOTV_EPG_OK == 'true'
+        run: |
+          python3 scripts/build_epg_mapping.py \
+            merged-iptv-playlist.m3u \
+            /tmp/epg_jiotv.xml.gz \
+            epg.xml.gz \
+            channel_mapping.json
+
+          echo "EPG_SOURCE=JioTV (mapped)" >> $GITHUB_ENV
+          echo "EPG_UPDATED=true" >> $GITHUB_ENV
+
+      # ── Fallback to epg.pw if JioTV mapping failed ──
+      - name: 📋 Fallback to epg.pw EPG
+        if: env.JIOTV_EPG_OK != 'true' && env.EPGPW_OK == 'true'
+        run: |
+          cp /tmp/epg_epgpw.xml.gz epg.xml.gz
+          echo "✅ Using epg.pw EPG as fallback"
+          echo "EPG_SOURCE=epg.pw" >> $GITHUB_ENV
+          echo "EPG_UPDATED=true" >> $GITHUB_ENV
+
+      - name: ⚠️ EPG update status
+        if: env.JIOTV_EPG_OK != 'true' && env.EPGPW_OK != 'true'
+        run: |
+          echo "⚠️ All EPG sources failed, keeping existing file"
+          git checkout epg.xml.gz 2>/dev/null || true
+          echo "EPG_UPDATED=false" >> $GITHUB_ENV
+          echo "EPG_SOURCE=none (kept existing)" >> $GITHUB_ENV
 
       # ─── Commit & Push with Detailed Message ───────────
       - name: 📤 Commit and push changes
@@ -132,7 +130,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          git add merged-iptv-playlist.m3u epg.xml.gz
+          git add merged-iptv-playlist.m3u epg.xml.gz channel_mapping.json
 
           if git diff --cached --quiet; then
             echo "ℹ️ No changes to commit"
@@ -143,11 +141,12 @@ jobs:
             TOTAL="${TOTAL_CHANNELS:-$(grep -c '^#EXTINF' merged-iptv-playlist.m3u || echo '?')}"
             UPDATED="${UPDATED_URLS:-0}"
             NEW="${NEW_CHANNELS:-0}"
+            EPG_SIZE=$(du -h epg.xml.gz | cut -f1)
 
             # Build commit title
             TITLE="📺 Daily update: ${TOTAL} channels"
             if [ "${EPG_UPDATED}" = "true" ]; then
-              TITLE="${TITLE}, EPG ${EPG_SIZE} (${EPG_SOURCE})"
+              TITLE="${TITLE}, EPG ${EPG_SIZE} via ${EPG_SOURCE}"
             fi
             TITLE="${TITLE} [${DATE}]"
 
@@ -159,17 +158,13 @@ jobs:
             if [ "$UPDATED" -gt 0 ] && [ -n "${MODIFIED_CHANNEL_NAMES}" ]; then
               BODY="${BODY}🔄 Updated URLs (${UPDATED}): ${MODIFIED_CHANNEL_NAMES}\n"
             fi
+            BODY="${BODY}📋 EPG Source: ${EPG_SOURCE:-unknown} (${EPG_SIZE})\n"
 
-            if [ -n "$BODY" ]; then
-              echo -e "${BODY}" | git commit -F <(echo "${TITLE}" && echo "" && echo -e "${BODY}")
-            else
-              git commit -m "${TITLE}"
-            fi
-
+            echo -e "${BODY}" | git commit -F <(echo "${TITLE}" && echo "" && echo -e "${BODY}")
             git push
             echo "✅ Changes pushed successfully!"
 
             # Final summary
             echo "## ✅ Changes Pushed" >> $GITHUB_STEP_SUMMARY
-            echo "- **Commit:** \`${TITLE}\`" >> $GITHUB_STEP_SUMMARY
+            echo "- **Commit:** ${TITLE}" >> $GITHUB_STEP_SUMMARY
           fi
