@@ -27,7 +27,7 @@ http://103.229.254.25:7001/play/a0ds/index.m3u8
 http://103.229.254.25:7001/play/a077/index.m3u8
 #EXTINF:-1 tvg-id="ColorsInfinity.in" jiotv-id="1158" tvg-name="Colors Infinity HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Colors Infinity HD (1080p)
 http://103.229.254.25:7001/play/a0du/index.m3u8
-#EXTINF:-1 tvg-id="ColorsRishteyAsia.in" jiotv-id="279" tvg-name="Colors Rishtey Asia (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_RISHTEY/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Colors Rishtey Asia (576p)
+#EXTINF:-1 tvg-id="ColorsRishteyAsia.in" jiotv-id="144" tvg-name="Colors Rishtey Asia (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_RISHTEY/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Colors Rishtey Asia (576p)
 http://103.78.149.54:8000/play/a01g/index.m3u8
 #EXTINF:-1 tvg-id="ColorsTamil.in" jiotv-id="429" tvg-name="Colors Tamil (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Tamil" group-title="Entertainment",Colors Tamil (720p)
 http://15.235.144.106:14052
@@ -205,7 +205,7 @@ https://mumt02.tangotv.in/VISSATV/index.m3u8
 http://103.229.254.25:7001/play/a070/index.m3u8
 #EXTINF:-1 tvg-id="ZeeCafe.in" tvg-name="Zee Cafe HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CAFE_HD/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Zee Cafe HD (1080p)
 http://103.229.254.25:7001/play/a0cx/index.m3u8
-#EXTINF:-1 tvg-id="ZeeComedyNation.in" tvg-name="Zee Comedy Nation (1080p)" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zcomedynation.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Zee Comedy Nation (1080p)
+#EXTINF:-1 tvg-id="ZeeComedyNation.in" jiotv-id="3241" tvg-name="Zee Comedy Nation (1080p)" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zcomedynation.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Zee Comedy Nation (1080p)
 https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeDilSe.in" jiotv-id="1925" tvg-name="Zee Dil Se (1080p)" tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/Zee_Dil_Se.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Zee Dil Se (1080p)
 https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8
@@ -785,7 +785,7 @@ https://livelegitpro.in/hls2/newstime/index.m3u8
 https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Prime9News.in" jiotv-id="501" tvg-name="Prime9 News (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prime_9_News.png" tvg-country="IN" tvg-language="Telugu" group-title="News",Prime9 News (1080p)
 https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
-#EXTINF:-1 tvg-id="PrudentMedia.in" jiotv-id="2254" tvg-name="Prudent Media (1080p)" tvg-logo="https://i.imgur.com/DG0x4UD.png" tvg-country="IN" tvg-language="Hindi" group-title="News",Prudent Media (1080p)
+#EXTINF:-1 tvg-id="PrudentMedia.in" jiotv-id="966" tvg-name="Prudent Media (1080p)" tvg-logo="https://i.imgur.com/DG0x4UD.png" tvg-country="IN" tvg-language="Hindi" group-title="News",Prudent Media (1080p)
 https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 tvg-id="PTCNews.in" jiotv-id="1170" tvg-name="PTC News (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_NEWS/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Punjabi" group-title="News",PTC News (576p)
 https://cdn-4.pishow.tv/live/1502/master.m3u8
@@ -967,7 +967,7 @@ http://161.248.38.40:8000/play/a074/index.m3u8
 http://103.229.254.25:7001/play/a0cq/index.m3u8
 #EXTINF:-1 tvg-id="Sonic.in" jiotv-id="290" tvg-name="Sonic (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Sonic (576p)
 http://103.229.254.25:7001/play/a0dl/index.m3u8
-#EXTINF:-1 tvg-id="SonyYay.in" jiotv-id="874" tvg-name="Sony Yay! (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Sony Yay! (576p)
+#EXTINF:-1 tvg-id="SonyYay.in" jiotv-id="873" tvg-name="Sony Yay! (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Sony Yay! (576p)
 http://103.229.254.25:7001/play/a0cl/index.m3u8
 #EXTINF:-1 tvg-id="UniqueTV.in" jiotv-id="3022" tvg-name="Unique TV (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Unique_Tv.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Unique TV (576p)
 http://103.78.149.54:8000/play/a01e/index.m3u8
@@ -1284,7 +1284,7 @@ https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01
 https://cdn-3.pishow.tv/live/1123/master.m3u8
 #EXTINF:-1 tvg-id="KiteVicters.in" jiotv-id="1429" tvg-name="KITE Victers (Kerala) (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/kj4OEsb.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment",KITE Victers (Kerala) (720p) [Not 24/7]
 https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.in" tvg-name="National Geographic Wild (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment",National Geographic Wild (576p)
+#EXTINF:-1 tvg-id="NationalGeographicWild.in" jiotv-id="3241" tvg-name="National Geographic Wild (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment",National Geographic Wild (576p)
 http://103.229.254.25:7001/play/a06r/index.m3u8
 #EXTINF:-1 tvg-id="NDTVGoodTimes.in" jiotv-id="560" tvg-name="NDTV Good Times (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_TIMES/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="English" group-title="Infotainment",NDTV Good Times (1080p)
 https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8
@@ -1451,7 +1451,7 @@ http://103.113.103.202:8001/play/a01z/index.m3u8
 http://103.113.103.202:8001/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="SonyMax.in@SD" jiotv-id="289" tvg-name="Sony Max (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png" tvg-country="IN" tvg-language="" group-title="Entertainment",Sony Max (576p)
 http://103.113.103.202:8001/play/a025/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.in@HD" tvg-name="National Geographic HD (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Infotainment",National Geographic HD (1080p)
+#EXTINF:-1 tvg-id="NationalGeographic.in@HD" jiotv-id="3241" tvg-name="National Geographic HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png" tvg-country="IN" tvg-language="" group-title="Infotainment",National Geographic HD (1080p)
 http://103.113.103.202:8001/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="Andflix.in@HD" tvg-name="&flix HD (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",&flix HD (1080p)
 http://103.113.103.202:8001/play/a02k/index.m3u8
@@ -1529,7 +1529,7 @@ http://111.88.78.21:8000/play/a0zf/index.m3u8
 http://111.88.78.21:8000/play/a0zg/index.m3u8
 #EXTINF:-1 tvg-id="GeminiComedy.in@SD" jiotv-id="729" tvg-name="Gemini Comedy (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Gemini_Comedy.png" tvg-country="IN" tvg-language="" group-title="Entertainment",Gemini Comedy (576p)
 http://111.88.78.21:8000/play/a101/index.m3u8
-#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" tvg-name="Disney International HD (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Kids",Disney International HD (576p)
+#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" jiotv-id="3241" tvg-name="Disney International HD (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png" tvg-country="IN" tvg-language="" group-title="Kids",Disney International HD (576p)
 http://111.88.78.21:8000/play/a0qo/index.m3u8
 #EXTINF:-1 tvg-id="ColorsGujaratiCinema.in@SD" jiotv-id="1324" tvg-name="Colors Gujarati Cinema (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Gujarati_Cinema.png" tvg-country="IN" tvg-language="" group-title="Movies",Colors Gujarati Cinema (576p)
 http://111.88.78.21:8000/play/a0zm/index.m3u8
@@ -1541,3 +1541,11 @@ http://111.88.78.21:8000/play/a0z5/index.m3u8
 http://111.88.78.21:8000/play/a0z4/index.m3u8
 #EXTINF:-1 tvg-id="AdithyaTV.in@SD" jiotv-id="709" tvg-name="Adithya TV (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Adithya_TV.png" tvg-country="IN" tvg-language="" group-title="Entertainment",Adithya TV (576p)
 http://111.88.78.21:8000/play/a0zk/index.m3u8
+#EXTINF:-1 tvg-id="OliTV.in@SD" tvg-name="Oli TV (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Oli TV (1080p)
+https://live.olidigital.in/olitv/olitv/index.m3u8
+#EXTINF:-1 tvg-id="MaxMusic.in@HD" tvg-name="Max Music (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Music",Max Music (1080p)
+https://live.maxtn.in/maxmusic/maxmusic/index.m3u8
+#EXTINF:-1 tvg-id="MaxMovies.in@HD" tvg-name="Max Movies (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Movies",Max Movies (1080p)
+https://live.maxtn.in/maxmovies/maxmovies/index.m3u8
+#EXTINF:-1 tvg-id="KairaliArabia.in@SD" tvg-name="Kairali Arabia (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Kairali Arabia (576p)
+https://mumt03.tangotv.in/KAIRALIARABIA/index.m3u8

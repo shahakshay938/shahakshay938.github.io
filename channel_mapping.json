@@ -1,4 +1,13 @@
 {
+  "AndTVInternational.in": {
+    "tvg_id": "AndTVInternational.in",
+    "playlist_name": "&TV HD (1080p)",
+    "jiotv_id": "916",
+    "jiotv_name": "TV 100",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_100.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
   "AmritaTV.in": {
     "tvg_id": "AmritaTV.in",
     "playlist_name": "Amrita TV (720p)",
@@ -65,9 +74,9 @@
   "ColorsRishteyAsia.in": {
     "tvg_id": "ColorsRishteyAsia.in",
     "playlist_name": "Colors Rishtey Asia (576p)",
-    "jiotv_id": "279",
-    "jiotv_name": "Rishtey",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Rishtey.png",
+    "jiotv_id": "144",
+    "jiotv_name": "Colors HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -77,15 +86,6 @@
     "jiotv_id": "429",
     "jiotv_name": "Colors Tamil HD",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Tamil_HD.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "Dabangg.in": {
-    "tvg_id": "Dabangg.in",
-    "playlist_name": "Dabangg (576p)",
-    "jiotv_id": "532",
-    "jiotv_name": "Dabangg",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Dabangg.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -133,15 +133,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/T_TV.png",
     "match_method": "partial",
     "verified": false
-  },
-  "FaktMarathi.in": {
-    "tvg_id": "FaktMarathi.in",
-    "playlist_name": "Fakt Marathi (576p)",
-    "jiotv_id": "738",
-    "jiotv_name": "Fakt Marathi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Fakt_Marathi.png",
-    "match_method": "exact_name",
-    "verified": true
   },
   "GangaurTV.in": {
     "tvg_id": "GangaurTV.in",
@@ -194,6 +185,15 @@
     "jiotv_id": "3143",
     "jiotv_name": "Mahaa Max",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Mahaa_Max.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "Maiboli.in": {
+    "tvg_id": "Maiboli.in",
+    "playlist_name": "Maiboli (576p)",
+    "jiotv_id": "736",
+    "jiotv_name": "Maiboli",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Maiboli.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -467,6 +467,15 @@
     "match_method": "exact_name",
     "verified": true
   },
+  "ZeeComedyNation.in": {
+    "tvg_id": "ZeeComedyNation.in",
+    "playlist_name": "Zee Comedy Nation (1080p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "ZeeDilSe.in": {
     "tvg_id": "ZeeDilSe.in",
     "playlist_name": "Zee Dil Se (1080p)",
@@ -475,15 +484,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/MH1_DilSe.png",
     "match_method": "word_match(67%)",
     "verified": false
-  },
-  "AndTVInternational.in": {
-    "tvg_id": "AndTVInternational.in",
-    "playlist_name": "&TV HD (1080p)",
-    "jiotv_id": "916",
-    "jiotv_name": "TV 100",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_100.png",
-    "match_method": "exact_name",
-    "verified": true
   },
   "AllTimeMovies.in": {
     "tvg_id": "AllTimeMovies.in",
@@ -2090,9 +2090,9 @@
   "PrudentMedia.in": {
     "tvg_id": "PrudentMedia.in",
     "playlist_name": "Prudent Media (1080p)",
-    "jiotv_id": "2254",
-    "jiotv_name": "Media9",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Media9.png",
+    "jiotv_id": "966",
+    "jiotv_name": "Prudent",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/PrudentHD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -2585,9 +2585,9 @@
   "SonyYay.in": {
     "tvg_id": "SonyYay.in",
     "playlist_name": "Sony Yay! (576p)",
-    "jiotv_id": "874",
-    "jiotv_name": "Sony Yay Telugu",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Telugu.png",
+    "jiotv_id": "873",
+    "jiotv_name": "Sony Yay Tamil",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Tamil.png",
     "match_method": "partial",
     "verified": false
   },
@@ -3509,6 +3509,15 @@
     "match_method": "partial",
     "verified": false
   },
+  "NationalGeographicWild.in": {
+    "tvg_id": "NationalGeographicWild.in",
+    "playlist_name": "National Geographic Wild (576p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "NDTVGoodTimes.in": {
     "tvg_id": "NDTVGoodTimes.in",
     "playlist_name": "NDTV Good Times (1080p)",
@@ -3851,6 +3860,15 @@
     "match_method": "exact_name",
     "verified": true
   },
+  "NationalGeographic.in@HD": {
+    "tvg_id": "NationalGeographic.in@HD",
+    "playlist_name": "National Geographic HD (1080p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "MoviesNowPlus.in@SD": {
     "tvg_id": "MoviesNowPlus.in@SD",
     "playlist_name": "Movies Now + (1080p)",
@@ -4066,6 +4084,15 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Gemini_Comedy.png",
     "match_method": "exact_name",
     "verified": true
+  },
+  "DisneyInternationalHD.in@SD": {
+    "tvg_id": "DisneyInternationalHD.in@SD",
+    "playlist_name": "Disney International HD (576p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
   },
   "ColorsGujaratiCinema.in@SD": {
     "tvg_id": "ColorsGujaratiCinema.in@SD",
