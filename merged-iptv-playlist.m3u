@@ -365,11 +365,11 @@ http://103.229.254.25:7001/play/a02t/index.m3u8
 http://103.229.254.25:7001/play/a09q/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen5.in" jiotv-id="162" tvg-name="Sony Sports Ten 5 HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports",Sony Sports Ten 5 HD (1080p)
 http://103.229.254.25:7001/play/a0dw/index.m3u8
-#EXTINF:-1 tvg-id="StarSports1.in" jiotv-id="1985" tvg-name="Star Sports 1 HD (1080p)" tvg-logo="https://i.imgur.com/E5jjKHI.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports",Star Sports 1 HD (1080p)
+#EXTINF:-1 tvg-id="StarSports1.in" jiotv-id="1984" tvg-name="Star Sports 1 HD (1080p)" tvg-logo="https://i.imgur.com/E5jjKHI.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports",Star Sports 1 HD (1080p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0441/master.m3u8
-#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1985" tvg-name="Star Sports 1 Hindi (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports",Star Sports 1 Hindi (576p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1984" tvg-name="Star Sports 1 Hindi (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports",Star Sports 1 Hindi (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0443/master.m3u8
-#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1985" tvg-name="Star Sports 1 Hindi HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports",Star Sports 1 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1984" tvg-name="Star Sports 1 Hindi HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports",Star Sports 1 Hindi HD (1080p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0443/master.m3u8
 #EXTINF:-1 tvg-id="StarSports2Tamil.in" jiotv-id="2853" tvg-name="Star Sports 2 Tamil (1080p)" tvg-logo="https://i.imgur.com/eWPoUxB.png" tvg-country="IN" tvg-language="Tamil" group-title="Sports",Star Sports 2 Tamil (1080p)
 http://103.229.254.25:7001/play/a0dc/index.m3u8
@@ -967,7 +967,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0409/master.m3u8
 http://103.229.254.25:7001/play/a0cq/index.m3u8
 #EXTINF:-1 tvg-id="Sonic.in" jiotv-id="290" tvg-name="Sonic (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Sonic (576p)
 http://103.229.254.25:7001/play/a0dl/index.m3u8
-#EXTINF:-1 tvg-id="SonyYay.in" jiotv-id="874" tvg-name="Sony Yay! (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Sony Yay! (576p)
+#EXTINF:-1 tvg-id="SonyYay.in" jiotv-id="873" tvg-name="Sony Yay! (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Sony Yay! (576p)
 http://103.229.254.25:7001/play/a0cl/index.m3u8
 #EXTINF:-1 tvg-id="UniqueTV.in" jiotv-id="3022" tvg-name="Unique TV (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Unique_Tv.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids",Unique TV (576p)
 http://103.78.149.54:8000/play/a01e/index.m3u8
@@ -1295,7 +1295,7 @@ https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="thepetcollective" tvg-name="The Pet Collective" tvg-logo="https://i.imgur.com/yH7n2dF.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment",The Pet Collective
 https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Travelxp.in" jiotv-id="164" tvg-name="Travelxp (720p) 2" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment",Travelxp (720p) 2
-https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
+https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
 #EXTINF:-1 tvg-id="vyasnic" tvg-name="Vyas NIC (576p)" tvg-logo="https://www.yupptv.com/seo_img/UGC_GEC_big.jpg" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment",Vyas NIC (576p)
 https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
 #EXTINF:-1 tvg-id="WeatherSpy.in" tvg-name="Weatherspy" tvg-logo="https://i.imgur.com/KIEKOt1.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment",Weatherspy
@@ -1362,11 +1362,11 @@ https://mumt01.tangotv.in/RAMDHENU/index.m3u8
 #EXTINF:-1 tvg-id="ShemarooMarathiBana.in" tvg-name="Shemaroo Marathi Bana (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_MARATHIBANA/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Marathi" group-title="Regional - Marathi",Shemaroo Marathi Bana (720p)
 https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8]
 #EXTINF:-1 tvg-id="Travelxp.in" jiotv-id="164" tvg-name="Travelxp (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="International",Travelxp (720p)
-https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
+https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
 #EXTINF:-1 tvg-id="Travelxp.in" jiotv-id="164" tvg-name="Travelxp 4K HDR (2160p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="International",Travelxp 4K HDR (2160p) [Geo-blocked]
-https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
+https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
 #EXTINF:-1 tvg-id="Travelxp.in" jiotv-id="164" tvg-name="Travelxp HD (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="International",Travelxp HD (1080p) [Geo-blocked]
-https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
+https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
 #EXTINF:-1 tvg-id="AryanTVNational.in" jiotv-id="1761" tvg-name="Aryan TV National (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Other",Aryan TV National (576p)
 https://mumt04.tangotv.in/ARYANTVNATIONAL/index.m3u8
 #EXTINF:-1 tvg-id="CalvaryTV.in" jiotv-id="977" tvg-name="Calvary TV (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Calvary.png" tvg-country="IN" tvg-language="Hindi" group-title="Other",Calvary TV (576p)
@@ -1427,7 +1427,7 @@ https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
 https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
 #EXTINF:-1 tvg-id="PMCTelugu.in@SD" jiotv-id="1975" tvg-name="PMC Telugu (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/PMC_Telugu.png" tvg-country="IN" tvg-language="" group-title="Entertainment",PMC Telugu (1080p)
 https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1985" tvg-name="Star Sports 2 Hindi HD (480p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Hindi HD (480p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1984" tvg-name="Star Sports 2 Hindi HD (480p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Hindi HD (480p)
 http://111.88.78.21:8000/play/a0x8/index.m3u8
 #EXTINF:-1 tvg-id="Tunes6.in@SD" jiotv-id="803" tvg-name="Tunes 6 (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Tunes_6.png" tvg-country="IN" tvg-language="" group-title="Entertainment",Tunes 6 (720p)
 https://stream.d6-pro.com/tunes6music/live/video.m3u8
@@ -1437,7 +1437,7 @@ https://mumbai-edge.smartplaytv.in/utv/index.m3u8
 http://103.113.103.202:8001/play/a02q/index.m3u8
 #EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" jiotv-id="1998" tvg-name="Star Sports Select 1 HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_Khel.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports Select 1 HD (1080p)
 http://103.113.103.202:8001/play/a02e/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1985" tvg-name="Star Sports 2 Hindi HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1984" tvg-name="Star Sports 2 Hindi HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Hindi HD (1080p)
 http://111.88.78.21:8000/play/a0x8/index.m3u8
 #EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-name="Star Gold Romance (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Star Gold Romance (576p)
 http://103.113.103.202:8001/play/a029/index.m3u8
@@ -1465,9 +1465,9 @@ http://116.90.120.128:8000/play/a0i3/index.m3u88
 http://103.121.6.5:8000/play/a05w/index.m3u8
 #EXTINF:-1 tvg-id="StarMaaGold.in@SD" tvg-name="Star Maa Gold (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Star Maa Gold (576p)
 http://103.121.6.5:8000/play/a063/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2.in@HD" jiotv-id="1985" tvg-name="Star Sports 2 HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 HD (1080p)
+#EXTINF:-1 tvg-id="StarSports2.in@HD" jiotv-id="1984" tvg-name="Star Sports 2 HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 HD (1080p)
 http://103.121.6.5:8000/play/a05u/index.m3u8
-#EXTINF:-1 tvg-id="StarSports3.in@SD" jiotv-id="1985" tvg-name="Star Sports 3 (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 3 (576p)
+#EXTINF:-1 tvg-id="StarSports3.in@SD" jiotv-id="1984" tvg-name="Star Sports 3 (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 3 (576p)
 http://103.121.6.5:8000/play/a05y/index.m3u8
 #EXTINF:-1 tvg-id="ZeeTalkies.in@HD" tvg-name="Zee Talkies HD (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Zee Talkies HD (1080p)
 http://116.90.120.128:8000/play/a0io/index.m3u88
@@ -1600,7 +1600,7 @@ https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8
 #EXTINF:-1 tvg-id="ZeeThirai.in@HD" tvg-name="Zee Thirai (1080p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Zee Thirai (1080p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0558/master.m3u8
 #EXTINF:-1 tvg-id="ZeeThirai.in@SD" tvg-name="Zee Thirai SD (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Zee Thirai SD (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0554/master.m3u8
+http://iptvcasomsapi.jprdigital.in/x-media/C0558/master.m3u8
 #EXTINF:-1 tvg-id="ZeeSarthak.in@SD" tvg-name="Zee Sarthak (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Zee Sarthak (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0555/master.m3u8
 #EXTINF:-1 tvg-id="ZeeKeralam.in@SD" tvg-name="Zee Keralam SD (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Entertainment",Zee Keralam SD (576p)
@@ -1622,8 +1622,8 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0423/master.m3u8
 #EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" jiotv-id="2852" tvg-name="Star Sports 2 Telugu HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_2.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Telugu HD (1080p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0513/master.m3u8
 #EXTINF:-1 tvg-id="StarSports2Telugu.in@SD" jiotv-id="2852" tvg-name="Star Sports 2 Telugu (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_2.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Telugu (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0424/master.m3u8
-#EXTINF:-1 tvg-id="StarSports2Kannada.in@SD" jiotv-id="1985" tvg-name="Star Sports 2 Kannada (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Kannada (576p)
+http://iptvcasomsapi.jprdigital.in/x-media/C0513/master.m3u8
+#EXTINF:-1 tvg-id="StarSports2Kannada.in@SD" jiotv-id="1984" tvg-name="Star Sports 2 Kannada (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 2 Kannada (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0422/master.m3u8
 #EXTINF:-1 tvg-id="StarSports1Kannada.in@SD" tvg-name="Star Sports 1 Kannada (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Sports",Star Sports 1 Kannada (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0420/master.m3u8
@@ -1631,3 +1631,5 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0420/master.m3u8
 http://iptvcasomsapi.jprdigital.in/x-media/C0481/master.m3u8
 #EXTINF:-1 tvg-id="StarMaaMovies.in@SD" tvg-name="Star Maa Movies (576p)" tvg-logo="" tvg-country="IN" tvg-language="" group-title="Movies",Star Maa Movies (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0479/master.m3u8
+#EXTINF:-1 tvg-id="TravelxpTamil.in@SD" jiotv-id="814" tvg-name="Travelxp Tamil (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_Tamil.png" tvg-country="IN" tvg-language="" group-title="Entertainment",Travelxp Tamil (576p)
+http://iptvcasomsapi.jprdigital.in/x-media/C0202/master.m3u8

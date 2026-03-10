@@ -1,4 +1,13 @@
 {
+  "AndTVInternational.in": {
+    "tvg_id": "AndTVInternational.in",
+    "playlist_name": "&TV HD (1080p)",
+    "jiotv_id": "916",
+    "jiotv_name": "TV 100",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_100.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
   "AmritaTV.in": {
     "tvg_id": "AmritaTV.in",
     "playlist_name": "Amrita TV (720p)",
@@ -77,6 +86,15 @@
     "jiotv_id": "429",
     "jiotv_name": "Colors Tamil HD",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Tamil_HD.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "Dabangg.in": {
+    "tvg_id": "Dabangg.in",
+    "playlist_name": "Dabangg (576p)",
+    "jiotv_id": "532",
+    "jiotv_name": "Dabangg",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Dabangg.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -440,6 +458,15 @@
     "match_method": "exact_name",
     "verified": true
   },
+  "ZeeComedyNation.in": {
+    "tvg_id": "ZeeComedyNation.in",
+    "playlist_name": "Zee Comedy Nation (1080p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "ZeeDilSe.in": {
     "tvg_id": "ZeeDilSe.in",
     "playlist_name": "Zee Dil Se (1080p)",
@@ -448,15 +475,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/MH1_DilSe.png",
     "match_method": "word_match(67%)",
     "verified": false
-  },
-  "AndTVInternational.in": {
-    "tvg_id": "AndTVInternational.in",
-    "playlist_name": "&TV HD (1080p)",
-    "jiotv_id": "916",
-    "jiotv_name": "TV 100",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_100.png",
-    "match_method": "exact_name",
-    "verified": true
   },
   "AllTimeMovies.in": {
     "tvg_id": "AllTimeMovies.in",
@@ -668,18 +686,18 @@
   "StarSports1.in": {
     "tvg_id": "StarSports1.in",
     "playlist_name": "Star Sports 1 HD (1080p)",
-    "jiotv_id": "1985",
-    "jiotv_name": "Star Sports 2 Hindi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
+    "jiotv_id": "1984",
+    "jiotv_name": "Star Sports 2 Hindi HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
     "match_method": "partial",
     "verified": false
   },
   "StarSports1Hindi.in": {
     "tvg_id": "StarSports1Hindi.in",
     "playlist_name": "Star Sports 1 Hindi HD (1080p)",
-    "jiotv_id": "1985",
-    "jiotv_name": "Star Sports 2 Hindi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
+    "jiotv_id": "1984",
+    "jiotv_name": "Star Sports 2 Hindi HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
     "match_method": "word_match(75%)",
     "verified": false
   },
@@ -2558,9 +2576,9 @@
   "SonyYay.in": {
     "tvg_id": "SonyYay.in",
     "playlist_name": "Sony Yay! (576p)",
-    "jiotv_id": "874",
-    "jiotv_name": "Sony Yay Telugu",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Telugu.png",
+    "jiotv_id": "873",
+    "jiotv_name": "Sony Yay Tamil",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Tamil.png",
     "match_method": "partial",
     "verified": false
   },
@@ -2627,15 +2645,6 @@
     "match_method": "partial",
     "verified": false
   },
-  "Dhamaal.in": {
-    "tvg_id": "Dhamaal.in",
-    "playlist_name": "Dhamaal (576p)",
-    "jiotv_id": "535",
-    "jiotv_name": "Dhamaal TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Dhamaal_TV.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "DhoomMusic.in": {
     "tvg_id": "DhoomMusic.in",
     "playlist_name": "Dhoom Music (720p)",
@@ -2651,6 +2660,15 @@
     "jiotv_id": "1286",
     "jiotv_name": "Insync",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Insync.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "Mastiii.in": {
+    "tvg_id": "Mastiii.in",
+    "playlist_name": "Mastiii (576p)",
+    "jiotv_id": "584",
+    "jiotv_name": "Mastiii",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Mastiii.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -3491,6 +3509,15 @@
     "match_method": "partial",
     "verified": false
   },
+  "NationalGeographicWild.in": {
+    "tvg_id": "NationalGeographicWild.in",
+    "playlist_name": "National Geographic Wild (576p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "NDTVGoodTimes.in": {
     "tvg_id": "NDTVGoodTimes.in",
     "playlist_name": "NDTV Good Times (1080p)",
@@ -3689,6 +3716,15 @@
     "match_method": "partial",
     "verified": false
   },
+  "Rengoni.in": {
+    "tvg_id": "Rengoni.in",
+    "playlist_name": "Rengoni (576p)",
+    "jiotv_id": "635",
+    "jiotv_name": "Rengoni",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Rengoni.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
   "SanskarUK.in": {
     "tvg_id": "SanskarUK.in",
     "playlist_name": "Sanskar UK (1080p)",
@@ -3773,9 +3809,9 @@
   "StarSports2Hindi.in@HD": {
     "tvg_id": "StarSports2Hindi.in@HD",
     "playlist_name": "Star Sports 2 Hindi HD (1080p)",
-    "jiotv_id": "1985",
-    "jiotv_name": "Star Sports 2 Hindi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
+    "jiotv_id": "1984",
+    "jiotv_name": "Star Sports 2 Hindi HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -3833,6 +3869,15 @@
     "match_method": "exact_name",
     "verified": true
   },
+  "NationalGeographic.in@HD": {
+    "tvg_id": "NationalGeographic.in@HD",
+    "playlist_name": "National Geographic HD (1080p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "MoviesNowPlus.in@SD": {
     "tvg_id": "MoviesNowPlus.in@SD",
     "playlist_name": "Movies Now + (1080p)",
@@ -3863,18 +3908,18 @@
   "StarSports2.in@HD": {
     "tvg_id": "StarSports2.in@HD",
     "playlist_name": "Star Sports 2 HD (1080p)",
-    "jiotv_id": "1985",
-    "jiotv_name": "Star Sports 2 Hindi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
+    "jiotv_id": "1984",
+    "jiotv_name": "Star Sports 2 Hindi HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
     "match_method": "partial",
     "verified": false
   },
   "StarSports3.in@SD": {
     "tvg_id": "StarSports3.in@SD",
     "playlist_name": "Star Sports 3 (576p)",
-    "jiotv_id": "1985",
-    "jiotv_name": "Star Sports 2 Hindi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
+    "jiotv_id": "1984",
+    "jiotv_name": "Star Sports 2 Hindi HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -4048,6 +4093,15 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Gemini_Comedy.png",
     "match_method": "exact_name",
     "verified": true
+  },
+  "DisneyInternationalHD.in@SD": {
+    "tvg_id": "DisneyInternationalHD.in@SD",
+    "playlist_name": "Disney International HD (576p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
   },
   "ColorsGujaratiCinema.in@SD": {
     "tvg_id": "ColorsGujaratiCinema.in@SD",
@@ -4295,10 +4349,19 @@
   "StarSports2Kannada.in@SD": {
     "tvg_id": "StarSports2Kannada.in@SD",
     "playlist_name": "Star Sports 2 Kannada (576p)",
-    "jiotv_id": "1985",
-    "jiotv_name": "Star Sports 2 Hindi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
+    "jiotv_id": "1984",
+    "jiotv_name": "Star Sports 2 Hindi HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
     "match_method": "word_match(75%)",
     "verified": false
+  },
+  "TravelxpTamil.in@SD": {
+    "tvg_id": "TravelxpTamil.in@SD",
+    "playlist_name": "Travelxp Tamil (576p)",
+    "jiotv_id": "814",
+    "jiotv_name": "Travelxp Tamil",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_Tamil.png",
+    "match_method": "exact_name",
+    "verified": true
   }
 }
