@@ -65,9 +65,9 @@
   "ColorsRishteyAsia.in": {
     "tvg_id": "ColorsRishteyAsia.in",
     "playlist_name": "Colors Rishtey Asia (576p)",
-    "jiotv_id": "279",
-    "jiotv_name": "Rishtey",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Rishtey.png",
+    "jiotv_id": "144",
+    "jiotv_name": "Colors HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -506,9 +506,9 @@
   "ColorsCineplexSuperhits.in": {
     "tvg_id": "ColorsCineplexSuperhits.in",
     "playlist_name": "Colors Cineplex Superhits (576p)",
-    "jiotv_id": "482",
-    "jiotv_name": "Colors Cineplex",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Cineplex.png",
+    "jiotv_id": "144",
+    "jiotv_name": "Colors HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -668,18 +668,18 @@
   "StarSports1.in": {
     "tvg_id": "StarSports1.in",
     "playlist_name": "Star Sports 1 HD (1080p)",
-    "jiotv_id": "1998",
-    "jiotv_name": "Star Sports Khel",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_Khel.png",
+    "jiotv_id": "1985",
+    "jiotv_name": "Star Sports 2 Hindi",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
     "match_method": "partial",
     "verified": false
   },
   "StarSports1Hindi.in": {
     "tvg_id": "StarSports1Hindi.in",
     "playlist_name": "Star Sports 1 Hindi HD (1080p)",
-    "jiotv_id": "1984",
-    "jiotv_name": "Star Sports 2 Hindi HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
+    "jiotv_id": "1985",
+    "jiotv_name": "Star Sports 2 Hindi",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
     "match_method": "word_match(75%)",
     "verified": false
   },
@@ -2225,9 +2225,9 @@
   "SansadTV.in": {
     "tvg_id": "SansadTV.in",
     "playlist_name": "Sansad TV 2 (1080p) [Not 24/7]",
-    "jiotv_id": "522",
-    "jiotv_name": "Sansad TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Loksabha_TV.png",
+    "jiotv_id": "520",
+    "jiotv_name": "Sansad TV HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -2558,9 +2558,9 @@
   "SonyYay.in": {
     "tvg_id": "SonyYay.in",
     "playlist_name": "Sony Yay! (576p)",
-    "jiotv_id": "872",
-    "jiotv_name": "Sony Yay Hindi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",
+    "jiotv_id": "873",
+    "jiotv_name": "Sony Yay Tamil",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Tamil.png",
     "match_method": "partial",
     "verified": false
   },
@@ -3764,9 +3764,9 @@
   "StarSports2Hindi.in@HD": {
     "tvg_id": "StarSports2Hindi.in@HD",
     "playlist_name": "Star Sports 2 Hindi HD (1080p)",
-    "jiotv_id": "1984",
-    "jiotv_name": "Star Sports 2 Hindi HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
+    "jiotv_id": "1985",
+    "jiotv_name": "Star Sports 2 Hindi",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -3854,18 +3854,18 @@
   "StarSports2.in@HD": {
     "tvg_id": "StarSports2.in@HD",
     "playlist_name": "Star Sports 2 HD (1080p)",
-    "jiotv_id": "1998",
-    "jiotv_name": "Star Sports Khel",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_Khel.png",
+    "jiotv_id": "1985",
+    "jiotv_name": "Star Sports 2 Hindi",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
     "match_method": "partial",
     "verified": false
   },
   "StarSports3.in@SD": {
     "tvg_id": "StarSports3.in@SD",
     "playlist_name": "Star Sports 3 (576p)",
-    "jiotv_id": "1998",
-    "jiotv_name": "Star Sports Khel",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_Khel.png",
+    "jiotv_id": "1985",
+    "jiotv_name": "Star Sports 2 Hindi",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -4286,9 +4286,9 @@
   "StarSports2Kannada.in@SD": {
     "tvg_id": "StarSports2Kannada.in@SD",
     "playlist_name": "Star Sports 2 Kannada (576p)",
-    "jiotv_id": "1984",
-    "jiotv_name": "Star Sports 2 Hindi HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png",
+    "jiotv_id": "1985",
+    "jiotv_name": "Star Sports 2 Hindi",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png",
     "match_method": "word_match(75%)",
     "verified": false
   },
@@ -4309,5 +4309,14 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png",
     "match_method": "exact_name",
     "verified": true
+  },
+  "AamarBangla.in@SD": {
+    "tvg_id": "AamarBangla.in@SD",
+    "playlist_name": "Aamar Bangla (720p)",
+    "jiotv_id": "2780",
+    "jiotv_name": "R Bangla",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/R_Bangla.png",
+    "match_method": "partial",
+    "verified": false
   }
 }
