@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 """
-merge_playlists.py — Merge IPTV playlists with automated overrides
+merge_playlists.py — Merge IPTV playlists with focus on updating existing channels.
 - Takes the existing rich playlist as the base.
-- Updates stream URLs from iptv-org.
-- Adds new channels from iptv-org.
-- **NEW**: Loads overrides.json to automatically create (Jio) variants for major channels.
-- **NEW**: Injects User-Agent headers automatically based on network or channel.
+- Updates stream URLs and headers from iptv-org for existing channels.
+- Protects manual overrides (Sony SAB variants).
+- Avoids adding completely new channels by default to keep the list clean.
 """
 
 import re
 import sys
 import os
-import json
 
 def parse_m3u(filepath):
     """Parse an M3U file into a list of channel dicts."""
@@ -77,119 +75,16 @@ def normalize_name(name):
     name = re.sub(r'[^a-z0-9]', '', name)
     return name
 
-def guess_group(name):
-    """Guess group category from channel name."""
-    nl = name.lower()
-    if any(w in nl for w in ['news', 'times now', 'ndtv', 'republic', 'india today', 'aaj tak', 'zee news', 'abp']):
-        return 'News'
-    if any(w in nl for w in ['sports', 'star sports', 'sony ten', 'cricket', 'football']):
-        return 'Sports'
-    if any(w in nl for w in ['mtv', 'music', 'zing', '9xm', 'b4u music', 'mastiii']):
-        return 'Music'
-    if any(w in nl for w in ['cartoon', 'nick', 'disney', 'hungama', 'pogo', 'sonic']):
-        return 'Kids'
-    if any(w in nl for w in ['movie', 'cinema', 'pictures', 'filmy', 'goldmines', 'b4u movie']):
-        return 'Movies'
-    if any(w in nl for w in ['discovery', 'national geographic', 'animal planet', 'history']):
-        return 'Infotainment'
-    if any(w in nl for w in ['aastha', 'sanskar', 'peace', 'divya', 'god', 'spiritual']):
-        return 'Devotional'
-    return 'Entertainment'
-
-def apply_overrides(existing, overrides):
-    """Applies overrides: injects User-Agents and creates variant channels."""
-    if not overrides:
-        return existing
-
-    new_existing = []
-    tvg_to_overrides = {}
-    
-    # Pre-process overrides for quick lookup
-    for net_name, net_data in overrides.get('networks', {}).items():
-        ua = net_data.get('user_agent', '')
-        for ch_data in net_data.get('channels', []):
-            tvg_id = ch_data['tvg_id']
-            if tvg_id not in tvg_to_overrides:
-                tvg_to_overrides[tvg_id] = []
-            ch_data['default_ua'] = ua
-            tvg_to_overrides[tvg_id].append(ch_data)
-
-    seen_variants = set()
-    for ch in existing:
-        seen_variants.add(f"{ch['tvg_id']}|{ch['name']}")
-
-    for ch in existing:
-        new_existing.append(ch)
-        
-        # Skip if host channel is already a generated variant
-        if '(Jio)' in ch['name'] or '(Jio Proxy)' in ch['name'] or '(Google DAI)' in ch['name']:
-             continue
-
-        # Check if this base channel needs an override
-        if ch['tvg_id'] in tvg_to_overrides:
-            for ov in tvg_to_overrides[ch['tvg_id']]:
-                ua = ov.get('default_ua', '')
-                
-                # 1. If PRIMARY: Update the base channel itself
-                if ov.get('primary'):
-                    ch['url'] = ov['url_pattern']
-                    if ua:
-                        ch['user_agent'] = ua
-                        # Rebuild EXTINF to include/update user-agent
-                        if 'user-agent="' in ch['extinf']:
-                            ch['extinf'] = re.sub(r'user-agent="[^"]*"', f'user-agent="{ua}"', ch['extinf'])
-                        else:
-                            ch['extinf'] = ch['extinf'].replace('group-title="', f'user-agent="{ua}" group-title="')
-                    print(f"  [Primary Update] {ch['name']} -> {ch['url']}")
-
-                # 2. Create the (Jio) variant as a backup/alternative
-                variant_name = f"{ch['name']} {ov['suffix']}"
-                variant_key = f"{ch['tvg_id']}|{variant_name}"
-                
-                if variant_key not in seen_variants:
-                    # Create the variant
-                    v_extinf = ch['extinf'].replace(f',{ch["name"]}', f',{variant_name}')
-                    # Ensure variant name is used in the name attribute/tags too
-                    v_extinf = re.sub(r'tvg-name="[^"]*"', f'tvg-name="{variant_name}"', v_extinf)
-                    
-                    variant_ch = {
-                        'extinf': v_extinf,
-                        'extra': ch['extra'].copy(),
-                        'url': ov['url_pattern'],
-                        'tvg_id': ch['tvg_id'],
-                        'tvg_id_base': ch['tvg_id_base'],
-                        'user_agent': ua,
-                        'name': variant_name,
-                        'group': ch['group'],
-                        'primary': False # Mark as variant
-                    }
-                    new_existing.append(variant_ch)
-                    seen_variants.add(variant_key)
-
-    return new_existing
-
 def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
-    # Load Overrides
-    overrides = {}
-    overrides_path = os.path.join(os.path.dirname(__file__), 'overrides.json')
-    if os.path.exists(overrides_path):
-        try:
-            with open(overrides_path, 'r') as f:
-                overrides = json.load(f)
-            print(f"Loaded {len(overrides.get('networks', {}))} networks from overrides.json")
-        except Exception as e:
-            print(f"Error loading overrides: {e}")
-
     print(f"Loading existing playlist: {existing_path}")
     existing = parse_m3u(existing_path)
-    
-    # APPLY OVERRIDES FIRST
-    existing = apply_overrides(existing, overrides)
-    print(f"  Processed {len(existing)} channels (including variants)")
+    print(f"  Found {len(existing)} channels")
 
-    print(f"Loading new playlist: {new_path}")
+    print(f"Loading fresh source: {new_path}")
     new_channels = parse_m3u(new_path)
-    
+    print(f"  Found {len(new_channels)} fresh channels")
+
+    # Index new channels for fast lookup
     new_by_tvg_id = {}
     new_by_name = {}
     for ch in new_channels:
@@ -203,81 +98,51 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
                 new_by_name[norm] = []
             new_by_name[norm].append(ch)
 
-    matched_new_ids = set()
     updated = 0
     modified_channels = []
 
     for ch in existing:
-        # PROTECTION: Skip updating if the channel has a custom User-Agent 
-        # or if it's a manual override variant
-        if ch.get('user_agent') or ('(' in ch['name'] and ')' in ch['name']):
+        # PROTECTION: Skip updating if the channel is a manual variant or has custom UA
+        # We only update the "Standard" channels from the source.
+        if '(Jio Proxy)' in ch['name'] or '(Google DAI)' in ch['name'] or 'user-agent' in ch['extinf'].lower():
             continue
 
         matched = None
+        # Priority 1: Match by full tvg-id
         if ch['tvg_id'] and ch['tvg_id'] in new_by_tvg_id:
             matched = new_by_tvg_id[ch['tvg_id']]
-            matched_new_ids.add(ch['tvg_id'])
+        # Priority 2: Match by base tvg-id (@ part removed)
         elif ch['tvg_id_base'] and ch['tvg_id_base'] in new_by_tvg_id:
             matched = new_by_tvg_id[ch['tvg_id_base']]
-            matched_new_ids.add(ch['tvg_id_base'])
+        # Priority 3: Match by normalized name
         elif ch['name']:
             norm = normalize_name(ch['name'])
             if norm in new_by_name:
                 matched = new_by_name[norm]
-                matched_new_ids.add(norm)
 
-        if matched and matched[0]['url'] and matched[0]['url'] != ch['url']:
-            old_url = ch['url']
+        if matched and matched[0]['url']:
+            # ALWAYS update to ensure fresh parameters/tokens
             ch['url'] = matched[0]['url']
+            ch['extra'] = matched[0].get('extra', [])
             updated += 1
-            modified_channels.append({'name': ch['name'], 'old_url': old_url[:50], 'new_url': ch['url'][:50]})
+            modified_channels.append({'name': ch['name']})
 
-    added_channels = []
-    seen_new = set()
-    for ch in new_channels:
-        tvg_base = ch['tvg_id_base']
-        norm_name = normalize_name(ch['name']) if ch['name'] else ''
-        if tvg_base in matched_new_ids or norm_name in matched_new_ids:
-            continue
-        dedup_key = f"{tvg_base}|{ch['url']}"
-        if dedup_key in seen_new:
-            continue
-        seen_new.add(dedup_key)
-        
-        group = guess_group(ch['name']) if ch['name'] else 'Other'
-        extinf = f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["name"]}" group-title="{group}",{ch["name"]}'
-        added_channels.append({
-            'extinf': extinf, 
-            'extra': ch.get('extra', []), 
-            'url': ch['url'], 
-            'name': ch['name'],
-            'tvg_id': ch['tvg_id']
-        })
+    print(f"  Updated {updated} channels with latest source URLs")
 
-    # Final Deduplication and Cleanup
-    final_list = []
-    seen_final = set()
-    for ch in existing + added_channels:
-        # Use a combination of tvg_id, name, and url for deduplication
-        dedup_key = f"{ch['tvg_id']}|{ch['name']}|{ch['url']}"
-        if dedup_key not in seen_final:
-            final_list.append(ch)
-            seen_final.add(dedup_key)
-
+    # Write output (Maintaining original order)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
-        for ch in final_list:
+        for ch in existing:
             f.write(ch['extinf'] + '\n')
             for extra in ch.get('extra', []):
                 f.write(extra + '\n')
             f.write(ch['url'] + '\n')
 
-    total = len(final_list)
-    print(f"\n✅ Merged: {total} channels. {updated} URLs updated.")
+    print(f"\n✅ Merged: {len(existing)} channels updated & synchronized.")
 
 if __name__ == '__main__':
     if len(sys.argv) >= 4:
         merge_playlists(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else None)
     else:
-        print("Usage: merge_playlists.py <existing> <new> <output> [changelog]")
+        print("Usage: merge_playlists.py <existing.m3u> <source.m3u> <output.m3u> [changelog.md]")
         sys.exit(1)
