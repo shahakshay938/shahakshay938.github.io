@@ -121,28 +121,35 @@ def apply_overrides(existing, overrides):
     for ch in existing:
         new_existing.append(ch)
         
-        # Skip if host channel already has a variant marker or User-Agent
-        if '(' in ch['name'] and ')' in ch['name']:
-            continue
+        # Skip if host channel is already a generated variant
+        if '(Jio)' in ch['name'] or '(Jio Proxy)' in ch['name'] or '(Google DAI)' in ch['name']:
+             continue
 
         # Check if this base channel needs an override
         if ch['tvg_id'] in tvg_to_overrides:
             for ov in tvg_to_overrides[ch['tvg_id']]:
-                # 1. Inject User-Agent into base channel if not present
-                if not ch.get('user_agent') and ov.get('default_ua'):
-                    ch['user_agent'] = ov['default_ua']
-                    # Rebuild EXTINF to include user-agent
-                    if 'user-agent="' not in ch['extinf']:
-                        ch['extinf'] = ch['extinf'].replace('group-title="', f'user-agent="{ch["user_agent"]}" group-title="')
+                ua = ov.get('default_ua', '')
+                
+                # 1. If PRIMARY: Update the base channel itself
+                if ov.get('primary'):
+                    ch['url'] = ov['url_pattern']
+                    if ua:
+                        ch['user_agent'] = ua
+                        # Rebuild EXTINF to include/update user-agent
+                        if 'user-agent="' in ch['extinf']:
+                            ch['extinf'] = re.sub(r'user-agent="[^"]*"', f'user-agent="{ua}"', ch['extinf'])
+                        else:
+                            ch['extinf'] = ch['extinf'].replace('group-title="', f'user-agent="{ua}" group-title="')
+                    print(f"  [Primary Update] {ch['name']} -> {ch['url']}")
 
-                # 2. Check if we need to create a (Jio) variant
+                # 2. Create the (Jio) variant as a backup/alternative
                 variant_name = f"{ch['name']} {ov['suffix']}"
                 variant_key = f"{ch['tvg_id']}|{variant_name}"
                 
                 if variant_key not in seen_variants:
                     # Create the variant
                     v_extinf = ch['extinf'].replace(f',{ch["name"]}', f',{variant_name}')
-                    # Ensure variant name is used in the name attribute too
+                    # Ensure variant name is used in the name attribute/tags too
                     v_extinf = re.sub(r'tvg-name="[^"]*"', f'tvg-name="{variant_name}"', v_extinf)
                     
                     variant_ch = {
@@ -151,9 +158,10 @@ def apply_overrides(existing, overrides):
                         'url': ov['url_pattern'],
                         'tvg_id': ch['tvg_id'],
                         'tvg_id_base': ch['tvg_id_base'],
-                        'user_agent': ov['default_ua'],
+                        'user_agent': ua,
                         'name': variant_name,
                         'group': ch['group'],
+                        'primary': False # Mark as variant
                     }
                     new_existing.append(variant_ch)
                     seen_variants.add(variant_key)
@@ -238,23 +246,34 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
         
         group = guess_group(ch['name']) if ch['name'] else 'Other'
         extinf = f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["name"]}" group-title="{group}",{ch["name"]}'
-        added_channels.append({'extinf': extinf, 'extra': ch.get('extra', []), 'url': ch['url'], 'name': ch['name']})
+        added_channels.append({
+            'extinf': extinf, 
+            'extra': ch.get('extra', []), 
+            'url': ch['url'], 
+            'name': ch['name'],
+            'tvg_id': ch['tvg_id']
+        })
+
+    # Final Deduplication and Cleanup
+    final_list = []
+    seen_final = set()
+    for ch in existing + added_channels:
+        # Use a combination of tvg_id, name, and url for deduplication
+        dedup_key = f"{ch['tvg_id']}|{ch['name']}|{ch['url']}"
+        if dedup_key not in seen_final:
+            final_list.append(ch)
+            seen_final.add(dedup_key)
 
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
-        for ch in existing:
-            f.write(ch['extinf'] + '\n')
-            for extra in ch.get('extra', []):
-                f.write(extra + '\n')
-            f.write(ch['url'] + '\n')
-        for ch in added_channels:
+        for ch in final_list:
             f.write(ch['extinf'] + '\n')
             for extra in ch.get('extra', []):
                 f.write(extra + '\n')
             f.write(ch['url'] + '\n')
 
-    total = len(existing) + len(added_channels)
-    print(f"\n✅ Merged: {total} channels. {updated} URLs updated. {len(added_channels)} new.")
+    total = len(final_list)
+    print(f"\n✅ Merged: {total} channels. {updated} URLs updated.")
 
 if __name__ == '__main__':
     if len(sys.argv) >= 4:

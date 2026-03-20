@@ -3,42 +3,43 @@
         "Sony": {
             "user_agent": "AppleCoreMedia",
             "channels": [
-                {"tvg_id": "SonySET.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00g/index.m3u8"},
-                {"tvg_id": "SonySAB.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00t/index.m3u8"},
-                {"tvg_id": "SonyMax.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00u/index.m3u8"},
-                {"tvg_id": "SonyMax2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01d/index.m3u8"},
-                {"tvg_id": "SonyTen1.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00v/index.m3u8"},
-                {"tvg_id": "SonyTen2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00w/index.m3u8"},
-                {"tvg_id": "SonyTen3.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01e/index.m3u8"}
+                {"tvg_id": "SonySET.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00g/index.m3u8", "primary": true},
+                {"tvg_id": "SonySAB.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00t/index.m3u8", "primary": true},
+                {"tvg_id": "SonyMax.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00u/index.m3u8", "primary": true},
+                {"tvg_id": "SonyMax2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01d/index.m3u8", "primary": true},
+                {"tvg_id": "SonyTen1.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00v/index.m3u8", "primary": true},
+                {"tvg_id": "SonyTen2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00w/index.m3u8", "primary": true},
+                {"tvg_id": "SonyTen3.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01e/index.m3u8", "primary": true}
             ]
         },
         "Star": {
             "user_agent": "AppleCoreMedia",
             "channels": [
-                {"tvg_id": "StarPlus.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00d/index.m3u8"},
-                {"tvg_id": "StarGold.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00x/index.m3u8"},
-                {"tvg_id": "StarGold2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01f/index.m3u8"},
-                {"tvg_id": "StarBharat.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00y/index.m3u8"},
-                {"tvg_id": "StarSports1.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01g/index.m3u8"},
-                {"tvg_id": "StarSports2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01h/index.m3u8"},
-                {"tvg_id": "StarSportsSelect1.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01i/index.m3u8"}
+                {"tvg_id": "StarPlus.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00d/index.m3u8", "primary": true},
+                {"tvg_id": "StarGold.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00x/index.m3u8", "primary": true},
+                {"tvg_id": "StarGold2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01f/index.m3u8", "primary": true},
+                {"tvg_id": "StarGoldSelect.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a032/index.m3u8", "primary": true},
+                {"tvg_id": "StarBharat.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00y/index.m3u8", "primary": true},
+                {"tvg_id": "StarSports1.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01g/index.m3u8", "primary": true},
+                {"tvg_id": "StarSports2.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01h/index.m3u8", "primary": true},
+                {"tvg_id": "StarSportsSelect1.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01i/index.m3u8", "primary": true}
             ]
         },
         "Zee": {
             "user_agent": "AppleCoreMedia",
             "channels": [
-                {"tvg_id": "ZeeTV.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00e/index.m3u8"},
-                {"tvg_id": "ZeeCinema.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00z/index.m3u8"},
-                {"tvg_id": "ZeeAnmol.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01a/index.m3u8"},
-                {"tvg_id": "ZeeAction.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01j/index.m3u8"}
+                {"tvg_id": "ZeeTV.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00e/index.m3u8", "primary": true},
+                {"tvg_id": "ZeeCinema.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00z/index.m3u8", "primary": true},
+                {"tvg_id": "ZeeAnmol.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01a/index.m3u8", "primary": true},
+                {"tvg_id": "ZeeAction.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01j/index.m3u8", "primary": true}
             ]
         },
         "Colors": {
             "user_agent": "AppleCoreMedia",
             "channels": [
-                {"tvg_id": "Colors.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00f/index.m3u8"},
-                {"tvg_id": "ColorsRishtey.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01b/index.m3u8"},
-                {"tvg_id": "ColorsCineplex.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01c/index.m3u8"}
+                {"tvg_id": "Colors.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a00f/index.m3u8", "primary": true},
+                {"tvg_id": "ColorsRishtey.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01b/index.m3u8", "primary": true},
+                {"tvg_id": "ColorsCineplex.in", "suffix": "(Jio)", "url_pattern": "http://103.162.136.235:4500/play/a01c/index.m3u8", "primary": true}
             ]
         }
     }
