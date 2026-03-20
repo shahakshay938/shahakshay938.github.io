@@ -142,29 +142,21 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
             updated += 1
             modified_channels.append({'name': ch['name']})
 
-    # Step 1: Group by tvg_id (primary) or normalized name (fallback)
-    # This allows us to find SD/HD variants of the same channel.
-    groups = {}
-    for ch in existing:
-        key = ch['tvg_id_base'] if ch['tvg_id_base'] else normalize_name(ch['name'])
-        if key not in groups:
-            groups[key] = []
-        groups[key].append(ch)
-
+    # Final Deduplication and Cleanup
     final_list = []
-    for key, variants in groups.items():
-        # Step 2: Select the best variant based on quality score
-        best_ch = max(variants, key=lambda c: get_quality_score(c['name'], c['url']))
+    seen = set()
+    for ch in existing:
+        # Deduplication based on Name and URL
+        dedup_key = f"{ch['name']}|{ch['url']}"
+        if dedup_key in seen:
+            continue
+        seen.add(dedup_key)
         
-        # Step 3: Clean the display name for a "Single" experience
-        origin_name = best_ch['name']
-        best_ch['name'] = clean_display_name(origin_name)
-        # Update the name in EXTINF as well
-        best_ch['extinf'] = best_ch['extinf'].replace(f',{origin_name}', f',{best_ch["name"]}')
-        
-        final_list.append(best_ch)
+        # We NO LONGER consolidate HD/SD into one, 
+        # because the user noted they often have different programs.
+        final_list.append(ch)
 
-    print(f"  Consolidated {len(existing)} variants into {len(final_list)} single channels")
+    print(f"  Final playlist contains {len(final_list)} unique channels (HD & SD separate)")
 
     # Write output
     with open(output_path, 'w', encoding='utf-8') as f:

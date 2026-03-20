@@ -61,8 +61,6 @@ https://cdn-3.pishow.tv/live/1253/master.m3u8
 https://mntv.livebox.co.in/mntvhls/live.m3u8
 #EXTINF:-1 tvg-id="Nazara.in" tvg-name="Nazara (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nazara.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",Nazara
 https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8
-#EXTINF:-1 tvg-id="NTCTV.in" tvg-name="NTC TV (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ntvtamil.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment",NTC TV
-https://galaxyott.live/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="PolimerTV.in" jiotv-id="705" tvg-name="Polimer TV (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Polimer_TV.png" tvg-country="IN" tvg-language="Tamil" group-title="Entertainment",Polimer TV
 https://cdn-2.pishow.tv/live/1241/master.m3u8
 #EXTINF:-1 tvg-id="PTCPunjabi.in" jiotv-id="1171" tvg-name="PTC Punjabi (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_PUNJABI/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Punjabi" group-title="Entertainment",PTC Punjabi
