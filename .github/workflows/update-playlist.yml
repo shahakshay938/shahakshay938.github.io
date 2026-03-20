@@ -42,10 +42,22 @@ jobs:
       - name: 🔀 Merge playlists
         if: env.PLAYLIST_OK == 'true'
         run: |
-          python3 scripts/merge_playlists.py \
-            merged-iptv-playlist.m3u \
-            /tmp/iptv_org_in.m3u \
-            merged-iptv-playlist.m3u
+            python3 scripts/merge_playlists.py \
+              merged-iptv-playlist.m3u \
+              /tmp/iptv_org_in.m3u \
+              merged-iptv-playlist.m3u
+
+      # ─── Stream Verification & Quality Purge ────────────────
+      - name: 🛠️ Setup ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: 🕵️ Verify & Filter Streams
+        run: |
+          python3 scripts/check_streams.py
+          python3 scripts/filter_playlist.py
+          VERIFIED=$(grep -c "^#EXTINF" merged-iptv-playlist.m3u || echo 0)
+          echo "✅ Verified ${VERIFIED} stable channels"
+          echo "VERIFIED_CHANNELS=${VERIFIED}" >> $GITHUB_ENV
 
       # ─── Update EPG (Multi-Source with Fallback) ───────
       - name: 📋 Download EPG sources

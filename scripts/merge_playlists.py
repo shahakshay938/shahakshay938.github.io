@@ -67,13 +67,28 @@ def parse_m3u(filepath):
     return channels
 
 def normalize_name(name):
-    """Normalize channel name for comparison."""
-    name = re.sub(r'\s*\(?\d+p\)?\s*', '', name, flags=re.IGNORECASE)
-    name = re.sub(r'\s*\[Not 24/7\]\s*', '', name, flags=re.IGNORECASE)
-    name = re.sub(r'\s*(SD|HD|FHD)\s*', '', name, flags=re.IGNORECASE)
+    """Normalize channel name for basic comparison."""
     name = name.strip().lower()
     name = re.sub(r'[^a-z0-9]', '', name)
     return name
+
+def get_quality_score(name, url):
+    """Return a score based on perceived quality (HD > SD)."""
+    score = 0
+    nl = name.lower()
+    if '1080p' in nl or 'fhd' in nl or '4k' in nl: score += 10
+    if '720p' in nl or 'hd' in nl: score += 5
+    if '576p' in nl or 'sd' in nl: score += 1
+    # Prefer Jio Proxy URLs if present
+    if '103.162.136.235' in url: score += 2
+    return score
+
+def clean_display_name(name):
+    """Strip quality tags for a 'Single' channel experience."""
+    name = re.sub(r'\s*\(?\d+p\)?\s*', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*\[Not 24/7\]\s*', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\s*(SD|HD|FHD)\s*', '', name, flags=re.IGNORECASE)
+    return name.strip()
 
 def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
     print(f"Loading existing playlist: {existing_path}")
@@ -127,18 +142,40 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
             updated += 1
             modified_channels.append({'name': ch['name']})
 
-    print(f"  Updated {updated} channels with latest source URLs")
+    # Step 1: Group by tvg_id (primary) or normalized name (fallback)
+    # This allows us to find SD/HD variants of the same channel.
+    groups = {}
+    for ch in existing:
+        key = ch['tvg_id_base'] if ch['tvg_id_base'] else normalize_name(ch['name'])
+        if key not in groups:
+            groups[key] = []
+        groups[key].append(ch)
 
-    # Write output (Maintaining original order)
+    final_list = []
+    for key, variants in groups.items():
+        # Step 2: Select the best variant based on quality score
+        best_ch = max(variants, key=lambda c: get_quality_score(c['name'], c['url']))
+        
+        # Step 3: Clean the display name for a "Single" experience
+        origin_name = best_ch['name']
+        best_ch['name'] = clean_display_name(origin_name)
+        # Update the name in EXTINF as well
+        best_ch['extinf'] = best_ch['extinf'].replace(f',{origin_name}', f',{best_ch["name"]}')
+        
+        final_list.append(best_ch)
+
+    print(f"  Consolidated {len(existing)} variants into {len(final_list)} single channels")
+
+    # Write output
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
-        for ch in existing:
+        for ch in final_list:
             f.write(ch['extinf'] + '\n')
             for extra in ch.get('extra', []):
                 f.write(extra + '\n')
             f.write(ch['url'] + '\n')
 
-    print(f"\n✅ Merged: {len(existing)} channels updated & synchronized.")
+    print(f"\n✅ Merged: {len(final_list)} high-quality channels synchronized.")
 
 if __name__ == '__main__':
     if len(sys.argv) >= 4:
