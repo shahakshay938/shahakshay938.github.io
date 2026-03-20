@@ -54,9 +54,10 @@ jobs:
       - name: 🕵️ Verify & Filter Streams
         run: |
           python3 scripts/check_streams.py
+          python3 scripts/detect_loops.py
           python3 scripts/filter_playlist.py
           VERIFIED=$(grep -c "^#EXTINF" merged-iptv-playlist.m3u || echo 0)
-          echo "✅ Verified ${VERIFIED} stable channels"
+          echo "✅ Verified ${VERIFIED} stable & live channels"
           echo "VERIFIED_CHANNELS=${VERIFIED}" >> $GITHUB_ENV
 
       # ─── Update EPG (Multi-Source with Fallback) ───────

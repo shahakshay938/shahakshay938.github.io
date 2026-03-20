@@ -3,16 +3,28 @@ import json
 import os
 import re
 
-REPORT_FILE = "/var/www/html/akshay/iptv/scripts/stream_report.json"
+STREAM_REPORT = "/var/www/html/akshay/iptv/scripts/stream_report.json"
+LOOP_REPORT = "/var/www/html/akshay/iptv/scripts/loop_report.json"
 INPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/merged-iptv-playlist.m3u"
 OUTPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/merged-iptv-playlist.m3u"
 LATENCY_THRESHOLD = 5.0
 
 def load_good_urls():
-    with open(REPORT_FILE, 'r') as f:
-        results = json.load(f)
-    # Filter for OK status and low latency
-    good_urls = {r['url'] for r in results if r['status'] == 'OK' and r.get('latency', 0) <= LATENCY_THRESHOLD}
+    good_urls = set()
+    
+    # Check Stream Health
+    if os.path.exists(STREAM_REPORT):
+        with open(STREAM_REPORT, 'r') as f:
+            s_results = json.load(f)
+        good_urls = {r['url'] for r in s_results if r['status'] == 'OK' and r.get('latency', 0) <= LATENCY_THRESHOLD}
+    
+    # Intersect with Loop Report (if exists)
+    if os.path.exists(LOOP_REPORT):
+        with open(LOOP_REPORT, 'r') as f:
+            l_results = json.load(f)
+        bad_loops = {r['url'] for r in l_results if r['status'] != 'OK'}
+        good_urls = good_urls - bad_loops
+        
     return good_urls
 
 def filter_m3u(input_path, output_path, good_urls):
