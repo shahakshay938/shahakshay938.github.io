@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """
-merge_playlists.py — Merge IPTV playlists with detailed changelog
-- Takes the existing rich playlist as the base (preserves logos, groups, metadata)
-- Updates stream URLs from the new iptv-org source where tvg-id matches
-- Adds completely new channels from iptv-org that don't exist in the base
-- Outputs a clean, merged M3U file
-- Writes a detailed changelog to CHANGELOG.md for GitHub Action commits
-
-Usage: python3 merge_playlists.py <existing.m3u> <new_iptv_org.m3u> <output.m3u> [changelog.md]
+merge_playlists.py — Merge IPTV playlists with automated overrides
+- Takes the existing rich playlist as the base.
+- Updates stream URLs from iptv-org.
+- Adds new channels from iptv-org.
+- **NEW**: Loads overrides.json to automatically create (Jio) variants for major channels.
+- **NEW**: Injects User-Agent headers automatically based on network or channel.
 """
 
 import re
 import sys
 import os
+import json
 
 def parse_m3u(filepath):
     """Parse an M3U file into a list of channel dicts."""
@@ -97,15 +96,92 @@ def guess_group(name):
         return 'Devotional'
     return 'Entertainment'
 
+def apply_overrides(existing, overrides):
+    """Applies overrides: injects User-Agents and creates variant channels."""
+    if not overrides:
+        return existing
+
+    new_existing = []
+    tvg_to_overrides = {}
+    
+    # Pre-process overrides for quick lookup
+    for net_name, net_data in overrides.get('networks', {}).items():
+        ua = net_data.get('user_agent', '')
+        for ch_data in net_data.get('channels', []):
+            tvg_id = ch_data['tvg_id']
+            if tvg_id not in tvg_to_overrides:
+                tvg_to_overrides[tvg_id] = []
+            ch_data['default_ua'] = ua
+            tvg_to_overrides[tvg_id].append(ch_data)
+
+    seen_variants = set()
+    for ch in existing:
+        seen_variants.add(f"{ch['tvg_id']}|{ch['name']}")
+
+    for ch in existing:
+        new_existing.append(ch)
+        
+        # Skip if host channel already has a variant marker or User-Agent
+        if '(' in ch['name'] and ')' in ch['name']:
+            continue
+
+        # Check if this base channel needs an override
+        if ch['tvg_id'] in tvg_to_overrides:
+            for ov in tvg_to_overrides[ch['tvg_id']]:
+                # 1. Inject User-Agent into base channel if not present
+                if not ch.get('user_agent') and ov.get('default_ua'):
+                    ch['user_agent'] = ov['default_ua']
+                    # Rebuild EXTINF to include user-agent
+                    if 'user-agent="' not in ch['extinf']:
+                        ch['extinf'] = ch['extinf'].replace('group-title="', f'user-agent="{ch["user_agent"]}" group-title="')
+
+                # 2. Check if we need to create a (Jio) variant
+                variant_name = f"{ch['name']} {ov['suffix']}"
+                variant_key = f"{ch['tvg_id']}|{variant_name}"
+                
+                if variant_key not in seen_variants:
+                    # Create the variant
+                    v_extinf = ch['extinf'].replace(f',{ch["name"]}', f',{variant_name}')
+                    # Ensure variant name is used in the name attribute too
+                    v_extinf = re.sub(r'tvg-name="[^"]*"', f'tvg-name="{variant_name}"', v_extinf)
+                    
+                    variant_ch = {
+                        'extinf': v_extinf,
+                        'extra': ch['extra'].copy(),
+                        'url': ov['url_pattern'],
+                        'tvg_id': ch['tvg_id'],
+                        'tvg_id_base': ch['tvg_id_base'],
+                        'user_agent': ov['default_ua'],
+                        'name': variant_name,
+                        'group': ch['group'],
+                    }
+                    new_existing.append(variant_ch)
+                    seen_variants.add(variant_key)
+
+    return new_existing
+
 def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
+    # Load Overrides
+    overrides = {}
+    overrides_path = os.path.join(os.path.dirname(__file__), 'overrides.json')
+    if os.path.exists(overrides_path):
+        try:
+            with open(overrides_path, 'r') as f:
+                overrides = json.load(f)
+            print(f"Loaded {len(overrides.get('networks', {}))} networks from overrides.json")
+        except Exception as e:
+            print(f"Error loading overrides: {e}")
+
     print(f"Loading existing playlist: {existing_path}")
     existing = parse_m3u(existing_path)
-    print(f"  Found {len(existing)} channels")
+    
+    # APPLY OVERRIDES FIRST
+    existing = apply_overrides(existing, overrides)
+    print(f"  Processed {len(existing)} channels (including variants)")
 
     print(f"Loading new playlist: {new_path}")
     new_channels = parse_m3u(new_path)
-    print(f"  Found {len(new_channels)} channels")
-
+    
     new_by_tvg_id = {}
     new_by_name = {}
     for ch in new_channels:
@@ -125,7 +201,7 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
 
     for ch in existing:
         # PROTECTION: Skip updating if the channel has a custom User-Agent 
-        # or if the name contains parentheses (indicating a manual override/variant)
+        # or if it's a manual override variant
         if ch.get('user_agent') or ('(' in ch['name'] and ')' in ch['name']):
             continue
 
@@ -145,13 +221,8 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
         if matched and matched[0]['url'] and matched[0]['url'] != ch['url']:
             old_url = ch['url']
             ch['url'] = matched[0]['url']
-            ch['extra'] = matched[0].get('extra', [])
             updated += 1
-            modified_channels.append({
-                'name': ch['name'],
-                'old_url': old_url[:80],
-                'new_url': ch['url'][:80],
-            })
+            modified_channels.append({'name': ch['name'], 'old_url': old_url[:50], 'new_url': ch['url'][:50]})
 
     added_channels = []
     seen_new = set()
@@ -166,9 +237,8 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
         seen_new.add(dedup_key)
         
         group = guess_group(ch['name']) if ch['name'] else 'Other'
-        tvg_name = ch['name']
-        extinf = f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{tvg_name}" tvg-logo="" tvg-country="IN" tvg-language="" group-title="{group}",{tvg_name}'
-        added_channels.append({'extinf': extinf, 'extra': ch.get('extra', []), 'url': ch['url'], 'name': tvg_name})
+        extinf = f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["name"]}" group-title="{group}",{ch["name"]}'
+        added_channels.append({'extinf': extinf, 'extra': ch.get('extra', []), 'url': ch['url'], 'name': ch['name']})
 
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
@@ -184,47 +254,11 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
             f.write(ch['url'] + '\n')
 
     total = len(existing) + len(added_channels)
-    changelog_lines = [
-        "## 📺 Playlist Update Summary\n",
-        f"- **Total channels:** {total}",
-        f"- **URLs updated:** {updated}",
-        f"- **New channels added:** {len(added_channels)}\n"
-    ]
-
-    if added_channels:
-        changelog_lines.append("### 🆕 Newly Added Channels\n")
-        for ch in added_channels:
-            changelog_lines.append(f"- {ch['name']}")
-        changelog_lines.append("")
-
-    if modified_channels:
-        changelog_lines.append(f"### 🔄 Modified Stream URLs ({len(modified_channels)} channels)\n")
-        for ch in modified_channels[:30]:
-            changelog_lines.append(f"- **{ch['name']}**")
-        if len(modified_channels) > 30:
-            changelog_lines.append(f"- _...and {len(modified_channels) - 30} more_")
-        changelog_lines.append("")
-
-    changelog_text = '\n'.join(changelog_lines)
-    if changelog_path:
-        with open(changelog_path, 'w', encoding='utf-8') as f:
-            f.write(changelog_text)
-
-    summary_file = os.environ.get('GITHUB_STEP_SUMMARY')
-    if summary_file:
-        with open(summary_file, 'a', encoding='utf-8') as f:
-            f.write(changelog_text)
-
-    env_file = os.environ.get('GITHUB_ENV')
-    if env_file:
-        with open(env_file, 'a', encoding='utf-8') as f:
-            f.write(f"TOTAL_CHANNELS={total}\n")
-            f.write(f"UPDATED_URLS={updated}\n")
-            f.write(f"NEW_CHANNELS={len(added_channels)}\n")
+    print(f"\n✅ Merged: {total} channels. {updated} URLs updated. {len(added_channels)} new.")
 
 if __name__ == '__main__':
     if len(sys.argv) >= 4:
         merge_playlists(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else None)
     else:
-        print("Usage: python3 merge_playlists.py <existing.m3u> <new.m3u> <output.m3u> [changelog.md]")
+        print("Usage: merge_playlists.py <existing> <new> <output> [changelog]")
         sys.exit(1)
