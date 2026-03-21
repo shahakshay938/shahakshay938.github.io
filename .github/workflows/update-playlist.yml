@@ -57,6 +57,13 @@ jobs:
           
           python3 scripts/check_streams.py
           python3 scripts/detect_loops.py
+          
+          # APPLY PREMIUM STANDARDS (Timeshift, Reconnect, AR)
+          python3 scripts/standardize_m3u.py
+          
+          # CLEAN CATEGORIES (Single genre, no clubs)
+          python3 scripts/reorganize_categories.py
+          
           python3 scripts/filter_playlist.py
           
           # Now 'latest.m3u' contains the NEW filtered result.
@@ -162,7 +169,9 @@ jobs:
           cp /tmp/old_stable.m3u "backups/playlist-${DATE}.m3u"
           
           # Update README with the NEW backup date
-          sed -i "s/playlist-.*\.m3u/playlist-${DATE}.m3u/g" README.md
+          sed -i "s/backups\/playlist-.*\.m3u/backups\/playlist-${DATE}\.m3u/g" README.md
+          # Update Verified Channel Count in README
+          sed -i "s/Total Verified Channels (Current):\*\* [0-9]*/Total Verified Channels (Current):\*\* ${VERIFIED_CHANNELS}/g" README.md
           
           if [ -f epg.xml.gz ]; then
             cp epg.xml.gz "backups/epg-${DATE}.xml.gz"
