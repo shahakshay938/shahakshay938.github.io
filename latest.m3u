@@ -384,12 +384,12 @@ http://116.90.120.151:8000/play/a0km/index.m3u8
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
-http://103.229.254.25:7001/play/a0db/71844127.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB (Stable SD)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB (Stable SD)
+http://103.229.254.25:7001/play/a0dc/10556852.m3u8
+#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB (True SD)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB (True SD)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
-http://103.99.249.139/sonysab/tracks-v1a1/mono.m3u8
+http://103.229.254.25:7001/play/a09s/27916612.m3u8
 #EXTINF:-1 tvg-id="SuriyanTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/suriyantvtamil.png" group-title="Movies" timeshift="1" aspect-ratio="16:9",Suriyan TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
