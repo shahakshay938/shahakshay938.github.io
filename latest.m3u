@@ -392,7 +392,7 @@ http://103.229.254.25:7001/play/a0db/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.99.249.139/sonysab/index.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB (Stable SD)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB (Stable SD)
+#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB SD (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB SD (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
