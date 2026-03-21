@@ -109,7 +109,7 @@ https://mumt04.tangotv.in/DARSHANATV/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
-#EXTINF:-1 tvg-id="DishaTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disha_tv.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Disha TV (576p)
+#EXTINF:-1 tvg-id="DishaTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disha_tv.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Disha TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -184,7 +184,7 @@ https://epiconvh.akamaized.net/live/ishaara/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://yuppnimrestreammum.akamaized.net/260723/smil:jaihind1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="JayaTV.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="Culture;Entertainment" timeshift="1" aspect-ratio="16:9",Jaya TV (1080p)
+#EXTINF:-1 tvg-id="JayaTV.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Jaya TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -314,7 +314,7 @@ https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2839e3d1e0f84a2e821c1708d5fdfdf0/index.m3u8
-#EXTINF:-1 tvg-id="Rang.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RANG/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Rang (576p)
+#EXTINF:-1 tvg-id="Rang.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RANG/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Rang (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -329,7 +329,7 @@ https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-4.pishow.tv/live/1039/master.m3u8
-#EXTINF:-1 tvg-id="SaamTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAAM_TV/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Saam TV
+#EXTINF:-1 tvg-id="SaamTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAAM_TV/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Saam TV
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -664,7 +664,7 @@ http://103.78.149.54:8000/play/a00z/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.78.149.54:8000/play/a01i/index.m3u8
-#EXTINF:-1 tvg-id="IndywoodTV.in@SD" tvg-logo="https://i.ibb.co/jT3NCPp/logo-tv.png" group-title="Movies;News" timeshift="1" aspect-ratio="16:9",Indywood TV (720p)
+#EXTINF:-1 tvg-id="IndywoodTV.in@SD" tvg-logo="https://i.ibb.co/jT3NCPp/logo-tv.png" group-title="News" timeshift="1" aspect-ratio="16:9",Indywood TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -684,7 +684,7 @@ http://103.229.254.25:7001/play/a0dt/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-3.pishow.tv/live/1530/master.m3u8
-#EXTINF:-1 tvg-id="KCM.sg@India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/KCM.png" group-title="Entertainment;Movies" timeshift="1" aspect-ratio="16:9",KCM (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="KCM.sg@India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/KCM.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",KCM (1080p) [Geo-blocked]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -809,7 +809,7 @@ https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
-#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ZBCINEMA.png" group-title="Classic;Movies" timeshift="1" aspect-ratio="16:9",ZB Cinema (720p)
+#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ZBCINEMA.png" group-title="Movies" timeshift="1" aspect-ratio="16:9",ZB Cinema (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1884,17 +1884,17 @@ https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-4.pishow.tv/live/1502/master.m3u8
-#EXTINF:-1 tvg-id="RPlus.in@SD" tvg-logo="https://i.imgur.com/XUnWcZF.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",R Plus (768p)
+#EXTINF:-1 tvg-id="RPlus.in@SD" tvg-logo="https://i.imgur.com/XUnWcZF.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",R Plus (768p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
-#EXTINF:-1 tvg-id="RPlusGold.in@SD" tvg-logo="https://i.imgur.com/dpI7XPC.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",R Plus Gold (720p)
+#EXTINF:-1 tvg-id="RPlusGold.in@SD" tvg-logo="https://i.imgur.com/dpI7XPC.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",R Plus Gold (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-4.pishow.tv/live/1231/master.m3u8
-#EXTINF:-1 tvg-id="RaftaarMedia.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAFTAAR_MEDIA/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Raftaar Media (240p)
+#EXTINF:-1 tvg-id="RaftaarMedia.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAFTAAR_MEDIA/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Raftaar Media (240p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2079,7 +2079,7 @@ https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/playlist/amg014
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://live.sli.ke/live/npnhm84gz9/master.m3u8
-#EXTINF:-1 tvg-id="TotalTVHaryana.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TOTAL_TV/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Total TV Haryana (576p)
+#EXTINF:-1 tvg-id="TotalTVHaryana.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TOTAL_TV/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Total TV Haryana (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2269,7 +2269,7 @@ https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOi
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://duw35ict5q7th.cloudfront.net/index_3.m3u8
-#EXTINF:-1 tvg-id="ZillarBartaNews.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png" group-title="Classic;News" timeshift="1" aspect-ratio="16:9",ZillarBarta News
+#EXTINF:-1 tvg-id="ZillarBartaNews.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png" group-title="News" timeshift="1" aspect-ratio="16:9",ZillarBarta News
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2314,7 +2314,7 @@ http://116.90.120.151:8000/play/a0hj/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.229.254.25:7001/play/a0dl/index.m3u8
-#EXTINF:-1 tvg-id="SonyYay.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="Animation;Kids" timeshift="1" aspect-ratio="16:9",Sony Yay! (576p)
+#EXTINF:-1 tvg-id="SonyYay.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="Kids" timeshift="1" aspect-ratio="16:9",Sony Yay! (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2594,7 +2594,7 @@ https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://live.sli.ke/live/npnhm84gz9/master.m3u8
-#EXTINF:-1 tvg-id="AadinathTV.in" jiotv-id="2002" tvg-name="Aadinath TV (396p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AADINATH_TV/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Aadinath TV (396p)
+#EXTINF:-1 tvg-id="AadinathTV.in" jiotv-id="2002" tvg-name="Aadinath TV (396p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AADINATH_TV/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Aadinath TV (396p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2639,7 +2639,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NDTVIndia.in" jiotv-id="235" tvg-name="ABN TV India (540p)" tvg-logo="https://i.imgur.com/VcZn60X.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",ABN TV India (540p)
+#EXTINF:-1 tvg-id="NDTVIndia.in" jiotv-id="235" tvg-name="ABN TV India (540p)" tvg-logo="https://i.imgur.com/VcZn60X.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",ABN TV India (540p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2654,67 +2654,67 @@ https://live.legitpro.co.in/anandtv/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvafrica" jiotv-id="835" tvg-name="Angel TV Africa (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Africa (720p)
+#EXTINF:-1 tvg-id="angeltvafrica" jiotv-id="835" tvg-name="Angel TV Africa (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Africa (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-904559/africa/ngrp:angelafrica_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvamerica" jiotv-id="835" tvg-name="Angel TV America (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV America (720p)
+#EXTINF:-1 tvg-id="angeltvamerica" jiotv-id="835" tvg-name="Angel TV America (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV America (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvarabia" jiotv-id="835" tvg-name="Angel TV Arabia (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Arabia (720p)
+#EXTINF:-1 tvg-id="angeltvarabia" jiotv-id="835" tvg-name="Angel TV Arabia (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Arabia (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-213167/arabia/ngrp:angelarabia_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvaustralia" jiotv-id="835" tvg-name="Angel TV Australia (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Australia (720p)
+#EXTINF:-1 tvg-id="angeltvaustralia" jiotv-id="835" tvg-name="Angel TV Australia (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Australia (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-310787/australia/ngrp:angelaustralia_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvchinese" jiotv-id="835" tvg-name="Angel TV Chinese (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Chinese (720p)
+#EXTINF:-1 tvg-id="angeltvchinese" jiotv-id="835" tvg-name="Angel TV Chinese (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Chinese (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltveurope" jiotv-id="835" tvg-name="Angel TV Europe (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Europe (720p)
+#EXTINF:-1 tvg-id="angeltveurope" jiotv-id="835" tvg-name="Angel TV Europe (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Europe (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-512011/europe/ngrp:angeleurope_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvfareast" jiotv-id="835" tvg-name="Angel TV FarEast (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV FarEast (720p)
+#EXTINF:-1 tvg-id="angeltvfareast" jiotv-id="835" tvg-name="Angel TV FarEast (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV FarEast (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvhebrew" jiotv-id="835" tvg-name="Angel TV Hebrew (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Hebrew (720p)
+#EXTINF:-1 tvg-id="angeltvhebrew" jiotv-id="835" tvg-name="Angel TV Hebrew (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Hebrew (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvindochina" jiotv-id="835" tvg-name="Angel TV Indo-China (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Indo-China (720p)
+#EXTINF:-1 tvg-id="angeltvindochina" jiotv-id="835" tvg-name="Angel TV Indo-China (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Indo-China (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-703035/indochina/ngrp:angelindochina_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvindonesia" jiotv-id="835" tvg-name="Angel TV Indonesia (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Indonesia (720p)
+#EXTINF:-1 tvg-id="angeltvindonesia" jiotv-id="835" tvg-name="Angel TV Indonesia (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Indonesia (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvportuguese" jiotv-id="835" tvg-name="Angel TV Portuguese (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Portuguese (720p)
+#EXTINF:-1 tvg-id="angeltvportuguese" jiotv-id="835" tvg-name="Angel TV Portuguese (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Portuguese (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportuguese_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvrussian" jiotv-id="835" tvg-name="Angel TV Russian (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Russian (720p)
+#EXTINF:-1 tvg-id="angeltvrussian" jiotv-id="835" tvg-name="Angel TV Russian (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Russian (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
-#EXTINF:-1 tvg-id="angeltvspanish" jiotv-id="835" tvg-name="Angel TV Spanish (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Angel TV Spanish (720p)
+#EXTINF:-1 tvg-id="angeltvspanish" jiotv-id="835" tvg-name="Angel TV Spanish (720p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Angel TV Spanish (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2724,7 +2724,7 @@ https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_a
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-1.pishow.tv/live/961/master.m3u8
-#EXTINF:-1 tvg-id="AwakeningTV.in" jiotv-id="1175" tvg-name="Awakening TV (576p)" tvg-logo="https://i.imgur.com/p26iWOi.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Awakening TV (576p)
+#EXTINF:-1 tvg-id="AwakeningTV.in" jiotv-id="1175" tvg-name="Awakening TV (576p)" tvg-logo="https://i.imgur.com/p26iWOi.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Awakening TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2774,7 +2774,7 @@ https://galaxyott.live/hls/dharshantv.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
-#EXTINF:-1 tvg-id="FatehTV.in" jiotv-id="1174" tvg-name="Fateh TV [Not 24/7]" tvg-logo="https://i.imgur.com/c4ItNkB.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Fateh TV [Not 24/7]
+#EXTINF:-1 tvg-id="FatehTV.in" jiotv-id="1174" tvg-name="Fateh TV [Not 24/7]" tvg-logo="https://i.imgur.com/c4ItNkB.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Fateh TV [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2789,7 +2789,7 @@ https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumt03.tangotv.in/GRACETV/index.m3u8
-#EXTINF:-1 tvg-id="HareKrsnaTV.in" jiotv-id="879" tvg-name="Hare Krsna" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Harekrsna.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Hare Krsna
+#EXTINF:-1 tvg-id="HareKrsnaTV.in" jiotv-id="879" tvg-name="Hare Krsna" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Harekrsna.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Hare Krsna
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2834,7 +2834,7 @@ https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-2.pishow.tv/live/989/master.m3u8
-#EXTINF:-1 tvg-id="JyotishDuniya.in" tvg-name="Jyotish Duniya" tvg-logo="https://i.imgur.com/WwRcpYj.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Jyotish Duniya
+#EXTINF:-1 tvg-id="JyotishDuniya.in" tvg-name="Jyotish Duniya" tvg-logo="https://i.imgur.com/WwRcpYj.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Jyotish Duniya
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2899,7 +2899,7 @@ https://ktismaservers.in:3902/live/salvationtvlive.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-3.pishow.tv/live/1135/master.m3u8
-#EXTINF:-1 tvg-id="SanskarTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANSKAR/images/LOGO_HD/image.png" group-title="Culture;Religious" timeshift="1" aspect-ratio="16:9",Sanskar TV (1080p)
+#EXTINF:-1 tvg-id="SanskarTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANSKAR/images/LOGO_HD/image.png" group-title="Religious" timeshift="1" aspect-ratio="16:9",Sanskar TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2924,7 +2924,7 @@ https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/in
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-id="shalomglobal" jiotv-id="606" tvg-name="Shalom Global (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shalom.png" tvg-country="IN" tvg-language="Hindi" group-title="Devotional" timeshift="1" aspect-ratio="16:9",Shalom Global (1080p)
+#EXTINF:-1 tvg-id="shalomglobal" jiotv-id="606" tvg-name="Shalom Global (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shalom.png" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Shalom Global (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3044,7 +3044,7 @@ https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8
-#EXTINF:-1 tvg-id="FoodFood.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png" group-title="Cooking;Lifestyle" timeshift="1" aspect-ratio="16:9",Food Food (576p)
+#EXTINF:-1 tvg-id="FoodFood.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png" group-title="Cooking" timeshift="1" aspect-ratio="16:9",Food Food (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3069,7 +3069,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0427/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="IndiaTVAapKiAdalat.in@SD" tvg-logo="https://play-lh.googleusercontent.com/2IlBX3IQHna8g4g-56vwGWb14K38spcviIh3i7uJCJ32ydfhcKZdOsacgijPkPeerEA" group-title="Documentary;News" timeshift="1" aspect-ratio="16:9",India TV Aap Ki Adalat (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="IndiaTVAapKiAdalat.in@SD" tvg-logo="https://play-lh.googleusercontent.com/2IlBX3IQHna8g4g-56vwGWb14K38spcviIh3i7uJCJ32ydfhcKZdOsacgijPkPeerEA" group-title="News" timeshift="1" aspect-ratio="16:9",India TV Aap Ki Adalat (1080p) [Geo-blocked]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3134,7 +3134,7 @@ http://103.229.254.25:7001/play/a0dp/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
-#EXTINF:-1 tvg-id="PuthuyugamTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143693_ld_h15_aa.png?lock=720x540" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Puthuyugam TV (576p)
+#EXTINF:-1 tvg-id="PuthuyugamTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143693_ld_h15_aa.png?lock=720x540" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Puthuyugam TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3144,17 +3144,17 @@ https://mumt04.tangotv.in/PUTHUYUGAMTV/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://app.ashokadigital.net/app/324ea1b0/index.m3u8
-#EXTINF:-1 tvg-id="tamilvisiontv" tvg-name="Tamil Vision TV (1080p)" tvg-logo="https://i.imgur.com/DodsLuW.png" tvg-country="IN" tvg-language="Tamil" group-title="Regional - Tamil" timeshift="1" aspect-ratio="16:9",Tamil Vision TV (1080p)
+#EXTINF:-1 tvg-id="tamilvisiontv" tvg-name="Tamil Vision TV (1080p)" tvg-logo="https://i.imgur.com/DodsLuW.png" tvg-country="IN" tvg-language="Tamil" group-title="Regional - tamil" timeshift="1" aspect-ratio="16:9",Tamil Vision TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8
-#EXTINF:-1 tvg-id="TamilanTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Tamilan_Television.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Tamilan TV (1080p)
+#EXTINF:-1 tvg-id="TamilanTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Tamilan_Television.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Tamilan TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeTamil.in" jiotv-id="1081" tvg-name="Zee Tamil HD (360p) 2" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TAMIL_HD/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Tamil" group-title="Regional - Tamil" timeshift="1" aspect-ratio="16:9",Zee Tamil HD (360p) 2
+#EXTINF:-1 tvg-id="ZeeTamil.in" jiotv-id="1081" tvg-name="Zee Tamil HD (360p) 2" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TAMIL_HD/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Tamil" group-title="Regional - tamil" timeshift="1" aspect-ratio="16:9",Zee Tamil HD (360p) 2
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3184,7 +3184,7 @@ https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/ntv_nim_https/110322/ntv/playlist.m3u8
-#EXTINF:-1 tvg-id="AathavanTV.uk" tvg-name="Aathavan TV (720p) [Not 24/7]" tvg-logo="" tvg-country="IN" tvg-language="Hindi" group-title="Regional - Malayalam" timeshift="1" aspect-ratio="16:9",Aathavan TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="AathavanTV.uk" tvg-name="Aathavan TV (720p) [Not 24/7]" tvg-logo="" tvg-country="IN" tvg-language="Hindi" group-title="Regional - malayalam" timeshift="1" aspect-ratio="16:9",Aathavan TV (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3204,12 +3204,12 @@ https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://131.153.22.8:1935/MAYYAZHI/live/playlist.m3u8
-#EXTINF:-1 tvg-id="PravasiChannel.in@SD" tvg-logo="https://i.imgur.com/1dHarb7.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Pravasi Channel (1080p)
+#EXTINF:-1 tvg-id="PravasiChannel.in@SD" tvg-logo="https://i.imgur.com/1dHarb7.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Pravasi Channel (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="SuryaTV.in" jiotv-id="900" tvg-name="Surya TV HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Surya_HD.png" tvg-country="IN" tvg-language="Malayalam" group-title="Regional - Malayalam" timeshift="1" aspect-ratio="16:9",Surya TV HD (1080p)
+#EXTINF:-1 tvg-id="SuryaTV.in" jiotv-id="900" tvg-name="Surya TV HD (1080p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Surya_HD.png" tvg-country="IN" tvg-language="Malayalam" group-title="Regional - malayalam" timeshift="1" aspect-ratio="16:9",Surya TV HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3239,7 +3239,7 @@ https://cdn-3.pishow.tv/live/1526/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
-#EXTINF:-1 tvg-id="ColorsBangla.in" jiotv-id="1369" tvg-name="Colors Bangla HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Bengali" group-title="Regional - Bengali" timeshift="1" aspect-ratio="16:9",Colors Bangla HD (1080p)
+#EXTINF:-1 tvg-id="ColorsBangla.in" jiotv-id="1369" tvg-name="Colors Bangla HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Bengali" group-title="Regional - bengali" timeshift="1" aspect-ratio="16:9",Colors Bangla HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3254,22 +3254,22 @@ https://cdn.ottlive.co.in/kolkatatv/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://www.nandighoshatvlive.com/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="RongeenTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RONGEEN_TV/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Rongeen TV (720p)
+#EXTINF:-1 tvg-id="RongeenTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RONGEEN_TV/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Rongeen TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
-#EXTINF:-1 tvg-id="JaiMaharashtra.in" jiotv-id="1394" tvg-name="Jai Maharashtra (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jai_Maharashtra.png" tvg-country="IN" tvg-language="Hindi" group-title="Regional - Marathi" timeshift="1" aspect-ratio="16:9",Jai Maharashtra (576p)
+#EXTINF:-1 tvg-id="JaiMaharashtra.in" jiotv-id="1394" tvg-name="Jai Maharashtra (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jai_Maharashtra.png" tvg-country="IN" tvg-language="Hindi" group-title="Regional - marathi" timeshift="1" aspect-ratio="16:9",Jai Maharashtra (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.78.149.54:8000/play/a03z/index.m3u8
-#EXTINF:-1 tvg-id="Ramdhenu.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143717_ld_h15_aa.png?lock=720x540" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Ramdhenu (576p)
+#EXTINF:-1 tvg-id="Ramdhenu.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143717_ld_h15_aa.png?lock=720x540" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Ramdhenu (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumt01.tangotv.in/RAMDHENU/index.m3u8
-#EXTINF:-1 tvg-id="ShemarooMarathiBana.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_MARATHIBANA/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Shemaroo Marathi Bana (720p)
+#EXTINF:-1 tvg-id="ShemarooMarathiBana.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_MARATHIBANA/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Shemaroo Marathi Bana (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3284,12 +3284,12 @@ https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
-#EXTINF:-1 tvg-id="AryanTVNational.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Aryan TV National (576p)
+#EXTINF:-1 tvg-id="AryanTVNational.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Aryan TV National (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumt04.tangotv.in/ARYANTVNATIONAL/index.m3u8
-#EXTINF:-1 tvg-id="CalvaryTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Calvary.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Calvary TV (576p)
+#EXTINF:-1 tvg-id="CalvaryTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Calvary.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Calvary TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3329,7 +3329,7 @@ https://cdn-3.pishow.tv/live/473/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://network10.livebox.co.in/network10hls/live.m3u8
-#EXTINF:-1 tvg-id="PrarthanaTV.in@SD" tvg-logo="https://i.imgur.com/gj7dtNF.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Prarthana TV (720p)
+#EXTINF:-1 tvg-id="PrarthanaTV.in@SD" tvg-logo="https://i.imgur.com/gj7dtNF.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Prarthana TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3339,7 +3339,7 @@ https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://livestreampublictv.sunnxt.com/publictv/index.m3u8
-#EXTINF:-1 tvg-id="PunjabiZindabadTV.in@SD" tvg-logo="https://i.imgur.com/H46oTS2.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Punjabi Zindabad (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="PunjabiZindabadTV.in@SD" tvg-logo="https://i.imgur.com/H46oTS2.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Punjabi Zindabad (360p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3364,17 +3364,17 @@ https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/in
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8
-#EXTINF:-1 tvg-id="SantvaniChannel.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143763_ld_h15_aa.png?lock=720x540" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Santvani Channel (576p)
+#EXTINF:-1 tvg-id="SantvaniChannel.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143763_ld_h15_aa.png?lock=720x540" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Santvani Channel (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-2.pishow.tv/live/475/master.m3u8
-#EXTINF:-1 tvg-id="ShaliniTV.in@SD" tvg-logo="https://i.imgur.com/fDdG6Y2.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Shalini TV (576p)
+#EXTINF:-1 tvg-id="ShaliniTV.in@SD" tvg-logo="https://i.imgur.com/fDdG6Y2.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Shalini TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8
-#EXTINF:-1 tvg-id="ShubhTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBH_TV/images/LOGO_HD/image.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Shubh TV (1080p)
+#EXTINF:-1 tvg-id="ShubhTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBH_TV/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Shubh TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3389,7 +3389,7 @@ http://198.27.83.207:2550/STAR_VIJAY_SD/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
-#EXTINF:-1 tvg-id="TehzeebTV.in@SD" tvg-logo="https://i.imgur.com/PCVOdup.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Tehzeeb TV (720p)
+#EXTINF:-1 tvg-id="TehzeebTV.in@SD" tvg-logo="https://i.imgur.com/PCVOdup.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Tehzeeb TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3409,7 +3409,7 @@ https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
-#EXTINF:-1 tvg-id="WinTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Win_TV.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Win TV (576p)
+#EXTINF:-1 tvg-id="WinTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Win_TV.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Win TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3419,7 +3419,7 @@ https://cdn-4.pishow.tv/live/1531/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://tgn.bozztv.com/gin-dvrfl05/ga-zeealwan/index.m3u8
-#EXTINF:-1 tvg-id="JayaPlus.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_PLUS/images/LOGO_HD/image.png" group-title="Culture;Entertainment" timeshift="1" aspect-ratio="16:9",Jaya Plus (576p)
+#EXTINF:-1 tvg-id="JayaPlus.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_PLUS/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Jaya Plus (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3594,7 +3594,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0567/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://iptvcasomsapi.jprdigital.in/x-media/C0565/master.m3u8
-#EXTINF:-1 tvg-id="SunLife.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z1JE4.png?lock=720x540" group-title="Entertainment;Music" timeshift="1" aspect-ratio="16:9",Sun Life (576p)
+#EXTINF:-1 tvg-id="SunLife.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z1JE4.png?lock=720x540" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sun Life (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3649,7 +3649,7 @@ http://116.90.120.151:8000/play/a0ig/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://iptvcasomsapi.jprdigital.in/x-media/C0583/master.m3u8
-#EXTINF:-1 tvg-id="KochuTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kochu_TV.png" group-title="Animation;Kids" timeshift="1" aspect-ratio="16:9",Kochu TV (576p)
+#EXTINF:-1 tvg-id="KochuTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kochu_TV.png" group-title="Kids" timeshift="1" aspect-ratio="16:9",Kochu TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3659,7 +3659,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0564/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://111.88.78.21:8000/play/a0yr/index.m3u8
-#EXTINF:-1 tvg-id="JayaMax.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_MAX/images/LOGO_HD/image.png" group-title="Culture;Entertainment" timeshift="1" aspect-ratio="16:9",Jaya Max (576p)
+#EXTINF:-1 tvg-id="JayaMax.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_MAX/images/LOGO_HD/image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Jaya Max (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3704,7 +3704,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0492/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://116.90.120.151:8000/play/a0jh/index.m3u8
-#EXTINF:-1 tvg-id="ChuttiTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z1TS1.png?lock=720x540" group-title="Animation;Kids" timeshift="1" aspect-ratio="16:9",Chutti TV (576p)
+#EXTINF:-1 tvg-id="ChuttiTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z1TS1.png?lock=720x540" group-title="Kids" timeshift="1" aspect-ratio="16:9",Chutti TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3754,7 +3754,7 @@ http://103.161.153.165:8000/play/a03k/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.161.153.165:8000/play/a00w/index.m3u8
-#EXTINF:-1 tvg-id="SuperHungama.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png" group-title="Animation;Kids" timeshift="1" aspect-ratio="16:9",Super Hungama (576p)
+#EXTINF:-1 tvg-id="SuperHungama.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png" group-title="Kids" timeshift="1" aspect-ratio="16:9",Super Hungama (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3774,7 +3774,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0556/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://iptvcasomsapi.jprdigital.in/x-media/C0476/master.m3u8
-#EXTINF:-1 tvg-id="ChintuTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Chintu_TV.png" group-title="Animation;Kids" timeshift="1" aspect-ratio="16:9",Chintu TV (576p)
+#EXTINF:-1 tvg-id="ChintuTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Chintu_TV.png" group-title="Kids" timeshift="1" aspect-ratio="16:9",Chintu TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -4164,7 +4164,7 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e8c3741f8c154d3185831f4e31777fb2/in
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumt05.tangotv.in/DDKASHIR/index.m3u8
-#EXTINF:-1 tvg-id="DDKisan.in@SD" tvg-logo="https://i.imgur.com/x56WJEa.png" group-title="Education;Outdoor" timeshift="1" aspect-ratio="16:9",DD Kisan (720p)
+#EXTINF:-1 tvg-id="DDKisan.in@SD" tvg-logo="https://i.imgur.com/x56WJEa.png" group-title="Education" timeshift="1" aspect-ratio="16:9",DD Kisan (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -4189,7 +4189,7 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/in
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/4f81bc8d13dd49b484da35988abb8729/index.m3u8
-#EXTINF:-1 tvg-id="DDMizoram.in@SD" tvg-logo="https://i.imgur.com/I5zT1DG.png" group-title="Culture;News" timeshift="1" aspect-ratio="16:9",DD Mizoram (504p)
+#EXTINF:-1 tvg-id="DDMizoram.in@SD" tvg-logo="https://i.imgur.com/I5zT1DG.png" group-title="News" timeshift="1" aspect-ratio="16:9",DD Mizoram (504p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -4439,7 +4439,7 @@ https://mumt04.tangotv.in/MOVIEPLEX/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://116.90.120.151:8000/play/a0ib/index.m3u8
-#EXTINF:-1 tvg-id="MrBeanAnimated.uk@English" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Animation;Kids" timeshift="1" aspect-ratio="16:9",Mr. Bean Animated (1080p)
+#EXTINF:-1 tvg-id="MrBeanAnimated.uk@English" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Kids" timeshift="1" aspect-ratio="16:9",Mr. Bean Animated (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -4489,7 +4489,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-3.pishow.tv/live/439/master.m3u8
-#EXTINF:-1 tvg-id="Rengoni.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143722_ld_h15_aa.png?lock=720x540" group-title="Undefined" timeshift="1" aspect-ratio="16:9",Rengoni (576p)
+#EXTINF:-1 tvg-id="Rengoni.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143722_ld_h15_aa.png?lock=720x540" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Rengoni (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -4639,7 +4639,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0532/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8?ads.vf=n1xb6TPm9sa
-#EXTINF:-1 tvg-id="TamilVisionTV.ca@SD" tvg-logo="https://i.imgur.com/DodsLuW.png" group-title="Undefined" timeshift="1" aspect-ratio="16:9",TamilVision-TV (1080p)
+#EXTINF:-1 tvg-id="TamilVisionTV.ca@SD" tvg-logo="https://i.imgur.com/DodsLuW.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",TamilVision-TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -4674,7 +4674,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8?ads.vf=W-glh07KfBm
-#EXTINF:-1 tvg-id="UniqueTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Unique_Tv.png" group-title="Entertainment;Kids" timeshift="1" aspect-ratio="16:9",Unique TV (576p)
+#EXTINF:-1 tvg-id="UniqueTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Unique_Tv.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Unique TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
