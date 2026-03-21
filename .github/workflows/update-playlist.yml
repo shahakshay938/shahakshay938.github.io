@@ -137,13 +137,23 @@ jobs:
           echo "EPG_UPDATED=false" >> $GITHUB_ENV
           echo "EPG_SOURCE=none (kept existing)" >> $GITHUB_ENV
 
+      # ─── Create Daily Backup ──────────────────────────
+      - name: 📁 Create Daily Backup
+        run: |
+          mkdir -p backups
+          DATE=$(date +%F)
+          cp merged-iptv-playlist.m3u "backups/playlist-${DATE}.m3u"
+          if [ -f epg.xml.gz ]; then
+            cp epg.xml.gz "backups/epg-${DATE}.xml.gz"
+          fi
+
       # ─── Commit & Push with Detailed Message ───────────
       - name: 📤 Commit and push changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          git add merged-iptv-playlist.m3u epg.xml.gz channel_mapping.json
+          git add merged-iptv-playlist.m3u epg.xml.gz channel_mapping.json backups/
 
           if git diff --cached --quiet; then
             echo "ℹ️ No changes to commit"
