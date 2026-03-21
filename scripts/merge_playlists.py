@@ -113,50 +113,50 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
                 new_by_name[norm] = []
             new_by_name[norm].append(ch)
 
+    # Step 2: Combine New channels into Existing
+    # We now treat (URL) as the unique pair to avoid overwriting HD/SD variants
+    
     updated = 0
+    new = 0
     modified_channels = []
-
-    for ch in existing:
-        # PROTECTION: Skip updating if the channel is a manual variant or has custom UA
-        # We only update the "Standard" channels from the source.
-        if '(Jio Proxy)' in ch['name'] or '(Google DAI)' in ch['name'] or 'user-agent' in ch['extinf'].lower():
-            continue
-
-        matched = None
-        # Priority 1: Match by full tvg-id
-        if ch['tvg_id'] and ch['tvg_id'] in new_by_tvg_id:
-            matched = new_by_tvg_id[ch['tvg_id']]
-        # Priority 2: Match by base tvg-id (@ part removed)
-        elif ch['tvg_id_base'] and ch['tvg_id_base'] in new_by_tvg_id:
-            matched = new_by_tvg_id[ch['tvg_id_base']]
-        # Priority 3: Match by normalized name
-        elif ch['name']:
-            norm = normalize_name(ch['name'])
-            if norm in new_by_name:
-                matched = new_by_name[norm]
-
-        if matched and matched[0]['url']:
-            # ALWAYS update to ensure fresh parameters/tokens
-            ch['url'] = matched[0]['url']
-            ch['extra'] = matched[0].get('extra', [])
-            updated += 1
+    
+    for ch in new_channels:
+        # Check if we have an EXACT match for this URL already in existing
+        found_exact = False
+        for ex_ch in existing:
+            if ex_ch['url'] == ch['url']:
+                # Update existing entry with any potential new metadata
+                # (but keep the Jio Proxy markers if they exist)
+                if "(Jio Proxy)" not in ex_ch['name']:
+                     ex_ch['name'] = ch['name']
+                ex_ch['extinf'] = ch['extinf']
+                ex_ch['tvg_id'] = ch['tvg_id']
+                found_exact = True
+                updated += 1
+                break
+        
+        if not found_exact:
+            # If it's a new URL, add it. This brings back HD/SD variants.
+            existing.append(ch)
+            new += 1
             modified_channels.append({'name': ch['name']})
 
     # Final Deduplication and Cleanup
     final_list = []
     seen = set()
     for ch in existing:
-        # Deduplication based on Name and URL
-        dedup_key = f"{ch['name']}|{ch['url']}"
+        # Granular Deduplication: If URL is identical, it's a duplicate.
+        # But if the name belongs to a different variant (HD vs SD), keep it.
+        dedup_key = f"{ch['url']}"
         if dedup_key in seen:
             continue
         seen.add(dedup_key)
         
-        # We NO LONGER consolidate HD/SD into one, 
-        # because the user noted they often have different programs.
+        # We NO LONGER consolidate HD/SD into one.
+        # Channels stay separate even if the base name is similar.
         final_list.append(ch)
 
-    print(f"  Final playlist contains {len(final_list)} unique channels (HD & SD separate)")
+    print(f"  Final playlist contains {len(final_list)} unique streams (HD & SD separate)")
 
     # Write output
     with open(output_path, 'w', encoding='utf-8') as f:
