@@ -790,6 +790,11 @@ http://103.229.254.25:7001/play/a0d0/index.m3u8
 #EXTVLCOPT:clock-synchro=0
 #EXTVLCOPT:ipv4-timeout=15000
 http://116.90.120.151:8000/play/a0hp/index.m3u8
+#EXTINF:-1 tvg-id="StarGold.in@HD" tvg-logo="https://i.imgur.com/w4pAatg.png" group-title="Movies" timeshift="1" aspect-ratio="16:9",Star Gold HD (Stable)
+#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=1
+http://103.99.249.139/stargold/index.m3u8
 #EXTINF:-1 tvg-id="StarGoldSelect.in@HD" tvg-logo="https://i.imgur.com/U7eiuqv.png" group-title="Movies" timeshift="1" aspect-ratio="16:9",Star Gold Select HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
@@ -2332,6 +2337,11 @@ http://103.229.254.25:7001/play/a0dl/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://116.90.120.151:8000/play/a0hf/index.m3u8
+#EXTINF:-1 tvg-id="SonyYay.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="Kids" timeshift="1" aspect-ratio="16:9",Sony Yay! (Stable)
+#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=1
+http://103.99.249.139/sonyyay/index.m3u8
 #EXTINF:-1 tvg-id="UniqueTV.in" jiotv-id="3022" tvg-name="Unique TV (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Unique_Tv.png" tvg-country="IN" tvg-language="Hindi" group-title="Kids" timeshift="1" aspect-ratio="16:9",Unique TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
@@ -3507,6 +3517,11 @@ http://116.90.120.151:8000/play/a0h0/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://116.90.120.151:8000/play/a0jf/index.m3u8
+#EXTINF:-1 tvg-id="SonyMax.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MAX/images/LOGO_HD/image.png" group-title="Movies" timeshift="1" aspect-ratio="16:9",Sony Max HD (Stable)
+#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=1
+http://103.99.249.139/sonymax/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Documentary" timeshift="1" aspect-ratio="16:9",National Geographic HD
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
@@ -4719,6 +4734,11 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0517/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://iptvcasomsapi.jprdigital.in/x-media/C0538/master.m3u8
+#EXTINF:-1 tvg-id="ZeeCinema.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies" timeshift="1" aspect-ratio="16:9",Zee Cinema (Stable)
+#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=1
+http://103.99.249.139/zeecinema/index.m3u8
 #EXTINF:-1 tvg-id="ZeeMarathi.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_MARATHI/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Zee Marathi (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
