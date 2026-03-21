@@ -45,7 +45,7 @@ jobs:
           cp latest.m3u /tmp/base_for_merge.m3u
           
           python3 scripts/merge_playlists.py \
-            backups/playlist-2026-03-19.m3u \
+            backups/playlist-base-v1.m3u \
             /tmp/iptv_org_in.m3u \
             /tmp/new_latest.m3u
             
