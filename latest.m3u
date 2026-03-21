@@ -783,7 +783,7 @@ http://116.90.120.151:8000/play/a0kt/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.229.254.25:7001/play/a0d0/index.m3u8
-#EXTINF:-1 tvg-id="StarGold.in@HD" tvg-logo="https://i.imgur.com/w4pAatg.png" group-title="Movies" timeshift="1" aspect-ratio="16:9",Star Gold HD (1080p)
+#EXTINF:-1 tvg-id="DisneyInternational.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s83713_ld_h15_aa.png?lock=720x540" group-title="Kids" timeshift="1" aspect-ratio="16:9",Disney HD International (1080p)
 #EXTVLCOPT:network-caching=10000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
