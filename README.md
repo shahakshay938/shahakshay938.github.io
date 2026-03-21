@@ -7,13 +7,13 @@ This repository hosts an automated mechanism built to maintain a **100% stable, 
 | :--- | :--- | :--- |
 | **New File (Live)** | M3U Playlist | `https://shahakshay938.github.io/merged-iptv-playlist.m3u` |
 | **New File (Live)** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
-| **Latest Backup** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-20.m3u` |
+| **Stable Backup (March 19)** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
 
 ---
 
 ## 📡 1. Multi-Source Integration (HD/SD Strategy)
-*   **Dual-Stream Sony SAB:** Following user preference, the live playlist is now optimized to provide exactly **2 distinct Sony SAB streams** (HD and SD) from different high-quality sources (Google DAI and Stable Restream).
-*   **Additive Merge:** For all other channels, the system preserves **HD** and **SD** variants as separate entries to ensure access to different programming schedules.
+*   **Final Sony SAB Preference:** Per the stable state from **March 19**, the playlist is locked to exactly **2 distinct Sony SAB streams** (SD and HD). This prevents the "Multi-Source" clutter shown in recent automated tests.
+*   **Additive Merge:** For all other channels, the system preserves **HD** and **SD** variants as separate entries.
 *   **Manual Overrides:** Custom Jio Proxy and Google DAI streams are protected and prioritized.
 *   **Unique Stream Verification:** The merge logic uses the **Stream URL** as the primary key. If a channel has multiple URLs, all functional versions are kept.
 
