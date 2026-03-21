@@ -1,0 +1,50 @@
+[
+    {
+        "id": "a0gz",
+        "server": "http://116.90.120.151:8000/play/",
+        "name": "Unknown",
+        "res": "720x576",
+        "bitrate": "0kbps",
+        "hd": false
+    },
+    {
+        "id": "a0h4",
+        "server": "http://116.90.120.151:8000/play/",
+        "name": "Unknown",
+        "res": "720x576",
+        "bitrate": "0kbps",
+        "hd": false
+    },
+    {
+        "id": "a0h2",
+        "server": "http://116.90.120.151:8000/play/",
+        "name": "Unknown",
+        "res": "720x576",
+        "bitrate": "0kbps",
+        "hd": false
+    },
+    {
+        "id": "a0hc",
+        "server": "http://116.90.120.151:8000/play/",
+        "name": "Unknown",
+        "res": "0x0",
+        "bitrate": "0kbps",
+        "hd": false
+    },
+    {
+        "id": "a0h5",
+        "server": "http://116.90.120.151:8000/play/",
+        "name": "Unknown",
+        "res": "720x576",
+        "bitrate": "0kbps",
+        "hd": false
+    },
+    {
+        "id": "a0kt",
+        "server": "http://116.90.120.151:8000/play/",
+        "name": "Unknown",
+        "res": "720x576",
+        "bitrate": "0kbps",
+        "hd": false
+    }
+]
