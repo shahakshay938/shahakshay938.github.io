@@ -10,14 +10,12 @@ graph TD
     B --> C[Download Fresh Sources in.m3u]
     C --> D[merge_playlists.py]
     D --> E[Fusion Base: March 19]
-    E --> F[check_streams.py]
-    F --> G[Latency Check: Purge > 5s]
-    G --> H[detect_loops.py]
-    H --> I[HLS Sequence Scan: Purge Loops]
-    I --> J[filter_playlist.py]
-    J --> K[Atomic Update: latest.m3u]
-    K --> L[Archive To: backups/]
-    L --> M[Push to Master: Live in TiViMate]
+    E --> F[Verification: FFprobe & Loops]
+    F --> G{Changes Detected?}
+    G -- No --> H[End: No unnecessary commits]
+    G -- Yes --> I[Backup: Archive Old Stable]
+    I --> J[Update: latest.m3u & README]
+    J --> K[Push to Master: Live Sync]
 ```
 
 ---
@@ -32,7 +30,6 @@ graph TD
 *   **Latency Gate:** If a stream takes more than 5 seconds to load on the GitHub runner, it's purged. This ensures your channel switching feels "Instant".
 *   **Media Sequence Monitoring:** We monitor the internal HLS manifest. If a stream repeats the same segments twice in 15 seconds, it is marked as **LOOPING** and removed to prevent frustration.
 
-### 3. Safety Snapshot
-*   **The Backup:** Every single run creates a dated snapshot. 
-*   **Historical Access:** You can always access your historical playlist state at:  
-`https://shahakshay938.github.io/backups/playlist-YYYY-MM-DD.m3u`
+### 3. Smart Differential Update
+*   **The Check:** The system compares the new result with the current `latest.m3u`.
+*   **The Trigger:** If and only if changes are found, the system archives the old version and pushes the update. This keeps your commit history clean and meaningful.

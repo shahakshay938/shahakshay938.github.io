@@ -6,8 +6,8 @@ This guide explains how to maintain, troubleshoot, and revise the automated IPTV
 *   **`.github/workflows/update-playlist.yml`**: The "Heart" of the system. Controls the daily 3 AM IST schedule.
 *   **`backups/playlist-2026-03-19.m3u`**: The **Permanent Base** used for every daily fusion.
 *   **`scripts/`**: Contains the Python logic engines.
-*   **`latest.m3u`**: The live, optimized playlist file.
-*   **`backups/`**: Historical snapshots for manual recovery.
+*   **`latest.m3u`**: The live, optimized playlist file. **Updated only when stream changes are detected.**
+*   **`backups/`**: Historical snapshots for manual recovery. Created automatically upon each confirmed change.
 
 ---
 
