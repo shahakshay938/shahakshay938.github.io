@@ -3,11 +3,12 @@
 This repository hosts an automated mechanism built to maintain a **100% stable, high-performance** IPTV playlist.
 
 ## 🚀 Core Links
-| Version | File Type | URL |
+| Type | Format | URL |
 | :--- | :--- | :--- |
-| **Latest File (Live)** | M3U Playlist | `https://shahakshay938.github.io/latest.m3u` |
-| **Latest File (Live)** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
-| **Stable Base (March 19)** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
+| **Stable File** | M3U Playlist | `https://shahakshay938.github.io/latest.m3u` |
+| **Stable File** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
+| **Backup File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-21.m3u` |
+| **Base File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
 
 ---
 
