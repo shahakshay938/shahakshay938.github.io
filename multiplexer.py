@@ -24,6 +24,8 @@ def parse_m3u(lines):
             current_extinf = line
             if 'tvg-id="' in line:
                 tvg_id = line.split('tvg-id="')[1].split('"')[0]
+                if "@" in tvg_id:
+                    tvg_id = tvg_id.split("@")[0]
             if 'tvg-name="' in line:
                 tvg_name = line.split('tvg-name="')[1].split('"')[0]
             elif ',' in line:
