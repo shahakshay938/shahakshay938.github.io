@@ -103,10 +103,24 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
     # We use URL as the anchor to avoid losing HD/SD quality variants.
     updated = 0
     new = 0
-    modified_channels = []
+    
+    # NEW: Restriction logic for specific channels the user wants simplified (e.g. Sony SAB)
+    SIMPLIFIED_IDS = ["SonySAB.in", "SonyPal.in"]
     
     for ch in new_channels:
-        # SEARCH: Check if this stream URL already exists in our master list
+        # 1. Protection for Simplified IDs: 
+        # If the ID is simplified, we check how many we already have in the EXISTING base. 
+        # If we have 2 (one HD, one SD), we ignore any "Fresh" additions for that ID.
+        if ch['tvg_id'] in SIMPLIFIED_IDS:
+            existing_for_id = [e for e in existing if e['tvg_id'] == ch['tvg_id']]
+            if len(existing_for_id) >= 2:
+                # We already have the user's preferred dual-stream setup. 
+                # Check if this URL is already there to update metadata, but DON'T add a 3rd entry.
+                url_exists = any(ex['url'] == ch['url'] for ex in existing)
+                if not url_exists:
+                    continue
+
+        # 2. Regular Additive Merge Logic
         found_exact = False
         for ex_ch in existing:
             if ex_ch['url'] == ch['url']:
@@ -123,14 +137,14 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
             # INSERT: If it's a new URL, add it. This restores HD/SD variants efficiently.
             existing.append(ch)
             new += 1
-            modified_channels.append({'name': ch['name']})
 
     # Step 2: Final Deduplication
     # Ensures that even if sources are messy, the final file has unique stream links.
+    # We use (Name + URL) as the key to allow HD/SD variants to exist even if they share a URL.
     final_list = []
     seen = set()
     for ch in existing:
-        dedup_key = f"{ch['url']}"
+        dedup_key = f"{ch['name']}|{ch['url']}"
         if dedup_key in seen:
             continue
         seen.add(dedup_key)
