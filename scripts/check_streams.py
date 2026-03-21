@@ -8,7 +8,7 @@ import os
 import sys
 
 # Configuration
-INPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/merged-iptv-playlist.m3u"
+INPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/latest.m3u"
 OUTPUT_REPORT = "stream_report.json"
 MAX_WORKERS = 10 # Adjust based on CPU/Network
 TIMEOUT = 10  # Seconds to wait for ffprobe

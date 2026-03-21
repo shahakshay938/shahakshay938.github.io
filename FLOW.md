@@ -9,13 +9,13 @@ graph TD
     A[3:00 AM IST Trigger] --> B[Sync Repositories]
     B --> C[Download Fresh Sources in.m3u]
     C --> D[merge_playlists.py]
-    D --> E[Additive Fusion: Protect Jio Proxy]
+    D --> E[Fusion Base: March 19]
     E --> F[check_streams.py]
     F --> G[Latency Check: Purge > 5s]
     G --> H[detect_loops.py]
     H --> I[HLS Sequence Scan: Purge Loops]
     I --> J[filter_playlist.py]
-    J --> K[Atomic Update: merged-iptv-playlist.m3u]
+    J --> K[Atomic Update: latest.m3u]
     K --> L[Archive To: backups/]
     L --> M[Push to Master: Live in TiViMate]
 ```
@@ -24,9 +24,9 @@ graph TD
 
 ## 🛠️ Logic Breakdown
 
-### 1. Multi-Source Fusion
-*   **The Key:** Every channel is unique by its **Stream URL**.
-*   **The Strategy:** We never overwrite a working URL. If a source provides a NEW quality variant (e.g. Sony SAB 1080p), it is added alongside existing entries.
+### 1. Permanent Baseline Fusion
+*   **The Key:** The **March 19 Stable Version** (Commit `41c1df6`) is now the permanent base for every daily update.
+*   **The Strategy:** We only add *new* streams found in external sources to this stable foundation. This ensures your preferred 2-stream Sony SAB setup never changes.
 
 ### 2. High-Performance Filtering
 *   **Latency Gate:** If a stream takes more than 5 seconds to load on the GitHub runner, it's purged. This ensures your channel switching feels "Instant".

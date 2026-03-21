@@ -5,9 +5,9 @@ This repository hosts an automated mechanism built to maintain a **100% stable, 
 ## 🚀 Core Links
 | Version | File Type | URL |
 | :--- | :--- | :--- |
-| **New File (Live)** | M3U Playlist | `https://shahakshay938.github.io/merged-iptv-playlist.m3u` |
-| **New File (Live)** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
-| **Stable Backup (March 19)** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
+| **Latest File (Live)** | M3U Playlist | `https://shahakshay938.github.io/latest.m3u` |
+| **Latest File (Live)** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
+| **Stable Base (March 19)** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
 
 ---
 

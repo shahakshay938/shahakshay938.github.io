@@ -39,13 +39,13 @@ jobs:
             echo "PLAYLIST_OK=true" >> $GITHUB_ENV
           fi
 
-      - name: 🔀 Merge playlists
+      - name: 🔀 Merge playlists (Permanent Base: March 19)
         if: env.PLAYLIST_OK == 'true'
         run: |
             python3 scripts/merge_playlists.py \
-              merged-iptv-playlist.m3u \
+              backups/playlist-2026-03-19.m3u \
               /tmp/iptv_org_in.m3u \
-              merged-iptv-playlist.m3u
+              latest.m3u
 
       # ─── Stream Verification & Quality Purge ────────────────
       - name: 🛠️ Setup ffmpeg
@@ -56,7 +56,7 @@ jobs:
           python3 scripts/check_streams.py
           python3 scripts/detect_loops.py
           python3 scripts/filter_playlist.py
-          VERIFIED=$(grep -c "^#EXTINF" merged-iptv-playlist.m3u || echo 0)
+          VERIFIED=$(grep -c "^#EXTINF" latest.m3u || echo 0)
           echo "✅ Verified ${VERIFIED} stable & live channels"
           echo "VERIFIED_CHANNELS=${VERIFIED}" >> $GITHUB_ENV
 
@@ -112,7 +112,7 @@ jobs:
         if: env.JIOTV_EPG_OK == 'true'
         run: |
           python3 scripts/build_epg_mapping.py \
-            merged-iptv-playlist.m3u \
+            latest.m3u \
             /tmp/epg_jiotv.xml.gz \
             epg.xml.gz \
             channel_mapping.json
@@ -142,7 +142,7 @@ jobs:
         run: |
           mkdir -p backups
           DATE=$(date +%F)
-          cp merged-iptv-playlist.m3u "backups/playlist-${DATE}.m3u"
+          cp latest.m3u "backups/playlist-${DATE}.m3u"
           if [ -f epg.xml.gz ]; then
             cp epg.xml.gz "backups/epg-${DATE}.xml.gz"
           fi
@@ -153,7 +153,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          git add merged-iptv-playlist.m3u epg.xml.gz channel_mapping.json backups/
+          git add latest.m3u epg.xml.gz channel_mapping.json backups/
 
           if git diff --cached --quiet; then
             echo "ℹ️ No changes to commit"
@@ -161,7 +161,7 @@ jobs:
             echo "No updates were needed today." >> $GITHUB_STEP_SUMMARY
           else
             DATE=$(date -u +"%Y-%m-%d")
-            TOTAL="${TOTAL_CHANNELS:-$(grep -c '^#EXTINF' merged-iptv-playlist.m3u || echo '?')}"
+            TOTAL="${TOTAL_CHANNELS:-$(grep -c '^#EXTINF' latest.m3u || echo '?')}"
             UPDATED="${UPDATED_URLS:-0}"
             NEW="${NEW_CHANNELS:-0}"
             EPG_SIZE=$(du -h epg.xml.gz | cut -f1)

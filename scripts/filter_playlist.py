@@ -5,8 +5,8 @@ import re
 
 STREAM_REPORT = "/var/www/html/akshay/iptv/scripts/stream_report.json"
 LOOP_REPORT = "/var/www/html/akshay/iptv/scripts/loop_report.json"
-INPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/merged-iptv-playlist.m3u"
-OUTPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/merged-iptv-playlist.m3u"
+INPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/latest.m3u"
+OUTPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/latest.m3u"
 LATENCY_THRESHOLD = 5.0
 
 def load_good_urls():

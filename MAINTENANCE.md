@@ -4,11 +4,9 @@ This guide explains how to maintain, troubleshoot, and revise the automated IPTV
 
 ## 📁 Repository Structure
 *   **`.github/workflows/update-playlist.yml`**: The "Heart" of the system. Controls the daily 3 AM IST schedule.
-*   **`scripts/`**: Contains the Python logic engines:
-    *   `merge_playlists.py`: Merges sources while keeping HD/SD separate.
-    *   `check_streams.py`: Verifies stream health and latency.
-    *   `detect_loops.py`: Identifies circular buffering/looping segments.
-    *   `filter_playlist.py`: Final gatekeeper that purges bad links.
+*   **`backups/playlist-2026-03-19.m3u`**: The **Permanent Base** used for every daily fusion.
+*   **`scripts/`**: Contains the Python logic engines.
+*   **`latest.m3u`**: The live, optimized playlist file.
 *   **`backups/`**: Historical snapshots for manual recovery.
 
 ---
@@ -35,10 +33,10 @@ To protect a new type:
 ---
 
 ## 💾 How to Restore a Backup
-If the live `merged-iptv-playlist.m3u` becomes unstable:
+If the live `latest.m3u` becomes unstable:
 1.  Go to the [**`backups/`**](https://github.com/shahakshay938/shahakshay938.github.io/tree/master/backups) folder.
-2.  Identify a stable date (e.g., `playlist-2026-03-20.m3u`).
-3.  Copy the content of that backup into your live `merged-iptv-playlist.m3u` file via the GitHub Web UI or Git CLI.
+2.  Identify a stable date (e.g., `playlist-2026-03-21.m3u`).
+3.  Copy the content of that backup into your live `latest.m3u` file.
 4.  Commit and Push.
 
 ---

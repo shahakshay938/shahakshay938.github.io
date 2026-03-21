@@ -7,7 +7,7 @@ import json
 import os
 
 # Configuration
-INPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/merged-iptv-playlist.m3u"
+INPUT_M3U = "/var/www/html/akshay/iptv/shahakshay938.github.io/latest.m3u"
 WAIT_TIME = 15  # Seconds between checks
 MAX_WORKERS = 10
 

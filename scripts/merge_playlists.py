@@ -7,7 +7,7 @@ It performs an additive merge of various M3U sources while preserving
 resolution variants (HD/SD) and protecting manual overrides.
 
 LOGIC FLOW:
-1. Parse Existing Playlist: Loads current channels from 'merged-iptv-playlist.m3u'.
+1. Parse Existing Playlist: Loads current channels from 'latest.m3u'.
 2. Parse Fresh Source: Loads latest channels from sources like 'in.m3u' or JioTV.
 3. Additive Merge: 
    - If a stream URL is NEW, it is added as a new entry (restores HD/SD variants).
