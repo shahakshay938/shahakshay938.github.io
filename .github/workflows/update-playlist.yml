@@ -69,14 +69,6 @@ jobs:
           
           python3 scripts/filter_playlist.py
 
-      - name: 📁 Upload Verification Reports (Debug)
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: verification-reports
-          path: |
-            stream_report.json
-            loop_report.json
           
           # Now 'latest.m3u' contains the NEW filtered result.
           # We compare it with the backup of the OLD state.
@@ -93,6 +85,15 @@ jobs:
           
           VERIFIED=$(grep -c "^#EXTINF" latest.m3u || echo 0)
           echo "VERIFIED_CHANNELS=${VERIFIED}" >> $GITHUB_ENV
+
+      - name: 📁 Upload Verification Reports (Debug)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-reports
+          path: |
+            stream_report.json
+            loop_report.json
 
       # ─── Update EPG (Multi-Source with Fallback) ───────
       - name: 📋 Download EPG sources
