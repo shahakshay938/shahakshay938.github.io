@@ -171,8 +171,8 @@ jobs:
           # Move OLD stable to backup folder
           cp /tmp/old_stable.m3u "backups/playlist-${DATE}.m3u"
           
-          # Update README with the NEW backup date
-          sed -i "s/backups\/playlist-.*\.m3u/backups\/playlist-${DATE}\.m3u/g" README.md
+          # Update README with the NEW backup date (targeting ONLY the Backup File row)
+          sed -i "/\*\*Backup File\*\*/ s/backups\/playlist-.*\.m3u/backups\/playlist-${DATE}\.m3u/g" README.md
           # Update Verified Channel Count in README
           sed -i "s/Total Verified Channels (Current):\*\* [0-9]*/Total Verified Channels (Current):\*\* ${VERIFIED_CHANNELS}/g" README.md
           
