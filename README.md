@@ -8,7 +8,7 @@ This repository hosts an automated mechanism built to maintain a **100% stable, 
 | **Stable File** | M3U Playlist | `https://shahakshay938.github.io/latest.m3u` |
 | **Stable File** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
 | **Backup File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-28.m3u` |
-| **Base File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-base-v1.m3u` |
+| **Base File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
 
 ---
 

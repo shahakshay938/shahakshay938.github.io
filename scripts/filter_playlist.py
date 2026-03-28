@@ -7,7 +7,7 @@ STREAM_REPORT = "stream_report.json"
 LOOP_REPORT = "loop_report.json"
 INPUT_M3U = "latest.m3u"
 OUTPUT_M3U = "latest.m3u"
-LATENCY_THRESHOLD = 5.0
+LATENCY_THRESHOLD = 10.0 # Relaxed from 5.0s to 10.0s to recover more stable streams
 
 def load_good_urls():
     good_urls = set()

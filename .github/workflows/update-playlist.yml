@@ -48,7 +48,7 @@ jobs:
           cp latest.m3u /tmp/base_for_merge.m3u
           
           python3 scripts/merge_playlists.py \
-            backups/playlist-base-v1.m3u \
+            backups/playlist-2026-03-19.m3u \
             /tmp/iptv_org_in.m3u \
             /tmp/new_latest.m3u
             
@@ -68,6 +68,15 @@ jobs:
           python3 scripts/reorganize_categories.py
           
           python3 scripts/filter_playlist.py
+
+      - name: 📁 Upload Verification Reports (Debug)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-reports
+          path: |
+            stream_report.json
+            loop_report.json
           
           # Now 'latest.m3u' contains the NEW filtered result.
           # We compare it with the backup of the OLD state.
