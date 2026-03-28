@@ -9,7 +9,7 @@ import os
 # Configuration
 INPUT_M3U = "latest.m3u"
 WAIT_TIME = 15  # Seconds between checks
-MAX_WORKERS = 10
+MAX_WORKERS = 50 # Increased for faster GitHub Actions execution
 
 def get_hls_metadata(url, ua=None):
     try:

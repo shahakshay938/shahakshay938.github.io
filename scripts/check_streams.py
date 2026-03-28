@@ -10,7 +10,7 @@ import sys
 # Configuration
 INPUT_M3U = "latest.m3u"
 OUTPUT_REPORT = "stream_report.json"
-MAX_WORKERS = 10 # Adjust based on CPU/Network
+MAX_WORKERS = 50 # Increased for faster GitHub Actions execution
 TIMEOUT = 10  # Seconds to wait for ffprobe
 
 def parse_m3u(filepath):
