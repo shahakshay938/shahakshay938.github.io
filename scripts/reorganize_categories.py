@@ -89,4 +89,4 @@ def reorganize_m3u(file_path):
     print("Optimization complete.")
 
 if __name__ == "__main__":
-    reorganize_m3u("/var/www/html/akshay/iptv/shahakshay938.github.io/latest.m3u")
+    reorganize_m3u("latest.m3u")

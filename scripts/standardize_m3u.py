@@ -65,4 +65,4 @@ def standardize_m3u(file_path):
     print(f"Successfully standardized {len(new_lines)} lines.")
 
 if __name__ == "__main__":
-    standardize_m3u("/var/www/html/akshay/iptv/shahakshay938.github.io/latest.m3u")
+    standardize_m3u("latest.m3u")
