@@ -7,7 +7,7 @@ This repository hosts an automated mechanism built to maintain a **100% stable, 
 | :--- | :--- | :--- |
 | **Stable File** | M3U Playlist | `https://shahakshay938.github.io/latest.m3u` |
 | **Stable File** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
-| **Backup File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-04-09.m3u` |
+| **Backup File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-04-10.m3u` |
 | **Base File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
 
 ---
@@ -53,5 +53,5 @@ The entire pipeline is automated in `.github/workflows/update-playlist.yml`:
 
 ---
 > [!IMPORTANT]
-> **Total Verified Channels (Current):** 442
+> **Total Verified Channels (Current):** 411
 > **Status:** 100% Automated | Multi-Variant Enabled | Daily Backups Active
