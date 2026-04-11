@@ -192,14 +192,7 @@ jobs:
               DIFF_LABEL=" (${CHANNEL_DIFF} removed)"
             fi
 
-            git commit -m "$(cat <<EOF
-📺 Playlist update: ${NEW_COUNT} channels${DIFF_LABEL} [${DATE}]
-
-- Previous: ${OLD_COUNT} channels
-- Current:  ${NEW_COUNT} channels
-- Sources: iptv-org/iptv India + curated base
-EOF
-)"
+            git commit -m "$(printf '📺 Playlist update: %s channels%s [%s]\n\n- Previous: %s channels\n- Current:  %s channels\n- Sources: iptv-org/iptv India + curated base' "${NEW_COUNT}" "${DIFF_LABEL}" "${DATE}" "${OLD_COUNT}" "${NEW_COUNT}")"
             git push
             echo "✅ Playlist pushed"
 

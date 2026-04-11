@@ -101,7 +101,7 @@ jobs:
 
       # ─── Fallback: epg.pw ──────────────────────────────────────
 
-      - name: 📋 Fallback: use epg.pw directly
+      - name: "📋 Fallback: use epg.pw directly"
         if: env.JIOTV_OK != 'true' && env.EPGPW_OK == 'true'
         run: |
           cp /tmp/epg_epgpw.xml.gz epg.xml.gz
@@ -141,13 +141,7 @@ jobs:
             echo "## ℹ️  EPG Unchanged" >> $GITHUB_STEP_SUMMARY
           else
             DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
-            git commit -m "$(cat <<EOF
-📋 EPG update [${DATE}]
-
-Source: ${EPG_SOURCE}
-Size: ${EPG_SIZE}
-EOF
-)"
+            git commit -m "$(printf '📋 EPG update [%s]\n\nSource: %s\nSize: %s' "${DATE}" "${EPG_SOURCE}" "${EPG_SIZE}")"
             git push
             echo "✅ EPG pushed"
 
