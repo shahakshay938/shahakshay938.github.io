@@ -164,8 +164,33 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
     print(f"\n✅ Merged: {len(final_list)} high-quality channels synchronized.")
 
 if __name__ == '__main__':
-    if len(sys.argv) >= 4:
-        merge_playlists(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else None)
-    else:
-        print("Usage: merge_playlists.py <existing.m3u> <source.m3u> <output.m3u>")
+    # Usage: merge_playlists.py <base.m3u> [source1.m3u ...] <output.m3u>
+    # The last argument is always the output path.
+    # The first argument is the permanent base (existing channels).
+    # All middle arguments are additional sources to merge in.
+    if len(sys.argv) < 3:
+        print("Usage: merge_playlists.py <base.m3u> [extra_source.m3u ...] <output.m3u>")
         sys.exit(1)
+
+    base_path = sys.argv[1]
+    output_path = sys.argv[-1]
+    source_paths = sys.argv[2:-1]  # everything between base and output
+
+    if not source_paths:
+        # Only base + output provided: just copy base to output (no online sources)
+        with open(base_path, 'rb') as src, open(output_path, 'wb') as dst:
+            dst.write(src.read())
+        print(f"No sources provided — copied base to {output_path}")
+        sys.exit(0)
+
+    # Merge each source sequentially into the base
+    import tempfile
+    current = base_path
+    for i, src in enumerate(source_paths):
+        is_last = (i == len(source_paths) - 1)
+        dest = output_path if is_last else tempfile.mktemp(suffix='.m3u')
+        print(f"\n── Merging source {i+1}/{len(source_paths)}: {src} ──")
+        merge_playlists(current, src, dest)
+        if not is_last and current != base_path:
+            os.remove(current)
+        current = dest

@@ -1,0 +1,165 @@
+name: 📋 EPG Update (Every 6 Hours)
+
+on:
+  schedule:
+    # 12:00 AM, 6:00 AM, 12:00 PM, 6:00 PM IST
+    # = 18:30, 00:30, 06:30, 12:30 UTC
+    - cron: '30 18 * * *'
+    - cron: '30 0  * * *'
+    - cron: '30 6  * * *'
+    - cron: '30 12 * * *'
+  workflow_dispatch:
+
+# Don't run EPG and playlist jobs simultaneously — they both touch latest.m3u
+concurrency:
+  group: iptv-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # ─── Download EPG Sources ──────────────────────────────────
+
+      - name: 📡 Download EPG sources
+        run: |
+          JIOTV_OK=false
+          EPGPW_OK=false
+
+          # ── Source 1: JioTV EPG (Primary — most accurate Indian schedule) ──
+          echo "🔍 Trying JioTV EPG (mitthu786/tvepg)..."
+          curl -L -o /tmp/epg_jiotv.xml.gz \
+            --connect-timeout 30 --max-time 180 --retry 2 --retry-delay 10 \
+            "https://raw.githubusercontent.com/mitthu786/tvepg/main/jiotv/epg.xml.gz" 2>/dev/null || true
+
+          if file /tmp/epg_jiotv.xml.gz 2>/dev/null | grep -q "gzip"; then
+            SIZE=$(stat -c%s /tmp/epg_jiotv.xml.gz)
+            if [ "$SIZE" -gt 100000 ]; then
+              echo "✅ JioTV EPG: $(du -h /tmp/epg_jiotv.xml.gz | cut -f1)"
+              JIOTV_OK=true
+            else
+              echo "❌ JioTV EPG too small (${SIZE} bytes)"
+            fi
+          else
+            echo "❌ JioTV EPG download failed or invalid"
+          fi
+
+          # ── Source 2: epg.pw (Fallback — IDs natively match tvg-id format) ──
+          echo "🔍 Trying epg.pw..."
+          curl -L -o /tmp/epg_epgpw.xml.gz \
+            --connect-timeout 30 --max-time 180 --retry 2 --retry-delay 10 \
+            -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
+            "https://epg.pw/xmltv/epg_IN.xml.gz" 2>/dev/null || true
+
+          if file /tmp/epg_epgpw.xml.gz 2>/dev/null | grep -q "gzip"; then
+            SIZE=$(stat -c%s /tmp/epg_epgpw.xml.gz)
+            if [ "$SIZE" -gt 100000 ]; then
+              echo "✅ epg.pw EPG: $(du -h /tmp/epg_epgpw.xml.gz | cut -f1)"
+              EPGPW_OK=true
+            else
+              echo "❌ epg.pw EPG too small (${SIZE} bytes)"
+            fi
+          else
+            echo "❌ epg.pw download failed or invalid"
+          fi
+
+          echo "JIOTV_OK=${JIOTV_OK}" >> $GITHUB_ENV
+          echo "EPGPW_OK=${EPGPW_OK}" >> $GITHUB_ENV
+
+          if [ "$JIOTV_OK" = "false" ] && [ "$EPGPW_OK" = "false" ]; then
+            echo "❌ All EPG sources failed"
+            echo "EPG_AVAILABLE=false" >> $GITHUB_ENV
+          else
+            echo "EPG_AVAILABLE=true" >> $GITHUB_ENV
+          fi
+
+      # ─── Build EPG (JioTV path) ────────────────────────────────
+
+      - name: 🔗 Map JioTV EPG to playlist channels
+        if: env.JIOTV_OK == 'true'
+        run: |
+          python3 scripts/build_epg_mapping.py \
+            latest.m3u \
+            /tmp/epg_jiotv.xml.gz \
+            epg.xml.gz \
+            channel_mapping.json
+
+          echo "EPG_SOURCE=JioTV (mitthu786/tvepg)" >> $GITHUB_ENV
+          echo "EPG_SIZE=$(du -h epg.xml.gz | cut -f1)" >> $GITHUB_ENV
+
+      # ─── Fallback: epg.pw ──────────────────────────────────────
+
+      - name: 📋 Fallback: use epg.pw directly
+        if: env.JIOTV_OK != 'true' && env.EPGPW_OK == 'true'
+        run: |
+          cp /tmp/epg_epgpw.xml.gz epg.xml.gz
+          # channel_mapping.json stays unchanged — epg.pw IDs match tvg-id natively
+          echo "EPG_SOURCE=epg.pw (native IDs)" >> $GITHUB_ENV
+          echo "EPG_SIZE=$(du -h epg.xml.gz | cut -f1)" >> $GITHUB_ENV
+
+      # ─── Backup & Prune ───────────────────────────────────────
+
+      - name: 📁 Backup EPG and prune old copies
+        if: env.EPG_AVAILABLE == 'true'
+        run: |
+          mkdir -p backups/epg
+          DATE=$(date +%F)
+
+          cp epg.xml.gz "backups/epg/epg-${DATE}.xml.gz"
+          echo "📦 Archived to backups/epg/epg-${DATE}.xml.gz"
+
+          # Retention: keep last 7 days of EPG backups
+          ls backups/epg/epg-*.xml.gz 2>/dev/null | sort | head -n -7 | while read f; do
+            echo "🗑️  Removing old EPG backup: $f"
+            rm -f "$f"
+          done
+
+      # ─── Commit ───────────────────────────────────────────────
+
+      - name: 📤 Commit EPG changes
+        if: env.EPG_AVAILABLE == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add epg.xml.gz channel_mapping.json latest.m3u backups/epg/
+
+          if git diff --cached --quiet; then
+            echo "ℹ️  EPG unchanged — nothing to commit"
+            echo "## ℹ️  EPG Unchanged" >> $GITHUB_STEP_SUMMARY
+          else
+            DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "$(cat <<EOF
+📋 EPG update [${DATE}]
+
+Source: ${EPG_SOURCE}
+Size: ${EPG_SIZE}
+EOF
+)"
+            git push
+            echo "✅ EPG pushed"
+
+            echo "## ✅ EPG Updated" >> $GITHUB_STEP_SUMMARY
+            echo "- **Source:** ${EPG_SOURCE}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Size:** ${EPG_SIZE}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Backup:** backups/epg/epg-$(date +%F).xml.gz" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: ⚠️  All EPG sources failed
+        if: env.EPG_AVAILABLE == 'false'
+        run: |
+          echo "## ⚠️  EPG Sources Failed" >> $GITHUB_STEP_SUMMARY
+          echo "Both JioTV and epg.pw were unavailable. Existing epg.xml.gz unchanged." >> $GITHUB_STEP_SUMMARY
+          echo "This is usually a temporary outage — next scheduled run will retry." >> $GITHUB_STEP_SUMMARY

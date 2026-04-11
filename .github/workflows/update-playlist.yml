@@ -1,10 +1,15 @@
-name: 📺 Daily IPTV Playlist & EPG Update
+name: 📺 Daily Playlist Update
 
 on:
   schedule:
-    # Run daily at 3:00 AM IST (9:30 PM UTC previous day)
+    # 3:00 AM IST daily (9:30 PM UTC previous day)
     - cron: '30 21 * * *'
-  workflow_dispatch: # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+# Prevent concurrent runs that could corrupt files
+concurrency:
+  group: iptv-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -23,215 +28,193 @@ jobs:
           python-version: '3.12'
 
       - name: 📦 Install FFmpeg (for ffprobe)
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
 
-      # ─── Update Playlist ───────────────────────────────
-      - name: 📡 Download latest streams from iptv-org
+      # ─── Download Sources ──────────────────────────────────────
+
+      - name: 📡 Download playlist sources
+        id: download
         run: |
-          curl -L -o /tmp/iptv_org_in.m3u \
-            --connect-timeout 30 --max-time 120 --retry 3 \
-            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u"
+          SOURCES_OK=true
 
-          CHANNELS=$(grep -c "^#EXTINF" /tmp/iptv_org_in.m3u || echo 0)
-          echo "✅ Downloaded ${CHANNELS} channels from iptv-org"
-
-          if [ "$CHANNELS" -lt 50 ]; then
-            echo "❌ Too few channels, source may be broken. Skipping playlist update."
-            echo "PLAYLIST_OK=false" >> $GITHUB_ENV
+          # ── Source 1: iptv-org India ──
+          echo "🔍 Downloading iptv-org/iptv India streams..."
+          if curl -L -o /tmp/source_iptv_org.m3u \
+               --connect-timeout 30 --max-time 120 --retry 3 --retry-delay 5 \
+               "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u"; then
+            COUNT=$(grep -c "^#EXTINF" /tmp/source_iptv_org.m3u 2>/dev/null || echo 0)
+            echo "  iptv-org: ${COUNT} channels"
+            if [ "$COUNT" -lt 50 ]; then
+              echo "  ⚠️  Too few channels — skipping iptv-org source"
+              rm -f /tmp/source_iptv_org.m3u
+            fi
           else
-            echo "PLAYLIST_OK=true" >> $GITHUB_ENV
+            echo "  ❌ iptv-org download failed"
+            rm -f /tmp/source_iptv_org.m3u
           fi
 
-      - name: 🕵️ Verify & Filter New Streams
-        run: |
-          # Copy latest to tmp to work on it without overwriting yet
-          cp latest.m3u /tmp/base_for_merge.m3u
-          
-          python3 scripts/merge_playlists.py \
-            backups/playlist-2026-03-19.m3u \
-            /tmp/iptv_org_in.m3u \
-            /tmp/new_latest.m3u
-            
-          # Run verification on the NEW candidate
-          # Note: We need to modify the scripts to accept input/output paths 
-          # Or temporarily swap files. For now, let's use the local file swap method.
-          cp latest.m3u latest.m3u.bak
-          cp /tmp/new_latest.m3u latest.m3u
-          
-          python3 scripts/check_streams.py
-          python3 scripts/detect_loops.py
-          
-          # APPLY PREMIUM STANDARDS (Timeshift, Reconnect, AR)
-          python3 scripts/standardize_m3u.py
-          
-          # CLEAN CATEGORIES (Single genre, no clubs)
-          python3 scripts/reorganize_categories.py
-          
-          python3 scripts/filter_playlist.py
+          # ── Source 2: Add additional sources here ──
+          # Example:
+          # curl -L -o /tmp/source_custom.m3u --connect-timeout 30 --max-time 120 \
+          #   "https://example.com/india.m3u"
 
-          
-          # Now 'latest.m3u' contains the NEW filtered result.
-          # We compare it with the backup of the OLD state.
-          if diff -q latest.m3u latest.m3u.bak > /dev/null; then
-             echo "✅ No stream changes detected. Skipping backup and push."
-             echo "HAS_CHANGES=false" >> $GITHUB_ENV
-             mv latest.m3u.bak latest.m3u
+          # Check that at least one source downloaded successfully
+          SOURCE_FILES=(/tmp/source_*.m3u)
+          if [ ${#SOURCE_FILES[@]} -eq 0 ] || [ ! -f "${SOURCE_FILES[0]}" ]; then
+            echo "❌ No playlist sources available — aborting"
+            echo "SOURCES_OK=false" >> $GITHUB_ENV
           else
-             echo "🚀 Changes detected! Proceeding with backup and update."
-             echo "HAS_CHANGES=true" >> $GITHUB_ENV
-             # Keep the new latest.m3u, but keep the old one for the backup step
-             mv latest.m3u.bak /tmp/old_stable.m3u
+            TOTAL_SOURCE=$(cat /tmp/source_*.m3u 2>/dev/null | grep -c "^#EXTINF" || echo 0)
+            echo "✅ Total source channels: ${TOTAL_SOURCE}"
+            echo "SOURCES_OK=true" >> $GITHUB_ENV
           fi
-          
-          VERIFIED=$(grep -c "^#EXTINF" latest.m3u || echo 0)
-          echo "VERIFIED_CHANNELS=${VERIFIED}" >> $GITHUB_ENV
 
-      - name: 📁 Upload Verification Reports (Debug)
+      # ─── Merge + Verify ───────────────────────────────────────
+
+      - name: 🔀 Merge sources with base playlist
+        if: env.SOURCES_OK == 'true'
+        run: |
+          # Snapshot the pre-merge state for change detection
+          cp latest.m3u /tmp/old_latest.m3u
+          OLD_COUNT=$(grep -c "^#EXTINF" /tmp/old_latest.m3u || echo 0)
+          echo "OLD_COUNT=${OLD_COUNT}" >> $GITHUB_ENV
+
+          # Merge: base.m3u + each source file → /tmp/merged.m3u
+          # Start from the permanent base (sources/base.m3u)
+          MERGE_ARGS="sources/base.m3u"
+          for f in /tmp/source_*.m3u; do
+            [ -f "$f" ] && MERGE_ARGS="$MERGE_ARGS $f"
+          done
+          echo "Merging with args: $MERGE_ARGS"
+          python3 scripts/merge_playlists.py $MERGE_ARGS /tmp/merged.m3u
+
+          # Stage merged result as the working latest.m3u for verification scripts
+          cp /tmp/merged.m3u latest.m3u
+
+      - name: 🔬 Stream health verification (ffprobe)
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/check_streams.py
+
+      - name: 🔄 HLS loop detection
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/detect_loops.py
+
+      - name: 📋 Upload verification reports
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: verification-reports
+          name: verification-reports-${{ github.run_number }}
           path: |
             stream_report.json
             loop_report.json
+          retention-days: 7
 
-      # ─── Update EPG (Multi-Source with Fallback) ───────
-      - name: 📋 Download EPG sources
+      - name: 🎨 Standardize M3U (VLC options, timeshift)
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/standardize_m3u.py
+
+      - name: 🗂️ Normalize categories
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/reorganize_categories.py
+
+      - name: ✂️ Filter failing streams
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/filter_playlist.py
+
+      # ─── Detect Changes ───────────────────────────────────────
+
+      - name: 🔍 Detect changes and compute stats
+        if: env.SOURCES_OK == 'true'
         run: |
-          EPG_UPDATED=false
-          EPG_SOURCE=""
+          NEW_COUNT=$(grep -c "^#EXTINF" latest.m3u || echo 0)
+          OLD_COUNT="${OLD_COUNT:-0}"
+          DIFF=$((NEW_COUNT - OLD_COUNT))
 
-          # ── Source 1: JioTV EPG (Primary - most accurate schedule) ──
-          echo "🔍 Trying Source 1: mitthu786/tvepg (JioTV)..."
-          curl -L -o /tmp/epg_jiotv.xml.gz \
-            --connect-timeout 30 --max-time 180 --retry 2 \
-            "https://raw.githubusercontent.com/mitthu786/tvepg/main/jiotv/epg.xml.gz" 2>/dev/null || true
+          echo "NEW_COUNT=${NEW_COUNT}" >> $GITHUB_ENV
+          echo "CHANNEL_DIFF=${DIFF}" >> $GITHUB_ENV
 
-          if file /tmp/epg_jiotv.xml.gz 2>/dev/null | grep -q "gzip"; then
-            SIZE=$(stat -c%s /tmp/epg_jiotv.xml.gz)
-            if [ "$SIZE" -gt 100000 ]; then
-              echo "✅ JioTV EPG downloaded ($(du -h /tmp/epg_jiotv.xml.gz | cut -f1))"
-              echo "JIOTV_EPG_OK=true" >> $GITHUB_ENV
-            else
-              echo "❌ JioTV EPG too small"
-              echo "JIOTV_EPG_OK=false" >> $GITHUB_ENV
-            fi
+          if diff -q latest.m3u /tmp/old_latest.m3u > /dev/null 2>&1; then
+            echo "✅ No playlist changes detected"
+            echo "HAS_CHANGES=false" >> $GITHUB_ENV
+            # Restore original to avoid unnecessary git diff
+            cp /tmp/old_latest.m3u latest.m3u
           else
-            echo "❌ JioTV EPG download failed or not valid gzip"
-            echo "JIOTV_EPG_OK=false" >> $GITHUB_ENV
+            echo "🚀 Playlist changed (${OLD_COUNT} → ${NEW_COUNT} channels, diff: ${DIFF:+}${DIFF})"
+            echo "HAS_CHANGES=true" >> $GITHUB_ENV
           fi
 
-          # ── Source 2: epg.pw (Fallback - IDs match playlist natively) ──
-          echo "🔍 Trying Source 2: epg.pw..."
-          curl -L -o /tmp/epg_epgpw.xml.gz \
-            --connect-timeout 30 --max-time 180 --retry 2 \
-            -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
-            "https://epg.pw/xmltv/epg_IN.xml.gz" 2>/dev/null || true
+      # ─── Backup & Commit ──────────────────────────────────────
 
-          if file /tmp/epg_epgpw.xml.gz 2>/dev/null | grep -q "gzip"; then
-            SIZE=$(stat -c%s /tmp/epg_epgpw.xml.gz)
-            if [ "$SIZE" -gt 100000 ]; then
-              echo "✅ epg.pw EPG downloaded ($(du -h /tmp/epg_epgpw.xml.gz | cut -f1))"
-              echo "EPGPW_OK=true" >> $GITHUB_ENV
-            else
-              echo "❌ epg.pw EPG too small"
-              echo "EPGPW_OK=false" >> $GITHUB_ENV
-            fi
-          else
-            echo "❌ epg.pw download failed or not valid gzip"
-            echo "EPGPW_OK=false" >> $GITHUB_ENV
-          fi
-
-      # ── Map JioTV EPG to our playlist format ──
-      - name: 🔗 Map JioTV EPG channels
-        if: env.JIOTV_EPG_OK == 'true'
-        run: |
-          python3 scripts/build_epg_mapping.py \
-            latest.m3u \
-            /tmp/epg_jiotv.xml.gz \
-            epg.xml.gz \
-            channel_mapping.json
-
-          echo "EPG_SOURCE=JioTV (mapped)" >> $GITHUB_ENV
-          echo "EPG_UPDATED=true" >> $GITHUB_ENV
-
-      # ── Fallback to epg.pw if JioTV mapping failed ──
-      - name: 📋 Fallback to epg.pw EPG
-        if: env.JIOTV_EPG_OK != 'true' && env.EPGPW_OK == 'true'
-        run: |
-          cp /tmp/epg_epgpw.xml.gz epg.xml.gz
-          echo "✅ Using epg.pw EPG as fallback"
-          echo "EPG_SOURCE=epg.pw" >> $GITHUB_ENV
-          echo "EPG_UPDATED=true" >> $GITHUB_ENV
-
-      - name: ⚠️ EPG update status
-        if: env.JIOTV_EPG_OK != 'true' && env.EPGPW_OK != 'true'
-        run: |
-          echo "⚠️ All EPG sources failed, keeping existing file"
-          git checkout epg.xml.gz 2>/dev/null || true
-          echo "EPG_UPDATED=false" >> $GITHUB_ENV
-          echo "EPG_SOURCE=none (kept existing)" >> $GITHUB_ENV
-
-      # ─── Backup & README Update ──────────────────────────
-      - name: 📁 Archive Old Stable & Update README
+      - name: 📁 Archive previous playlist and prune old backups
         if: env.HAS_CHANGES == 'true'
         run: |
           mkdir -p backups
           DATE=$(date +%F)
-          # Move OLD stable to backup folder
-          cp /tmp/old_stable.m3u "backups/playlist-${DATE}.m3u"
-          
-          # Update README with the NEW backup date (targeting ONLY the Backup File row)
-          sed -i "/\*\*Backup File\*\*/ s/backups\/playlist-.*\.m3u/backups\/playlist-${DATE}\.m3u/g" README.md
-          # Update Verified Channel Count in README
-          sed -i "s/Total Verified Channels (Current):\*\* [0-9]*/Total Verified Channels (Current):\*\* ${VERIFIED_CHANNELS}/g" README.md
-          
-          if [ -f epg.xml.gz ]; then
-            cp epg.xml.gz "backups/epg-${DATE}.xml.gz"
-          fi
 
-      # ─── Commit & Push ───────────
-      - name: 📤 Commit and push changes
+          # Archive yesterday's stable playlist (what was live before this run)
+          cp /tmp/old_latest.m3u "backups/playlist-${DATE}.m3u"
+          echo "📦 Archived to backups/playlist-${DATE}.m3u"
+
+          # Retention: keep last 14 days of playlist backups
+          # Never delete sources/base.m3u or the original 2026-03-19 backup
+          PROTECTED="playlist-2026-03-19.m3u"
+          ls backups/playlist-*.m3u 2>/dev/null | grep -v "$PROTECTED" | sort | head -n -14 | while read f; do
+            echo "🗑️  Removing old backup: $f"
+            rm -f "$f"
+          done
+
+      - name: 📝 Update README stats
+        if: env.HAS_CHANGES == 'true'
+        run: |
+          DATE=$(date +%F)
+          sed -i "s|backups/playlist-[0-9-]*.m3u|backups/playlist-${DATE}.m3u|g" README.md
+          sed -i "s/Total Verified Channels (Current):\*\* [0-9]*/Total Verified Channels (Current):** ${NEW_COUNT}/g" README.md
+
+      - name: 📤 Commit and push playlist changes
         if: env.HAS_CHANGES == 'true'
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-          git add latest.m3u epg.xml.gz channel_mapping.json backups/ README.md
+          # Ensure runtime artifacts stay untracked
+          git rm --cached stream_report.json loop_report.json astra_audit_report.json 2>/dev/null || true
+
+          git add latest.m3u backups/ README.md
 
           if git diff --cached --quiet; then
-            echo "ℹ️ No changes to commit"
-            echo "## ℹ️ No Changes" >> $GITHUB_STEP_SUMMARY
-            echo "No updates were needed today." >> $GITHUB_STEP_SUMMARY
+            echo "ℹ️  Nothing to commit"
           else
             DATE=$(date -u +"%Y-%m-%d")
-            TOTAL="${TOTAL_CHANNELS:-$(grep -c '^#EXTINF' latest.m3u || echo '?')}"
-            UPDATED="${UPDATED_URLS:-0}"
-            NEW="${NEW_CHANNELS:-0}"
-            EPG_SIZE=$(du -h epg.xml.gz | cut -f1)
-
-            # Build commit title
-            TITLE="📺 Daily update: ${TOTAL} channels"
-            if [ "${EPG_UPDATED}" = "true" ]; then
-              TITLE="${TITLE}, EPG ${EPG_SIZE} via ${EPG_SOURCE}"
+            DIFF_LABEL=""
+            if [ "${CHANNEL_DIFF}" -gt 0 ]; then
+              DIFF_LABEL=" (+${CHANNEL_DIFF} new)"
+            elif [ "${CHANNEL_DIFF}" -lt 0 ]; then
+              DIFF_LABEL=" (${CHANNEL_DIFF} removed)"
             fi
-            TITLE="${TITLE} [${DATE}]"
 
-            # Build commit body with details
-            BODY=""
-            if [ "$NEW" -gt 0 ] && [ -n "${NEW_CHANNEL_NAMES}" ]; then
-              BODY="${BODY}🆕 New channels (${NEW}): ${NEW_CHANNEL_NAMES}\n"
-            fi
-            if [ "$UPDATED" -gt 0 ] && [ -n "${MODIFIED_CHANNEL_NAMES}" ]; then
-              BODY="${BODY}🔄 Updated URLs (${UPDATED}): ${MODIFIED_CHANNEL_NAMES}\n"
-            fi
-            BODY="${BODY}📋 EPG Source: ${EPG_SOURCE:-unknown} (${EPG_SIZE})\n"
+            git commit -m "$(cat <<EOF
+📺 Playlist update: ${NEW_COUNT} channels${DIFF_LABEL} [${DATE}]
 
-            echo -e "${BODY}" | git commit -F <(echo "${TITLE}" && echo "" && echo -e "${BODY}")
+- Previous: ${OLD_COUNT} channels
+- Current:  ${NEW_COUNT} channels
+- Sources: iptv-org/iptv India + curated base
+EOF
+)"
             git push
-            echo "✅ Changes pushed successfully!"
+            echo "✅ Playlist pushed"
 
-            # Final summary
-            echo "## ✅ Changes Pushed" >> $GITHUB_STEP_SUMMARY
-            echo "- **Commit:** ${TITLE}" >> $GITHUB_STEP_SUMMARY
+            echo "## ✅ Playlist Updated" >> $GITHUB_STEP_SUMMARY
+            echo "- **Channels:** ${OLD_COUNT} → ${NEW_COUNT} (${DIFF_LABEL})" >> $GITHUB_STEP_SUMMARY
+            echo "- **Backup:** backups/playlist-$(date +%F).m3u" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: ℹ️  No changes summary
+        if: env.HAS_CHANGES == 'false' || env.SOURCES_OK == 'false'
+        run: |
+          if [ "${SOURCES_OK}" = "false" ]; then
+            echo "## ❌ Sources Unavailable" >> $GITHUB_STEP_SUMMARY
+            echo "All playlist sources failed to download. Existing latest.m3u unchanged." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ℹ️  No Changes" >> $GITHUB_STEP_SUMMARY
+            echo "Playlist verified — no stream changes today. No commit needed." >> $GITHUB_STEP_SUMMARY
           fi

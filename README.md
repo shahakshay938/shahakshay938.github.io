@@ -1,57 +1,80 @@
 # 🛡️ IPTV Playlist Maintenance System
 
-This repository hosts an automated mechanism built to maintain a **100% stable, high-performance** IPTV playlist.
+Automated pipeline to maintain a stable, verified Indian IPTV playlist with EPG guide.
 
 ## 🚀 Core Links
+
 | Type | Format | URL |
 | :--- | :--- | :--- |
-| **Stable File** | M3U Playlist | `https://shahakshay938.github.io/latest.m3u` |
-| **Stable File** | EPG Guide | `https://shahakshay938.github.io/epg.xml.gz` |
-| **Backup File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-04-10.m3u` |
-| **Base File** | M3U Playlist | `https://shahakshay938.github.io/backups/playlist-2026-03-19.m3u` |
+| **Stable Playlist** | M3U | `https://shahakshay938.github.io/latest.m3u` |
+| **EPG Guide** | XMLTV (gz) | `https://shahakshay938.github.io/epg.xml.gz` |
+| **Latest Backup** | M3U | `https://shahakshay938.github.io/backups/playlist-2026-04-10.m3u` |
+| **Permanent Base** | M3U | `https://shahakshay938.github.io/sources/base.m3u` |
 
 ---
 
-## 📡 1. Multi-Source Integration (HD/SD Strategy)
-*   **Final Sony SAB Preference:** Per the stable state from **March 19**, the playlist is locked to exactly **2 distinct Sony SAB streams** (SD and HD). This prevents the "Multi-Source" clutter shown in recent automated tests.
-*   **Additive Merge:** For all other channels, the system preserves **HD** and **SD** variants as separate entries.
-*   **Manual Overrides:** Custom Jio Proxy and Google DAI streams are protected and prioritized.
-*   **Unique Stream Verification:** The merge logic uses the **Stream URL** as the primary key. If a channel has multiple URLs, all functional versions are kept.
+## 📁 Repository Structure
+
+```
+shahakshay938.github.io/
+├── .github/workflows/
+│   ├── update-playlist.yml   # Daily 3 AM IST — stream verification + playlist update
+│   └── update-epg.yml        # Every 6 hours — EPG refresh (JioTV → epg.pw fallback)
+├── scripts/                  # All Python processing scripts
+├── sources/
+│   └── base.m3u              # Permanent hand-curated base — never modified by automation
+├── backups/
+│   ├── playlist-YYYY-MM-DD.m3u   # Daily playlist snapshots (14-day retention)
+│   └── epg/
+│       └── epg-YYYY-MM-DD.xml.gz # EPG snapshots (7-day retention)
+├── latest.m3u                # Live verified playlist
+├── epg.xml.gz                # Current EPG guide
+└── channel_mapping.json      # JioTV → tvg-id channel mapping
+```
 
 ---
 
-## 🕵️ 2. The "Quality Pulse" Engine (Daily Verification)
-Every 24 hours, the system executes recursive checks to ensure zero "Dead" or "Looping" channels:
+## 📡 Multi-Source Integration
 
-### A. Latency & Reachability (`check_streams.py`)
-*   **Engine:** Uses `ffprobe` to attempt a real-time stream decode.
-*   **Threshold:** Any channel with a LOAD time **> 5 seconds** is automatically purged.
-*   **Video Validation:** Confirms a real video stream (v:0) is present.
-
-### B. Loop Detection (`detect_loops.py`)
-*   **The Problem:** Many restreams "loop" (circular buffering).
-*   **Mechanism:** Monitors the `EXT-X-MEDIA-SEQUENCE` in the HLS playlist over a 15-second window.
-*   **The Purge:** If the sequence doesn't advance, the stream is flagged as **Looping** and removed.
+- **Permanent base** (`sources/base.m3u`) — hand-curated channels including Astra private streams, dual Sony SAB streams, Jio Proxy routes. Never touched by automation.
+- **Daily sources** — iptv-org India + any additional sources configured in the workflow.
+- **Additive merge** — new stream URLs are added; existing URLs get refreshed metadata; manual overrides (`(Jio Proxy)`, `(Google DAI)`, `(Stable Restream)`) are always preserved.
+- **HD/SD variants** — kept as separate entries using stream URL as the unique key.
 
 ---
 
-## 💾 3. Automated Daily Backups
-The system features a robust archival mechanism to prevent data loss:
-*   **Folder:** All backups are stored in the [**`backups/`**](https://github.com/shahakshay938/shahakshay938.github.io/tree/master/backups) directory.
-*   **Format:** Files are suffixed with the date: `playlist-YYYY-MM-DD.m3u`.
-*   **Restoration:** You can always revert to a previous day's state by using the dated URLs.
+## 🕵️ Daily Stream Verification (3 AM IST)
+
+1. **Download** fresh iptv-org India streams
+2. **Merge** with permanent base (additive, URL-keyed)
+3. **ffprobe check** — latency > 10s → removed; no video stream → removed
+4. **Loop detection** — `EXT-X-MEDIA-SEQUENCE` monitored over 15s; stuck streams → removed
+5. **Standardize** — VLC network options, timeshift, aspect-ratio applied uniformly
+6. **Normalize categories** — single genre per channel, consistent group-title values
+7. **Filter** — only verified streams survive to `latest.m3u`
+8. **Backup** — previous `latest.m3u` archived to `backups/playlist-YYYY-MM-DD.m3u`
 
 ---
 
-## 🤖 4. GitHub Action Automation
-The entire pipeline is automated in `.github/workflows/update-playlist.yml`:
-1.  **3:00 AM IST:** Script clones the repo.
-2.  **Merge:** `merge_playlists.py` fusions sources (keeping HD/SD separate).
-3.  **Pulse:** `detect_loops.py` and `check_streams.py` purge malfunctioning links.
-4.  **Backup:** Copies the current stable state to the `backups/` folder.
-5.  **Push:** Optimized files and dated backups are pushed to the master branch.
+## 📋 EPG Updates (Every 6 Hours)
+
+| Priority | Source | Method |
+| :--- | :--- | :--- |
+| Primary | JioTV (mitthu786/tvepg) | Fuzzy-mapped via `build_epg_mapping.py` — numeric JioTV IDs converted to our `tvg-id` format |
+| Fallback | epg.pw India | Used directly — IDs natively match `ChannelName.in` tvg-id format |
+
+EPG backup archived to `backups/epg/epg-YYYY-MM-DD.xml.gz` (7-day retention).
 
 ---
+
+## 💾 Backup Restoration
+
+Navigate to `backups/` and use the dated file URL directly in any IPTV player.
+Backups are kept for 14 days (playlists) and 7 days (EPG).
+The permanent base at `sources/base.m3u` is always available as a stable fallback.
+
+---
+
 > [!IMPORTANT]
 > **Total Verified Channels (Current):** 411
-> **Status:** 100% Automated | Multi-Variant Enabled | Daily Backups Active
+> **Status:** 100% Automated | Multi-Variant | Daily Backups | EPG Every 6h
