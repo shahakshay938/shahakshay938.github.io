@@ -76,5 +76,5 @@ The permanent base at `sources/base.m3u` is always available as a stable fallbac
 ---
 
 > [!IMPORTANT]
-> **Total Verified Channels (Current):** 434
+> **Total Verified Channels (Current):** 368
 > **Status:** 100% Automated | Multi-Variant | Daily Backups | EPG Every 6h
