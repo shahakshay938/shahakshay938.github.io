@@ -8,7 +8,7 @@ Automated pipeline to maintain a stable, verified Indian IPTV playlist with EPG 
 | :--- | :--- | :--- |
 | **Stable Playlist** | M3U | `https://shahakshay938.github.io/latest.m3u` |
 | **EPG Guide** | XMLTV (gz) | `https://shahakshay938.github.io/epg.xml.gz` |
-| **Latest Backup** | M3U | `https://shahakshay938.github.io/backups/playlist-2026-04-19.m3u` |
+| **Latest Backup** | M3U | `https://shahakshay938.github.io/backups/playlist-2026-04-20.m3u` |
 | **Permanent Base** | M3U | `https://shahakshay938.github.io/sources/base.m3u` |
 
 ---
@@ -76,5 +76,5 @@ The permanent base at `sources/base.m3u` is always available as a stable fallbac
 ---
 
 > [!IMPORTANT]
-> **Total Verified Channels (Current):** 385
+> **Total Verified Channels (Current):** 437
 > **Status:** 100% Automated | Multi-Variant | Daily Backups | EPG Every 6h
