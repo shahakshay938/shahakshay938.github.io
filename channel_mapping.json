@@ -1,4 +1,13 @@
 {
+  "AndTV.in@International": {
+    "tvg_id": "AndTV.in@International",
+    "playlist_name": "&TV International (1080p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "AmritaTV.in@SD": {
     "tvg_id": "AmritaTV.in@SD",
     "playlist_name": "Amrita TV (720p)",
@@ -299,9 +308,9 @@
   "SonySportsTen2.in": {
     "tvg_id": "SonySportsTen2.in",
     "playlist_name": "Sony Sports Ten 2 HD (1080p)",
-    "jiotv_id": "155",
-    "jiotv_name": "Sony Ten 5 HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",
+    "jiotv_id": "162",
+    "jiotv_name": "Sony Ten 1 HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png",
     "match_method": "word_match(67%)",
     "verified": false
   },
@@ -848,9 +857,9 @@
   "PrudentMedia.in@SD": {
     "tvg_id": "PrudentMedia.in@SD",
     "playlist_name": "Prudent Media (1080p)",
-    "jiotv_id": "2254",
-    "jiotv_name": "Media9",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Media9.png",
+    "jiotv_id": "966",
+    "jiotv_name": "Prudent",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/PrudentHD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -965,18 +974,18 @@
   "SansadTV1.in@SD": {
     "tvg_id": "SansadTV1.in@SD",
     "playlist_name": "Sansad TV 1 (1080p)",
-    "jiotv_id": "520",
-    "jiotv_name": "Sansad TV HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png",
+    "jiotv_id": "522",
+    "jiotv_name": "Sansad TV",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Loksabha_TV.png",
     "match_method": "exact_name",
     "verified": true
   },
   "SansadTV2.in@HD": {
     "tvg_id": "SansadTV2.in@HD",
     "playlist_name": "Sansad TV 2 (1080p)",
-    "jiotv_id": "520",
-    "jiotv_name": "Sansad TV HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png",
+    "jiotv_id": "522",
+    "jiotv_name": "Sansad TV",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Loksabha_TV.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -992,9 +1001,9 @@
   "SudarshanNews.in@SD": {
     "tvg_id": "SudarshanNews.in@SD",
     "playlist_name": "Sudarshan News (1080p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
+    "jiotv_id": "518",
+    "jiotv_name": "Sudarshan",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sudarshan.png",
     "match_method": "partial",
     "verified": false
   },
@@ -1709,6 +1718,15 @@
     "match_method": "partial",
     "verified": false
   },
+  "NationalGeographicWild.in": {
+    "tvg_id": "NationalGeographicWild.in",
+    "playlist_name": "National Geographic Wild (576p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "NDTVGoodTimes.in@SD": {
     "tvg_id": "NDTVGoodTimes.in@SD",
     "playlist_name": "NDTV Good Times (1080p)",
@@ -2063,9 +2081,9 @@
   "SansadTV1.in@HD": {
     "tvg_id": "SansadTV1.in@HD",
     "playlist_name": "Sansad TV 1 HD (1080p)",
-    "jiotv_id": "520",
-    "jiotv_name": "Sansad TV HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png",
+    "jiotv_id": "522",
+    "jiotv_name": "Sansad TV",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Loksabha_TV.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -2185,6 +2203,24 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Romedy_Now_HD.png",
     "match_method": "exact_name",
     "verified": true
+  },
+  "NationalGeographicWild.in@HD": {
+    "tvg_id": "NationalGeographicWild.in@HD",
+    "playlist_name": "National Geographic Wild HD (1080p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
+  },
+  "NationalGeographic.in@HD": {
+    "tvg_id": "NationalGeographic.in@HD",
+    "playlist_name": "National Geographic HD (1080p)",
+    "jiotv_id": "3241",
+    "jiotv_name": "Nation 27",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_27.png",
+    "match_method": "partial",
+    "verified": false
   },
   "ColorsTamil.in@HD": {
     "tvg_id": "ColorsTamil.in@HD",
