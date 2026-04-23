@@ -274,7 +274,7 @@ https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="BhojpuriCinema.in@SD" timeshift="1" aspect-ratio="16:9",Bhojpuri Cinema (720p)
+#EXTINF:-1 tvg-id="BhojpuriCinema.in@SD" jiotv-id="486" timeshift="1" aspect-ratio="16:9",Bhojpuri Cinema (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -674,7 +674,7 @@ https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
-#EXTINF:-1 tvg-id="PrudentMedia.in@SD" jiotv-id="966" timeshift="1" aspect-ratio="16:9",Prudent Media (1080p)
+#EXTINF:-1 tvg-id="PrudentMedia.in@SD" jiotv-id="2254" timeshift="1" aspect-ratio="16:9",Prudent Media (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -749,22 +749,22 @@ https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccda
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8
-#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://hls.media.nic.in/hls/live/lstv/lstv.m3u8
-#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p)
+#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8
-#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://hls.media.nic.in/hls/live/rstv/rstv.m3u8
-#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p)
+#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -774,7 +774,7 @@ https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8
-#EXTINF:-1 tvg-id="SudarshanNews.in@SD" jiotv-id="518" timeshift="1" aspect-ratio="16:9",Sudarshan News (1080p)
+#EXTINF:-1 tvg-id="SudarshanNews.in@SD" jiotv-id="501" timeshift="1" aspect-ratio="16:9",Sudarshan News (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1764,12 +1764,12 @@ https://mumt05.tangotv.in/VERTENTSAMACHARPLUS/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8
-#EXTINF:-1 tvg-id="SansadTV1.in@HD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 1 HD (1080p)
+#EXTINF:-1 tvg-id="SansadTV1.in@HD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 1 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/index.m3u8
-#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p)
+#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2084,7 +2084,7 @@ http://103.213.31.109:90/CineplxBollywood/playlist.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.213.31.109:90/ChumbakTv/playlist.m3u8
-#EXTINF:-1 tvg-id="BhojpuriCinema.in@SD" timeshift="1" aspect-ratio="16:9",Bhojpuri Cinema (720p)
+#EXTINF:-1 tvg-id="BhojpuriCinema.in@SD" jiotv-id="486" timeshift="1" aspect-ratio="16:9",Bhojpuri Cinema (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
