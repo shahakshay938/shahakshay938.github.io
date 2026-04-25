@@ -35,14 +35,14 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "DarshanaTV.in": {
-    "tvg_id": "DarshanaTV.in",
-    "playlist_name": "Darshana TV (576p)",
-    "jiotv_id": "611",
-    "jiotv_name": "Darshan 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Darshan_24.png",
-    "match_method": "partial",
-    "verified": false
+  "ColorsInfinity.in@HD": {
+    "tvg_id": "ColorsInfinity.in@HD",
+    "playlist_name": "Colors Infinity HD (1080p)",
+    "jiotv_id": "1158",
+    "jiotv_name": "Colors Infinity HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Infinity_HD.png",
+    "match_method": "exact_name",
+    "verified": true
   },
   "DesiChannel.in@SD": {
     "tvg_id": "DesiChannel.in@SD",
@@ -71,6 +71,15 @@
     "match_method": "partial",
     "verified": false
   },
+  "JaihindTV.in@SD": {
+    "tvg_id": "JaihindTV.in@SD",
+    "playlist_name": "Jaihind TV (396p)",
+    "jiotv_id": "465",
+    "jiotv_name": "Jaihind tv",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Jaihind_tv.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
   "MahaaMax.in@SD": {
     "tvg_id": "MahaaMax.in@SD",
     "playlist_name": "Mahaa Max (1080p)",
@@ -91,7 +100,7 @@
   },
   "MazhavilManorama.in@SD": {
     "tvg_id": "MazhavilManorama.in@SD",
-    "playlist_name": "Mazhavil Manorama",
+    "playlist_name": "Mazhavil Manorama (396p)",
     "jiotv_id": "648",
     "jiotv_name": "Mazhavil Manorama",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Mazhavil_Manorama.png",
@@ -104,24 +113,6 @@
     "jiotv_id": "648",
     "jiotv_name": "Mazhavil Manorama",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Mazhavil_Manorama.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "MBCTV.in": {
-    "tvg_id": "MBCTV.in",
-    "playlist_name": "MBC TV (576p)",
-    "jiotv_id": "851",
-    "jiotv_name": "SMBC TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SMBC_TV.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "PolimerTV.in": {
-    "tvg_id": "PolimerTV.in",
-    "playlist_name": "Polimer TV (720p)",
-    "jiotv_id": "705",
-    "jiotv_name": "Polimer TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Polimer_TV.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -140,24 +131,6 @@
     "jiotv_id": "1190",
     "jiotv_name": "PTC Punjabi Gold",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Punjabi_Gold.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "Rang.in": {
-    "tvg_id": "Rang.in",
-    "playlist_name": "Rang (576p)",
-    "jiotv_id": "623",
-    "jiotv_name": "Rang",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Rang.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "SaamTV.in": {
-    "tvg_id": "SaamTV.in",
-    "playlist_name": "Saam TV",
-    "jiotv_id": "691",
-    "jiotv_name": "Saam Tv",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Saam_Tv.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -188,15 +161,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "StudioYuva.in": {
-    "tvg_id": "StudioYuva.in",
-    "playlist_name": "Studio Yuva (576p)",
-    "jiotv_id": "1799",
-    "jiotv_name": "Studio Yuva Alpha",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Studio_Yuva_Alpha.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "TarangTV.in@SD": {
     "tvg_id": "TarangTV.in@SD",
     "playlist_name": "Tarang TV (720p)",
@@ -221,6 +185,33 @@
     "jiotv_id": "727",
     "jiotv_name": "Vasanth TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vasanth_TV.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "VissaTV.in": {
+    "tvg_id": "VissaTV.in",
+    "playlist_name": "Vissa TV (576p)",
+    "jiotv_id": "734",
+    "jiotv_name": "Vissa TV",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vissa_TV.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "AndTV.in@SD": {
+    "tvg_id": "AndTV.in@SD",
+    "playlist_name": "&TV (576p)",
+    "jiotv_id": "916",
+    "jiotv_name": "TV 100",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_100.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "AndTVInternational.in": {
+    "tvg_id": "AndTVInternational.in",
+    "playlist_name": "&TV HD (1080p)",
+    "jiotv_id": "916",
+    "jiotv_name": "TV 100",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_100.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -271,21 +262,12 @@
   },
   "BhojpuriCinema.in@SD": {
     "tvg_id": "BhojpuriCinema.in@SD",
-    "playlist_name": "Bhojpuri Cinema",
+    "playlist_name": "Bhojpuri Cinema (720p)",
     "jiotv_id": "486",
     "jiotv_name": "Bhojpuri Cinema",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Bhojpuri_Cinema.png",
     "match_method": "exact_name",
     "verified": true
-  },
-  "KairaliWe.in": {
-    "tvg_id": "KairaliWe.in",
-    "playlist_name": "Kairali We (576p)",
-    "jiotv_id": "731",
-    "jiotv_name": "Kairali WE TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Kairali_WE_TV.png",
-    "match_method": "partial",
-    "verified": false
   },
   "PublicMovies.in": {
     "tvg_id": "PublicMovies.in",
@@ -304,15 +286,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Shubh_TV.png",
     "match_method": "word_match(67%)",
     "verified": false
-  },
-  "StudioOnePlus.in": {
-    "tvg_id": "StudioOnePlus.in",
-    "playlist_name": "Studio One + (720p)",
-    "jiotv_id": "1274",
-    "jiotv_name": "Studio One",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Studio_One.png",
-    "match_method": "exact_name",
-    "verified": true
   },
   "SonySportsTen2.in": {
     "tvg_id": "SonySportsTen2.in",
@@ -341,51 +314,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "10TV.in": {
-    "tvg_id": "10TV.in",
-    "playlist_name": "10 TV (576p)",
-    "jiotv_id": "832",
-    "jiotv_name": "10 TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/10_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "22ScopeNews.in@SD": {
-    "tvg_id": "22ScopeNews.in@SD",
-    "playlist_name": "22Scope News (1080p)",
-    "jiotv_id": "2082",
-    "jiotv_name": "22Scope News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/22Scope_News.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "4TVNews.in": {
-    "tvg_id": "4TVNews.in",
-    "playlist_name": "4TV News (576p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "AajTak.in@SD": {
-    "tvg_id": "AajTak.in@SD",
-    "playlist_name": "Aaj Tak (404p)",
-    "jiotv_id": "173",
-    "jiotv_name": "Aaj Tak",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "AajTak.in": {
-    "tvg_id": "AajTak.in",
-    "playlist_name": "Aaj Tak HD (1080p) 2",
-    "jiotv_id": "173",
-    "jiotv_name": "Aaj Tak",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "ABPAnanda.in@SD": {
     "tvg_id": "ABPAnanda.in@SD",
     "playlist_name": "ABP Ananda (1080p)",
@@ -401,15 +329,6 @@
     "jiotv_id": "1205",
     "jiotv_name": "ABP Ganga",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_Ganga.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "ABPMajha.in@SD": {
-    "tvg_id": "ABPMajha.in@SD",
-    "playlist_name": "ABP Majha (360p)",
-    "jiotv_id": "612",
-    "jiotv_name": "ABP Majha",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_Majha.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -449,33 +368,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "AsianetNews.in@SD": {
-    "tvg_id": "AsianetNews.in@SD",
-    "playlist_name": "Asianet News (1080p)",
-    "jiotv_id": "180",
-    "jiotv_name": "Asianet News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet_News.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "AsianetNews.in": {
-    "tvg_id": "AsianetNews.in",
-    "playlist_name": "Asianet News (360p)",
-    "jiotv_id": "180",
-    "jiotv_name": "Asianet News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Asianet_News.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "AsianetSuvarnaNews.in@SD": {
-    "tvg_id": "AsianetSuvarnaNews.in@SD",
-    "playlist_name": "Asianet Suvarna News (1080p) [Not 24/7]",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "AssamTalks.in": {
     "tvg_id": "AssamTalks.in",
     "playlist_name": "Assam Talks (576p)",
@@ -503,6 +395,24 @@
     "match_method": "exact_name",
     "verified": true
   },
+  "BharatSamachar.in@SD": {
+    "tvg_id": "BharatSamachar.in@SD",
+    "playlist_name": "Bharat Samachar (480p)",
+    "jiotv_id": "918",
+    "jiotv_name": "Bharat Samachar",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Bharat_Samachar.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "BRKNews.in": {
+    "tvg_id": "BRKNews.in",
+    "playlist_name": "BRK News (576p)",
+    "jiotv_id": "501",
+    "jiotv_name": "News 24",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
+    "match_method": "partial",
+    "verified": false
+  },
   "ChardiklaGurbaaniTV.in@SD": {
     "tvg_id": "ChardiklaGurbaaniTV.in@SD",
     "playlist_name": "Chardikla Gurbaani TV (1080p)",
@@ -514,7 +424,7 @@
   },
   "ChardiklaTimeTV.in@SD": {
     "tvg_id": "ChardiklaTimeTV.in@SD",
-    "playlist_name": "Chardikla Time TV",
+    "playlist_name": "Chardikla Time TV (1080p)",
     "jiotv_id": "517",
     "jiotv_name": "Chardikla Time TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Chardikla_Time_TV.png",
@@ -527,15 +437,6 @@
     "jiotv_id": "517",
     "jiotv_name": "Chardikla Time TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Chardikla_Time_TV.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "CnewsBharat.in@SD": {
-    "tvg_id": "CnewsBharat.in@SD",
-    "playlist_name": "Cnews Bharat (720p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
     "match_method": "partial",
     "verified": false
   },
@@ -683,24 +584,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "IndiaVoice.in": {
-    "tvg_id": "IndiaVoice.in",
-    "playlist_name": "India Voice (576p)",
-    "jiotv_id": "788",
-    "jiotv_name": "India Voice",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/India_Voice.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "INews.in": {
-    "tvg_id": "INews.in",
-    "playlist_name": "INews (720p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "INH24x7.in@SD": {
     "tvg_id": "INH24x7.in@SD",
     "playlist_name": "INH 24x7 (360p)",
@@ -719,30 +602,12 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "JantaTV.in@SD": {
-    "tvg_id": "JantaTV.in@SD",
-    "playlist_name": "Janta TV (1080p)",
-    "jiotv_id": "880",
-    "jiotv_name": "Janta TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Janta_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "JK24x7News.in@SD": {
     "tvg_id": "JK24x7News.in@SD",
     "playlist_name": "JK 24x7 News (720p) [Not 24/7]",
     "jiotv_id": "789",
     "jiotv_name": "JK 24x7 News",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/JK_24x7_News.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "KairaliNews.in": {
-    "tvg_id": "KairaliNews.in",
-    "playlist_name": "Kairali News (720p)",
-    "jiotv_id": "725",
-    "jiotv_name": "Kairali News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Kairali_People_TV.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -755,15 +620,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "KalingaTV.in@SD": {
-    "tvg_id": "KalingaTV.in@SD",
-    "playlist_name": "Kalinga TV (720p)",
-    "jiotv_id": "781",
-    "jiotv_name": "Kalinga TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Kalinga_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "KashishNews.in@SD": {
     "tvg_id": "KashishNews.in@SD",
     "playlist_name": "Kashish News (720p)",
@@ -773,14 +629,14 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "MadhimugamTV.in": {
-    "tvg_id": "MadhimugamTV.in",
-    "playlist_name": "Madhimugam TV (576p)",
-    "jiotv_id": "843",
-    "jiotv_name": "Madhimugam TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Madhimugam_TV.png",
-    "match_method": "exact_name",
-    "verified": true
+  "MNaduTV.in": {
+    "tvg_id": "MNaduTV.in",
+    "playlist_name": "M Nadu TV (576p)",
+    "jiotv_id": "2434",
+    "jiotv_name": "M Nadu",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/M_Nadu.png",
+    "match_method": "partial",
+    "verified": false
   },
   "MahaaNews.in@SD": {
     "tvg_id": "MahaaNews.in@SD",
@@ -790,6 +646,15 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Mahaa_News.png",
     "match_method": "exact_name",
     "verified": true
+  },
+  "MalaiMurasuTV.in@SD": {
+    "tvg_id": "MalaiMurasuTV.in@SD",
+    "playlist_name": "Malai Murasu TV (1080p) [Geo-blocked]",
+    "jiotv_id": "826",
+    "jiotv_name": "Malai Murasu",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Malai_Murasu.png",
+    "match_method": "partial",
+    "verified": false
   },
   "ManoramaNews.in@SD": {
     "tvg_id": "ManoramaNews.in@SD",
@@ -881,15 +746,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "News1st.in": {
-    "tvg_id": "News1st.in",
-    "playlist_name": "News 1st (576p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "News24.in@SD": {
     "tvg_id": "News24.in@SD",
     "playlist_name": "News 24 (720p)",
@@ -908,59 +764,14 @@
     "match_method": "partial",
     "verified": false
   },
-  "NewsDaily24.in": {
-    "tvg_id": "NewsDaily24.in",
-    "playlist_name": "News Daily 24 (576p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "NewsJ.in": {
-    "tvg_id": "NewsJ.in",
-    "playlist_name": "News J (720p) [Not 24/7]",
-    "jiotv_id": "1515",
-    "jiotv_name": "News J",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_J.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "NewsLive.in": {
-    "tvg_id": "NewsLive.in",
-    "playlist_name": "News Live (576p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "NewsNation.in@SD": {
     "tvg_id": "NewsNation.in@SD",
-    "playlist_name": "News Nation (1080p)",
+    "playlist_name": "News Nation",
     "jiotv_id": "499",
     "jiotv_name": "News Nation",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_Nation.png",
     "match_method": "exact_name",
     "verified": true
-  },
-  "News18Bangla.in@SD": {
-    "tvg_id": "News18Bangla.in@SD",
-    "playlist_name": "News18 Bangla (1080p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "News18India.in@SD": {
-    "tvg_id": "News18India.in@SD",
-    "playlist_name": "News18 India (1080p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
   },
   "News9Live.in@SD": {
     "tvg_id": "News9Live.in@SD",
@@ -973,7 +784,7 @@
   },
   "PolimerNews.in@SD": {
     "tvg_id": "PolimerNews.in@SD",
-    "playlist_name": "Polimer News",
+    "playlist_name": "Polimer News (576p)",
     "jiotv_id": "636",
     "jiotv_name": "Polimer News",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Polimer_News.png",
@@ -986,15 +797,6 @@
     "jiotv_id": "1856",
     "jiotv_name": "Pratham Khabar 24x7",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_Time_Assam.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "PratidinTime.in@SD": {
-    "tvg_id": "PratidinTime.in@SD",
-    "playlist_name": "Pratidin Time (576p)",
-    "jiotv_id": "647",
-    "jiotv_name": "Pratidin Time",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Pratidin_News.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -1016,15 +818,6 @@
     "match_method": "partial",
     "verified": false
   },
-  "PTCNews.in": {
-    "tvg_id": "PTCNews.in",
-    "playlist_name": "PTC News (576p)",
-    "jiotv_id": "1170",
-    "jiotv_name": "PTC News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/PTC_News.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "RPlus.in@SD": {
     "tvg_id": "RPlus.in@SD",
     "playlist_name": "R Plus (768p)",
@@ -1043,12 +836,12 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "RajNewsKannada.in": {
-    "tvg_id": "RajNewsKannada.in",
-    "playlist_name": "Raj News Kannada (576p)",
-    "jiotv_id": "651",
-    "jiotv_name": "Raj News Kannada",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_News_Kannada.png",
+  "RajNewsMalayalam.in": {
+    "tvg_id": "RajNewsMalayalam.in",
+    "playlist_name": "Raj News Malayalam (576p)",
+    "jiotv_id": "650",
+    "jiotv_name": "Raj News Malayalam",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_News_Malayalam.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -1072,7 +865,7 @@
   },
   "ReporterTV.in@SD": {
     "tvg_id": "ReporterTV.in@SD",
-    "playlist_name": "Reporter TV",
+    "playlist_name": "Reporter TV (576p)",
     "jiotv_id": "1408",
     "jiotv_name": "Reporter TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Reporter_TV.png",
@@ -1081,21 +874,21 @@
   },
   "RepublicBharat.in@SD": {
     "tvg_id": "RepublicBharat.in@SD",
-    "playlist_name": "Republic Bharat",
+    "playlist_name": "Republic Bharat (1080p) [Geo-blocked]",
     "jiotv_id": "1403",
     "jiotv_name": "Republic Bharat",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Republic_Bharat.png",
-    "match_method": "exact_name",
-    "verified": true
+    "match_method": "partial",
+    "verified": false
   },
   "RepublicTV.in@SD": {
     "tvg_id": "RepublicTV.in@SD",
-    "playlist_name": "Republic TV (1080p)",
-    "jiotv_id": "858",
-    "jiotv_name": "Republic TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Republic_TV.png",
-    "match_method": "exact_name",
-    "verified": true
+    "playlist_name": "Republic TV (1080p) [Geo-blocked]",
+    "jiotv_id": "778",
+    "jiotv_name": "Public TV",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Public_TV.png",
+    "match_method": "partial",
+    "verified": false
   },
   "SadhnaPlusNews.in@SD": {
     "tvg_id": "SadhnaPlusNews.in@SD",
@@ -1126,7 +919,7 @@
   },
   "SansadTV1.in@SD": {
     "tvg_id": "SansadTV1.in@SD",
-    "playlist_name": "Sansad TV 1 (1080p)",
+    "playlist_name": "Sansad TV 1 (1080p) [Not 24/7]",
     "jiotv_id": "520",
     "jiotv_name": "Sansad TV HD",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png",
@@ -1160,36 +953,9 @@
     "match_method": "partial",
     "verified": false
   },
-  "SwadeshNews.in": {
-    "tvg_id": "SwadeshNews.in",
-    "playlist_name": "Swadesh News (720p)",
-    "jiotv_id": "1185",
-    "jiotv_name": "Swadesh News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Swadesh_News.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "TNews.in": {
-    "tvg_id": "TNews.in",
-    "playlist_name": "T News (720p)",
-    "jiotv_id": "667",
-    "jiotv_name": "T News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/T_News.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "ThanthiTV.in": {
-    "tvg_id": "ThanthiTV.in",
-    "playlist_name": "Thanthi TV (576p)",
-    "jiotv_id": "830",
-    "jiotv_name": "Thanthi TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Thanthi_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "TV5News.in@SD": {
     "tvg_id": "TV5News.in@SD",
-    "playlist_name": "TV5 News",
+    "playlist_name": "TV5 News (576p)",
     "jiotv_id": "501",
     "jiotv_name": "News 24",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
@@ -1286,33 +1052,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "ZeeBiharJharkhand.in@SD": {
-    "tvg_id": "ZeeBiharJharkhand.in@SD",
-    "playlist_name": "Zee Bihar Jharkhand (720p)",
-    "jiotv_id": "661",
-    "jiotv_name": "Zee Bihar Jharkhand",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Purvaiya.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "ZeeBiharJharkhand.in": {
-    "tvg_id": "ZeeBiharJharkhand.in",
-    "playlist_name": "Zee Bihar Jharkhand (720p) 2",
-    "jiotv_id": "661",
-    "jiotv_name": "Zee Bihar Jharkhand",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Purvaiya.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "ZeeDelhiNCRHaryana.in@SD": {
-    "tvg_id": "ZeeDelhiNCRHaryana.in@SD",
-    "playlist_name": "Zee Delhi NCR Haryana (720p)",
-    "jiotv_id": "724",
-    "jiotv_name": "Zee Delhi NCR Haryana",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Kalinga.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "ZeeKannadaNews.in@SD": {
     "tvg_id": "ZeeKannadaNews.in@SD",
     "playlist_name": "Zee Kannada News (720p)",
@@ -1348,15 +1087,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Telugu_News.png",
     "match_method": "exact_name",
     "verified": true
-  },
-  "ZillarBartaNews.in@HD": {
-    "tvg_id": "ZillarBartaNews.in@HD",
-    "playlist_name": "ZillarBarta News",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
   },
   "animaxasiaindia": {
     "tvg_id": "animaxasiaindia",
@@ -1421,6 +1151,15 @@
     "match_method": "exact_name",
     "verified": true
   },
+  "9XM.in@SD": {
+    "tvg_id": "9XM.in@SD",
+    "playlist_name": "9XM (1080p)",
+    "jiotv_id": "587",
+    "jiotv_name": "9XM",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/9XM.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
   "B4UMusic.in@India": {
     "tvg_id": "B4UMusic.in@India",
     "playlist_name": "B4U Music (1080p)",
@@ -1432,7 +1171,7 @@
   },
   "BalleBalle.in@SD": {
     "tvg_id": "BalleBalle.in@SD",
-    "playlist_name": "Balle Balle",
+    "playlist_name": "Balle Balle (720p)",
     "jiotv_id": "1453",
     "jiotv_name": "Balle Balle TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Balle_Balle_TV.png",
@@ -1450,19 +1189,10 @@
   },
   "PTCMusic.in@SD": {
     "tvg_id": "PTCMusic.in@SD",
-    "playlist_name": "PTC Music",
+    "playlist_name": "PTC Music (720p)",
     "jiotv_id": "1189",
     "jiotv_name": "PTC Music",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Music.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "PunjabiHits.in@SD": {
-    "tvg_id": "PunjabiHits.in@SD",
-    "playlist_name": "Punjabi Hits (1080p)",
-    "jiotv_id": "2934",
-    "jiotv_name": "Punjabi Hits",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Punjabi_Hits.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -1483,33 +1213,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Musix.png",
     "match_method": "partial",
     "verified": false
-  },
-  "SangeetBangla.in": {
-    "tvg_id": "SangeetBangla.in",
-    "playlist_name": "Sangeet Bangla (720p)",
-    "jiotv_id": "740",
-    "jiotv_name": "Sangeet Bangla",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sangeet_Bangla.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "SangeetBhojpuri.in": {
-    "tvg_id": "SangeetBhojpuri.in",
-    "playlist_name": "Sangeet Bhojpuri (576p)",
-    "jiotv_id": "741",
-    "jiotv_name": "Sangeet Bhojpuri",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sangeet_Bhojpuri.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "SangeetMarathi.in": {
-    "tvg_id": "SangeetMarathi.in",
-    "playlist_name": "Sangeet Marathi (720p)",
-    "jiotv_id": "735",
-    "jiotv_name": "Sangeet Marathi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sangeet_Marathi.png",
-    "match_method": "exact_name",
-    "verified": true
   },
   "SongdewTV.in@SD": {
     "tvg_id": "SongdewTV.in@SD",
@@ -1562,24 +1265,6 @@
     "jiotv_id": "971",
     "jiotv_name": "Vaanavil TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Vaanavil_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "YRFMusic.in@SD": {
-    "tvg_id": "YRFMusic.in@SD",
-    "playlist_name": "YRF Music (1080p)",
-    "jiotv_id": "2753",
-    "jiotv_name": "YRF Music",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/YRF_Music.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "YRFMusic.in": {
-    "tvg_id": "YRFMusic.in",
-    "playlist_name": "YRF Music (1080p) 2",
-    "jiotv_id": "2753",
-    "jiotv_name": "YRF Music",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/YRF_Music.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -1673,9 +1358,27 @@
     "match_method": "word_match(67%)",
     "verified": false
   },
-  "AngelTV.in@Spanish": {
-    "tvg_id": "AngelTV.in@Spanish",
-    "playlist_name": "Angel TV Spanish (720p)",
+  "AngelTV.in@Australia": {
+    "tvg_id": "AngelTV.in@Australia",
+    "playlist_name": "Angel TV Australia (720p)",
+    "jiotv_id": "835",
+    "jiotv_name": "Angel TV HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png",
+    "match_method": "partial",
+    "verified": false
+  },
+  "AngelTV.in@Portuguese": {
+    "tvg_id": "AngelTV.in@Portuguese",
+    "playlist_name": "Angel TV Portuguese (720p)",
+    "jiotv_id": "835",
+    "jiotv_name": "Angel TV HD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png",
+    "match_method": "partial",
+    "verified": false
+  },
+  "AngelTV.in@Russian": {
+    "tvg_id": "AngelTV.in@Russian",
+    "playlist_name": "Angel TV Russian (720p)",
     "jiotv_id": "835",
     "jiotv_name": "Angel TV HD",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png",
@@ -1690,15 +1393,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Bhaktisagar.png",
     "match_method": "partial",
     "verified": false
-  },
-  "CVROMSpiritual.in": {
-    "tvg_id": "CVROMSpiritual.in",
-    "playlist_name": "CVR OM Spiritual (576p)",
-    "jiotv_id": "772",
-    "jiotv_name": "CVR OM Spiritual",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/CVR_OM_Spiritual.png",
-    "match_method": "exact_name",
-    "verified": true
   },
   "Darshan24.in": {
     "tvg_id": "Darshan24.in",
@@ -1727,15 +1421,6 @@
     "match_method": "partial",
     "verified": false
   },
-  "GraceTV.in": {
-    "tvg_id": "GraceTV.in",
-    "playlist_name": "Grace TV (576p)",
-    "jiotv_id": "2775",
-    "jiotv_name": "Grace TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Grace_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "HarvestTV.in@SD": {
     "tvg_id": "HarvestTV.in@SD",
     "playlist_name": "Harvest TV (720p)",
@@ -1753,15 +1438,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Harvest_TV_24x7.png",
     "match_method": "word_match(67%)",
     "verified": false
-  },
-  "HinduDharmam.in": {
-    "tvg_id": "HinduDharmam.in",
-    "playlist_name": "Hindu Dharmam (576p)",
-    "jiotv_id": "955",
-    "jiotv_name": "Hindu Dharmam",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Hindu_Dharmam.png",
-    "match_method": "exact_name",
-    "verified": true
   },
   "IshwarBhaktiTV.in@SD": {
     "tvg_id": "IshwarBhaktiTV.in@SD",
@@ -1889,24 +1565,6 @@
     "match_method": "partial",
     "verified": false
   },
-  "CNBCAwaaz.in@SD": {
-    "tvg_id": "CNBCAwaaz.in@SD",
-    "playlist_name": "CNBC Awaaz (1080p)",
-    "jiotv_id": "190",
-    "jiotv_name": "CNBC Awaaz",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/CNBC_Awaaz.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "CNBCTV18PrimeHD.in@SD": {
-    "tvg_id": "CNBCTV18PrimeHD.in@SD",
-    "playlist_name": "CNBC TV18 Prime HD (1080p)",
-    "jiotv_id": "143",
-    "jiotv_name": "CNBC TV18 Prime",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/CNBC_Tv18_Prime_HD.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "ETNowSwadesh.in@SD": {
     "tvg_id": "ETNowSwadesh.in@SD",
     "playlist_name": "ET Now Swadesh (720p)",
@@ -1927,7 +1585,7 @@
   },
   "AyushTV.in@SD": {
     "tvg_id": "AyushTV.in@SD",
-    "playlist_name": "Ayush TV",
+    "playlist_name": "Ayush TV (360p) [Not 24/7]",
     "jiotv_id": "1075",
     "jiotv_name": "Ayush TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Ayush_TV.png",
@@ -1942,6 +1600,15 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/BVG.png",
     "match_method": "exact_name",
     "verified": true
+  },
+  "Gyandarshan.in": {
+    "tvg_id": "Gyandarshan.in",
+    "playlist_name": "Gyandarshan (720p)",
+    "jiotv_id": "611",
+    "jiotv_name": "Darshan 24",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Darshan_24.png",
+    "match_method": "partial",
+    "verified": false
   },
   "KappaTV.in": {
     "tvg_id": "KappaTV.in",
@@ -1970,15 +1637,6 @@
     "match_method": "partial",
     "verified": false
   },
-  "NDTVGoodTimes.in@SD": {
-    "tvg_id": "NDTVGoodTimes.in@SD",
-    "playlist_name": "NDTV Good Times (1080p)",
-    "jiotv_id": "560",
-    "jiotv_name": "GOOD TiMES",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_Good_Times.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "OdishaTV.in@SD": {
     "tvg_id": "OdishaTV.in@SD",
     "playlist_name": "Odisha TV (720p)",
@@ -1990,28 +1648,19 @@
   },
   "SafariTV.in@SD": {
     "tvg_id": "SafariTV.in@SD",
-    "playlist_name": "Safari TV",
+    "playlist_name": "Safari TV (480p) [Not 24/7]",
     "jiotv_id": "1666",
     "jiotv_name": "Safari TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Safari_TV.png",
     "match_method": "exact_name",
     "verified": true
   },
-  "6TVTelugu.in": {
-    "tvg_id": "6TVTelugu.in",
-    "playlist_name": "6 TV Telugu (576p)",
-    "jiotv_id": "670",
-    "jiotv_name": "6 TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/6_TV.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "KairaliTV.in": {
-    "tvg_id": "KairaliTV.in",
-    "playlist_name": "Kairali TV (576p)",
-    "jiotv_id": "710",
-    "jiotv_name": "Kairali TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Kairali_TV.png",
+  "KaumudyTV.in@SD": {
+    "tvg_id": "KaumudyTV.in@SD",
+    "playlist_name": "Kaumudy TV (720p)",
+    "jiotv_id": "563",
+    "jiotv_name": "Kaumudy TV",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Kaumudy_TV.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -2123,24 +1772,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "TehzeebTV.in": {
-    "tvg_id": "TehzeebTV.in",
-    "playlist_name": "Tehzeeb TV (720p)",
-    "jiotv_id": "1252",
-    "jiotv_name": "Tehzeeb TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TEHZEEB_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "WinTV.in": {
-    "tvg_id": "WinTV.in",
-    "playlist_name": "Win TV (576p)",
-    "jiotv_id": "970",
-    "jiotv_name": "Win TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Win_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "JayaPlus.in@SD": {
     "tvg_id": "JayaPlus.in@SD",
     "playlist_name": "Jaya Plus (576p)",
@@ -2152,7 +1783,7 @@
   },
   "Nepal1.in@SD": {
     "tvg_id": "Nepal1.in@SD",
-    "playlist_name": "Nepal 1",
+    "playlist_name": "Nepal 1 (396p)",
     "jiotv_id": "719",
     "jiotv_name": "Nepal one",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nepal_one.png",
@@ -2186,21 +1817,21 @@
     "match_method": "partial",
     "verified": false
   },
-  "9XM.in@SD": {
-    "tvg_id": "9XM.in@SD",
-    "playlist_name": "9XM (1080p)",
-    "jiotv_id": "587",
-    "jiotv_name": "9XM",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/9XM.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "AndTV.in@HD": {
     "tvg_id": "AndTV.in@HD",
     "playlist_name": "&TV HD (1080p)",
     "jiotv_id": "916",
     "jiotv_name": "TV 100",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_100.png",
+    "match_method": "exact_name",
+    "verified": true
+  },
+  "AajTak.in@SD": {
+    "tvg_id": "AajTak.in@SD",
+    "playlist_name": "Aaj Tak (404p)",
+    "jiotv_id": "173",
+    "jiotv_name": "Aaj Tak",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -2228,15 +1859,6 @@
     "jiotv_id": "1388",
     "jiotv_name": "Goodness",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Goodness_TV.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "HistoryTV18.in@HD": {
-    "tvg_id": "HistoryTV18.in@HD",
-    "playlist_name": "History TV18 HD (1080p) [Geo-blocked]",
-    "jiotv_id": "146",
-    "jiotv_name": "History TV18 HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/History_HD.png",
     "match_method": "partial",
     "verified": false
   },
@@ -2276,15 +1898,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "NDTVProfit.in@HD": {
-    "tvg_id": "NDTVProfit.in@HD",
-    "playlist_name": "NDTV Profit (1080p)",
-    "jiotv_id": "259",
-    "jiotv_name": "NDTV Profit",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_Profit.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "NKRTVKannada.in@SD": {
     "tvg_id": "NKRTVKannada.in@SD",
     "playlist_name": "NKR TV Kannada (576p)",
@@ -2302,6 +1915,15 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Prime_News.png",
     "match_method": "exact_name",
     "verified": true
+  },
+  "RajMusixKannada.in@SD": {
+    "tvg_id": "RajMusixKannada.in@SD",
+    "playlist_name": "Raj Musix Kannada (576p)",
+    "jiotv_id": "748",
+    "jiotv_name": "Raj Musix",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Musix.png",
+    "match_method": "partial",
+    "verified": false
   },
   "SamacharPlus24x7.in@SD": {
     "tvg_id": "SamacharPlus24x7.in@SD",
@@ -2347,15 +1969,6 @@
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/STV_Haryana_News.png",
     "match_method": "exact_name",
     "verified": true
-  },
-  "SubhartiTV.in@SD": {
-    "tvg_id": "SubhartiTV.in@SD",
-    "playlist_name": "Subharti TV (576p)",
-    "jiotv_id": "1543",
-    "jiotv_name": "Subharti",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Subharti.png",
-    "match_method": "partial",
-    "verified": false
   },
   "TamilJanam.in@SD": {
     "tvg_id": "TamilJanam.in@SD",
@@ -2456,21 +2069,12 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "VTVNews.in@SD": {
-    "tvg_id": "VTVNews.in@SD",
-    "playlist_name": "VTV News (576p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "PragNews.in@SD": {
-    "tvg_id": "PragNews.in@SD",
-    "playlist_name": "Prag News (576p)",
-    "jiotv_id": "624",
-    "jiotv_name": "Prag News",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Prag_News.png",
+  "PTCSimran.in@SD": {
+    "tvg_id": "PTCSimran.in@SD",
+    "playlist_name": "PTC Simran",
+    "jiotv_id": "1191",
+    "jiotv_name": "PTC Simran",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Simran.png",
     "match_method": "exact_name",
     "verified": true
   },
@@ -2483,87 +2087,6 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "NambikkaiTV.in@SD": {
-    "tvg_id": "NambikkaiTV.in@SD",
-    "playlist_name": "Nambikkai TV",
-    "jiotv_id": "603",
-    "jiotv_name": "Nambikkai",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Nambikkai.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "MadhaTV.in@SD": {
-    "tvg_id": "MadhaTV.in@SD",
-    "playlist_name": "Madha TV",
-    "jiotv_id": "1655",
-    "jiotv_name": "Madha TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Madha_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "KaumudyTV.in@SD": {
-    "tvg_id": "KaumudyTV.in@SD",
-    "playlist_name": "Kaumudy TV",
-    "jiotv_id": "563",
-    "jiotv_name": "Kaumudy TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Kaumudy_TV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "SaiTV.in@SD": {
-    "tvg_id": "SaiTV.in@SD",
-    "playlist_name": "Sai TV",
-    "jiotv_id": "937",
-    "jiotv_name": "Sai TV",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SaiTV.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "SansadTV2.in@SD": {
-    "tvg_id": "SansadTV2.in@SD",
-    "playlist_name": "Sansad TV 2",
-    "jiotv_id": "520",
-    "jiotv_name": "Sansad TV HD",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Rajyasabha.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "DDArunPrabha.in@SD": {
-    "tvg_id": "DDArunPrabha.in@SD",
-    "playlist_name": "DD Arun Prabha",
-    "jiotv_id": "3118",
-    "jiotv_name": "DD Swayam Prabha 23",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_SWAYAM_PRABHA_23.png",
-    "match_method": "word_match(67%)",
-    "verified": false
-  },
-  "DDTamil.in@SD": {
-    "tvg_id": "DDTamil.in@SD",
-    "playlist_name": "DD Tamil",
-    "jiotv_id": "569",
-    "jiotv_name": "D Tamil",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Channel_Tamil.png",
-    "match_method": "partial",
-    "verified": false
-  },
-  "DDPunjabi.in@SD": {
-    "tvg_id": "DDPunjabi.in@SD",
-    "playlist_name": "DD Punjabi",
-    "jiotv_id": "715",
-    "jiotv_name": "DD Punjabi",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Punjabi.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
-  "News24MPChhattisgarh.in@SD": {
-    "tvg_id": "News24MPChhattisgarh.in@SD",
-    "playlist_name": "News 24 MP & Chhattisgarh (576p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
-    "verified": false
-  },
   "GospelTVIndia.in@SD": {
     "tvg_id": "GospelTVIndia.in@SD",
     "playlist_name": "Gospel TV India (720p)",
@@ -2571,15 +2094,6 @@
     "jiotv_name": "India TV",
     "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/India_TV.png",
     "match_method": "word_match(67%)",
-    "verified": false
-  },
-  "ZeeTamilNews.in@SD": {
-    "tvg_id": "ZeeTamilNews.in@SD",
-    "playlist_name": "Zee Tamil News (720p)",
-    "jiotv_id": "501",
-    "jiotv_name": "News 24",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
-    "match_method": "partial",
     "verified": false
   }
 }
