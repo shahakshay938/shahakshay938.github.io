@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Vedic (480p)"
+https://aasthaott.akamaized.net/110923/smil:vedic.smil/playlist.m3u8

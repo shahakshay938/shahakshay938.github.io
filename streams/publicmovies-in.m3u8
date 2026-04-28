@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Public Movies (576p)"
+https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8

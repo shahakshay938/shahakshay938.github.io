@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Abzy Dhakad (504p)"
+http://57.129.53.130:21001/ABZY_Dhakad/master.m3u8

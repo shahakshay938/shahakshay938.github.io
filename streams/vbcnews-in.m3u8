@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="VBC News (576p)"
+https://5a1178b42cc03.streamlock.net/8200/8200/playlist.m3u8

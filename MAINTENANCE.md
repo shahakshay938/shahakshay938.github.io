@@ -6,6 +6,7 @@ This guide explains how to maintain, troubleshoot, and revise the automated IPTV
 *   **`.github/workflows/update-playlist.yml`**: The "Heart" of the system. Controls the daily 3 AM IST schedule.
 *   **`backups/playlist-2026-03-19.m3u`**: The **Permanent Base** used for every daily fusion.
 *   **`scripts/`**: Contains the Python logic engines.
+*   **`streams/`**: Stable wrapper files. `latest.m3u` points here instead of directly at upstream sources.
 *   **`latest.m3u`**: The live, optimized playlist file. **Updated only when stream changes are detected.**
 *   **`backups/`**: Historical snapshots for manual recovery. Created automatically upon each confirmed change.
 
@@ -47,4 +48,5 @@ To run the verification pulse manually on your own machine:
 2.  Run: `python3 check_streams.py`
 3.  Run: `python3 detect_loops.py`
 4.  Run: `python3 filter_playlist.py`
+5.  Run: `python3 build_stream_wrappers.py ../latest.m3u --output-dir ../streams`
 *Ensure `ffprobe` is installed on your system.

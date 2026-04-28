@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Sathiyam TV (720p)"
+https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8

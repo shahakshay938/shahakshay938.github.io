@@ -27,6 +27,7 @@ shahakshay938.github.io/
 │   ├── playlist-YYYY-MM-DD.m3u   # Daily playlist snapshots (14-day retention)
 │   └── epg/
 │       └── epg-YYYY-MM-DD.xml.gz # EPG snapshots (7-day retention)
+├── streams/                  # Stable per-channel wrapper .m3u8 files used by latest.m3u
 ├── latest.m3u                # Live verified playlist
 ├── epg.xml.gz                # Current EPG guide
 └── channel_mapping.json      # JioTV → tvg-id channel mapping
@@ -40,6 +41,7 @@ shahakshay938.github.io/
 - **Daily sources** — iptv-org India + any additional sources configured in the workflow.
 - **Additive merge** — new stream URLs are added; existing URLs get refreshed metadata; manual overrides (`(Jio Proxy)`, `(Google DAI)`, `(Stable Restream)`) are always preserved.
 - **HD/SD variants** — kept as separate entries using stream URL as the unique key.
+- **Stable published URLs** — `latest.m3u` points at repo-hosted `streams/*.m3u8` wrappers, so players keep the same public channel URLs even when upstream sources change.
 
 ---
 
@@ -51,8 +53,9 @@ shahakshay938.github.io/
 4. **Loop detection** — `EXT-X-MEDIA-SEQUENCE` monitored over 15s; stuck streams → removed
 5. **Standardize** — VLC network options, timeshift, aspect-ratio applied uniformly
 6. **Normalize categories** — single genre per channel, consistent group-title values
-7. **Filter** — only verified streams survive to `latest.m3u`
-8. **Backup** — previous `latest.m3u` archived to `backups/playlist-YYYY-MM-DD.m3u`
+7. **Filter** — only verified streams survive to the final publish stage
+8. **Wrap** — each surviving channel gets a stable `streams/<slug>.m3u8` file
+9. **Backup** — previous live playlist + wrapper snapshot archived to `backups/playlist-YYYY-MM-DD.m3u` and `backups/streams/YYYY-MM-DD/`
 
 ---
 

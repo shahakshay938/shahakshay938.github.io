@@ -76,6 +76,10 @@ jobs:
         run: |
           # Snapshot the pre-merge state for change detection
           cp latest.m3u /tmp/old_latest.m3u
+          if [ -d streams ]; then
+            rm -rf /tmp/old_streams
+            cp -R streams /tmp/old_streams
+          fi
           OLD_COUNT=$(grep -c "^#EXTINF" /tmp/old_latest.m3u || echo 0)
           echo "OLD_COUNT=${OLD_COUNT}" >> $GITHUB_ENV
 
@@ -121,6 +125,10 @@ jobs:
         if: env.SOURCES_OK == 'true'
         run: python3 scripts/filter_playlist.py
 
+      - name: 🧭 Build stable stream wrapper files
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/build_stream_wrappers.py latest.m3u --output-dir streams --public-base-url "https://shahakshay938.github.io/streams"
+
       # ─── Detect Changes ───────────────────────────────────────
 
       - name: 🔍 Detect changes and compute stats
@@ -133,11 +141,16 @@ jobs:
           echo "NEW_COUNT=${NEW_COUNT}" >> $GITHUB_ENV
           echo "CHANNEL_DIFF=${DIFF}" >> $GITHUB_ENV
 
-          if diff -q latest.m3u /tmp/old_latest.m3u > /dev/null 2>&1; then
+          if git diff --quiet -- latest.m3u streams/; then
             echo "✅ No playlist changes detected"
             echo "HAS_CHANGES=false" >> $GITHUB_ENV
-            # Restore original to avoid unnecessary git diff
+
+            # Restore original state to avoid unnecessary git diff
             cp /tmp/old_latest.m3u latest.m3u
+            rm -rf streams
+            if [ -d /tmp/old_streams ]; then
+              cp -R /tmp/old_streams streams
+            fi
           else
             echo "🚀 Playlist changed (${OLD_COUNT} → ${NEW_COUNT} channels, diff: ${DIFF:+}${DIFF})"
             echo "HAS_CHANGES=true" >> $GITHUB_ENV
@@ -149,10 +162,16 @@ jobs:
         if: env.HAS_CHANGES == 'true'
         run: |
           mkdir -p backups
+          mkdir -p backups/streams
           DATE=$(date +%F)
 
-          # Archive yesterday's stable playlist (what was live before this run)
-          cp /tmp/old_latest.m3u "backups/playlist-${DATE}.m3u"
+          # Archive yesterday's stable playlist plus its wrapper snapshot
+          python3 scripts/export_stream_backup.py \
+            --input-playlist /tmp/old_latest.m3u \
+            --source-streams-dir /tmp/old_streams \
+            --output-playlist "backups/playlist-${DATE}.m3u" \
+            --output-streams-dir "backups/streams/${DATE}" \
+            --public-base-url "https://shahakshay938.github.io/backups/streams/${DATE}"
           echo "📦 Archived to backups/playlist-${DATE}.m3u"
 
           # Retention: keep last 14 days of playlist backups
@@ -160,7 +179,9 @@ jobs:
           PROTECTED="playlist-2026-03-19.m3u"
           ls backups/playlist-*.m3u 2>/dev/null | grep -v "$PROTECTED" | sort | head -n -14 | while read f; do
             echo "🗑️  Removing old backup: $f"
+            OLD_DATE=$(basename "$f" .m3u | sed 's/^playlist-//')
             rm -f "$f"
+            rm -rf "backups/streams/${OLD_DATE}"
           done
 
       - name: 📝 Update README stats
@@ -179,7 +200,7 @@ jobs:
           # Ensure runtime artifacts stay untracked
           git rm --cached stream_report.json loop_report.json astra_audit_report.json 2>/dev/null || true
 
-          git add latest.m3u backups/ README.md
+          git add latest.m3u streams/ backups/ README.md
 
           if git diff --cached --quiet; then
             echo "ℹ️  Nothing to commit"
@@ -199,6 +220,7 @@ jobs:
             echo "## ✅ Playlist Updated" >> $GITHUB_STEP_SUMMARY
             echo "- **Channels:** ${OLD_COUNT} → ${NEW_COUNT} (${DIFF_LABEL})" >> $GITHUB_STEP_SUMMARY
             echo "- **Backup:** backups/playlist-$(date +%F).m3u" >> $GITHUB_STEP_SUMMARY
+            echo "- **Stable wrappers:** streams/*.m3u8" >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: ℹ️  No changes summary

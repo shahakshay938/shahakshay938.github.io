@@ -3,6 +3,11 @@ import json
 import os
 import re
 
+try:
+    from wrapper_utils import resolve_stream_target
+except ModuleNotFoundError:
+    from scripts.wrapper_utils import resolve_stream_target
+
 STREAM_REPORT = "stream_report.json"
 LOOP_REPORT = "loop_report.json"
 INPUT_M3U = "latest.m3u"
@@ -16,13 +21,22 @@ def load_good_urls():
     if os.path.exists(STREAM_REPORT):
         with open(STREAM_REPORT, 'r') as f:
             s_results = json.load(f)
-        good_urls = {r['url'] for r in s_results if r['status'] == 'OK' and r.get('latency', 0) <= LATENCY_THRESHOLD}
+        for result in s_results:
+            if result['status'] == 'OK' and result.get('latency', 0) <= LATENCY_THRESHOLD:
+                good_urls.add(result['url'])
+                if result.get('resolved_url'):
+                    good_urls.add(result['resolved_url'])
     
     # Intersect with Loop Report (if exists)
     if os.path.exists(LOOP_REPORT):
         with open(LOOP_REPORT, 'r') as f:
             l_results = json.load(f)
-        bad_loops = {r['url'] for r in l_results if r['status'] != 'OK'}
+        bad_loops = set()
+        for result in l_results:
+            if result['status'] != 'OK':
+                bad_loops.add(result['url'])
+                if result.get('resolved_url'):
+                    bad_loops.add(result['resolved_url'])
         good_urls = good_urls - bad_loops
         
     return good_urls
@@ -53,8 +67,9 @@ def filter_m3u(input_path, output_path, good_urls):
             # Special case: Always keep manual Sony variants even if they weren't in the report
             # Or if they are in the report and OK
             is_manual = '(Jio Proxy)' in extinf or '(Google DAI)' in extinf or '(Stable Restream)' in extinf
+            resolved_url = resolve_stream_target(url)
             
-            if url in good_urls or is_manual:
+            if url in good_urls or resolved_url in good_urls or is_manual:
                 filtered_lines.append(extinf + '\n')
                 filtered_lines.extend(extra)
                 filtered_lines.append(url + '\n')

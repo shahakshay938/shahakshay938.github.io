@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Star Sports 2 Tamil (576p)"
+http://103.229.254.25:7001/play/a0dc/index.m3u8

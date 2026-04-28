@@ -6,6 +6,11 @@ import concurrent.futures
 import json
 import os
 
+try:
+    from wrapper_utils import resolve_stream_target
+except ModuleNotFoundError:
+    from scripts.wrapper_utils import resolve_stream_target
+
 # Configuration
 INPUT_M3U = "latest.m3u"
 WAIT_TIME = 15  # Seconds between checks
@@ -34,32 +39,33 @@ def get_hls_metadata(url, ua=None):
 
 def check_loop(channel):
     url = channel['url']
+    resolved_url = resolve_stream_target(url)
     ua = channel['ua']
     name = channel['name']
     
     # Check 1
-    m1 = get_hls_metadata(url, ua)
+    m1 = get_hls_metadata(resolved_url, ua)
     if 'error' in m1 or not m1['is_live']:
-        return {'name': name, 'url': url, 'status': 'STALE_OR_ERROR'}
+        return {'name': name, 'url': url, 'resolved_url': resolved_url, 'status': 'STALE_OR_ERROR'}
     
     time.sleep(WAIT_TIME)
     
     # Check 2
-    m2 = get_hls_metadata(url, ua)
+    m2 = get_hls_metadata(resolved_url, ua)
     if 'error' in m2:
-        return {'name': name, 'url': url, 'status': 'ERROR_ON_SECOND_CHECK'}
+        return {'name': name, 'url': url, 'resolved_url': resolved_url, 'status': 'ERROR_ON_SECOND_CHECK'}
 
     # Logic: If sequence is the same AND it's a live stream, it's a loop or stuck
     s1 = m1.get('seq')
     s2 = m2.get('seq')
     if s1 is not None and s2 is not None:
         if s1 == s2 and m1['last_segment'] == m2['last_segment']:
-            return {'name': name, 'url': url, 'status': 'LOOPING', 'seq': s1}
+            return {'name': name, 'url': url, 'resolved_url': resolved_url, 'status': 'LOOPING', 'seq': s1}
         diff = s2 - s1
     else:
         diff = 0
     
-    return {'name': name, 'url': url, 'status': 'OK', 'seq_diff': diff}
+    return {'name': name, 'url': url, 'resolved_url': resolved_url, 'status': 'OK', 'seq_diff': diff}
 
 def main():
     print(f"Reading playlist: {INPUT_M3U}")

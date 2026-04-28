@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Vijay Super (576p)"
+http://103.157.248.140:8000/play/a05l/index.m3u8

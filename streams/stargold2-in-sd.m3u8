@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Star Gold 2 (576p)"
+http://103.157.248.140:8000/play/a00e/index.m3u8

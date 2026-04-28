@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Shalini TV (576p)"
+https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8

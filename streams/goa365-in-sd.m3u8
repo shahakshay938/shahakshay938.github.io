@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Goa365 (1080p)"
+https://ktismaservers.in:3086/live/goa365live.m3u8

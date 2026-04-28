@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Star Movies HD (1080p)"
+http://ptuf.ridsys.in/riptv/live/STAR_MOVIES_HD/index.m3u8

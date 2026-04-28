@@ -7,6 +7,11 @@ import re
 import os
 import sys
 
+try:
+    from wrapper_utils import resolve_stream_target
+except ModuleNotFoundError:
+    from scripts.wrapper_utils import resolve_stream_target
+
 # Configuration
 INPUT_M3U = "latest.m3u"
 OUTPUT_REPORT = "stream_report.json"
@@ -46,6 +51,7 @@ def parse_m3u(filepath):
 
 def verify_stream(channel):
     url = channel['url']
+    resolved_url = resolve_stream_target(url)
     ua = channel['ua']
     name = channel['name']
     
@@ -57,7 +63,7 @@ def verify_stream(channel):
         '-show_streams', 
         '-of', 'json',
         '-connect_timeout', '5',
-        url
+        resolved_url
     ]
     
     # Add User-Agent if present
@@ -73,16 +79,16 @@ def verify_stream(channel):
         if result.returncode == 0:
             data = json.loads(result.stdout)
             if 'streams' in data and len(data['streams']) > 0:
-                return {'name': name, 'status': 'OK', 'latency': round(latency, 2), 'url': url}
+                return {'name': name, 'status': 'OK', 'latency': round(latency, 2), 'url': url, 'resolved_url': resolved_url}
             else:
-                return {'name': name, 'status': 'NO_VIDEO', 'latency': round(latency, 2), 'url': url}
+                return {'name': name, 'status': 'NO_VIDEO', 'latency': round(latency, 2), 'url': url, 'resolved_url': resolved_url}
         else:
-            return {'name': name, 'status': 'ERROR', 'error': result.stderr.strip()[:100], 'url': url}
+            return {'name': name, 'status': 'ERROR', 'error': result.stderr.strip()[:100], 'url': url, 'resolved_url': resolved_url}
             
     except subprocess.TimeoutExpired:
-        return {'name': name, 'status': 'TIMEOUT', 'url': url}
+        return {'name': name, 'status': 'TIMEOUT', 'url': url, 'resolved_url': resolved_url}
     except Exception as e:
-        return {'name': name, 'status': 'CRASH', 'error': str(e), 'url': url}
+        return {'name': name, 'status': 'CRASH', 'error': str(e), 'url': url, 'resolved_url': resolved_url}
 
 def main():
     print(f"Reading playlist: {INPUT_M3U}")

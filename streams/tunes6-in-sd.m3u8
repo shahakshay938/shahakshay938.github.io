@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Tunes 6 (720p)"
+https://stream.d6-pro.com/tunes6music/live/video.m3u8

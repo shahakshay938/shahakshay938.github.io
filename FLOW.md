@@ -11,11 +11,12 @@ graph TD
     C --> D[merge_playlists.py]
     D --> E[Fusion Base: March 19]
     E --> F[Verification: FFprobe & Loops]
-    F --> G{Changes Detected?}
-    G -- No --> H[End: No unnecessary commits]
-    G -- Yes --> I[Backup: Archive Old Stable]
-    I --> J[Update: latest.m3u & README]
-    J --> K[Push to Master: Live Sync]
+    F --> G[Generate Stable streams/*.m3u8]
+    G --> H{Changes Detected?}
+    H -- No --> I[End: No unnecessary commits]
+    H -- Yes --> J[Backup: Archive Old Stable + wrappers]
+    J --> K[Update: latest.m3u & README]
+    K --> L[Push to Master: Live Sync]
 ```
 
 ---
@@ -31,5 +32,6 @@ graph TD
 *   **Media Sequence Monitoring:** We monitor the internal HLS manifest. If a stream repeats the same segments twice in 15 seconds, it is marked as **LOOPING** and removed to prevent frustration.
 
 ### 3. Smart Differential Update
-*   **The Check:** The system compares the new result with the current `latest.m3u`.
+*   **Stable URL Layer:** The published playlist always points at repo-hosted `streams/*.m3u8` wrapper files, so upstream source swaps do not change player-facing URLs.
+*   **The Check:** The system compares both `latest.m3u` and the generated `streams/` wrapper files against the current live state.
 *   **The Trigger:** If and only if changes are found, the system archives the old version and pushes the update. This keeps your commit history clean and meaningful.
