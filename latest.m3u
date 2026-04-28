@@ -29,12 +29,12 @@ https://shahakshay938.github.io/streams/colors-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/colorsinfinity-in-hd.m3u8
-#EXTINF:-1 tvg-id="Dangal2.in@SD" timeshift="1" aspect-ratio="16:9",Dangal 2 (720p)
+#EXTINF:-1 tvg-id="Dangal2.in@SD" jiotv-id="701" timeshift="1" aspect-ratio="16:9",Dangal 2 (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/dangal2-in-sd.m3u8
-#EXTINF:-1 tvg-id="DangalTV.in@SD" timeshift="1" aspect-ratio="16:9",Dangal TV (720p)
+#EXTINF:-1 tvg-id="DangalTV.in@SD" jiotv-id="701" timeshift="1" aspect-ratio="16:9",Dangal TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -119,7 +119,7 @@ https://shahakshay938.github.io/streams/marutamtv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/epicbharat-in-sd.m3u8
-#EXTINF:-1 tvg-id="NTCTV.in@SD" timeshift="1" aspect-ratio="16:9",NTC TV (720p)
+#EXTINF:-1 tvg-id="NTCTV.in@SD" jiotv-id="3393" timeshift="1" aspect-ratio="16:9",NTC TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -139,7 +139,7 @@ https://shahakshay938.github.io/streams/pularitv-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/rang-in.m3u8
-#EXTINF:-1 tvg-id="RojaTV.in@SD" timeshift="1" aspect-ratio="16:9",Roja TV (1080p)
+#EXTINF:-1 tvg-id="RojaTV.in@SD" jiotv-id="3409" timeshift="1" aspect-ratio="16:9",Roja TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -149,7 +149,7 @@ https://shahakshay938.github.io/streams/rojatv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sadatv-in-sd.m3u8
-#EXTINF:-1 tvg-id="SanaTV.in" tvg-name="Sana TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/CR7DGBv.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sana TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="SanaTV.in" jiotv-id="3201" tvg-name="Sana TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/CR7DGBv.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sana TV (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -189,7 +189,7 @@ https://shahakshay938.github.io/streams/starplus-in-starplus-hd-1080p.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/studioyuva-in.m3u8
-#EXTINF:-1 tvg-id="SubinTV.in@SD" timeshift="1" aspect-ratio="16:9",Subin TV (1080p)
+#EXTINF:-1 tvg-id="SubinTV.in@SD" jiotv-id="3360" timeshift="1" aspect-ratio="16:9",Subin TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -214,27 +214,27 @@ https://shahakshay938.github.io/streams/teluguone-in-hd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/vasanthtv-in.m3u8
-#EXTINF:-1 tvg-id="ZeeBanglaSonar.in@SD" timeshift="1" aspect-ratio="16:9",Zee Bangla Sonar (576p)
+#EXTINF:-1 tvg-id="ZeeBanglaSonar.in@SD" jiotv-id="3476" timeshift="1" aspect-ratio="16:9",Zee Bangla Sonar (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeebanglasonar-in-sd.m3u8
-#EXTINF:-1 tvg-id="ZeeCafe.in@HD" timeshift="1" aspect-ratio="16:9",Zee Cafe HD (1080p)
+#EXTINF:-1 tvg-id="ZeeCafe.in@HD" jiotv-id="1319" timeshift="1" aspect-ratio="16:9",Zee Cafe HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeecafe-in-hd.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@SD" timeshift="1" aspect-ratio="16:9",Zee TV (1080p)
+#EXTINF:-1 tvg-id="ZeeTV.in@SD" jiotv-id="167" timeshift="1" aspect-ratio="16:9",Zee TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeetv-in-sd.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in" tvg-name="Zee TV HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Zee TV HD (1080p)
+#EXTINF:-1 tvg-id="ZeeTV.in" jiotv-id="167" tvg-name="Zee TV HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Zee TV HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeetv-in.m3u8
-#EXTINF:-1 tvg-id="Andpictures.in@HD" timeshift="1" aspect-ratio="16:9",&pictures HD (1080p)
+#EXTINF:-1 tvg-id="Andpictures.in@HD" jiotv-id="185" timeshift="1" aspect-ratio="16:9",&pictures HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -249,7 +249,7 @@ https://shahakshay938.github.io/streams/andtv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/andtvinternational-in.m3u8
-#EXTINF:-1 tvg-id="AlankarTV.in@SD" timeshift="1" aspect-ratio="16:9",Alankar TV (720p)
+#EXTINF:-1 tvg-id="AlankarTV.in@SD" jiotv-id="686" timeshift="1" aspect-ratio="16:9",Alankar TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -279,17 +279,17 @@ https://shahakshay938.github.io/streams/b4umovies-in-india-b4u-movies-1080p-geo-
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/b4umovies-in.m3u8
-#EXTINF:-1 tvg-id="BhojpuriCinema.in@SD" timeshift="1" aspect-ratio="16:9",Bhojpuri Cinema (720p)
+#EXTINF:-1 tvg-id="BhojpuriCinema.in@SD" jiotv-id="486" timeshift="1" aspect-ratio="16:9",Bhojpuri Cinema (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/bhojpuricinema-in-sd.m3u8
-#EXTINF:-1 tvg-id="ETVCinema.in@HD" timeshift="1" aspect-ratio="16:9",ETV Cinema HD (1080p)
+#EXTINF:-1 tvg-id="ETVCinema.in@HD" jiotv-id="252" timeshift="1" aspect-ratio="16:9",ETV Cinema HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/etvcinema-in-hd.m3u8
-#EXTINF:-1 tvg-id="JalshaMovies.in@HD" timeshift="1" aspect-ratio="16:9",Jalsha Movies HD (1080p)
+#EXTINF:-1 tvg-id="JalshaMovies.in@HD" jiotv-id="457" timeshift="1" aspect-ratio="16:9",Jalsha Movies HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -299,7 +299,7 @@ https://shahakshay938.github.io/streams/jalshamovies-in-hd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/kcm.m3u8
-#EXTINF:-1 tvg-id="KTVBangla.in@SD" timeshift="1" aspect-ratio="16:9",KTV Bangla (720p)
+#EXTINF:-1 tvg-id="KTVBangla.in@SD" jiotv-id="1891" timeshift="1" aspect-ratio="16:9",KTV Bangla (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -319,22 +319,22 @@ https://shahakshay938.github.io/streams/shemaroojosh-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/shubhcinematv-in-sd.m3u8
-#EXTINF:-1 tvg-id="SonyPix.in@HD" timeshift="1" aspect-ratio="16:9",Sony Pix HD (1080p)
+#EXTINF:-1 tvg-id="SonyPix.in@HD" jiotv-id="762" timeshift="1" aspect-ratio="16:9",Sony Pix HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sonypix-in-hd.m3u8
-#EXTINF:-1 tvg-id="StarGold2.in@HD" timeshift="1" aspect-ratio="16:9",Star Gold 2 HD (1080p)
+#EXTINF:-1 tvg-id="StarGold2.in@HD" jiotv-id="3096" timeshift="1" aspect-ratio="16:9",Star Gold 2 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stargold2-in-hd.m3u8
-#EXTINF:-1 tvg-id="StarGold.in@HD" timeshift="1" aspect-ratio="16:9",Star Gold HD (1080p)
+#EXTINF:-1 tvg-id="StarGold.in@HD" jiotv-id="3096" timeshift="1" aspect-ratio="16:9",Star Gold HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stargold-in-hd.m3u8
-#EXTINF:-1 tvg-id="StarGoldSelect.in@HD" timeshift="1" aspect-ratio="16:9",Star Gold Select HD (1080p)
+#EXTINF:-1 tvg-id="StarGoldSelect.in@HD" jiotv-id="1113" timeshift="1" aspect-ratio="16:9",Star Gold Select HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -349,22 +349,22 @@ https://shahakshay938.github.io/streams/thalaatv-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/tollytv-in.m3u8
-#EXTINF:-1 tvg-id="ZBCinema.in@HD" timeshift="1" aspect-ratio="16:9",ZB Cinema (720p)
+#EXTINF:-1 tvg-id="ZBCinema.in@HD" jiotv-id="3322" timeshift="1" aspect-ratio="16:9",ZB Cinema (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zbcinema-in-hd.m3u8
-#EXTINF:-1 tvg-id="ZeeClassic.in@SD" timeshift="1" aspect-ratio="16:9",Zee Classic (576p)
+#EXTINF:-1 tvg-id="ZeeClassic.in@SD" jiotv-id="1691" timeshift="1" aspect-ratio="16:9",Zee Classic (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeeclassic-in-sd.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="162" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 2 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="3511" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 2 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sonysportsten2-in-hd.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" jiotv-id="524" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 3 Hindi (576p)
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" jiotv-id="3512" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 3 Hindi (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -419,7 +419,7 @@ https://shahakshay938.github.io/streams/apn-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/assamtalks-in.m3u8
-#EXTINF:-1 tvg-id="AwaazIndiaTV.in@SD" jiotv-id="235" timeshift="1" aspect-ratio="16:9",Awaaz India TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="AwaazIndiaTV.in@SD" jiotv-id="3332" timeshift="1" aspect-ratio="16:9",Awaaz India TV (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -509,7 +509,7 @@ https://shahakshay938.github.io/streams/highnews-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/hnn24x7-in-sd.m3u8
-#EXTINF:-1 tvg-id="IndiaAhead.in" tvg-name="India Ahead (576p)" tvg-logo="https://i.imgur.com/hBkTmf9.png" tvg-country="IN" tvg-language="Hindi" group-title="News" timeshift="1" aspect-ratio="16:9",India Ahead (576p)
+#EXTINF:-1 tvg-id="IndiaAhead.in" jiotv-id="3498" tvg-name="India Ahead (576p)" tvg-logo="https://i.imgur.com/hBkTmf9.png" tvg-country="IN" tvg-language="Hindi" group-title="News" timeshift="1" aspect-ratio="16:9",India Ahead (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -729,12 +729,12 @@ https://shahakshay938.github.io/streams/sakshitv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/samaykolkata-in-sd.m3u8
-#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sansadtv1-in-sd-sansad-tv-1-1080p-not-24-7.m3u8
-#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p)
+#EXTINF:-1 tvg-id="SansadTV1.in@SD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 1 (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -754,7 +754,7 @@ https://shahakshay938.github.io/streams/sudarshannews-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/swatantratv-in-sd.m3u8
-#EXTINF:-1 tvg-id="TOIGlobal.in@SD" timeshift="1" aspect-ratio="16:9",TOI Global (1080p)
+#EXTINF:-1 tvg-id="TOIGlobal.in@SD" jiotv-id="3440" timeshift="1" aspect-ratio="16:9",TOI Global (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -784,7 +784,7 @@ https://shahakshay938.github.io/streams/tv9bangla-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/tv9bharatvarsh-in-sd.m3u8
-#EXTINF:-1 tvg-id="TV9Gujarati.in@SD" timeshift="1" aspect-ratio="16:9",TV9 Gujarati (720p)
+#EXTINF:-1 tvg-id="TV9Gujarati.in@SD" jiotv-id="616" timeshift="1" aspect-ratio="16:9",TV9 Gujarati (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -894,7 +894,7 @@ https://shahakshay938.github.io/streams/zeekannadanews-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeemalayalamnews-in-sd.m3u8
-#EXTINF:-1 tvg-id="ZeeNews.in@SD" jiotv-id="504" timeshift="1" aspect-ratio="16:9",Zee News (1080p)
+#EXTINF:-1 tvg-id="ZeeNews.in@SD" jiotv-id="501" timeshift="1" aspect-ratio="16:9",Zee News (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -924,7 +924,7 @@ https://shahakshay938.github.io/streams/animaxasiaindia.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeebusiness-in-sd-zee-business-576p.m3u8
-#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="290" timeshift="1" aspect-ratio="16:9",Sonic (576p)
+#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="815" timeshift="1" aspect-ratio="16:9",Sonic (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -989,7 +989,7 @@ https://shahakshay938.github.io/streams/qelloconcertsbystingray.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/rajmusixmalayalam-in.m3u8
-#EXTINF:-1 tvg-id="SanaPlus.in@SD" timeshift="1" aspect-ratio="16:9",Sana Plus (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="SanaPlus.in@SD" jiotv-id="3359" timeshift="1" aspect-ratio="16:9",Sana Plus (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1004,7 +1004,7 @@ https://shahakshay938.github.io/streams/songdewtv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/steelbirdmusic-in-sd.m3u8
-#EXTINF:-1 tvg-id="stingrayclassicrock" tvg-name="Stingray Classic Rock (1080p)" tvg-logo="https://i.imgur.com/FBgu8yB.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray Classic Rock (1080p)
+#EXTINF:-1 tvg-id="stingrayclassicrock" jiotv-id="3478" tvg-name="Stingray Classic Rock (1080p)" tvg-logo="https://i.imgur.com/FBgu8yB.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray Classic Rock (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1014,7 +1014,7 @@ https://shahakshay938.github.io/streams/stingrayclassicrock.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stingraydjazz.m3u8
-#EXTINF:-1 tvg-id="stingrayeasylistening" tvg-name="Stingray Easy Listening (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray Easy Listening (1080p)
+#EXTINF:-1 tvg-id="stingrayeasylistening" jiotv-id="3325" tvg-name="Stingray Easy Listening (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/512px-Stingray_Music_logo.svg.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray Easy Listening (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1024,17 +1024,17 @@ https://shahakshay938.github.io/streams/stingrayeasylistening.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stingraynaturescape.m3u8
-#EXTINF:-1 tvg-id="stingraythespa" tvg-name="Stingray The Spa (1080p)" tvg-logo="https://i.imgur.com/ywAN923.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray The Spa (1080p)
+#EXTINF:-1 tvg-id="stingraythespa" jiotv-id="3323" tvg-name="Stingray The Spa (1080p)" tvg-logo="https://i.imgur.com/ywAN923.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray The Spa (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stingraythespa.m3u8
-#EXTINF:-1 tvg-id="stingraytodayskpop" tvg-name="Stingray Today's KPOP (1080p)" tvg-logo="https://i.imgur.com/mMbntB5.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray Today's KPOP (1080p)
+#EXTINF:-1 tvg-id="stingraytodayskpop" jiotv-id="3324" tvg-name="Stingray Today's KPOP (1080p)" tvg-logo="https://i.imgur.com/mMbntB5.png" tvg-country="IN" tvg-language="Hindi" group-title="Music" timeshift="1" aspect-ratio="16:9",Stingray Today's KPOP (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stingraytodayskpop.m3u8
-#EXTINF:-1 tvg-id="TarangMusic.in@SD" jiotv-id="623" timeshift="1" aspect-ratio="16:9",Tarang Music (720p)
+#EXTINF:-1 tvg-id="TarangMusic.in@SD" jiotv-id="751" timeshift="1" aspect-ratio="16:9",Tarang Music (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1054,7 +1054,7 @@ https://shahakshay938.github.io/streams/yrfmusic-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/yrfmusic-in.m3u8
-#EXTINF:-1 tvg-id="ZBMusic.in@HD" timeshift="1" aspect-ratio="16:9",ZB Music (720p)
+#EXTINF:-1 tvg-id="ZBMusic.in@HD" jiotv-id="3319" timeshift="1" aspect-ratio="16:9",ZB Music (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1109,7 +1109,7 @@ https://shahakshay938.github.io/streams/aasthatelugu-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/ndtvindia-in.m3u8
-#EXTINF:-1 tvg-id="AnandTV.in@SD" timeshift="1" aspect-ratio="16:9",Anand TV (1080p)
+#EXTINF:-1 tvg-id="AnandTV.in@SD" jiotv-id="3294" timeshift="1" aspect-ratio="16:9",Anand TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1144,7 +1144,7 @@ https://shahakshay938.github.io/streams/darshan24-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/dharmsandesh-in.m3u8
-#EXTINF:-1 tvg-id="DharsanTV.in" tvg-name="Dharsan TV (720p)" tvg-logo="https://play-lh.googleusercontent.com/brn76ZzRlqS8ylZVVcc5ZFWcqUp36iJ82WyzwiQ8-Nqi_8pIZZ_gsMCXNn6YiLhOEQ" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Dharsan TV (720p)
+#EXTINF:-1 tvg-id="DharsanTV.in" jiotv-id="3357" tvg-name="Dharsan TV (720p)" tvg-logo="https://play-lh.googleusercontent.com/brn76ZzRlqS8ylZVVcc5ZFWcqUp36iJ82WyzwiQ8-Nqi_8pIZZ_gsMCXNn6YiLhOEQ" tvg-country="IN" tvg-language="Hindi" group-title="Religious" timeshift="1" aspect-ratio="16:9",Dharsan TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1169,7 +1169,7 @@ https://shahakshay938.github.io/streams/gracetv-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/harvesttv-in-sd.m3u8
-#EXTINF:-1 tvg-id="HarvestTVKeralam.in@SD" jiotv-id="3194" timeshift="1" aspect-ratio="16:9",Harvest TV Keralam (720p)
+#EXTINF:-1 tvg-id="HarvestTVKeralam.in@SD" jiotv-id="1643" timeshift="1" aspect-ratio="16:9",Harvest TV Keralam (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1289,7 +1289,7 @@ https://shahakshay938.github.io/streams/vedic-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zainabiachannel-in-sd.m3u8
-#EXTINF:-1 tvg-id="ZBBhakti.in@HD" timeshift="1" aspect-ratio="16:9",ZB Bhakti (720p)
+#EXTINF:-1 tvg-id="ZBBhakti.in@HD" jiotv-id="3320" timeshift="1" aspect-ratio="16:9",ZB Bhakti (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1309,7 +1309,7 @@ https://shahakshay938.github.io/streams/zeebusiness-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/bvg-in.m3u8
-#EXTINF:-1 tvg-id="ETVLife.in@SD" timeshift="1" aspect-ratio="16:9",ETV Life (480p)
+#EXTINF:-1 tvg-id="ETVLife.in@SD" jiotv-id="570" timeshift="1" aspect-ratio="16:9",ETV Life (480p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1324,7 +1324,7 @@ https://shahakshay938.github.io/streams/gyandarshan-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/hydertv.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.in" jiotv-id="3241" tvg-name="National Geographic Wild (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment" timeshift="1" aspect-ratio="16:9",National Geographic Wild (576p)
+#EXTINF:-1 tvg-id="NationalGeographicWild.in" jiotv-id="1335" tvg-name="National Geographic Wild (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Infotainment" timeshift="1" aspect-ratio="16:9",National Geographic Wild (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1349,7 +1349,7 @@ https://shahakshay938.github.io/streams/vyaschannel-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/weatherspy-in.m3u8
-#EXTINF:-1 tvg-id="ZeeZest.in@HD" timeshift="1" aspect-ratio="16:9",Zee Zest HD (1080p)
+#EXTINF:-1 tvg-id="ZeeZest.in@HD" jiotv-id="2757" timeshift="1" aspect-ratio="16:9",Zee Zest HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1369,12 +1369,12 @@ https://shahakshay938.github.io/streams/puthuyugamtv-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/tamilantv-in-sd.m3u8
-#EXTINF:-1 tvg-id="ETVAndhraPradesh.in@SD" timeshift="1" aspect-ratio="16:9",ETV Andhra Pradesh (1080p)
+#EXTINF:-1 tvg-id="ETVAndhraPradesh.in@SD" jiotv-id="614" timeshift="1" aspect-ratio="16:9",ETV Andhra Pradesh (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/etvandhrapradesh-in-sd.m3u8
-#EXTINF:-1 tvg-id="MetroTV.in@SD" timeshift="1" aspect-ratio="16:9",Metro TV (1080p)
+#EXTINF:-1 tvg-id="MetroTV.in@SD" jiotv-id="3406" timeshift="1" aspect-ratio="16:9",Metro TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1464,7 +1464,7 @@ https://shahakshay938.github.io/streams/network10-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/prarthanatv-in-sd.m3u8
-#EXTINF:-1 tvg-id="SalaamTV.in@SD" timeshift="1" aspect-ratio="16:9",Salaam TV (720p)
+#EXTINF:-1 tvg-id="SalaamTV.in@SD" jiotv-id="728" timeshift="1" aspect-ratio="16:9",Salaam TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1519,7 +1519,7 @@ https://shahakshay938.github.io/streams/pmctelugu-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/tunes6-in-sd.m3u8
-#EXTINF:-1 tvg-id="UltimateTV.in@SD" timeshift="1" aspect-ratio="16:9",Ultimate TV (576p)
+#EXTINF:-1 tvg-id="UltimateTV.in@SD" jiotv-id="3396" timeshift="1" aspect-ratio="16:9",Ultimate TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1589,7 +1589,7 @@ https://shahakshay938.github.io/streams/abzymovies-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/annnews-in-hd-ann-news-720p.m3u8
-#EXTINF:-1 tvg-id="AsianetMiddleEast.in@SD" timeshift="1" aspect-ratio="16:9",Asianet Middle East (576p)
+#EXTINF:-1 tvg-id="AsianetMiddleEast.in@SD" jiotv-id="443" timeshift="1" aspect-ratio="16:9",Asianet Middle East (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1604,7 +1604,7 @@ https://shahakshay938.github.io/streams/b4ukadak-in-sd-b4u-kadak-1080p-not-24-7.
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/b4umovies-in-india-b4u-movies-india-1080p.m3u8
-#EXTINF:-1 tvg-id="ColorsBangla.in@HD" jiotv-id="1369" timeshift="1" aspect-ratio="16:9",Colors Bangla HD (1080p)
+#EXTINF:-1 tvg-id="ColorsBangla.in@HD" jiotv-id="756" timeshift="1" aspect-ratio="16:9",Colors Bangla HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1684,7 +1684,7 @@ https://shahakshay938.github.io/streams/republictv-in-sd-republic-tv-1080p.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sairamtv-in-sd.m3u8
-#EXTINF:-1 tvg-id="SalaamTV.in@SD" timeshift="1" aspect-ratio="16:9",Salaam TV (720p)
+#EXTINF:-1 tvg-id="SalaamTV.in@SD" jiotv-id="728" timeshift="1" aspect-ratio="16:9",Salaam TV (720p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1694,17 +1694,17 @@ https://shahakshay938.github.io/streams/salaamtv-in-sd-salaam-tv-720p-2.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/samacharplus24x7-in-sd.m3u8
-#EXTINF:-1 tvg-id="SanaPlus.in@SD" timeshift="1" aspect-ratio="16:9",Sana Plus (1080p)
+#EXTINF:-1 tvg-id="SanaPlus.in@SD" jiotv-id="3359" timeshift="1" aspect-ratio="16:9",Sana Plus (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sanaplus-in-sd-sana-plus-1080p.m3u8
-#EXTINF:-1 tvg-id="SansadTV1.in@HD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 1 HD (1080p)
+#EXTINF:-1 tvg-id="SansadTV1.in@HD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 1 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sansadtv1-in-hd.m3u8
-#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="522" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p)
+#EXTINF:-1 tvg-id="SansadTV2.in@HD" jiotv-id="520" timeshift="1" aspect-ratio="16:9",Sansad TV 2 (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1804,7 +1804,7 @@ https://shahakshay938.github.io/streams/zeebusiness-in-sd-zee-business-576p-2.m3
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/rozanaspokesman-in-sd.m3u8
-#EXTINF:-1 tvg-id="VillageTV.in@SD" timeshift="1" aspect-ratio="16:9",Village TV (576p)
+#EXTINF:-1 tvg-id="VillageTV.in@SD" jiotv-id="3497" timeshift="1" aspect-ratio="16:9",Village TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1814,17 +1814,17 @@ https://shahakshay938.github.io/streams/villagetv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/themovieclub-in-plus2.m3u8
-#EXTINF:-1 tvg-id="VijayTakkar.in@SD" timeshift="1" aspect-ratio="16:9",Vijay Takkar (576p)
+#EXTINF:-1 tvg-id="VijayTakkar.in@SD" jiotv-id="3269" timeshift="1" aspect-ratio="16:9",Vijay Takkar (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/vijaytakkar-in-sd.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.in@SD" timeshift="1" aspect-ratio="16:9",Disney Channel (576p)
+#EXTINF:-1 tvg-id="DisneyChannel.in@SD" jiotv-id="1373" timeshift="1" aspect-ratio="16:9",Disney Channel (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/disneychannel-in-sd.m3u8
-#EXTINF:-1 tvg-id="StarVijay.in@HD" timeshift="1" aspect-ratio="16:9",Star Vijay HD (1080p)
+#EXTINF:-1 tvg-id="StarVijay.in@HD" jiotv-id="368" timeshift="1" aspect-ratio="16:9",Star Vijay HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1834,77 +1834,77 @@ https://shahakshay938.github.io/streams/starvijay-in-hd-star-vijay-hd-1080p.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/rajmusixtamil-in-sd.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@HD" timeshift="1" aspect-ratio="16:9",Zee Cinema HD (1080p)
+#EXTINF:-1 tvg-id="ZeeCinema.in@HD" jiotv-id="165" timeshift="1" aspect-ratio="16:9",Zee Cinema HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeecinema-in-hd.m3u8
-#EXTINF:-1 tvg-id="StarVijay.in@SD" timeshift="1" aspect-ratio="16:9",Star Vijay (576p)
+#EXTINF:-1 tvg-id="StarVijay.in@SD" jiotv-id="368" timeshift="1" aspect-ratio="16:9",Star Vijay (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starvijay-in-sd-star-vijay-576p.m3u8
-#EXTINF:-1 tvg-id="StarVijay.in@HD" timeshift="1" aspect-ratio="16:9",Star Vijay HD (1080p)
+#EXTINF:-1 tvg-id="StarVijay.in@HD" jiotv-id="368" timeshift="1" aspect-ratio="16:9",Star Vijay HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starvijay-in-hd-star-vijay-hd-1080p-2.m3u8
-#EXTINF:-1 tvg-id="StarVijay.in@SD" timeshift="1" aspect-ratio="16:9",Star Vijay (576p)
+#EXTINF:-1 tvg-id="StarVijay.in@SD" jiotv-id="368" timeshift="1" aspect-ratio="16:9",Star Vijay (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starvijay-in-sd-star-vijay-576p-2.m3u8
-#EXTINF:-1 tvg-id="VijaySuper.in@SD" timeshift="1" aspect-ratio="16:9",Vijay Super (576p)
+#EXTINF:-1 tvg-id="VijaySuper.in@SD" jiotv-id="3266" timeshift="1" aspect-ratio="16:9",Vijay Super (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/vijaysuper-in-sd-vijay-super-576p.m3u8
-#EXTINF:-1 tvg-id="VijaySuper.in@SD" timeshift="1" aspect-ratio="16:9",Vijay Super (576p)
+#EXTINF:-1 tvg-id="VijaySuper.in@SD" jiotv-id="3266" timeshift="1" aspect-ratio="16:9",Vijay Super (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/vijaysuper-in-sd-vijay-super-576p-2.m3u8
-#EXTINF:-1 tvg-id="VijaySuper.in@SD" timeshift="1" aspect-ratio="16:9",Vijay Super (576p)
+#EXTINF:-1 tvg-id="VijaySuper.in@SD" jiotv-id="3266" timeshift="1" aspect-ratio="16:9",Vijay Super (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/vijaysuper-in-sd-vijay-super-576p-3.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1985" timeshift="1" aspect-ratio="16:9",Star Sports 2 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1984" timeshift="1" aspect-ratio="16:9",Star Sports 2 Hindi HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starsports2hindi-in-hd.m3u8
-#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" jiotv-id="1985" timeshift="1" aspect-ratio="16:9",Star Sports 1 Hindi (576p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" jiotv-id="1984" timeshift="1" aspect-ratio="16:9",Star Sports 1 Hindi (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starsports1hindi-in-sd.m3u8
-#EXTINF:-1 tvg-id="StarGoldThrills.in@SD" timeshift="1" aspect-ratio="16:9",Star Gold Thrills (576p)
+#EXTINF:-1 tvg-id="StarGoldThrills.in@SD" jiotv-id="3098" timeshift="1" aspect-ratio="16:9",Star Gold Thrills (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stargoldthrills-in-sd.m3u8
-#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" timeshift="1" aspect-ratio="16:9",Star Gold Romance (576p)
+#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" jiotv-id="3097" timeshift="1" aspect-ratio="16:9",Star Gold Romance (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stargoldromance-in-sd.m3u8
-#EXTINF:-1 tvg-id="StarGold2.in@SD" timeshift="1" aspect-ratio="16:9",Star Gold 2 (576p)
+#EXTINF:-1 tvg-id="StarGold2.in@SD" jiotv-id="3096" timeshift="1" aspect-ratio="16:9",Star Gold 2 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/stargold2-in-sd.m3u8
-#EXTINF:-1 tvg-id="StarMovies.in@HD" timeshift="1" aspect-ratio="16:9",Star Movies HD (1080p)
+#EXTINF:-1 tvg-id="StarMovies.in@HD" jiotv-id="1104" timeshift="1" aspect-ratio="16:9",Star Movies HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starmovies-in-hd-star-movies-hd-1080p.m3u8
-#EXTINF:-1 tvg-id="StarMovies.in@HD" timeshift="1" aspect-ratio="16:9",Star Movies HD (1080p)
+#EXTINF:-1 tvg-id="StarMovies.in@HD" jiotv-id="1104" timeshift="1" aspect-ratio="16:9",Star Movies HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starmovies-in-hd-star-movies-hd-1080p-2.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" jiotv-id="162" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 5 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" jiotv-id="3511" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 5 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1929,7 +1929,7 @@ https://shahakshay938.github.io/streams/sonymax-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sonyentertainmenttelevision-in-hd.m3u8
-#EXTINF:-1 tvg-id="RomedyNow.in@SD" jiotv-id="1401" timeshift="1" aspect-ratio="16:9",Romedy Now (576p)
+#EXTINF:-1 tvg-id="RomedyNow.in@SD" jiotv-id="478" timeshift="1" aspect-ratio="16:9",Romedy Now (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1944,12 +1944,12 @@ https://shahakshay938.github.io/streams/nickjr-in-sd-nick-jr-576p.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/nickelodeon-in-sd.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.in@HD" timeshift="1" aspect-ratio="16:9",National Geographic Wild HD (1080p)
+#EXTINF:-1 tvg-id="NationalGeographicWild.in@HD" jiotv-id="1335" timeshift="1" aspect-ratio="16:9",National Geographic Wild HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/nationalgeographicwild-in-hd.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.in@HD" timeshift="1" aspect-ratio="16:9",National Geographic HD (1080p)
+#EXTINF:-1 tvg-id="NationalGeographic.in@HD" jiotv-id="1335" timeshift="1" aspect-ratio="16:9",National Geographic HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1974,7 +1974,7 @@ https://shahakshay938.github.io/streams/colorstamil-in-hd-colors-tamil-hd-1080p-
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/colorscineplexbollywood-in-sd.m3u8
-#EXTINF:-1 tvg-id="Asianet.in@HD" jiotv-id="180" timeshift="1" aspect-ratio="16:9",Asianet HD (1080p)
+#EXTINF:-1 tvg-id="Asianet.in@HD" jiotv-id="443" timeshift="1" aspect-ratio="16:9",Asianet HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2004,12 +2004,12 @@ https://shahakshay938.github.io/streams/starsports1tamil-in-hd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starsports1tamil-in-sd.m3u8
-#EXTINF:-1 tvg-id="ZeeThirai.in@HD" timeshift="1" aspect-ratio="16:9",Zee Thirai HD (1080p)
+#EXTINF:-1 tvg-id="ZeeThirai.in@HD" jiotv-id="2256" timeshift="1" aspect-ratio="16:9",Zee Thirai HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeethirai-in-hd.m3u8
-#EXTINF:-1 tvg-id="ZeeThirai.in@SD" timeshift="1" aspect-ratio="16:9",Zee Thirai (576p)
+#EXTINF:-1 tvg-id="ZeeThirai.in@SD" jiotv-id="2256" timeshift="1" aspect-ratio="16:9",Zee Thirai (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2019,7 +2019,7 @@ https://shahakshay938.github.io/streams/zeethirai-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/nickjr-in-sd-nick-jr-576p-2.m3u8
-#EXTINF:-1 tvg-id="HungamaTV.in@SD" timeshift="1" aspect-ratio="16:9",Hungama TV (576p)
+#EXTINF:-1 tvg-id="HungamaTV.in@SD" jiotv-id="1391" timeshift="1" aspect-ratio="16:9",Hungama TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2029,12 +2029,12 @@ https://shahakshay938.github.io/streams/hungamatv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/divyavanitv-in-sd.m3u8
-#EXTINF:-1 tvg-id="ZeeCinemalu.in@HD" timeshift="1" aspect-ratio="16:9",Zee Cinemalu HD (1080p)
+#EXTINF:-1 tvg-id="ZeeCinemalu.in@HD" jiotv-id="413" timeshift="1" aspect-ratio="16:9",Zee Cinemalu HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeecinemalu-in-hd.m3u8
-#EXTINF:-1 tvg-id="ZeeTelugu.in@HD" jiotv-id="3031" timeshift="1" aspect-ratio="16:9",Zee Telugu HD (1080p)
+#EXTINF:-1 tvg-id="ZeeTelugu.in@HD" jiotv-id="638" timeshift="1" aspect-ratio="16:9",Zee Telugu HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
