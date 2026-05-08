@@ -359,7 +359,7 @@ https://shahakshay938.github.io/streams/zbcinema-in-hd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeeclassic-in-sd.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="3515" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 2 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="3511" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 2 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -389,7 +389,7 @@ https://shahakshay938.github.io/streams/abpananda-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/abpganga-in-sd.m3u8
-#EXTINF:-1 tvg-id="ABPNews.in@SD" jiotv-id="177" timeshift="1" aspect-ratio="16:9",ABP News (1080p)
+#EXTINF:-1 tvg-id="ABPNews.in@SD" jiotv-id="501" timeshift="1" aspect-ratio="16:9",ABP News (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -924,7 +924,7 @@ https://shahakshay938.github.io/streams/animaxasiaindia.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeebusiness-in-sd-zee-business-576p.m3u8
-#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="290" timeshift="1" aspect-ratio="16:9",Sonic (576p)
+#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="815" timeshift="1" aspect-ratio="16:9",Sonic (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1654,7 +1654,7 @@ https://shahakshay938.github.io/streams/kalaignartv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/mahaabhakti-in-sd.m3u8
-#EXTINF:-1 tvg-id="NKRTVKannada.in@SD" jiotv-id="1221" timeshift="1" aspect-ratio="16:9",NKR TV Kannada (576p)
+#EXTINF:-1 tvg-id="NKRTVKannada.in@SD" jiotv-id="956" timeshift="1" aspect-ratio="16:9",NKR TV Kannada (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1904,7 +1904,7 @@ https://shahakshay938.github.io/streams/starmovies-in-hd-star-movies-hd-1080p.m3
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/starmovies-in-hd-star-movies-hd-1080p-2.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" jiotv-id="3515" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 5 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" jiotv-id="3511" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 5 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1919,7 +1919,7 @@ https://shahakshay938.github.io/streams/sonysab-in-hd-sony-sab-hd-1080p-2.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sonysab-in-sd.m3u8
-#EXTINF:-1 tvg-id="SonyMax.in@SD" jiotv-id="483" timeshift="1" aspect-ratio="16:9",Sony Max (576p)
+#EXTINF:-1 tvg-id="SonyMax.in@SD" jiotv-id="289" timeshift="1" aspect-ratio="16:9",Sony Max (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1

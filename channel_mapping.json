@@ -467,21 +467,12 @@
     "match_method": "exact_name",
     "verified": true
   },
-  "ZeeClassic.in@SD": {
-    "tvg_id": "ZeeClassic.in@SD",
-    "playlist_name": "Zee Classic (576p)",
-    "jiotv_id": "1691",
-    "jiotv_name": "Zee Classic",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeClassicSD.png",
-    "match_method": "exact_name",
-    "verified": true
-  },
   "SonySportsTen2.in@HD": {
     "tvg_id": "SonySportsTen2.in@HD",
     "playlist_name": "Sony Sports Ten 2 HD (1080p)",
-    "jiotv_id": "3515",
-    "jiotv_name": "Sony Sports Ten 5 HD STB",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySportsTen5HDSTB.png",
+    "jiotv_id": "3511",
+    "jiotv_name": "Sony Sports Ten 2 HD STB",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySportsTen2HDSTB.png",
     "match_method": "partial",
     "verified": false
   },
@@ -524,9 +515,9 @@
   "ABPNews.in@SD": {
     "tvg_id": "ABPNews.in@SD",
     "playlist_name": "ABP News (1080p)",
-    "jiotv_id": "177",
-    "jiotv_name": "ABP News India",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_News_India.png",
+    "jiotv_id": "501",
+    "jiotv_name": "News 24",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24.png",
     "match_method": "partial",
     "verified": false
   },
@@ -1343,9 +1334,9 @@
   "Sonic.in@SD": {
     "tvg_id": "Sonic.in@SD",
     "playlist_name": "Sonic (576p)",
-    "jiotv_id": "290",
-    "jiotv_name": "sonic Tamil",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Tamil.png",
+    "jiotv_id": "815",
+    "jiotv_name": "Sonic Hindi",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png",
     "match_method": "partial",
     "verified": false
   },
@@ -2225,9 +2216,9 @@
   "NKRTVKannada.in@SD": {
     "tvg_id": "NKRTVKannada.in@SD",
     "playlist_name": "NKR TV Kannada (576p)",
-    "jiotv_id": "1221",
-    "jiotv_name": "Rajyoga TV Kannada",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Rajyoga_Malayalam.png",
+    "jiotv_id": "956",
+    "jiotv_name": "TV 5 Kannada",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/TV_5_Kannada.png",
     "match_method": "word_match(67%)",
     "verified": false
   },
@@ -2477,9 +2468,9 @@
   "SonySportsTen5.in@HD": {
     "tvg_id": "SonySportsTen5.in@HD",
     "playlist_name": "Sony Sports Ten 5 HD (1080p)",
-    "jiotv_id": "3515",
-    "jiotv_name": "Sony Sports Ten 5 HD STB",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySportsTen5HDSTB.png",
+    "jiotv_id": "3511",
+    "jiotv_name": "Sony Sports Ten 2 HD STB",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonySportsTen2HDSTB.png",
     "match_method": "partial",
     "verified": false
   },
@@ -2495,9 +2486,9 @@
   "SonyMax.in@SD": {
     "tvg_id": "SonyMax.in@SD",
     "playlist_name": "Sony Max (576p)",
-    "jiotv_id": "483",
-    "jiotv_name": "Sony MAX2",
-    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyMAX2.png",
+    "jiotv_id": "289",
+    "jiotv_name": "Sony Max SD",
+    "jiotv_icon": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png",
     "match_method": "exact_name",
     "verified": true
   },
