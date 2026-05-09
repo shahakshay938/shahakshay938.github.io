@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="6 TV Telugu (576p)"
+https://cdn-1.pishow.tv/live/232/master.m3u8

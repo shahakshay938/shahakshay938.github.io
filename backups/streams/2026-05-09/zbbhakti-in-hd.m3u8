@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="ZB Bhakti (720p)"
+https://server.zillarbarta.com/zbbhakti/index.m3u8

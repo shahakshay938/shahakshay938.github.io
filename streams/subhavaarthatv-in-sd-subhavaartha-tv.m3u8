@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Subhavaartha TV"
+https://cdn-1.pishow.tv/live/278/master.m3u8

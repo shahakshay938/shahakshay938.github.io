@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Media One (720p)"
+https://cdn-3.pishow.tv/live/1481/master.m3u8

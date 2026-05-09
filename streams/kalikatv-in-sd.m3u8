@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Kalika TV (576p)"
+http://server.applelive.in/kalikatv/kalikatv.m3u8

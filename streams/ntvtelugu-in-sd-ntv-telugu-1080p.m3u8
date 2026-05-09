@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="NTV Telugu (1080p)"
+https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8

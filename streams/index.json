@@ -1,4 +1,22 @@
 {
+  "10tv-in": {
+    "name": "10 TV (576p)",
+    "tvg_id": "10TV.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/391/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/391/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/391/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/10tv-in.m3u8",
+    "mode": "auto"
+  },
+  "22scopenews-in-sd": {
+    "name": "22Scope News (1080p)",
+    "tvg_id": "22ScopeNews.in@SD",
+    "playlist_source_url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
+    "auto_source_url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
+    "wrapper_target_url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/22scopenews-in-sd.m3u8",
+    "mode": "auto"
+  },
   "24news-in-sd": {
     "name": "24 News (576p)",
     "tvg_id": "24News.in@SD",
@@ -8,13 +26,13 @@
     "public_url": "https://shahakshay938.github.io/streams/24news-in-sd.m3u8",
     "mode": "auto"
   },
-  "7smusic-in": {
-    "name": "7S Music (576p)",
-    "tvg_id": "7SMusic.in",
-    "playlist_source_url": "https://mumt03.tangotv.in/7SMUSIC/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/7SMUSIC/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/7SMUSIC/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/7smusic-in.m3u8",
+  "6tvtelugu-in": {
+    "name": "6 TV Telugu (576p)",
+    "tvg_id": "6TVTelugu.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/232/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/232/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/232/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/6tvtelugu-in.m3u8",
     "mode": "auto"
   },
   "9xjhakaas-in": {
@@ -62,6 +80,15 @@
     "public_url": "https://shahakshay938.github.io/streams/9xtashan-in.m3u8",
     "mode": "auto"
   },
+  "9xtashan-in-sd-9x-tashan": {
+    "name": "9X Tashan",
+    "tvg_id": "9XTashan.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1613/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1613/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1613/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/9xtashan-in-sd-9x-tashan.m3u8",
+    "mode": "auto"
+  },
   "9xtashan-in-sd-9x-tashan-1080p": {
     "name": "9X Tashan (1080p)",
     "tvg_id": "9XTashan.in@SD",
@@ -89,31 +116,31 @@
     "public_url": "https://shahakshay938.github.io/streams/aajtak-in-sd.m3u8",
     "mode": "auto"
   },
-  "aakaashaath-in-sd": {
-    "name": "Aakaash Aath (576p)",
-    "tvg_id": "AakaashAath.in@SD",
-    "playlist_source_url": "https://mumt03.tangotv.in/AAKASHAATH/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/AAKASHAATH/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/AAKASHAATH/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/aakaashaath-in-sd.m3u8",
+  "aaryaatv-in-sd": {
+    "name": "Aaryaa TV (1080p)",
+    "tvg_id": "AaryaaTV.in@SD",
+    "playlist_source_url": "https://stream.ottlive.co.in/aryatvtamil/index.m3u8",
+    "auto_source_url": "https://stream.ottlive.co.in/aryatvtamil/index.m3u8",
+    "wrapper_target_url": "https://stream.ottlive.co.in/aryatvtamil/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aaryaatv-in-sd.m3u8",
     "mode": "auto"
   },
-  "aaseervathamtv-in": {
-    "name": "Aaseervatham TV (576p)",
-    "tvg_id": "AaseervathamTV.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/AASEERVATHAMTV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/AASEERVATHAMTV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/AASEERVATHAMTV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/aaseervathamtv-in.m3u8",
+  "aastha-in-sd-aastha": {
+    "name": "Aastha",
+    "tvg_id": "Aastha.in@SD",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/1454/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/1454/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/1454/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aastha-in-sd-aastha.m3u8",
     "mode": "auto"
   },
-  "aastha-in-sd": {
+  "aastha-in-sd-aastha-720p": {
     "name": "Aastha (720p)",
     "tvg_id": "Aastha.in@SD",
     "playlist_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
     "auto_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
     "wrapper_target_url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/aastha-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aastha-in-sd-aastha-720p.m3u8",
     "mode": "auto"
   },
   "aasthabhajan-in-sd": {
@@ -134,13 +161,31 @@
     "public_url": "https://shahakshay938.github.io/streams/aasthagujarati-in-sd.m3u8",
     "mode": "auto"
   },
-  "aasthakannada-in-sd": {
+  "aasthakannada-in-sd-aastha-kannada": {
+    "name": "Aastha Kannada",
+    "tvg_id": "AasthaKannada.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/234/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/234/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/234/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aasthakannada-in-sd-aastha-kannada.m3u8",
+    "mode": "auto"
+  },
+  "aasthakannada-in-sd-aastha-kannada-480p": {
     "name": "Aastha Kannada (480p)",
     "tvg_id": "AasthaKannada.in@SD",
     "playlist_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
     "auto_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
     "wrapper_target_url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/aasthakannada-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aasthakannada-in-sd-aastha-kannada-480p.m3u8",
+    "mode": "auto"
+  },
+  "aasthaprime1-in-sd": {
+    "name": "Aastha Prime 1 (720p)",
+    "tvg_id": "AasthaPrime1.in@SD",
+    "playlist_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+    "auto_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+    "wrapper_target_url": "https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aasthaprime1-in-sd.m3u8",
     "mode": "auto"
   },
   "aasthatamil-in-sd": {
@@ -152,13 +197,22 @@
     "public_url": "https://shahakshay938.github.io/streams/aasthatamil-in-sd.m3u8",
     "mode": "auto"
   },
-  "aasthatelugu-in-sd": {
+  "aasthatelugu-in-sd-aastha-telugu": {
+    "name": "Aastha Telugu",
+    "tvg_id": "AasthaTelugu.in@SD",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/262/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/262/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/262/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aasthatelugu-in-sd-aastha-telugu.m3u8",
+    "mode": "auto"
+  },
+  "aasthatelugu-in-sd-aastha-telugu-480p": {
     "name": "Aastha Telugu (480p)",
     "tvg_id": "AasthaTelugu.in@SD",
     "playlist_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
     "auto_source_url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
     "wrapper_target_url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/aasthatelugu-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aasthatelugu-in-sd-aastha-telugu-480p.m3u8",
     "mode": "auto"
   },
   "abpananda-in-sd": {
@@ -170,6 +224,15 @@
     "public_url": "https://shahakshay938.github.io/streams/abpananda-in-sd.m3u8",
     "mode": "auto"
   },
+  "abpasmita-in-sd": {
+    "name": "ABP Asmita (1080p)",
+    "tvg_id": "ABPAsmita.in@SD",
+    "playlist_source_url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8",
+    "auto_source_url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8",
+    "wrapper_target_url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/abpasmita-in-sd.m3u8",
+    "mode": "auto"
+  },
   "abpganga-in-sd": {
     "name": "ABP Ganga (1080p)",
     "tvg_id": "ABPGanga.in@SD",
@@ -179,6 +242,15 @@
     "public_url": "https://shahakshay938.github.io/streams/abpganga-in-sd.m3u8",
     "mode": "auto"
   },
+  "abpmajha-in-sd": {
+    "name": "ABP Majha (360p)",
+    "tvg_id": "ABPMajha.in@SD",
+    "playlist_source_url": "https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8",
+    "auto_source_url": "https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8",
+    "wrapper_target_url": "https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/abpmajha-in-sd.m3u8",
+    "mode": "auto"
+  },
   "abpnews-in-sd": {
     "name": "ABP News (1080p)",
     "tvg_id": "ABPNews.in@SD",
@@ -186,24 +258,6 @@
     "auto_source_url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
     "wrapper_target_url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/abpnews-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "abzydhakad-in-sd": {
-    "name": "Abzy Dhakad (504p)",
-    "tvg_id": "AbzyDhakad.in@SD",
-    "playlist_source_url": "http://57.129.53.130:21001/ABZY_Dhakad/master.m3u8",
-    "auto_source_url": "http://57.129.53.130:21001/ABZY_Dhakad/master.m3u8",
-    "wrapper_target_url": "http://57.129.53.130:21001/ABZY_Dhakad/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/abzydhakad-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "abzymovies-in-sd": {
-    "name": "Abzy Movies (504p)",
-    "tvg_id": "AbzyMovies.in@SD",
-    "playlist_source_url": "http://57.129.53.130:21001/ABZY_Movies/master.m3u8",
-    "auto_source_url": "http://57.129.53.130:21001/ABZY_Movies/master.m3u8",
-    "wrapper_target_url": "http://57.129.53.130:21001/ABZY_Movies/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/abzymovies-in-sd.m3u8",
     "mode": "auto"
   },
   "adhyatmtv-in-sd": {
@@ -260,13 +314,13 @@
     "public_url": "https://shahakshay938.github.io/streams/anandtv-in-sd.m3u8",
     "mode": "auto"
   },
-  "andpictures-in-hd": {
+  "andpictures-in": {
     "name": "&pictures HD (1080p)",
-    "tvg_id": "Andpictures.in@HD",
+    "tvg_id": "Andpictures.in",
     "playlist_source_url": "http://103.229.254.25:7001/play/a033/index.m3u8",
     "auto_source_url": "http://103.229.254.25:7001/play/a033/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a033/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/andpictures-in-hd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/andpictures-in.m3u8",
     "mode": "auto"
   },
   "andtv-in-hd": {
@@ -276,15 +330,6 @@
     "auto_source_url": "http://103.229.254.25:7001/play/a034/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a034/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/andtv-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "andtv-in-international": {
-    "name": "&TV International (1080p)",
-    "tvg_id": "AndTV.in@International",
-    "playlist_source_url": "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8",
-    "auto_source_url": "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8",
-    "wrapper_target_url": "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/andtv-in-international.m3u8",
     "mode": "auto"
   },
   "andtv-in-sd": {
@@ -305,6 +350,15 @@
     "public_url": "https://shahakshay938.github.io/streams/andtvinternational-in.m3u8",
     "mode": "auto"
   },
+  "angeltv-in-america": {
+    "name": "Angel TV America (720p)",
+    "tvg_id": "AngelTV.in@America",
+    "playlist_source_url": "https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8",
+    "auto_source_url": "https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8",
+    "wrapper_target_url": "https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/angeltv-in-america.m3u8",
+    "mode": "auto"
+  },
   "angeltv-in-australia": {
     "name": "Angel TV Australia (720p)",
     "tvg_id": "AngelTV.in@Australia",
@@ -314,13 +368,13 @@
     "public_url": "https://shahakshay938.github.io/streams/angeltv-in-australia.m3u8",
     "mode": "auto"
   },
-  "angeltv-in-russian": {
-    "name": "Angel TV Russian (720p)",
-    "tvg_id": "AngelTV.in@Russian",
-    "playlist_source_url": "https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8",
-    "auto_source_url": "https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8",
-    "wrapper_target_url": "https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/angeltv-in-russian.m3u8",
+  "angeltv-in-hebrew": {
+    "name": "Angel TV Hebrew (720p)",
+    "tvg_id": "AngelTV.in@Hebrew",
+    "playlist_source_url": "https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8",
+    "auto_source_url": "https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8",
+    "wrapper_target_url": "https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/angeltv-in-hebrew.m3u8",
     "mode": "auto"
   },
   "animaxasiaindia": {
@@ -332,42 +386,6 @@
     "public_url": "https://shahakshay938.github.io/streams/animaxasiaindia.m3u8",
     "mode": "auto"
   },
-  "annnews-in": {
-    "name": "ANN News (720p)",
-    "tvg_id": "ANNNews.in",
-    "playlist_source_url": "https://legitpro.co.in/annnews/annnews/index.m3u8",
-    "auto_source_url": "https://legitpro.co.in/annnews/annnews/index.m3u8",
-    "wrapper_target_url": "https://legitpro.co.in/annnews/annnews/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/annnews-in.m3u8",
-    "mode": "auto"
-  },
-  "annnews-in-hd-ann-news-1080p": {
-    "name": "ANN News (1080p)",
-    "tvg_id": "ANNNews.in@HD",
-    "playlist_source_url": "https://legitpro.co.in/annnews/annnews/index.m3u8",
-    "auto_source_url": "https://legitpro.co.in/annnews/annnews/index.m3u8",
-    "wrapper_target_url": "https://legitpro.co.in/annnews/annnews/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/annnews-in-hd-ann-news-1080p.m3u8",
-    "mode": "auto"
-  },
-  "annnews-in-hd-ann-news-720p": {
-    "name": "ANN News (720p)",
-    "tvg_id": "ANNNews.in@HD",
-    "playlist_source_url": "https://cdn.ottlive.co.in/annnews/index.m3u8",
-    "auto_source_url": "https://cdn.ottlive.co.in/annnews/index.m3u8",
-    "wrapper_target_url": "https://cdn.ottlive.co.in/annnews/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/annnews-in-hd-ann-news-720p.m3u8",
-    "mode": "auto"
-  },
-  "apn-in": {
-    "name": "APN (576p)",
-    "tvg_id": "APN.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/APN/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/APN/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/APN/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/apn-in.m3u8",
-    "mode": "auto"
-  },
   "apnapunjabtv-ca-sd": {
     "name": "Apna Punjab TV (720p)",
     "tvg_id": "ApnaPunjabTV.ca@SD",
@@ -377,31 +395,49 @@
     "public_url": "https://shahakshay938.github.io/streams/apnapunjabtv-ca-sd.m3u8",
     "mode": "auto"
   },
-  "aryantvnational-in": {
-    "name": "Aryan TV National (576p)",
-    "tvg_id": "AryanTVNational.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/ARYANTVNATIONAL/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/ARYANTVNATIONAL/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/ARYANTVNATIONAL/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/aryantvnational-in.m3u8",
+  "aradanatv-in": {
+    "name": "Aradana TV (576p)",
+    "tvg_id": "AradanaTV.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/961/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/961/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/961/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/aradanatv-in.m3u8",
     "mode": "auto"
   },
-  "asianet-in-hd": {
-    "name": "Asianet HD (1080p)",
-    "tvg_id": "Asianet.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00s/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00s/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00s/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/asianet-in-hd.m3u8",
+  "asianetnews-in": {
+    "name": "Asianet News (360p)",
+    "tvg_id": "AsianetNews.in",
+    "playlist_source_url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+    "auto_source_url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+    "wrapper_target_url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/asianetnews-in.m3u8",
     "mode": "auto"
   },
-  "asianetmiddleeast-in-sd": {
-    "name": "Asianet Middle East (576p)",
-    "tvg_id": "AsianetMiddleEast.in@SD",
-    "playlist_source_url": "https://mumt03.tangotv.in/ASIANETMIDDLEEAST/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/ASIANETMIDDLEEAST/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/ASIANETMIDDLEEAST/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/asianetmiddleeast-in-sd.m3u8",
+  "asianetnews-in-sd-asianet-news-1080p": {
+    "name": "Asianet News (1080p)",
+    "tvg_id": "AsianetNews.in@SD",
+    "playlist_source_url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+    "auto_source_url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+    "wrapper_target_url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/asianetnews-in-sd-asianet-news-1080p.m3u8",
+    "mode": "auto"
+  },
+  "asianetnews-in-sd-asianet-news-360p": {
+    "name": "Asianet News (360p)",
+    "tvg_id": "AsianetNews.in@SD",
+    "playlist_source_url": "https://asianetnews.vgcdn.net/vglive-sk-917600/playlist.m3u8",
+    "auto_source_url": "https://asianetnews.vgcdn.net/vglive-sk-917600/playlist.m3u8",
+    "wrapper_target_url": "https://asianetnews.vgcdn.net/vglive-sk-917600/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/asianetnews-in-sd-asianet-news-360p.m3u8",
+    "mode": "auto"
+  },
+  "asianetsuvarnanews-in-sd": {
+    "name": "Asianet Suvarna News (1080p) [Not 24/7]",
+    "tvg_id": "AsianetSuvarnaNews.in@SD",
+    "playlist_source_url": "https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8",
+    "auto_source_url": "https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8",
+    "wrapper_target_url": "https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/asianetsuvarnanews-in-sd.m3u8",
     "mode": "auto"
   },
   "assamtalks-in": {
@@ -422,6 +458,24 @@
     "public_url": "https://shahakshay938.github.io/streams/awaazindiatv-in-sd.m3u8",
     "mode": "auto"
   },
+  "ayushtv-in-sd-ayush-tv": {
+    "name": "Ayush TV",
+    "tvg_id": "AyushTV.in@SD",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/221/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/221/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/221/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ayushtv-in-sd-ayush-tv.m3u8",
+    "mode": "auto"
+  },
+  "ayushtv-in-sd-ayush-tv-360p-not-24-7": {
+    "name": "Ayush TV (360p) [Not 24/7]",
+    "tvg_id": "AyushTV.in@SD",
+    "playlist_source_url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8",
+    "auto_source_url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8",
+    "wrapper_target_url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ayushtv-in-sd-ayush-tv-360p-not-24-7.m3u8",
+    "mode": "auto"
+  },
   "b4ubhojpuri-in-sd": {
     "name": "B4U Bhojpuri (1080p)",
     "tvg_id": "B4UBhojpuri.in@SD",
@@ -438,6 +492,15 @@
     "auto_source_url": "https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8",
     "wrapper_target_url": "https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/b4ukadak-in.m3u8",
+    "mode": "auto"
+  },
+  "b4ukadak-in-sd-b4u-kadak": {
+    "name": "B4U Kadak",
+    "tvg_id": "B4UKadak.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/b4ukadak-in-sd-b4u-kadak.m3u8",
     "mode": "auto"
   },
   "b4ukadak-in-sd-b4u-kadak-1080p-geo-blocked": {
@@ -467,40 +530,49 @@
     "public_url": "https://shahakshay938.github.io/streams/b4umovies-in.m3u8",
     "mode": "auto"
   },
-  "b4umovies-in-india-b4u-movies-1080p-geo-blocked": {
+  "b4umovies-in-india": {
     "name": "B4U Movies (1080p) [Geo-blocked]",
     "tvg_id": "B4UMovies.in@India",
     "playlist_source_url": "https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8",
     "auto_source_url": "https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8",
     "wrapper_target_url": "https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/b4umovies-in-india-b4u-movies-1080p-geo-blocked.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/b4umovies-in-india.m3u8",
     "mode": "auto"
   },
-  "b4umovies-in-india-b4u-movies-india-1080p": {
-    "name": "B4U Movies India (1080p)",
-    "tvg_id": "B4UMovies.in@India",
-    "playlist_source_url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
-    "auto_source_url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
-    "wrapper_target_url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/b4umovies-in-india-b4u-movies-india-1080p.m3u8",
-    "mode": "auto"
-  },
-  "b4umusic-in-india": {
+  "b4umusic-in": {
     "name": "B4U Music (1080p)",
-    "tvg_id": "B4UMusic.in@India",
+    "tvg_id": "B4UMusic.in",
     "playlist_source_url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
     "auto_source_url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
     "wrapper_target_url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/b4umusic-in-india.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/b4umusic-in.m3u8",
     "mode": "auto"
   },
-  "balleballe-in-sd": {
+  "balleballe-in-sd-balle-balle": {
+    "name": "Balle Balle",
+    "tvg_id": "BalleBalle.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/987/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/987/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/987/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/balleballe-in-sd-balle-balle.m3u8",
+    "mode": "auto"
+  },
+  "balleballe-in-sd-balle-balle-720p": {
     "name": "Balle Balle (720p)",
     "tvg_id": "BalleBalle.in@SD",
     "playlist_source_url": "https://mcncdndigital.com/balleballetv/index.m3u8",
     "auto_source_url": "https://mcncdndigital.com/balleballetv/index.m3u8",
     "wrapper_target_url": "https://mcncdndigital.com/balleballetv/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/balleballe-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/balleballe-in-sd-balle-balle-720p.m3u8",
+    "mode": "auto"
+  },
+  "bhakthitv-in": {
+    "name": "Bhakthi TV (720p)",
+    "tvg_id": "BhakthiTV.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/397/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/397/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/397/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/bhakthitv-in.m3u8",
     "mode": "auto"
   },
   "bhaktisagar-in": {
@@ -521,49 +593,49 @@
     "public_url": "https://shahakshay938.github.io/streams/bharatexpress-in-sd.m3u8",
     "mode": "auto"
   },
-  "bharatsamachar-in-sd": {
-    "name": "Bharat Samachar (480p)",
-    "tvg_id": "BharatSamachar.in@SD",
-    "playlist_source_url": "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
-    "auto_source_url": "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
-    "wrapper_target_url": "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/bharatsamachar-in-sd.m3u8",
+  "bhojpuricinema-in-sd-bhojpuri-cinema": {
+    "name": "Bhojpuri Cinema",
+    "tvg_id": "BhojpuriCinema.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1033/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1033/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1033/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/bhojpuricinema-in-sd-bhojpuri-cinema.m3u8",
     "mode": "auto"
   },
-  "bhojpuricinema-in-sd": {
+  "bhojpuricinema-in-sd-bhojpuri-cinema-720p": {
     "name": "Bhojpuri Cinema (720p)",
     "tvg_id": "BhojpuriCinema.in@SD",
     "playlist_source_url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
     "auto_source_url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
     "wrapper_target_url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/bhojpuricinema-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/bhojpuricinema-in-sd-bhojpuri-cinema-720p.m3u8",
     "mode": "auto"
   },
-  "bigtv24x7-in-sd": {
+  "bigtv24x7-in-sd-big-tv-24x7-576i": {
     "name": "Big TV 24x7 (576i)",
     "tvg_id": "BigTV24x7.in@SD",
     "playlist_source_url": "https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/chunks.m3u8",
     "auto_source_url": "https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/chunks.m3u8",
     "wrapper_target_url": "https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/chunks.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/bigtv24x7-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/bigtv24x7-in-sd-big-tv-24x7-576i.m3u8",
     "mode": "auto"
   },
-  "bvg-in": {
-    "name": "BVG (576p)",
-    "tvg_id": "BVG.in",
-    "playlist_source_url": "https://mumt05.tangotv.in/BVG/index.m3u8",
-    "auto_source_url": "https://mumt05.tangotv.in/BVG/index.m3u8",
-    "wrapper_target_url": "https://mumt05.tangotv.in/BVG/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/bvg-in.m3u8",
+  "bigtv24x7-in-sd-big-tv-24x7-576i-2": {
+    "name": "Big TV 24x7 (576i)",
+    "tvg_id": "BigTV24x7.in@SD",
+    "playlist_source_url": "https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "auto_source_url": "https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "wrapper_target_url": "https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "public_url": "https://shahakshay938.github.io/streams/bigtv24x7-in-sd-big-tv-24x7-576i-2.m3u8",
     "mode": "auto"
   },
-  "calvarytv-in": {
-    "name": "Calvary TV (576p)",
-    "tvg_id": "CalvaryTV.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/CALVARYTV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/CALVARYTV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/CALVARYTV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/calvarytv-in.m3u8",
+  "brknews-in": {
+    "name": "BRK News (576p)",
+    "tvg_id": "BRKNews.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/1037/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/1037/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/1037/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/brknews-in.m3u8",
     "mode": "auto"
   },
   "ccv-in-sd": {
@@ -602,13 +674,22 @@
     "public_url": "https://shahakshay938.github.io/streams/chardiklagurbaanitv-in-sd.m3u8",
     "mode": "auto"
   },
-  "chardiklatimetv-in-sd": {
+  "chardiklatimetv-in-sd-chardikla-time-tv": {
+    "name": "Chardikla Time TV",
+    "tvg_id": "ChardiklaTimeTV.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1627/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1627/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1627/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/chardiklatimetv-in-sd-chardikla-time-tv.m3u8",
+    "mode": "auto"
+  },
+  "chardiklatimetv-in-sd-chardikla-time-tv-1080p": {
     "name": "Chardikla Time TV (1080p)",
     "tvg_id": "ChardiklaTimeTV.in@SD",
     "playlist_source_url": "https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8",
     "auto_source_url": "https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8",
     "wrapper_target_url": "https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/chardiklatimetv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/chardiklatimetv-in-sd-chardikla-time-tv-1080p.m3u8",
     "mode": "auto"
   },
   "chardiklatimetvnorthamerica-in-sd": {
@@ -618,6 +699,24 @@
     "auto_source_url": "https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8",
     "wrapper_target_url": "https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/chardiklatimetvnorthamerica-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "chithiram-in": {
+    "name": "Chithiram (576p)",
+    "tvg_id": "Chithiram.in",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/1243/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/1243/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/1243/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/chithiram-in.m3u8",
+    "mode": "auto"
+  },
+  "cnbctv18-in-sd": {
+    "name": "CNBC TV18 (1080p)",
+    "tvg_id": "CNBCTV18.in@SD",
+    "playlist_source_url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8",
+    "auto_source_url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8",
+    "wrapper_target_url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/cnbctv18-in-sd.m3u8",
     "mode": "auto"
   },
   "colors-in": {
@@ -647,85 +746,22 @@
     "public_url": "https://shahakshay938.github.io/streams/colors-in-sd.m3u8",
     "mode": "auto"
   },
-  "colorsbangla-in-hd": {
-    "name": "Colors Bangla HD (1080p)",
-    "tvg_id": "ColorsBangla.in@HD",
-    "playlist_source_url": "http://103.229.254.25:7001/play/a0ds/index.m3u8",
-    "auto_source_url": "http://103.229.254.25:7001/play/a0ds/index.m3u8",
-    "wrapper_target_url": "http://103.229.254.25:7001/play/a0ds/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/colorsbangla-in-hd.m3u8",
+  "cvrenglish-in": {
+    "name": "CVR English (720p)",
+    "tvg_id": "CVREnglish.in",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/425/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/425/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/425/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/cvrenglish-in.m3u8",
     "mode": "auto"
   },
-  "colorscineplexbollywood-in-sd": {
-    "name": "Colors Cineplex Bollywood (576p)",
-    "tvg_id": "ColorsCineplexBollywood.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00x/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00x/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00x/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/colorscineplexbollywood-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "colorsinfinity-in-hd": {
-    "name": "Colors Infinity HD (1080p)",
-    "tvg_id": "ColorsInfinity.in@HD",
-    "playlist_source_url": "http://103.229.254.25:7001/play/a0du/index.m3u8",
-    "auto_source_url": "http://103.229.254.25:7001/play/a0du/index.m3u8",
-    "wrapper_target_url": "http://103.229.254.25:7001/play/a0du/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/colorsinfinity-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "colorstamil-in-hd-colors-tamil-hd-1080p": {
-    "name": "Colors Tamil HD (1080p)",
-    "tvg_id": "ColorsTamil.in@HD",
-    "playlist_source_url": "http://ptuf.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8",
-    "auto_source_url": "http://ptuf.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8",
-    "wrapper_target_url": "http://ptuf.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/colorstamil-in-hd-colors-tamil-hd-1080p.m3u8",
-    "mode": "auto"
-  },
-  "colorstamil-in-hd-colors-tamil-hd-1080p-2": {
-    "name": "Colors Tamil HD (1080p)",
-    "tvg_id": "ColorsTamil.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a069/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a069/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a069/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/colorstamil-in-hd-colors-tamil-hd-1080p-2.m3u8",
-    "mode": "auto"
-  },
-  "colorstamil-in-sd": {
-    "name": "Colors Tamil (576p)",
-    "tvg_id": "ColorsTamil.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/colorstamil-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "ctvnakdplus-in-sd": {
-    "name": "CTVN AKD Plus (1080p)",
-    "tvg_id": "CTVNAKDPlus.in@SD",
-    "playlist_source_url": "https://live.legitpro.co.in/ctvnakdplus/index.m3u8",
-    "auto_source_url": "https://live.legitpro.co.in/ctvnakdplus/index.m3u8",
-    "wrapper_target_url": "https://live.legitpro.co.in/ctvnakdplus/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ctvnakdplus-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "cvrnews-in": {
-    "name": "CVR News (576p)",
-    "tvg_id": "CVRNews.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/CVRNEWS/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/CVRNEWS/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/CVRNEWS/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/cvrnews-in.m3u8",
-    "mode": "auto"
-  },
-  "dangal2-in-sd": {
-    "name": "Dangal 2 (720p)",
-    "tvg_id": "Dangal2.in@SD",
-    "playlist_source_url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
-    "auto_source_url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
-    "wrapper_target_url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/dangal2-in-sd.m3u8",
+  "cvrhealth-in": {
+    "name": "CVR Health (576p)",
+    "tvg_id": "CVRHealth.in",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/395/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/395/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/395/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/cvrhealth-in.m3u8",
     "mode": "auto"
   },
   "dangaltv-in-sd": {
@@ -746,13 +782,49 @@
     "public_url": "https://shahakshay938.github.io/streams/darshan24-in.m3u8",
     "mode": "auto"
   },
-  "darshanatv-in": {
-    "name": "Darshana TV (576p)",
-    "tvg_id": "DarshanaTV.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/DARSHANATV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/DARSHANATV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/DARSHANATV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/darshanatv-in.m3u8",
+  "ddarunprabha-in-sd": {
+    "name": "DD Arun Prabha",
+    "tvg_id": "DDArunPrabha.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/32/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/32/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/32/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ddarunprabha-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "ddbangla-in-sd": {
+    "name": "DD Bangla",
+    "tvg_id": "DDBangla.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/37/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/37/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/37/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ddbangla-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "ddchandana-in-sd": {
+    "name": "DD Chandana",
+    "tvg_id": "DDChandana.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/28/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/28/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/28/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ddchandana-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "ddjharkhand-in-sd": {
+    "name": "DD Jharkhand",
+    "tvg_id": "DDJharkhand.in@SD",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/1617/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/1617/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/1617/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ddjharkhand-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "ddkashir-in-sd": {
+    "name": "DD Kashir",
+    "tvg_id": "DDKashir.in@SD",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/16/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/16/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/16/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ddkashir-in-sd.m3u8",
     "mode": "auto"
   },
   "ddnews-in": {
@@ -762,6 +834,24 @@
     "auto_source_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
     "wrapper_target_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/ddnews-in.m3u8",
+    "mode": "auto"
+  },
+  "ddnews-in-sd": {
+    "name": "DD News",
+    "tvg_id": "DDNews.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/12/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/12/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/12/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ddnews-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "ddtamil-in-sd": {
+    "name": "DD Tamil",
+    "tvg_id": "DDTamil.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/26/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/26/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/26/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ddtamil-in-sd.m3u8",
     "mode": "auto"
   },
   "desichannel-in-sd": {
@@ -782,6 +872,15 @@
     "public_url": "https://shahakshay938.github.io/streams/dharmsandesh-in.m3u8",
     "mode": "auto"
   },
+  "dharmsandesh-in-sd": {
+    "name": "Dharm Sandesh",
+    "tvg_id": "DharmSandesh.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1455/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1455/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1455/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/dharmsandesh-in-sd.m3u8",
+    "mode": "auto"
+  },
   "dharsantv-in": {
     "name": "Dharsan TV (720p)",
     "tvg_id": "DharsanTV.in",
@@ -791,24 +890,6 @@
     "public_url": "https://shahakshay938.github.io/streams/dharsantv-in.m3u8",
     "mode": "auto"
   },
-  "dishatv-in": {
-    "name": "Disha TV (576p)",
-    "tvg_id": "DishaTV.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/DISHATV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/DISHATV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/DISHATV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/dishatv-in.m3u8",
-    "mode": "auto"
-  },
-  "disneychannel-in-sd": {
-    "name": "Disney Channel (576p)",
-    "tvg_id": "DisneyChannel.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/disneychannel-in-sd.m3u8",
-    "mode": "auto"
-  },
   "divyavanitv-in-sd": {
     "name": "Divyavani TV (576p)",
     "tvg_id": "DivyavaniTV.in@SD",
@@ -816,15 +897,6 @@
     "auto_source_url": "https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8",
     "wrapper_target_url": "https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/divyavanitv-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "e24-in": {
-    "name": "E 24 (576p)",
-    "tvg_id": "E24.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/E24/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/E24/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/E24/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/e24-in.m3u8",
     "mode": "auto"
   },
   "eettv-in-sd": {
@@ -837,11 +909,11 @@
     "mode": "auto"
   },
   "enterr10bangla-in-sd": {
-    "name": "Enterr 10 Bangla (720p) [Not 24/7]",
+    "name": "Enterr 10 Bangla",
     "tvg_id": "Enterr10Bangla.in@SD",
-    "playlist_source_url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
-    "auto_source_url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
-    "wrapper_target_url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/241/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/241/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/241/master.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/enterr10bangla-in-sd.m3u8",
     "mode": "auto"
   },
@@ -852,6 +924,15 @@
     "auto_source_url": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
     "wrapper_target_url": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/epicbharat-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "epictv-in-digital": {
+    "name": "Epic TV Digital (1080p)",
+    "tvg_id": "EpicTV.in@Digital",
+    "playlist_source_url": "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8",
+    "auto_source_url": "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8",
+    "wrapper_target_url": "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/epictv-in-digital.m3u8",
     "mode": "auto"
   },
   "etnowswadesh-in-sd": {
@@ -866,19 +947,37 @@
   "etvandhrapradesh-in-sd": {
     "name": "ETV Andhra Pradesh (1080p)",
     "tvg_id": "ETVAndhraPradesh.in@SD",
-    "playlist_source_url": "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8",
-    "auto_source_url": "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8",
-    "wrapper_target_url": "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8",
+    "playlist_source_url": "https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8",
+    "auto_source_url": "https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8",
+    "wrapper_target_url": "https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/etvandhrapradesh-in-sd.m3u8",
     "mode": "auto"
   },
   "etvcinema-in-hd": {
     "name": "ETV Cinema HD (1080p)",
     "tvg_id": "ETVCinema.in@HD",
-    "playlist_source_url": "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8",
-    "auto_source_url": "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8",
-    "wrapper_target_url": "https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8",
+    "playlist_source_url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8",
+    "auto_source_url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8",
+    "wrapper_target_url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/etvcinema-in-hd.m3u8",
+    "mode": "auto"
+  },
+  "etvcomedy-in-hd": {
+    "name": "ETV Comedy (1080p)",
+    "tvg_id": "ETVComedy.in@HD",
+    "playlist_source_url": "https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8",
+    "auto_source_url": "https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8",
+    "wrapper_target_url": "https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/etvcomedy-in-hd.m3u8",
+    "mode": "auto"
+  },
+  "etvjosh-in-hd": {
+    "name": "ETV Josh (1080p)",
+    "tvg_id": "ETVJosh.in@HD",
+    "playlist_source_url": "https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8",
+    "auto_source_url": "https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8",
+    "wrapper_target_url": "https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/etvjosh-in-hd.m3u8",
     "mode": "auto"
   },
   "etvlife-in-sd": {
@@ -888,6 +987,33 @@
     "auto_source_url": "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8",
     "wrapper_target_url": "https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/etvlife-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "etvmusic-in-hd": {
+    "name": "ETV Music (1080p)",
+    "tvg_id": "ETVMusic.in@HD",
+    "playlist_source_url": "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8",
+    "auto_source_url": "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8",
+    "wrapper_target_url": "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/etvmusic-in-hd.m3u8",
+    "mode": "auto"
+  },
+  "etvtelugu-in-hd": {
+    "name": "ETV Telugu HD (1080p)",
+    "tvg_id": "ETVTelugu.in@HD",
+    "playlist_source_url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264_cloud_in/index.m3u8",
+    "auto_source_url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264_cloud_in/index.m3u8",
+    "wrapper_target_url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264_cloud_in/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/etvtelugu-in-hd.m3u8",
+    "mode": "auto"
+  },
+  "etvtelugu-in-usa": {
+    "name": "ETV Telugu USA (720p)",
+    "tvg_id": "ETVTelugu.in@USA",
+    "playlist_source_url": "https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "auto_source_url": "https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "wrapper_target_url": "https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "public_url": "https://shahakshay938.github.io/streams/etvtelugu-in-usa.m3u8",
     "mode": "auto"
   },
   "fatehtv-in-sd": {
@@ -906,6 +1032,24 @@
     "auto_source_url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
     "wrapper_target_url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/firstindianews-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "gangaurtv-in-sd-gangaur-tv": {
+    "name": "Gangaur TV",
+    "tvg_id": "GangaurTV.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1221/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1221/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1221/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/gangaurtv-in-sd-gangaur-tv.m3u8",
+    "mode": "auto"
+  },
+  "gangaurtv-in-sd-gangaur-tv-1080p": {
+    "name": "Gangaur TV (1080p)",
+    "tvg_id": "GangaurTV.in@SD",
+    "playlist_source_url": "https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8",
+    "auto_source_url": "https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8",
+    "wrapper_target_url": "https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/gangaurtv-in-sd-gangaur-tv-1080p.m3u8",
     "mode": "auto"
   },
   "gaundapunjabtv": {
@@ -935,15 +1079,6 @@
     "public_url": "https://shahakshay938.github.io/streams/globalpunjab-in-sd.m3u8",
     "mode": "auto"
   },
-  "goa365-in-sd": {
-    "name": "Goa365 (1080p)",
-    "tvg_id": "Goa365.in@SD",
-    "playlist_source_url": "https://ktismaservers.in:3086/live/goa365live.m3u8",
-    "auto_source_url": "https://ktismaservers.in:3086/live/goa365live.m3u8",
-    "wrapper_target_url": "https://ktismaservers.in:3086/live/goa365live.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/goa365-in-sd.m3u8",
-    "mode": "auto"
-  },
   "goodnewstv-in-sd": {
     "name": "GoodNews TV (720p)",
     "tvg_id": "GoodNewsTV.in@SD",
@@ -953,13 +1088,13 @@
     "public_url": "https://shahakshay938.github.io/streams/goodnewstv-in-sd.m3u8",
     "mode": "auto"
   },
-  "gracetv-in": {
-    "name": "Grace TV (576p)",
-    "tvg_id": "GraceTV.in",
-    "playlist_source_url": "https://mumt03.tangotv.in/GRACETV/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/GRACETV/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/GRACETV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/gracetv-in.m3u8",
+  "gospeltvindia-in-sd": {
+    "name": "Gospel TV India (720p)",
+    "tvg_id": "GospelTVIndia.in@SD",
+    "playlist_source_url": "https://server.livelegitpro.in:9899/gospeltv/index.m3u8",
+    "auto_source_url": "https://server.livelegitpro.in:9899/gospeltv/index.m3u8",
+    "wrapper_target_url": "https://server.livelegitpro.in:9899/gospeltv/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/gospeltvindia-in-sd.m3u8",
     "mode": "auto"
   },
   "gstv-in": {
@@ -971,6 +1106,15 @@
     "public_url": "https://shahakshay938.github.io/streams/gstv-in.m3u8",
     "mode": "auto"
   },
+  "gstv-in-sd": {
+    "name": "GS TV",
+    "tvg_id": "GSTV.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1462/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1462/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1462/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/gstv-in-sd.m3u8",
+    "mode": "auto"
+  },
   "gulistannews-in-sd": {
     "name": "Gulistan News (720p) [Not 24/7]",
     "tvg_id": "GulistanNews.in@SD",
@@ -978,15 +1122,6 @@
     "auto_source_url": "https://live.gulistannews.in/hls/gul.m3u8",
     "wrapper_target_url": "https://live.gulistannews.in/hls/gul.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/gulistannews-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "gyandarshan-in": {
-    "name": "Gyandarshan (720p)",
-    "tvg_id": "Gyandarshan.in",
-    "playlist_source_url": "https://cdn-6.pishow.tv/live/14/master.m3u8",
-    "auto_source_url": "https://cdn-6.pishow.tv/live/14/master.m3u8",
-    "wrapper_target_url": "https://cdn-6.pishow.tv/live/14/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/gyandarshan-in.m3u8",
     "mode": "auto"
   },
   "hamdardtv-ca-sd": {
@@ -1025,13 +1160,13 @@
     "public_url": "https://shahakshay938.github.io/streams/harvestusa-in-sd.m3u8",
     "mode": "auto"
   },
-  "hebrontv-in": {
-    "name": "Hebron TV (432p)",
-    "tvg_id": "HebronTV.in",
+  "hebrontv-in-sd": {
+    "name": "Hebron TV (1080p)",
+    "tvg_id": "HebronTV.in@SD",
     "playlist_source_url": "https://account20.livebox.co.in/charleshls/live.m3u8",
     "auto_source_url": "https://account20.livebox.co.in/charleshls/live.m3u8",
     "wrapper_target_url": "https://account20.livebox.co.in/charleshls/live.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/hebrontv-in.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/hebrontv-in-sd.m3u8",
     "mode": "auto"
   },
   "highnews-in-sd": {
@@ -1043,6 +1178,24 @@
     "public_url": "https://shahakshay938.github.io/streams/highnews-in-sd.m3u8",
     "mode": "auto"
   },
+  "hindudharmam-in": {
+    "name": "Hindu Dharmam (576p)",
+    "tvg_id": "HinduDharmam.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/959/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/959/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/959/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/hindudharmam-in.m3u8",
+    "mode": "auto"
+  },
+  "hmtv-in": {
+    "name": "HMTV (720p)",
+    "tvg_id": "HMTV.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/280/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/280/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/280/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/hmtv-in.m3u8",
+    "mode": "auto"
+  },
   "hnn24x7-in-sd": {
     "name": "HNN 24x7 (576p)",
     "tvg_id": "HNN24x7.in@SD",
@@ -1052,22 +1205,13 @@
     "public_url": "https://shahakshay938.github.io/streams/hnn24x7-in-sd.m3u8",
     "mode": "auto"
   },
-  "hopechannelindia-in": {
-    "name": "Hope Channel India (576p)",
-    "tvg_id": "HopeChannelIndia.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/HOPECHANNELINDIA/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/HOPECHANNELINDIA/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/HOPECHANNELINDIA/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/hopechannelindia-in.m3u8",
-    "mode": "auto"
-  },
-  "hungamatv-in-sd": {
-    "name": "Hungama TV (576p)",
-    "tvg_id": "HungamaTV.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/hungamatv-in-sd.m3u8",
+  "hornbilltv-in": {
+    "name": "Hornbill TV (576p)",
+    "tvg_id": "HornbillTV.in",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1463/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1463/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1463/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/hornbilltv-in.m3u8",
     "mode": "auto"
   },
   "hydertv": {
@@ -1079,13 +1223,13 @@
     "public_url": "https://shahakshay938.github.io/streams/hydertv.m3u8",
     "mode": "auto"
   },
-  "indiaahead-in": {
-    "name": "India Ahead (576p)",
-    "tvg_id": "IndiaAhead.in",
-    "playlist_source_url": "https://mumt05.tangotv.in/INDIAAHEAD/index.m3u8",
-    "auto_source_url": "https://mumt05.tangotv.in/INDIAAHEAD/index.m3u8",
-    "wrapper_target_url": "https://mumt05.tangotv.in/INDIAAHEAD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/indiaahead-in.m3u8",
+  "ibc24-in": {
+    "name": "IBC 24 (720p)",
+    "tvg_id": "IBC24.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/220/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/220/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/220/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ibc24-in.m3u8",
     "mode": "auto"
   },
   "indiatoday-in": {
@@ -1106,21 +1250,30 @@
     "public_url": "https://shahakshay938.github.io/streams/indiatoday-in-sd.m3u8",
     "mode": "auto"
   },
-  "indiatv-in-sd": {
+  "indiatv-in-sd-india-tv": {
+    "name": "India TV",
+    "tvg_id": "IndiaTV.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1043/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1043/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1043/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/indiatv-in-sd-india-tv.m3u8",
+    "mode": "auto"
+  },
+  "indiatv-in-sd-india-tv-720p": {
     "name": "India TV (720p)",
     "tvg_id": "IndiaTV.in@SD",
     "playlist_source_url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
     "auto_source_url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
     "wrapper_target_url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/indiatv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/indiatv-in-sd-india-tv-720p.m3u8",
     "mode": "auto"
   },
   "indiatvspeednews-in-hd-india-tv-speed-news-1080p": {
     "name": "India TV Speed News (1080p)",
     "tvg_id": "IndiaTVSpeedNews.in@HD",
-    "playlist_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8",
-    "auto_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8",
-    "wrapper_target_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8",
+    "playlist_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "auto_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "wrapper_target_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/indiatvspeednews-in-hd-india-tv-speed-news-1080p.m3u8",
     "mode": "auto"
   },
@@ -1133,13 +1286,40 @@
     "public_url": "https://shahakshay938.github.io/streams/indiatvspeednews-in-hd-india-tv-speed-news-1080p-2.m3u8",
     "mode": "auto"
   },
-  "indiavoice-in": {
-    "name": "India Voice (576p)",
-    "tvg_id": "IndiaVoice.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/INDIAVOICE/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/INDIAVOICE/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/INDIAVOICE/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/indiavoice-in.m3u8",
+  "indiatvspeednews-in-india-tv-speed-news-1080p-2": {
+    "name": "India TV Speed News (1080p) 2",
+    "tvg_id": "IndiaTVSpeedNews.in",
+    "playlist_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "auto_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "wrapper_target_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/indiatvspeednews-in-india-tv-speed-news-1080p-2.m3u8",
+    "mode": "auto"
+  },
+  "indiatvspeednews-in-india-tv-speed-news-1080p-3": {
+    "name": "India TV Speed News (1080p) 3",
+    "tvg_id": "IndiaTVSpeedNews.in",
+    "playlist_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "auto_source_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "wrapper_target_url": "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/indiatvspeednews-in-india-tv-speed-news-1080p-3.m3u8",
+    "mode": "auto"
+  },
+  "indywoodtv-in-sd": {
+    "name": "Indywood TV (720p)",
+    "tvg_id": "IndywoodTV.in@SD",
+    "playlist_source_url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
+    "auto_source_url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
+    "wrapper_target_url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/indywoodtv-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "inews-in": {
+    "name": "INews (720p)",
+    "tvg_id": "INews.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/411/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/411/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/411/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/inews-in.m3u8",
     "mode": "auto"
   },
   "inh24x7-in-sd": {
@@ -1151,31 +1331,13 @@
     "public_url": "https://shahakshay938.github.io/streams/inh24x7-in-sd.m3u8",
     "mode": "auto"
   },
-  "insync-in": {
-    "name": "Insync (576p)",
-    "tvg_id": "Insync.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/INSYNC/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/INSYNC/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/INSYNC/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/insync-in.m3u8",
-    "mode": "auto"
-  },
-  "isaiaruvi-in-sd-isai-aruvi-396p": {
+  "isaiaruvi-in-sd": {
     "name": "Isai Aruvi (396p)",
     "tvg_id": "IsaiAruvi.in@SD",
     "playlist_source_url": "https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8",
     "auto_source_url": "https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8",
     "wrapper_target_url": "https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/isaiaruvi-in-sd-isai-aruvi-396p.m3u8",
-    "mode": "auto"
-  },
-  "isaiaruvi-in-sd-isai-aruvi-576p": {
-    "name": "Isai Aruvi (576p)",
-    "tvg_id": "IsaiAruvi.in@SD",
-    "playlist_source_url": "http://ptuf.ridsys.in/riptv/live/KALAIGNAR_ISAI_ARUVI/index.m3u8",
-    "auto_source_url": "http://ptuf.ridsys.in/riptv/live/KALAIGNAR_ISAI_ARUVI/index.m3u8",
-    "wrapper_target_url": "http://ptuf.ridsys.in/riptv/live/KALAIGNAR_ISAI_ARUVI/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/isaiaruvi-in-sd-isai-aruvi-576p.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/isaiaruvi-in-sd.m3u8",
     "mode": "auto"
   },
   "ishwarbhaktitv-in-sd": {
@@ -1205,13 +1367,22 @@
     "public_url": "https://shahakshay938.github.io/streams/jalshamovies-in-hd.m3u8",
     "mode": "auto"
   },
-  "janamtv-in-sd": {
+  "janamtv-in-sd-janam-tv": {
+    "name": "Janam TV",
+    "tvg_id": "JanamTV.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1466/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1466/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1466/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/janamtv-in-sd-janam-tv.m3u8",
+    "mode": "auto"
+  },
+  "janamtv-in-sd-janam-tv-576p": {
     "name": "Janam TV (576p)",
     "tvg_id": "JanamTV.in@SD",
     "playlist_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8",
     "auto_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8",
     "wrapper_target_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/janamtv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/janamtv-in-sd-janam-tv-576p.m3u8",
     "mode": "auto"
   },
   "jantatv-in-sd": {
@@ -1232,6 +1403,15 @@
     "public_url": "https://shahakshay938.github.io/streams/jayaplus-in-sd.m3u8",
     "mode": "auto"
   },
+  "jeevantv-in": {
+    "name": "Jeevan TV (576p)",
+    "tvg_id": "JeevanTV.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1467/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1467/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1467/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/jeevantv-in.m3u8",
+    "mode": "auto"
+  },
   "jk24x7news-in-sd": {
     "name": "JK 24x7 News (720p) [Not 24/7]",
     "tvg_id": "JK24x7News.in@SD",
@@ -1241,22 +1421,13 @@
     "public_url": "https://shahakshay938.github.io/streams/jk24x7news-in-sd.m3u8",
     "mode": "auto"
   },
-  "kairaliarabia-in-sd": {
-    "name": "Kairali Arabia (576p)",
-    "tvg_id": "KairaliArabia.in@SD",
-    "playlist_source_url": "https://mumt03.tangotv.in/KAIRALIARABIA/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/KAIRALIARABIA/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/KAIRALIARABIA/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/kairaliarabia-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "kairalitv-in": {
-    "name": "Kairali TV (576p)",
-    "tvg_id": "KairaliTV.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/KAIRALI/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/KAIRALI/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/KAIRALI/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/kairalitv-in.m3u8",
+  "kairalinews-in": {
+    "name": "Kairali News (720p)",
+    "tvg_id": "KairaliNews.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kairalinews-in.m3u8",
     "mode": "auto"
   },
   "kalaignarmurasu-in-sd-kalaignar-murasu-396p": {
@@ -1277,15 +1448,6 @@
     "public_url": "https://shahakshay938.github.io/streams/kalaignarmurasu-in-sd-kalaignar-murasu-396p-not-24-7.m3u8",
     "mode": "auto"
   },
-  "kalaignarseithigal-in-sd": {
-    "name": "Kalaignar Seithigal (720p)",
-    "tvg_id": "KalaignarSeithigal.in@SD",
-    "playlist_source_url": "https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8",
-    "auto_source_url": "https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8",
-    "wrapper_target_url": "https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/kalaignarseithigal-in-sd.m3u8",
-    "mode": "auto"
-  },
   "kalaignartv-in-sd": {
     "name": "Kalaignar TV (396p)",
     "tvg_id": "KalaignarTV.in@SD",
@@ -1293,6 +1455,15 @@
     "auto_source_url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8",
     "wrapper_target_url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/kalaignartv-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "kalikatv-in-sd": {
+    "name": "Kalika TV (576p)",
+    "tvg_id": "KalikaTV.in@SD",
+    "playlist_source_url": "http://server.applelive.in/kalikatv/kalikatv.m3u8",
+    "auto_source_url": "http://server.applelive.in/kalikatv/kalikatv.m3u8",
+    "wrapper_target_url": "http://server.applelive.in/kalikatv/kalikatv.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kalikatv-in-sd.m3u8",
     "mode": "auto"
   },
   "kannurvision-in-sd": {
@@ -1304,6 +1475,15 @@
     "public_url": "https://shahakshay938.github.io/streams/kannurvision-in-sd.m3u8",
     "mode": "auto"
   },
+  "kappatv-in": {
+    "name": "Kappa TV (576p)",
+    "tvg_id": "KappaTV.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1123/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1123/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1123/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kappatv-in.m3u8",
+    "mode": "auto"
+  },
   "kashishnews-in-sd": {
     "name": "Kashish News (720p)",
     "tvg_id": "KashishNews.in@SD",
@@ -1313,13 +1493,31 @@
     "public_url": "https://shahakshay938.github.io/streams/kashishnews-in-sd.m3u8",
     "mode": "auto"
   },
-  "kaumudytv-in-sd": {
+  "kaumudytv-in-sd-kaumudy-tv": {
+    "name": "Kaumudy TV",
+    "tvg_id": "KaumudyTV.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1237/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1237/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1237/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kaumudytv-in-sd-kaumudy-tv.m3u8",
+    "mode": "auto"
+  },
+  "kaumudytv-in-sd-kaumudy-tv-720p": {
     "name": "Kaumudy TV (720p)",
     "tvg_id": "KaumudyTV.in@SD",
     "playlist_source_url": "https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8",
     "auto_source_url": "https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8",
     "wrapper_target_url": "https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/kaumudytv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kaumudytv-in-sd-kaumudy-tv-720p.m3u8",
+    "mode": "auto"
+  },
+  "kcltv-in-sd": {
+    "name": "KCL TV (720p)",
+    "tvg_id": "KCLTV.in@SD",
+    "playlist_source_url": "https://kcltv.livebox.co.in/kclhls/live.m3u8",
+    "auto_source_url": "https://kcltv.livebox.co.in/kclhls/live.m3u8",
+    "wrapper_target_url": "https://kcltv.livebox.co.in/kclhls/live.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kcltv-in-sd.m3u8",
     "mode": "auto"
   },
   "kcm": {
@@ -1340,15 +1538,6 @@
     "public_url": "https://shahakshay938.github.io/streams/keralavision-in.m3u8",
     "mode": "auto"
   },
-  "khabarfast-in": {
-    "name": "Khabar Fast (576p)",
-    "tvg_id": "KhabarFast.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/KHABARFAST/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/KHABARFAST/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/KHABARFAST/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/khabarfast-in.m3u8",
-    "mode": "auto"
-  },
   "khabrainabhitak-in": {
     "name": "Khabrain Abhi Tak (576p)",
     "tvg_id": "KhabrainAbhiTak.in",
@@ -1356,6 +1545,24 @@
     "auto_source_url": "https://mumt05.tangotv.in/KHABRAINABHITAK/index.m3u8",
     "wrapper_target_url": "https://mumt05.tangotv.in/KHABRAINABHITAK/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/khabrainabhitak-in.m3u8",
+    "mode": "auto"
+  },
+  "kitevicters-in-sd": {
+    "name": "KITE Victers (Kerala) (720p) [Not 24/7]",
+    "tvg_id": "KiteVicters.in@SD",
+    "playlist_source_url": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8",
+    "auto_source_url": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8",
+    "wrapper_target_url": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kitevicters-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "kolkatatv-in-sd": {
+    "name": "Kolkata TV (1080p)",
+    "tvg_id": "KolkataTV.in@SD",
+    "playlist_source_url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
+    "auto_source_url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
+    "wrapper_target_url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/kolkatatv-in-sd.m3u8",
     "mode": "auto"
   },
   "ktvbangla-in-sd": {
@@ -1376,6 +1583,24 @@
     "public_url": "https://shahakshay938.github.io/streams/lifetv-in-sd.m3u8",
     "mode": "auto"
   },
+  "madhatv-in-sd": {
+    "name": "Madha TV",
+    "tvg_id": "MadhaTV.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1265/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1265/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1265/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/madhatv-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "madhimugamtv-in": {
+    "name": "Madhimugam TV (576p)",
+    "tvg_id": "MadhimugamTV.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1476/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1476/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1476/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/madhimugamtv-in.m3u8",
+    "mode": "auto"
+  },
   "mahaabhakti-in-sd": {
     "name": "Mahaa Bhakti (1080p)",
     "tvg_id": "MahaaBhakti.in@SD",
@@ -1385,22 +1610,22 @@
     "public_url": "https://shahakshay938.github.io/streams/mahaabhakti-in-sd.m3u8",
     "mode": "auto"
   },
-  "mahaamax-in-sd": {
-    "name": "Mahaa Max (1080p)",
-    "tvg_id": "MahaaMax.in@SD",
-    "playlist_source_url": "https://d8wpu6ewxtzy0.cloudfront.net/mahaamaxx/index.m3u8",
-    "auto_source_url": "https://d8wpu6ewxtzy0.cloudfront.net/mahaamaxx/index.m3u8",
-    "wrapper_target_url": "https://d8wpu6ewxtzy0.cloudfront.net/mahaamaxx/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/mahaamax-in-sd.m3u8",
+  "mahaanews-in-sd": {
+    "name": "Mahaa News",
+    "tvg_id": "MahaaNews.in@SD",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/401/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/401/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/401/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/mahaanews-in-sd.m3u8",
     "mode": "auto"
   },
-  "mahaanews-in-sd": {
-    "name": "Mahaa News (720p)",
-    "tvg_id": "MahaaNews.in@SD",
-    "playlist_source_url": "https://d8wpu6ewxtzy0.cloudfront.net/mahaanews/index.m3u8",
-    "auto_source_url": "https://d8wpu6ewxtzy0.cloudfront.net/mahaanews/index.m3u8",
-    "wrapper_target_url": "https://d8wpu6ewxtzy0.cloudfront.net/mahaanews/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/mahaanews-in-sd.m3u8",
+  "mahamovie-in": {
+    "name": "Maha Movie (576p)",
+    "tvg_id": "MahaMovie.in",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/10007/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/10007/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/10007/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/mahamovie-in.m3u8",
     "mode": "auto"
   },
   "makkaltv-in-sd": {
@@ -1412,13 +1637,22 @@
     "public_url": "https://shahakshay938.github.io/streams/makkaltv-in-sd.m3u8",
     "mode": "auto"
   },
-  "malaimurasutv-in-sd": {
-    "name": "Malai Murasu TV (1080p) [Geo-blocked]",
-    "tvg_id": "MalaiMurasuTV.in@SD",
-    "playlist_source_url": "https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8",
-    "auto_source_url": "https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8",
-    "wrapper_target_url": "https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/malaimurasutv-in-sd.m3u8",
+  "malabarnews-in-sd": {
+    "name": "Malabar News (720p)",
+    "tvg_id": "MalabarNews.in@SD",
+    "playlist_source_url": "http://cloud.logichost.in:1935/live/malabarnews/index.m3u8",
+    "auto_source_url": "http://cloud.logichost.in:1935/live/malabarnews/index.m3u8",
+    "wrapper_target_url": "http://cloud.logichost.in:1935/live/malabarnews/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/malabarnews-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "malartv-in": {
+    "name": "Malar TV (720p) [Not 24/7]",
+    "tvg_id": "MalarTV.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/473/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/473/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/473/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/malartv-in.m3u8",
     "mode": "auto"
   },
   "mangomobiletv-in-hd": {
@@ -1439,6 +1673,24 @@
     "public_url": "https://shahakshay938.github.io/streams/manoramanews-in-sd.m3u8",
     "mode": "auto"
   },
+  "manoranjanprime-in-sd": {
+    "name": "Manoranjan Prime",
+    "tvg_id": "ManoranjanPrime.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1474/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1474/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1474/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/manoranjanprime-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "marutammusic-in": {
+    "name": "MNTV Music (1080p)",
+    "tvg_id": "MarutamMusic.in",
+    "playlist_source_url": "https://mntv.livebox.co.in/musichls/live.m3u8",
+    "auto_source_url": "https://mntv.livebox.co.in/musichls/live.m3u8",
+    "wrapper_target_url": "https://mntv.livebox.co.in/musichls/live.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/marutammusic-in.m3u8",
+    "mode": "auto"
+  },
   "marutamtv-in-sd": {
     "name": "MNTV (1080p)",
     "tvg_id": "MarutamTV.in@SD",
@@ -1448,22 +1700,22 @@
     "public_url": "https://shahakshay938.github.io/streams/marutamtv-in-sd.m3u8",
     "mode": "auto"
   },
-  "mathrubhuminews-in-sd": {
+  "mathrubhuminews-in-sd-mathrubhumi-news": {
+    "name": "Mathrubhumi News",
+    "tvg_id": "MathrubhumiNews.in@SD",
+    "playlist_source_url": "https://mathrubhumicdn.vidgyor.com/mathrubhumi-origin/liveabr/playlist.m3u8",
+    "auto_source_url": "https://mathrubhumicdn.vidgyor.com/mathrubhumi-origin/liveabr/playlist.m3u8",
+    "wrapper_target_url": "https://mathrubhumicdn.vidgyor.com/mathrubhumi-origin/liveabr/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/mathrubhuminews-in-sd-mathrubhumi-news.m3u8",
+    "mode": "auto"
+  },
+  "mathrubhuminews-in-sd-mathrubhumi-news-576p-not-24-7": {
     "name": "Mathrubhumi News (576p) [Not 24/7]",
     "tvg_id": "MathrubhumiNews.in@SD",
     "playlist_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/110322/mathrubhuminews/playlist.m3u8",
     "auto_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/110322/mathrubhuminews/playlist.m3u8",
     "wrapper_target_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/110322/mathrubhuminews/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/mathrubhuminews-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "maxmovies-in-hd": {
-    "name": "Max Movies (1080p)",
-    "tvg_id": "MaxMovies.in@HD",
-    "playlist_source_url": "https://live.maxtn.in/maxmovies/maxmovies/index.m3u8",
-    "auto_source_url": "https://live.maxtn.in/maxmovies/maxmovies/index.m3u8",
-    "wrapper_target_url": "https://live.maxtn.in/maxmovies/maxmovies/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/maxmovies-in-hd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/mathrubhuminews-in-sd-mathrubhumi-news-576p-not-24-7.m3u8",
     "mode": "auto"
   },
   "mazhavilmanorama-in": {
@@ -1475,22 +1727,31 @@
     "public_url": "https://shahakshay938.github.io/streams/mazhavilmanorama-in.m3u8",
     "mode": "auto"
   },
-  "mazhavilmanorama-in-sd": {
+  "mazhavilmanorama-in-sd-mazhavil-manorama": {
+    "name": "Mazhavil Manorama",
+    "tvg_id": "MazhavilManorama.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1479/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1479/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1479/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/mazhavilmanorama-in-sd-mazhavil-manorama.m3u8",
+    "mode": "auto"
+  },
+  "mazhavilmanorama-in-sd-mazhavil-manorama-396p": {
     "name": "Mazhavil Manorama (396p)",
     "tvg_id": "MazhavilManorama.in@SD",
     "playlist_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8",
     "auto_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8",
     "wrapper_target_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/mazhavilmanorama-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/mazhavilmanorama-in-sd-mazhavil-manorama-396p.m3u8",
     "mode": "auto"
   },
-  "mbctv-in": {
-    "name": "MBC TV (576p)",
-    "tvg_id": "MBCTV.in",
-    "playlist_source_url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/MBCTV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/mbctv-in.m3u8",
+  "mediaone-in": {
+    "name": "Media One (720p)",
+    "tvg_id": "MediaOne.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/mediaone-in.m3u8",
     "mode": "auto"
   },
   "mercytv-in-sd": {
@@ -1538,22 +1799,40 @@
     "public_url": "https://shahakshay938.github.io/streams/mirrornow-in-sd.m3u8",
     "mode": "auto"
   },
-  "mnadutv-in": {
-    "name": "M Nadu TV (576p)",
-    "tvg_id": "MNaduTV.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/MNADU/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/MNADU/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/MNADU/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/mnadutv-in.m3u8",
+  "moontv-in-sd": {
+    "name": "Moon TV",
+    "tvg_id": "MoonTV.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1121/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1121/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1121/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/moontv-in-sd.m3u8",
     "mode": "auto"
   },
-  "mtv-in-hd": {
-    "name": "MTV HD (1080p)",
-    "tvg_id": "MTV.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a01p/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a01p/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a01p/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/mtv-in-hd.m3u8",
+  "musicindia-in": {
+    "name": "Music India (720p) [Not 24/7]",
+    "tvg_id": "MusicIndia.in",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/musicindia-in.m3u8",
+    "mode": "auto"
+  },
+  "nagalandtv-in": {
+    "name": "Nagaland TV (576p)",
+    "tvg_id": "NagalandTV.in",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/nagalandtv-in.m3u8",
+    "mode": "auto"
+  },
+  "nambikkaitv-in-sd": {
+    "name": "Nambikkai TV",
+    "tvg_id": "NambikkaiTV.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1389/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1389/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1389/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/nambikkaitv-in-sd.m3u8",
     "mode": "auto"
   },
   "namdharitv-in-sd": {
@@ -1601,24 +1880,6 @@
     "public_url": "https://shahakshay938.github.io/streams/ndtv24x7-in-sd.m3u8",
     "mode": "auto"
   },
-  "ndtvindia-in": {
-    "name": "ABN TV India (540p)",
-    "tvg_id": "NDTVIndia.in",
-    "playlist_source_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "auto_source_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "wrapper_target_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ndtvindia-in.m3u8",
-    "mode": "auto"
-  },
-  "ndtvindia-in-sd": {
-    "name": "NDTV India (480p) [Not 24/7]",
-    "tvg_id": "NDTVIndia.in@SD",
-    "playlist_source_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "auto_source_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "wrapper_target_url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ndtvindia-in-sd.m3u8",
-    "mode": "auto"
-  },
   "ndtvprofit-in-sd": {
     "name": "NDTV Profit (1080p)",
     "tvg_id": "NDTVProfit.in@SD",
@@ -1628,22 +1889,22 @@
     "public_url": "https://shahakshay938.github.io/streams/ndtvprofit-in-sd.m3u8",
     "mode": "auto"
   },
-  "nenews-in": {
-    "name": "NE News (576p)",
-    "tvg_id": "NENews.in",
-    "playlist_source_url": "https://mumt05.tangotv.in/NENEWS/index.m3u8",
-    "auto_source_url": "https://mumt05.tangotv.in/NENEWS/index.m3u8",
-    "wrapper_target_url": "https://mumt05.tangotv.in/NENEWS/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/nenews-in.m3u8",
+  "nepal1-in-sd-nepal-1": {
+    "name": "Nepal 1",
+    "tvg_id": "Nepal1.in@SD",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/1490/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/1490/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/1490/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/nepal1-in-sd-nepal-1.m3u8",
     "mode": "auto"
   },
-  "nepal1-in-sd": {
+  "nepal1-in-sd-nepal-1-396p": {
     "name": "Nepal 1 (396p)",
     "tvg_id": "Nepal1.in@SD",
     "playlist_source_url": "https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8",
     "auto_source_url": "https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8",
     "wrapper_target_url": "https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/nepal1-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/nepal1-in-sd-nepal-1-396p.m3u8",
     "mode": "auto"
   },
   "network10-in-sd": {
@@ -1655,6 +1916,24 @@
     "public_url": "https://shahakshay938.github.io/streams/network10-in-sd.m3u8",
     "mode": "auto"
   },
+  "news18kannada-in-sd": {
+    "name": "News18 Kannada (1080p)",
+    "tvg_id": "News18Kannada.in@SD",
+    "playlist_source_url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8",
+    "auto_source_url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8",
+    "wrapper_target_url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/news18kannada-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "news18punjabharyanahimachal-in-sd": {
+    "name": "News18 Punjab/Haryana/Himachal (1080p)",
+    "tvg_id": "News18PunjabHaryanaHimachal.in@SD",
+    "playlist_source_url": "https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8",
+    "auto_source_url": "https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8",
+    "wrapper_target_url": "https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/news18punjabharyanahimachal-in-sd.m3u8",
+    "mode": "auto"
+  },
   "news24-in-sd": {
     "name": "News 24 (720p)",
     "tvg_id": "News24.in@SD",
@@ -1664,30 +1943,66 @@
     "public_url": "https://shahakshay938.github.io/streams/news24-in-sd.m3u8",
     "mode": "auto"
   },
-  "news7tamil-in-sd": {
+  "news7tamil-in-sd-news-7-tamil": {
+    "name": "News 7 Tamil",
+    "tvg_id": "News7Tamil.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1498/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1498/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1498/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/news7tamil-in-sd-news-7-tamil.m3u8",
+    "mode": "auto"
+  },
+  "news7tamil-in-sd-news-7-tamil-576p": {
     "name": "News 7 Tamil (576p)",
     "tvg_id": "News7Tamil.in@SD",
     "playlist_source_url": "https://segment.yuppcdn.net/240122/news7/playlist.m3u8",
     "auto_source_url": "https://segment.yuppcdn.net/240122/news7/playlist.m3u8",
     "wrapper_target_url": "https://segment.yuppcdn.net/240122/news7/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/news7tamil-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/news7tamil-in-sd-news-7-tamil-576p.m3u8",
     "mode": "auto"
   },
   "news9live-in-sd": {
-    "name": "News9Live (720p)",
+    "name": "News9Live (1080p)",
     "tvg_id": "News9Live.in@SD",
-    "playlist_source_url": "https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8",
-    "auto_source_url": "https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8",
-    "wrapper_target_url": "https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8",
+    "playlist_source_url": "https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8",
+    "auto_source_url": "https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8",
+    "wrapper_target_url": "https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/news9live-in-sd.m3u8",
     "mode": "auto"
   },
+  "newsdaily24-in": {
+    "name": "News Daily 24 (576p)",
+    "tvg_id": "NewsDaily24.in",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/10009/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/10009/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/10009/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/newsdaily24-in.m3u8",
+    "mode": "auto"
+  },
+  "newsindia24x7-in-sd": {
+    "name": "News India 24x7",
+    "tvg_id": "NewsIndia24x7.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/273/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/273/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/273/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/newsindia24x7-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "newsj-in": {
+    "name": "News J (720p) [Not 24/7]",
+    "tvg_id": "NewsJ.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1279/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1279/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1279/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/newsj-in.m3u8",
+    "mode": "auto"
+  },
   "newsmalayalam24x7-in-sd": {
-    "name": "News Malayalam 24x7 (576i)",
+    "name": "News Malayalam 24x7 (576p)",
     "tvg_id": "NewsMalayalam24x7.in@SD",
-    "playlist_source_url": "https://mumt03.tangotv.in/NEWSMALAYALAM24X7/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/NEWSMALAYALAM24X7/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/NEWSMALAYALAM24X7/index.m3u8",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1629/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1629/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1629/master.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/newsmalayalam24x7-in-sd.m3u8",
     "mode": "auto"
   },
@@ -1709,31 +2024,13 @@
     "public_url": "https://shahakshay938.github.io/streams/newstamil24x7-in-sd.m3u8",
     "mode": "auto"
   },
-  "nickelodeon-in-sd": {
-    "name": "Nickelodeon (576p)",
-    "tvg_id": "Nickelodeon.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a01n/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a01n/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a01n/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/nickelodeon-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "nickjr-in-sd-nick-jr-576p": {
-    "name": "Nick Jr. (576p)",
-    "tvg_id": "NickJr.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00k/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00k/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00k/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/nickjr-in-sd-nick-jr-576p.m3u8",
-    "mode": "auto"
-  },
-  "nickjr-in-sd-nick-jr-576p-2": {
-    "name": "Nick Jr. (576p)",
-    "tvg_id": "NickJr.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/NICK_JR/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/NICK_JR/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/NICK_JR/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/nickjr-in-sd-nick-jr-576p-2.m3u8",
+  "nireekshanatv-in": {
+    "name": "Nireekshana TV (576p)",
+    "tvg_id": "NireekshanaTV.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/965/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/965/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/965/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/nireekshanatv-in.m3u8",
     "mode": "auto"
   },
   "nkrtvkannada-in-sd": {
@@ -1754,13 +2051,49 @@
     "public_url": "https://shahakshay938.github.io/streams/ntctv-in-sd.m3u8",
     "mode": "auto"
   },
-  "ntvtelugu-in-sd": {
+  "ntvtelugu-in-sd-ntv-telugu": {
+    "name": "NTV Telugu",
+    "tvg_id": "NTVTelugu.in@SD",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/383/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/383/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/383/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ntvtelugu-in-sd-ntv-telugu.m3u8",
+    "mode": "auto"
+  },
+  "ntvtelugu-in-sd-ntv-telugu-1080p": {
+    "name": "NTV Telugu (1080p)",
+    "tvg_id": "NTVTelugu.in@SD",
+    "playlist_source_url": "https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8",
+    "auto_source_url": "https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8",
+    "wrapper_target_url": "https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ntvtelugu-in-sd-ntv-telugu-1080p.m3u8",
+    "mode": "auto"
+  },
+  "ntvtelugu-in-sd-ntv-telugu-576p": {
     "name": "NTV Telugu (576p)",
     "tvg_id": "NTVTelugu.in@SD",
     "playlist_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/ntv_nim_https/110322/ntv/playlist.m3u8",
     "auto_source_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/ntv_nim_https/110322/ntv/playlist.m3u8",
     "wrapper_target_url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/ntv_nim_https/110322/ntv/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ntvtelugu-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ntvtelugu-in-sd-ntv-telugu-576p.m3u8",
+    "mode": "auto"
+  },
+  "odishatv-in-sd-odisha-tv": {
+    "name": "Odisha TV",
+    "tvg_id": "OdishaTV.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1600/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1600/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1600/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/odishatv-in-sd-odisha-tv.m3u8",
+    "mode": "auto"
+  },
+  "odishatv-in-sd-odisha-tv-720p": {
+    "name": "Odisha TV (720p)",
+    "tvg_id": "OdishaTV.in@SD",
+    "playlist_source_url": "https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8",
+    "auto_source_url": "https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8",
+    "wrapper_target_url": "https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/odishatv-in-sd-odisha-tv-720p.m3u8",
     "mode": "auto"
   },
   "olitv-in-sd": {
@@ -1772,15 +2105,6 @@
     "public_url": "https://shahakshay938.github.io/streams/olitv-in-sd.m3u8",
     "mode": "auto"
   },
-  "omtv-in": {
-    "name": "OM TV (576p)",
-    "tvg_id": "OMTV.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/OMTV/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/OMTV/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/OMTV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/omtv-in.m3u8",
-    "mode": "auto"
-  },
   "onkaronlytruthtv-in-sd": {
     "name": "Onkar Only Truth TV (576p)",
     "tvg_id": "OnkarOnlyTruthTV.in@SD",
@@ -1790,13 +2114,31 @@
     "public_url": "https://shahakshay938.github.io/streams/onkaronlytruthtv-in-sd.m3u8",
     "mode": "auto"
   },
-  "parasgold-in": {
-    "name": "Paras Gold (576p)",
-    "tvg_id": "ParasGold.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/PARASGOLD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/parasgold-in.m3u8",
+  "orangebanglatv-in": {
+    "name": "Orange Bangla TV (720p)",
+    "tvg_id": "OrangeBanglaTV.in",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1499/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1499/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1499/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/orangebanglatv-in.m3u8",
+    "mode": "auto"
+  },
+  "pepperstv-in": {
+    "name": "Peppers TV (751p)",
+    "tvg_id": "PeppersTV.in",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1383/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1383/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1383/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/pepperstv-in.m3u8",
+    "mode": "auto"
+  },
+  "pitaara-in-sd": {
+    "name": "Pitaara (720p)",
+    "tvg_id": "Pitaara.in@SD",
+    "playlist_source_url": "https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8",
+    "auto_source_url": "https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8",
+    "wrapper_target_url": "https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/pitaara-in-sd.m3u8",
     "mode": "auto"
   },
   "pmctelugu-in-sd": {
@@ -1808,13 +2150,22 @@
     "public_url": "https://shahakshay938.github.io/streams/pmctelugu-in-sd.m3u8",
     "mode": "auto"
   },
-  "polimernews-in-sd": {
+  "polimernews-in-sd-polimer-news": {
+    "name": "Polimer News",
+    "tvg_id": "PolimerNews.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1245/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1245/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1245/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/polimernews-in-sd-polimer-news.m3u8",
+    "mode": "auto"
+  },
+  "polimernews-in-sd-polimer-news-576p": {
     "name": "Polimer News (576p)",
     "tvg_id": "PolimerNews.in@SD",
     "playlist_source_url": "https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8",
     "auto_source_url": "https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8",
     "wrapper_target_url": "https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/polimernews-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/polimernews-in-sd-polimer-news-576p.m3u8",
     "mode": "auto"
   },
   "powertv-in-sd": {
@@ -1824,6 +2175,15 @@
     "auto_source_url": "https://powertvkannada.com/hls/stream.m3u8",
     "wrapper_target_url": "https://powertvkannada.com/hls/stream.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/powertv-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "pragnews-in-sd": {
+    "name": "Prag News (576p)",
+    "tvg_id": "PragNews.in@SD",
+    "playlist_source_url": "https://mumt05.tangotv.in/PRAGNEWS/index.m3u8",
+    "auto_source_url": "https://mumt05.tangotv.in/PRAGNEWS/index.m3u8",
+    "wrapper_target_url": "https://mumt05.tangotv.in/PRAGNEWS/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/pragnews-in-sd.m3u8",
     "mode": "auto"
   },
   "prarthanatv-in": {
@@ -1880,13 +2240,31 @@
     "public_url": "https://shahakshay938.github.io/streams/prudentmedia-in-sd.m3u8",
     "mode": "auto"
   },
-  "ptcmusic-in-sd": {
+  "ptcmusic-in-sd-ptc-music": {
+    "name": "PTC Music",
+    "tvg_id": "PTCMusic.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1501/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1501/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1501/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ptcmusic-in-sd-ptc-music.m3u8",
+    "mode": "auto"
+  },
+  "ptcmusic-in-sd-ptc-music-720p": {
     "name": "PTC Music (720p)",
     "tvg_id": "PTCMusic.in@SD",
     "playlist_source_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
     "auto_source_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
     "wrapper_target_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ptcmusic-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ptcmusic-in-sd-ptc-music-720p.m3u8",
+    "mode": "auto"
+  },
+  "ptcnews-in": {
+    "name": "PTC News (576p)",
+    "tvg_id": "PTCNews.in",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1502/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1502/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1502/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ptcnews-in.m3u8",
     "mode": "auto"
   },
   "ptcpunjabi-in": {
@@ -1898,22 +2276,49 @@
     "public_url": "https://shahakshay938.github.io/streams/ptcpunjabi-in.m3u8",
     "mode": "auto"
   },
-  "ptcpunjabi-in-sd": {
+  "ptcpunjabi-in-sd-ptc-punjabi": {
+    "name": "PTC Punjabi",
+    "tvg_id": "PTCPunjabi.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1604/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1604/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1604/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ptcpunjabi-in-sd-ptc-punjabi.m3u8",
+    "mode": "auto"
+  },
+  "ptcpunjabi-in-sd-ptc-punjabi-1080p": {
     "name": "PTC Punjabi (1080p)",
     "tvg_id": "PTCPunjabi.in@SD",
     "playlist_source_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8",
     "auto_source_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8",
     "wrapper_target_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ptcpunjabi-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ptcpunjabi-in-sd-ptc-punjabi-1080p.m3u8",
     "mode": "auto"
   },
-  "publicmovies-in": {
-    "name": "Public Movies (576p)",
-    "tvg_id": "PublicMovies.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/publicmovies-in.m3u8",
+  "ptcpunjabigold-in-sd": {
+    "name": "PTC Punjabi Gold (1080p)",
+    "tvg_id": "PTCPunjabiGold.in@SD",
+    "playlist_source_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8",
+    "auto_source_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8",
+    "wrapper_target_url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ptcpunjabigold-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "ptcsimran-in-sd": {
+    "name": "PTC Simran",
+    "tvg_id": "PTCSimran.in@SD",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/1503/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/1503/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/1503/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ptcsimran-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "publicmusic-in": {
+    "name": "Public Music (720p) [Not 24/7]",
+    "tvg_id": "PublicMusic.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/441/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/441/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/441/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/publicmusic-in.m3u8",
     "mode": "auto"
   },
   "pularitv-in": {
@@ -1925,6 +2330,15 @@
     "public_url": "https://shahakshay938.github.io/streams/pularitv-in.m3u8",
     "mode": "auto"
   },
+  "punjabihits-in-sd": {
+    "name": "Punjabi Hits (1080p)",
+    "tvg_id": "PunjabiHits.in@SD",
+    "playlist_source_url": "https://stream.ottlive.co.in/punjabihits/index.m3u8",
+    "auto_source_url": "https://stream.ottlive.co.in/punjabihits/index.m3u8",
+    "wrapper_target_url": "https://stream.ottlive.co.in/punjabihits/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/punjabihits-in-sd.m3u8",
+    "mode": "auto"
+  },
   "puthiyathalaimurai-in-sd": {
     "name": "Puthiya Thalaimurai (576p)",
     "tvg_id": "PuthiyaThalaimurai.in@SD",
@@ -1932,15 +2346,6 @@
     "auto_source_url": "https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8",
     "wrapper_target_url": "https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/puthiyathalaimurai-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "puthuyugamtv-in": {
-    "name": "Puthuyugam TV (576p)",
-    "tvg_id": "PuthuyugamTV.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/PUTHUYUGAMTV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/PUTHUYUGAMTV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/PUTHUYUGAMTV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/puthuyugamtv-in.m3u8",
     "mode": "auto"
   },
   "qelloconcertsbystingray": {
@@ -1952,76 +2357,22 @@
     "public_url": "https://shahakshay938.github.io/streams/qelloconcertsbystingray.m3u8",
     "mode": "auto"
   },
-  "rajmusixkannada-in-sd": {
-    "name": "Raj Musix Kannada (576p)",
-    "tvg_id": "RajMusixKannada.in@SD",
-    "playlist_source_url": "https://mumt01.tangotv.in/RAJMUSIXKANDA/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/RAJMUSIXKANDA/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/RAJMUSIXKANDA/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rajmusixkannada-in-sd.m3u8",
+  "raftaarmedia-in-sd": {
+    "name": "Raftaar Media (240p)",
+    "tvg_id": "RaftaarMedia.in@SD",
+    "playlist_source_url": "https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8",
+    "auto_source_url": "https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8",
+    "wrapper_target_url": "https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/raftaarmedia-in-sd.m3u8",
     "mode": "auto"
   },
-  "rajmusixmalayalam-in": {
-    "name": "Raj Musix Malayalam (576p)",
-    "tvg_id": "RajMusixMalayalam.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rajmusixmalayalam-in.m3u8",
-    "mode": "auto"
-  },
-  "rajmusixtamil-in-sd": {
-    "name": "Raj Musix Tamil (576p)",
-    "tvg_id": "RajMusixTamil.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/RAJ_MUSIX/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/RAJ_MUSIX/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/RAJ_MUSIX/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rajmusixtamil-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "rajnewskannada-in": {
-    "name": "Raj News Kannada (576p)",
-    "tvg_id": "RajNewsKannada.in",
-    "playlist_source_url": "https://mumt03.tangotv.in/RAJNEWSKANDA/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/RAJNEWSKANDA/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/RAJNEWSKANDA/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rajnewskannada-in.m3u8",
-    "mode": "auto"
-  },
-  "rajnewsmalayalam-in": {
-    "name": "Raj News Malayalam (576p)",
-    "tvg_id": "RajNewsMalayalam.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rajnewsmalayalam-in.m3u8",
-    "mode": "auto"
-  },
-  "rajnewstelugu-in": {
-    "name": "Raj News Telugu (576p)",
-    "tvg_id": "RajNewsTelugu.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/RAJNEWSTELUGU/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/RAJNEWSTELUGU/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/RAJNEWSTELUGU/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rajnewstelugu-in.m3u8",
-    "mode": "auto"
-  },
-  "ramdhenu-in": {
-    "name": "Ramdhenu (576p)",
-    "tvg_id": "Ramdhenu.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/RAMDHENU/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/RAMDHENU/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/RAMDHENU/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ramdhenu-in.m3u8",
-    "mode": "auto"
-  },
-  "rang-in": {
-    "name": "Rang (576p)",
-    "tvg_id": "Rang.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/RANG/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/RANG/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/RANG/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rang-in.m3u8",
+  "rajmusixtelugu-in": {
+    "name": "Raj Musix Telugu (720p)",
+    "tvg_id": "RajMusixTelugu.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/1213/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/1213/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/1213/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/rajmusixtelugu-in.m3u8",
     "mode": "auto"
   },
   "realnewskerala-in-sd": {
@@ -2033,22 +2384,58 @@
     "public_url": "https://shahakshay938.github.io/streams/realnewskerala-in-sd.m3u8",
     "mode": "auto"
   },
-  "reportertv-in-sd": {
+  "reportertv-in-sd-reporter-tv": {
+    "name": "Reporter TV",
+    "tvg_id": "ReporterTV.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1510/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1510/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1510/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/reportertv-in-sd-reporter-tv.m3u8",
+    "mode": "auto"
+  },
+  "reportertv-in-sd-reporter-tv-576p": {
     "name": "Reporter TV (576p)",
     "tvg_id": "ReporterTV.in@SD",
     "playlist_source_url": "https://segment.yuppcdn.net/050522/reporter/playlist.m3u8",
     "auto_source_url": "https://segment.yuppcdn.net/050522/reporter/playlist.m3u8",
     "wrapper_target_url": "https://segment.yuppcdn.net/050522/reporter/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/reportertv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/reportertv-in-sd-reporter-tv-576p.m3u8",
+    "mode": "auto"
+  },
+  "republicbangla-in-sd": {
+    "name": "Republic Bangla",
+    "tvg_id": "RepublicBangla.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/270/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/270/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/270/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/republicbangla-in-sd.m3u8",
     "mode": "auto"
   },
   "republicbharat-in-sd": {
-    "name": "Republic Bharat (1080p) [Geo-blocked]",
+    "name": "Republic Bharat",
     "tvg_id": "RepublicBharat.in@SD",
-    "playlist_source_url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
-    "auto_source_url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
-    "wrapper_target_url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1053/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1053/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1053/master.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/republicbharat-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "republickannada-in-sd": {
+    "name": "Republic Kannada",
+    "tvg_id": "RepublicKannada.in@SD",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/298/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/298/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/298/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/republickannada-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "republictv-in-sd-republic-tv": {
+    "name": "Republic TV",
+    "tvg_id": "RepublicTV.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/271/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/271/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/271/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/republictv-in-sd-republic-tv.m3u8",
     "mode": "auto"
   },
   "republictv-in-sd-republic-tv-1080p": {
@@ -2069,6 +2456,15 @@
     "public_url": "https://shahakshay938.github.io/streams/republictv-in-sd-republic-tv-1080p-geo-blocked.m3u8",
     "mode": "auto"
   },
+  "rojamovies-in-sd": {
+    "name": "Roja Movies (1080p)",
+    "tvg_id": "RojaMovies.in@SD",
+    "playlist_source_url": "https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8",
+    "auto_source_url": "https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8",
+    "wrapper_target_url": "https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/rojamovies-in-sd.m3u8",
+    "mode": "auto"
+  },
   "rojatv-in-sd": {
     "name": "Roja TV (1080p)",
     "tvg_id": "RojaTV.in@SD",
@@ -2087,13 +2483,22 @@
     "public_url": "https://shahakshay938.github.io/streams/romedynow-in-sd.m3u8",
     "mode": "auto"
   },
-  "rongeentv-in-sd": {
+  "rongeentv-in-sd-rongeen-tv": {
+    "name": "Rongeen TV",
+    "tvg_id": "RongeenTV.in@SD",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1029/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1029/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1029/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/rongeentv-in-sd-rongeen-tv.m3u8",
+    "mode": "auto"
+  },
+  "rongeentv-in-sd-rongeen-tv-720p": {
     "name": "Rongeen TV (720p)",
     "tvg_id": "RongeenTV.in@SD",
     "playlist_source_url": "https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8",
     "auto_source_url": "https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8",
     "wrapper_target_url": "https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/rongeentv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/rongeentv-in-sd-rongeen-tv-720p.m3u8",
     "mode": "auto"
   },
   "rozanaspokesman-in-sd": {
@@ -2112,6 +2517,15 @@
     "auto_source_url": "https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8",
     "wrapper_target_url": "https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/rplus-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "saamtv-in": {
+    "name": "Saam TV",
+    "tvg_id": "SaamTV.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/437/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/437/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/437/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/saamtv-in.m3u8",
     "mode": "auto"
   },
   "sadatv-in-sd": {
@@ -2141,30 +2555,30 @@
     "public_url": "https://shahakshay938.github.io/streams/sadhnaplusnews-in-sd.m3u8",
     "mode": "auto"
   },
-  "safaritv-in-sd": {
+  "safaritv-in-sd-safari-tv": {
+    "name": "Safari TV",
+    "tvg_id": "SafariTV.in@SD",
+    "playlist_source_url": "https://cdn-6.pishow.tv/live/1513/master.m3u8",
+    "auto_source_url": "https://cdn-6.pishow.tv/live/1513/master.m3u8",
+    "wrapper_target_url": "https://cdn-6.pishow.tv/live/1513/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/safaritv-in-sd-safari-tv.m3u8",
+    "mode": "auto"
+  },
+  "safaritv-in-sd-safari-tv-480p-not-24-7": {
     "name": "Safari TV (480p) [Not 24/7]",
     "tvg_id": "SafariTV.in@SD",
     "playlist_source_url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
     "auto_source_url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
     "wrapper_target_url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/safaritv-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "sahananews-in": {
-    "name": "Sahana News (576p)",
-    "tvg_id": "SahanaNews.in",
-    "playlist_source_url": "https://mumt03.tangotv.in/SAHANANEWS/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/SAHANANEWS/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/SAHANANEWS/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sahananews-in.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/safaritv-in-sd-safari-tv-480p-not-24-7.m3u8",
     "mode": "auto"
   },
   "sairamtv-in-sd": {
-    "name": "Sairam TV (576p)",
+    "name": "Sairam TV",
     "tvg_id": "SairamTV.in@SD",
-    "playlist_source_url": "https://mumt04.tangotv.in/SAIRAMTV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/SAIRAMTV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/SAIRAMTV/index.m3u8",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1611/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1611/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1611/master.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/sairamtv-in-sd.m3u8",
     "mode": "auto"
   },
@@ -2204,15 +2618,6 @@
     "public_url": "https://shahakshay938.github.io/streams/salvationtv-in-sd.m3u8",
     "mode": "auto"
   },
-  "samacharplus24x7-in-sd": {
-    "name": "Samachar Plus 24x7 (576p)",
-    "tvg_id": "SamacharPlus24x7.in@SD",
-    "playlist_source_url": "https://mumt05.tangotv.in/VERTENTSAMACHARPLUS/index.m3u8",
-    "auto_source_url": "https://mumt05.tangotv.in/VERTENTSAMACHARPLUS/index.m3u8",
-    "wrapper_target_url": "https://mumt05.tangotv.in/VERTENTSAMACHARPLUS/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/samacharplus24x7-in-sd.m3u8",
-    "mode": "auto"
-  },
   "samaykolkata-in-sd": {
     "name": "Samay Kolkata (1080p)",
     "tvg_id": "SamayKolkata.in@SD",
@@ -2249,6 +2654,51 @@
     "public_url": "https://shahakshay938.github.io/streams/sanatv-in.m3u8",
     "mode": "auto"
   },
+  "sanatv-in-sd": {
+    "name": "Sana TV (1080p)",
+    "tvg_id": "SanaTV.in@SD",
+    "playlist_source_url": "https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8",
+    "auto_source_url": "https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8",
+    "wrapper_target_url": "https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sanatv-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "sangeetbangla-in": {
+    "name": "Sangeet Bangla (720p)",
+    "tvg_id": "SangeetBangla.in",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sangeetbangla-in.m3u8",
+    "mode": "auto"
+  },
+  "sangeetbhojpuri-in": {
+    "name": "Sangeet Bhojpuri (576p)",
+    "tvg_id": "SangeetBhojpuri.in",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1293/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1293/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1293/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sangeetbhojpuri-in.m3u8",
+    "mode": "auto"
+  },
+  "sangeetmarathi-in": {
+    "name": "Sangeet Marathi (720p)",
+    "tvg_id": "SangeetMarathi.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1229/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1229/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1229/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sangeetmarathi-in.m3u8",
+    "mode": "auto"
+  },
+  "sankaratv-in": {
+    "name": "Sankara TV (576p)",
+    "tvg_id": "SankaraTV.in",
+    "playlist_source_url": "https://cdn-3.pishow.tv/live/1135/master.m3u8",
+    "auto_source_url": "https://cdn-3.pishow.tv/live/1135/master.m3u8",
+    "wrapper_target_url": "https://cdn-3.pishow.tv/live/1135/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sankaratv-in.m3u8",
+    "mode": "auto"
+  },
   "sansadtv1-in-hd": {
     "name": "Sansad TV 1 HD (1080p)",
     "tvg_id": "SansadTV1.in@HD",
@@ -2258,31 +2708,31 @@
     "public_url": "https://shahakshay938.github.io/streams/sansadtv1-in-hd.m3u8",
     "mode": "auto"
   },
-  "sansadtv1-in-sd-sansad-tv-1-1080p": {
+  "sansadtv1-in-sd": {
     "name": "Sansad TV 1 (1080p)",
     "tvg_id": "SansadTV1.in@SD",
     "playlist_source_url": "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8",
     "auto_source_url": "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8",
     "wrapper_target_url": "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sansadtv1-in-sd-sansad-tv-1-1080p.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sansadtv1-in-sd.m3u8",
     "mode": "auto"
   },
-  "sansadtv1-in-sd-sansad-tv-1-1080p-not-24-7": {
-    "name": "Sansad TV 1 (1080p) [Not 24/7]",
-    "tvg_id": "SansadTV1.in@SD",
-    "playlist_source_url": "https://hls.media.nic.in/hls/live/lstv/lstv.m3u8",
-    "auto_source_url": "https://hls.media.nic.in/hls/live/lstv/lstv.m3u8",
-    "wrapper_target_url": "https://hls.media.nic.in/hls/live/lstv/lstv.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sansadtv1-in-sd-sansad-tv-1-1080p-not-24-7.m3u8",
+  "sansadtv2-in-hd-sansad-tv-2-1080p": {
+    "name": "Sansad TV 2 (1080p)",
+    "tvg_id": "SansadTV2.in@HD",
+    "playlist_source_url": "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8",
+    "auto_source_url": "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8",
+    "wrapper_target_url": "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sansadtv2-in-hd-sansad-tv-2-1080p.m3u8",
     "mode": "auto"
   },
-  "sansadtv2-in-hd": {
+  "sansadtv2-in-hd-sansad-tv-2-1080p-2": {
     "name": "Sansad TV 2 (1080p)",
     "tvg_id": "SansadTV2.in@HD",
     "playlist_source_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8",
     "auto_source_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8",
     "wrapper_target_url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sansadtv2-in-hd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sansadtv2-in-hd-sansad-tv-2-1080p-2.m3u8",
     "mode": "auto"
   },
   "sanskaruk-in-sd": {
@@ -2312,13 +2762,13 @@
     "public_url": "https://shahakshay938.github.io/streams/sanskarwebtv-in-sd.m3u8",
     "mode": "auto"
   },
-  "sathiyamtv-in-sd": {
-    "name": "Sathiyam TV (720p)",
-    "tvg_id": "SathiyamTV.in@SD",
-    "playlist_source_url": "https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8",
-    "auto_source_url": "https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8",
-    "wrapper_target_url": "https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sathiyamtv-in-sd.m3u8",
+  "santvanichannel-in": {
+    "name": "Santvani Channel (576p)",
+    "tvg_id": "SantvaniChannel.in",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/475/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/475/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/475/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/santvanichannel-in.m3u8",
     "mode": "auto"
   },
   "satsangtv-in-sd": {
@@ -2337,15 +2787,6 @@
     "auto_source_url": "https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8",
     "wrapper_target_url": "https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/satsangwebtv-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "shalinitv-in-sd": {
-    "name": "Shalini TV (576p)",
-    "tvg_id": "ShaliniTV.in@SD",
-    "playlist_source_url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
-    "auto_source_url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
-    "wrapper_target_url": "https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/shalinitv-in-sd.m3u8",
     "mode": "auto"
   },
   "shalom-in-global": {
@@ -2411,31 +2852,13 @@
     "public_url": "https://shahakshay938.github.io/streams/shubhtv-in-sd.m3u8",
     "mode": "auto"
   },
-  "sirippolitv-in-sd-sirippoli-tv-576p": {
+  "sirippolitv-in-sd": {
     "name": "Sirippoli TV (576p)",
     "tvg_id": "SirippoliTV.in@SD",
     "playlist_source_url": "https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8",
     "auto_source_url": "https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8",
     "wrapper_target_url": "https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sirippolitv-in-sd-sirippoli-tv-576p.m3u8",
-    "mode": "auto"
-  },
-  "sirippolitv-in-sd-sirippoli-tv-576p-2": {
-    "name": "Sirippoli TV (576p)",
-    "tvg_id": "SirippoliTV.in@SD",
-    "playlist_source_url": "http://ptuf.ridsys.in/riptv/live/KALAIGNAR_SIRIPOLI/index.m3u8",
-    "auto_source_url": "http://ptuf.ridsys.in/riptv/live/KALAIGNAR_SIRIPOLI/index.m3u8",
-    "wrapper_target_url": "http://ptuf.ridsys.in/riptv/live/KALAIGNAR_SIRIPOLI/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sirippolitv-in-sd-sirippoli-tv-576p-2.m3u8",
-    "mode": "auto"
-  },
-  "sohamtv-in-sd": {
-    "name": "Soham TV (576p)",
-    "tvg_id": "SohamTV.in@SD",
-    "playlist_source_url": "https://mumt03.tangotv.in/SOHAMTV/index.m3u8",
-    "auto_source_url": "https://mumt03.tangotv.in/SOHAMTV/index.m3u8",
-    "wrapper_target_url": "https://mumt03.tangotv.in/SOHAMTV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sohamtv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sirippolitv-in-sd.m3u8",
     "mode": "auto"
   },
   "songdewtv-in-sd": {
@@ -2465,58 +2888,13 @@
     "public_url": "https://shahakshay938.github.io/streams/sonyaath-in.m3u8",
     "mode": "auto"
   },
-  "sonyentertainmenttelevision-in-hd": {
-    "name": "Sony Entertainment Television HD (1080p)",
-    "tvg_id": "SonyEntertainmentTelevision.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a004/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a004/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a004/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonyentertainmenttelevision-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "sonymax-in-sd": {
-    "name": "Sony Max (576p)",
-    "tvg_id": "SonyMax.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a01l/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a01l/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a01l/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonymax-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "sonypix-in-hd": {
-    "name": "Sony Pix HD (1080p)",
-    "tvg_id": "SonyPix.in@HD",
-    "playlist_source_url": "http://103.229.254.25:7001/play/a0ed/index.m3u8",
-    "auto_source_url": "http://103.229.254.25:7001/play/a0ed/index.m3u8",
-    "wrapper_target_url": "http://103.229.254.25:7001/play/a0ed/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonypix-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "sonysab-in-hd-sony-sab-hd-1080p": {
+  "sonysab-in-hd": {
     "name": "Sony SAB HD (1080p)",
     "tvg_id": "SonySAB.in@HD",
     "playlist_source_url": "http://103.229.254.25:7001/play/a0db/index.m3u8",
     "auto_source_url": "http://103.229.254.25:7001/play/a0db/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a0db/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-hd-sony-sab-hd-1080p.m3u8",
-    "mode": "auto"
-  },
-  "sonysab-in-hd-sony-sab-hd-1080p-2": {
-    "name": "Sony SAB HD (1080p)",
-    "tvg_id": "SonySAB.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00c/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00c/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00c/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-hd-sony-sab-hd-1080p-2.m3u8",
-    "mode": "auto"
-  },
-  "sonysab-in-sd": {
-    "name": "Sony SAB (576p)",
-    "tvg_id": "SonySAB.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a05i/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a05i/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a05i/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-hd.m3u8",
     "mode": "auto"
   },
   "sonysab-in-sony-sab-720p": {
@@ -2537,13 +2915,13 @@
     "public_url": "https://shahakshay938.github.io/streams/sonysab-in-sony-sab-hd-1080p.m3u8",
     "mode": "auto"
   },
-  "sonysportsten2-in-hd": {
+  "sonysportsten2-in": {
     "name": "Sony Sports Ten 2 HD (1080p)",
-    "tvg_id": "SonySportsTen2.in@HD",
+    "tvg_id": "SonySportsTen2.in",
     "playlist_source_url": "http://103.229.254.25:7001/play/a02t/index.m3u8",
     "auto_source_url": "http://103.229.254.25:7001/play/a02t/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a02t/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysportsten2-in-hd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sonysportsten2-in.m3u8",
     "mode": "auto"
   },
   "sonysportsten3hindi-in-sd": {
@@ -2555,13 +2933,13 @@
     "public_url": "https://shahakshay938.github.io/streams/sonysportsten3hindi-in-sd.m3u8",
     "mode": "auto"
   },
-  "sonysportsten5-in-hd": {
-    "name": "Sony Sports Ten 5 HD (1080p)",
-    "tvg_id": "SonySportsTen5.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a05x/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a05x/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a05x/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysportsten5-in-hd.m3u8",
+  "southstation-in-hd": {
+    "name": "South Station (1080p)",
+    "tvg_id": "SouthStation.in@HD",
+    "playlist_source_url": "https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8",
+    "auto_source_url": "https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8",
+    "wrapper_target_url": "https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/southstation-in-hd.m3u8",
     "mode": "auto"
   },
   "stargold-in-hd": {
@@ -2573,31 +2951,22 @@
     "public_url": "https://shahakshay938.github.io/streams/stargold-in-hd.m3u8",
     "mode": "auto"
   },
-  "stargold2-in-hd": {
-    "name": "Star Gold 2 HD (1080p)",
-    "tvg_id": "StarGold2.in@HD",
+  "stargold2-in-star-gold-2-576p": {
+    "name": "Star Gold 2 (576p)",
+    "tvg_id": "StarGold2.in",
     "playlist_source_url": "http://103.229.254.25:7001/play/a0d0/index.m3u8",
     "auto_source_url": "http://103.229.254.25:7001/play/a0d0/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a0d0/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/stargold2-in-hd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/stargold2-in-star-gold-2-576p.m3u8",
     "mode": "auto"
   },
-  "stargold2-in-sd": {
-    "name": "Star Gold 2 (576p)",
-    "tvg_id": "StarGold2.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00e/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00e/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00e/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/stargold2-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "stargoldromance-in-sd": {
-    "name": "Star Gold Romance (576p)",
-    "tvg_id": "StarGoldRomance.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a01i/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a01i/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a01i/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/stargoldromance-in-sd.m3u8",
+  "stargold2-in-star-gold-2-hd-1080p": {
+    "name": "Star Gold 2 HD (1080p)",
+    "tvg_id": "StarGold2.in",
+    "playlist_source_url": "http://103.229.254.25:7001/play/a0d0/index.m3u8",
+    "auto_source_url": "http://103.229.254.25:7001/play/a0d0/index.m3u8",
+    "wrapper_target_url": "http://103.229.254.25:7001/play/a0d0/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/stargold2-in-star-gold-2-hd-1080p.m3u8",
     "mode": "auto"
   },
   "stargoldselect-in-hd": {
@@ -2609,40 +2978,22 @@
     "public_url": "https://shahakshay938.github.io/streams/stargoldselect-in-hd.m3u8",
     "mode": "auto"
   },
-  "stargoldthrills-in-sd": {
-    "name": "Star Gold Thrills (576p)",
-    "tvg_id": "StarGoldThrills.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00b/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00b/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00b/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/stargoldthrills-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "starmovies-in-hd-star-movies-hd-1080p": {
+  "starmovies-in-hd": {
     "name": "Star Movies HD (1080p)",
     "tvg_id": "StarMovies.in@HD",
     "playlist_source_url": "http://103.157.248.140:8000/play/a01t/index.m3u8",
     "auto_source_url": "http://103.157.248.140:8000/play/a01t/index.m3u8",
     "wrapper_target_url": "http://103.157.248.140:8000/play/a01t/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starmovies-in-hd-star-movies-hd-1080p.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/starmovies-in-hd.m3u8",
     "mode": "auto"
   },
-  "starmovies-in-hd-star-movies-hd-1080p-2": {
-    "name": "Star Movies HD (1080p)",
-    "tvg_id": "StarMovies.in@HD",
-    "playlist_source_url": "http://ptuf.ridsys.in/riptv/live/STAR_MOVIES_HD/index.m3u8",
-    "auto_source_url": "http://ptuf.ridsys.in/riptv/live/STAR_MOVIES_HD/index.m3u8",
-    "wrapper_target_url": "http://ptuf.ridsys.in/riptv/live/STAR_MOVIES_HD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starmovies-in-hd-star-movies-hd-1080p-2.m3u8",
-    "mode": "auto"
-  },
-  "starplus-in-sd": {
-    "name": "StarPlus (1080p)",
-    "tvg_id": "StarPlus.in@SD",
+  "starplus-in-hd": {
+    "name": "StarPlus HD (1080p)",
+    "tvg_id": "StarPlus.in@HD",
     "playlist_source_url": "http://103.229.254.25:7001/play/a09z/index.m3u8",
     "auto_source_url": "http://103.229.254.25:7001/play/a09z/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a09z/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starplus-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/starplus-in-hd.m3u8",
     "mode": "auto"
   },
   "starplus-in-starplus-576p": {
@@ -2661,33 +3012,6 @@
     "auto_source_url": "http://103.229.254.25:7001/play/a09p/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a09p/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/starplus-in-starplus-hd-1080p.m3u8",
-    "mode": "auto"
-  },
-  "starsports1hindi-in-sd": {
-    "name": "Star Sports 1 Hindi (576p)",
-    "tvg_id": "StarSports1Hindi.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00g/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00g/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00g/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starsports1hindi-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "starsports1tamil-in-hd": {
-    "name": "Star Sports 1 Tamil HD (1080p)",
-    "tvg_id": "StarSports1Tamil.in@HD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_SPORTS_1_TAMIL_HD/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_SPORTS_1_TAMIL_HD/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_SPORTS_1_TAMIL_HD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starsports1tamil-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "starsports1tamil-in-sd": {
-    "name": "Star Sports 1 Tamil (576p)",
-    "tvg_id": "StarSports1Tamil.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_SPORTS_1_TAMIL/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_SPORTS_1_TAMIL/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_SPORTS_1_TAMIL/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starsports1tamil-in-sd.m3u8",
     "mode": "auto"
   },
   "starsports2hindi-in-hd": {
@@ -2715,42 +3039,6 @@
     "auto_source_url": "http://103.229.254.25:7001/play/a0dc/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a0dc/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/starsports2tamil-in-star-sports-2-tamil-576p.m3u8",
-    "mode": "auto"
-  },
-  "starvijay-in-hd-star-vijay-hd-1080p": {
-    "name": "Star Vijay HD (1080p)",
-    "tvg_id": "StarVijay.in@HD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_VIJAY_HD/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_VIJAY_HD/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_VIJAY_HD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starvijay-in-hd-star-vijay-hd-1080p.m3u8",
-    "mode": "auto"
-  },
-  "starvijay-in-hd-star-vijay-hd-1080p-2": {
-    "name": "Star Vijay HD (1080p)",
-    "tvg_id": "StarVijay.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a06b/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a06b/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a06b/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starvijay-in-hd-star-vijay-hd-1080p-2.m3u8",
-    "mode": "auto"
-  },
-  "starvijay-in-sd-star-vijay-576p": {
-    "name": "Star Vijay (576p)",
-    "tvg_id": "StarVijay.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_VIJAY/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_VIJAY/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/STAR_VIJAY/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starvijay-in-sd-star-vijay-576p.m3u8",
-    "mode": "auto"
-  },
-  "starvijay-in-sd-star-vijay-576p-2": {
-    "name": "Star Vijay (576p)",
-    "tvg_id": "StarVijay.in@SD",
-    "playlist_source_url": "http://ptuf.ridsys.in/riptv/live/STAR_VIJAY/index.m3u8",
-    "auto_source_url": "http://ptuf.ridsys.in/riptv/live/STAR_VIJAY/index.m3u8",
-    "wrapper_target_url": "http://ptuf.ridsys.in/riptv/live/STAR_VIJAY/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/starvijay-in-sd-star-vijay-576p-2.m3u8",
     "mode": "auto"
   },
   "steelbirdmusic-in-sd": {
@@ -2816,40 +3104,31 @@
     "public_url": "https://shahakshay938.github.io/streams/stingraytodayskpop.m3u8",
     "mode": "auto"
   },
-  "studioyuva-in": {
-    "name": "Studio Yuva (576p)",
-    "tvg_id": "StudioYuva.in",
-    "playlist_source_url": "https://mumt01.tangotv.in/STUDIOYUVA/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/STUDIOYUVA/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/STUDIOYUVA/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/studioyuva-in.m3u8",
+  "studiooneplus-in": {
+    "name": "Studio One + (720p)",
+    "tvg_id": "StudioOnePlus.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/276/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/276/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/276/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/studiooneplus-in.m3u8",
     "mode": "auto"
   },
-  "stvharyananews-in-sd": {
-    "name": "STV Haryana News (576p)",
-    "tvg_id": "STVHaryanaNews.in@SD",
-    "playlist_source_url": "https://mumt01.tangotv.in/STVHARYANANEWS/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/STVHARYANANEWS/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/STVHARYANANEWS/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/stvharyananews-in-sd.m3u8",
+  "subhavaarthatv-in-sd-subhavaartha-tv": {
+    "name": "Subhavaartha TV",
+    "tvg_id": "SubhavaarthaTV.in@SD",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/278/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/278/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/278/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/subhavaarthatv-in-sd-subhavaartha-tv.m3u8",
     "mode": "auto"
   },
-  "subhartitv-in-sd": {
-    "name": "Subharti TV (576p)",
-    "tvg_id": "SubhartiTV.in@SD",
-    "playlist_source_url": "https://mumt04.tangotv.in/SUBHARTITV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/SUBHARTITV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/SUBHARTITV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/subhartitv-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "subhavaarthatv-in-sd": {
+  "subhavaarthatv-in-sd-subhavaartha-tv-720p": {
     "name": "Subhavaartha TV (720p)",
     "tvg_id": "SubhavaarthaTV.in@SD",
     "playlist_source_url": "https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8",
     "auto_source_url": "https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8",
     "wrapper_target_url": "https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/subhavaarthatv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/subhavaarthatv-in-sd-subhavaartha-tv-720p.m3u8",
     "mode": "auto"
   },
   "subintv-in-sd": {
@@ -2861,13 +3140,22 @@
     "public_url": "https://shahakshay938.github.io/streams/subintv-in-sd.m3u8",
     "mode": "auto"
   },
-  "sudarshannews-in-sd": {
+  "sudarshannews-in-sd-sudarshan-news": {
+    "name": "Sudarshan News",
+    "tvg_id": "SudarshanNews.in@SD",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/1516/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/1516/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/1516/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sudarshannews-in-sd-sudarshan-news.m3u8",
+    "mode": "auto"
+  },
+  "sudarshannews-in-sd-sudarshan-news-1080p": {
     "name": "Sudarshan News (1080p)",
     "tvg_id": "SudarshanNews.in@SD",
     "playlist_source_url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8",
     "auto_source_url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8",
     "wrapper_target_url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sudarshannews-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sudarshannews-in-sd-sudarshan-news-1080p.m3u8",
     "mode": "auto"
   },
   "suriyantv-in-sd": {
@@ -2879,6 +3167,15 @@
     "public_url": "https://shahakshay938.github.io/streams/suriyantv-in-sd.m3u8",
     "mode": "auto"
   },
+  "suriyatv-in-sd": {
+    "name": "Suriya TV (1080p)",
+    "tvg_id": "SuriyaTV.in@SD",
+    "playlist_source_url": "https://stream.ottlive.co.in/suryatvtamil/index.m3u8",
+    "auto_source_url": "https://stream.ottlive.co.in/suryatvtamil/index.m3u8",
+    "wrapper_target_url": "https://stream.ottlive.co.in/suryatvtamil/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/suriyatv-in-sd.m3u8",
+    "mode": "auto"
+  },
   "svbc-in-sd": {
     "name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
     "tvg_id": "SVBC.in@SD",
@@ -2886,6 +3183,15 @@
     "auto_source_url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
     "wrapper_target_url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/svbc-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "svbc2-in-sd": {
+    "name": "SVBC 2 (1080p)",
+    "tvg_id": "SVBC2.in@SD",
+    "playlist_source_url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
+    "auto_source_url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
+    "wrapper_target_url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/svbc2-in-sd.m3u8",
     "mode": "auto"
   },
   "svbc3-in-sd": {
@@ -2915,6 +3221,15 @@
     "public_url": "https://shahakshay938.github.io/streams/swantham-in-sd.m3u8",
     "mode": "auto"
   },
+  "swarajexpresssmbc-in": {
+    "name": "Swaraj Express SMBC (720p) [Not 24/7]",
+    "tvg_id": "SwarajExpressSMBC.in",
+    "playlist_source_url": "https://cdn-2.pishow.tv/live/477/master.m3u8",
+    "auto_source_url": "https://cdn-2.pishow.tv/live/477/master.m3u8",
+    "wrapper_target_url": "https://cdn-2.pishow.tv/live/477/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/swarajexpresssmbc-in.m3u8",
+    "mode": "auto"
+  },
   "swatantratv-in-sd": {
     "name": "Swatantra TV (1080p)",
     "tvg_id": "SwatantraTV.in@SD",
@@ -2931,15 +3246,6 @@
     "auto_source_url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
     "wrapper_target_url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/tamilantv-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "tamiljanam-in-sd": {
-    "name": "Tamil Janam (576p)",
-    "tvg_id": "TamilJanam.in@SD",
-    "playlist_source_url": "https://mumt01.tangotv.in/JANAMTVTAMIL/index.m3u8",
-    "auto_source_url": "https://mumt01.tangotv.in/JANAMTVTAMIL/index.m3u8",
-    "wrapper_target_url": "https://mumt01.tangotv.in/JANAMTVTAMIL/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/tamiljanam-in-sd.m3u8",
     "mode": "auto"
   },
   "tarangmusic-in-sd": {
@@ -2960,6 +3266,15 @@
     "public_url": "https://shahakshay938.github.io/streams/tarangtv-in-sd.m3u8",
     "mode": "auto"
   },
+  "tehzeebtv-in": {
+    "name": "Tehzeeb TV (720p)",
+    "tvg_id": "TehzeebTV.in",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/239/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/239/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/239/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/tehzeebtv-in.m3u8",
+    "mode": "auto"
+  },
   "teluguone-in-hd": {
     "name": "Telugu One (1080p)",
     "tvg_id": "TeluguOne.in@HD",
@@ -2978,6 +3293,15 @@
     "public_url": "https://shahakshay938.github.io/streams/thalaatv-in.m3u8",
     "mode": "auto"
   },
+  "themovieclub-in-hd": {
+    "name": "The Movie Club (1080p)",
+    "tvg_id": "TheMovieClub.in@HD",
+    "playlist_source_url": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
+    "auto_source_url": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
+    "wrapper_target_url": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/themovieclub-in-hd.m3u8",
+    "mode": "auto"
+  },
   "themovieclub-in-plus2": {
     "name": "The Movie Club +2 (1080p)",
     "tvg_id": "TheMovieClub.in@Plus2",
@@ -2994,6 +3318,24 @@
     "auto_source_url": "https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8",
     "wrapper_target_url": "https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/thepetcollective.m3u8",
+    "mode": "auto"
+  },
+  "tnews-in": {
+    "name": "T News (720p)",
+    "tvg_id": "TNews.in",
+    "playlist_source_url": "https://cdn-1.pishow.tv/live/385/master.m3u8",
+    "auto_source_url": "https://cdn-1.pishow.tv/live/385/master.m3u8",
+    "wrapper_target_url": "https://cdn-1.pishow.tv/live/385/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/tnews-in.m3u8",
+    "mode": "auto"
+  },
+  "tnpnews-in-sd": {
+    "name": "TNP News (1080p)",
+    "tvg_id": "TNPNews.in@SD",
+    "playlist_source_url": "https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8",
+    "auto_source_url": "https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8",
+    "wrapper_target_url": "https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/tnpnews-in-sd.m3u8",
     "mode": "auto"
   },
   "toiglobal-in": {
@@ -3032,13 +3374,13 @@
     "public_url": "https://shahakshay938.github.io/streams/totalbhakti-in-sd.m3u8",
     "mode": "auto"
   },
-  "tunes6-in-sd": {
-    "name": "Tunes 6 (720p)",
-    "tvg_id": "Tunes6.in@SD",
-    "playlist_source_url": "https://stream.d6-pro.com/tunes6music/live/video.m3u8",
-    "auto_source_url": "https://stream.d6-pro.com/tunes6music/live/video.m3u8",
-    "wrapper_target_url": "https://stream.d6-pro.com/tunes6music/live/video.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/tunes6-in-sd.m3u8",
+  "tv13gujarati-in-sd": {
+    "name": "TV13 Gujarati (720p)",
+    "tvg_id": "TV13Gujarati.in@SD",
+    "playlist_source_url": "https://live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8",
+    "auto_source_url": "https://live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8",
+    "wrapper_target_url": "https://live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/tv13gujarati-in-sd.m3u8",
     "mode": "auto"
   },
   "tv5news-in-sd": {
@@ -3122,13 +3464,22 @@
     "public_url": "https://shahakshay938.github.io/streams/tvpunjab-ca-sd.m3u8",
     "mode": "auto"
   },
-  "ultimatetv-in-sd": {
+  "ultimatetv-in-sd-ultimate-tv-1080p": {
+    "name": "Ultimate TV (1080p)",
+    "tvg_id": "UltimateTV.in@SD",
+    "playlist_source_url": "https://stream.ottlive.co.in/utvtamil/index.m3u8",
+    "auto_source_url": "https://stream.ottlive.co.in/utvtamil/index.m3u8",
+    "wrapper_target_url": "https://stream.ottlive.co.in/utvtamil/index.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ultimatetv-in-sd-ultimate-tv-1080p.m3u8",
+    "mode": "auto"
+  },
+  "ultimatetv-in-sd-ultimate-tv-576p": {
     "name": "Ultimate TV (576p)",
     "tvg_id": "UltimateTV.in@SD",
     "playlist_source_url": "https://mumbai-edge.smartplaytv.in/utv/index.m3u8",
     "auto_source_url": "https://mumbai-edge.smartplaytv.in/utv/index.m3u8",
     "wrapper_target_url": "https://mumbai-edge.smartplaytv.in/utv/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/ultimatetv-in-sd.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/ultimatetv-in-sd-ultimate-tv-576p.m3u8",
     "mode": "auto"
   },
   "v6news-in-sd": {
@@ -3149,24 +3500,6 @@
     "public_url": "https://shahakshay938.github.io/streams/vaanaviltv-in-sd.m3u8",
     "mode": "auto"
   },
-  "vasanthtv-in": {
-    "name": "Vasanth TV (576p)",
-    "tvg_id": "VasanthTV.in",
-    "playlist_source_url": "https://mumt04.tangotv.in/VASANTHTV/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/VASANTHTV/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/VASANTHTV/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/vasanthtv-in.m3u8",
-    "mode": "auto"
-  },
-  "vbcnews-in": {
-    "name": "VBC News (576p)",
-    "tvg_id": "VBCNews.in",
-    "playlist_source_url": "https://5a1178b42cc03.streamlock.net/8200/8200/playlist.m3u8",
-    "auto_source_url": "https://5a1178b42cc03.streamlock.net/8200/8200/playlist.m3u8",
-    "wrapper_target_url": "https://5a1178b42cc03.streamlock.net/8200/8200/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/vbcnews-in.m3u8",
-    "mode": "auto"
-  },
   "vedic-in-sd": {
     "name": "Vedic (480p)",
     "tvg_id": "Vedic.in@SD",
@@ -3176,40 +3509,13 @@
     "public_url": "https://shahakshay938.github.io/streams/vedic-in-sd.m3u8",
     "mode": "auto"
   },
-  "vijaysuper-in-sd-vijay-super-576p": {
-    "name": "Vijay Super (576p)",
-    "tvg_id": "VijaySuper.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/VIJAY_SUPER/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/VIJAY_SUPER/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/VIJAY_SUPER/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/vijaysuper-in-sd-vijay-super-576p.m3u8",
-    "mode": "auto"
-  },
-  "vijaysuper-in-sd-vijay-super-576p-2": {
-    "name": "Vijay Super (576p)",
-    "tvg_id": "VijaySuper.in@SD",
-    "playlist_source_url": "http://ptuf.ridsys.in/riptv/live/VIJAY_SUPER/index.m3u8",
-    "auto_source_url": "http://ptuf.ridsys.in/riptv/live/VIJAY_SUPER/index.m3u8",
-    "wrapper_target_url": "http://ptuf.ridsys.in/riptv/live/VIJAY_SUPER/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/vijaysuper-in-sd-vijay-super-576p-2.m3u8",
-    "mode": "auto"
-  },
-  "vijaysuper-in-sd-vijay-super-576p-3": {
-    "name": "Vijay Super (576p)",
-    "tvg_id": "VijaySuper.in@SD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a05l/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a05l/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a05l/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/vijaysuper-in-sd-vijay-super-576p-3.m3u8",
-    "mode": "auto"
-  },
-  "vijaytakkar-in-sd": {
-    "name": "Vijay Takkar (576p)",
-    "tvg_id": "VijayTakkar.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/VIJAY_TAKKAR/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/VIJAY_TAKKAR/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/VIJAY_TAKKAR/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/vijaytakkar-in-sd.m3u8",
+  "vijaytakkar-in-apac": {
+    "name": "Vijay Takkar APAC (1080p)",
+    "tvg_id": "VijayTakkar.in@APAC",
+    "playlist_source_url": "https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd",
+    "auto_source_url": "https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd",
+    "wrapper_target_url": "https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd",
+    "public_url": "https://shahakshay938.github.io/streams/vijaytakkar-in-apac.m3u8",
     "mode": "auto"
   },
   "villagetv-in-sd": {
@@ -3228,15 +3534,6 @@
     "auto_source_url": "https://live.vipnews24x7.co.in/vipnews24x7/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
     "wrapper_target_url": "https://live.vipnews24x7.co.in/vipnews24x7/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/vipnews-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "vistaarnews-in-sd": {
-    "name": "Vistaar News (576p)",
-    "tvg_id": "VistaarNews.in@SD",
-    "playlist_source_url": "https://mumt04.tangotv.in/VISTAARNEWS/index.m3u8",
-    "auto_source_url": "https://mumt04.tangotv.in/VISTAARNEWS/index.m3u8",
-    "wrapper_target_url": "https://mumt04.tangotv.in/VISTAARNEWS/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/vistaarnews-in-sd.m3u8",
     "mode": "auto"
   },
   "vyaschannel-in-sd": {
@@ -3273,6 +3570,15 @@
     "auto_source_url": "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8",
     "wrapper_target_url": "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/weatherspy-in.m3u8",
+    "mode": "auto"
+  },
+  "wintv-in": {
+    "name": "Win TV (576p)",
+    "tvg_id": "WinTV.in",
+    "playlist_source_url": "https://cdn-4.pishow.tv/live/1531/master.m3u8",
+    "auto_source_url": "https://cdn-4.pishow.tv/live/1531/master.m3u8",
+    "wrapper_target_url": "https://cdn-4.pishow.tv/live/1531/master.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/wintv-in.m3u8",
     "mode": "auto"
   },
   "wion-in-sd-wion-1080p": {
@@ -3392,24 +3698,6 @@
     "public_url": "https://shahakshay938.github.io/streams/wion-in-wion-adaptive-1080p.m3u8",
     "mode": "auto"
   },
-  "yrfmusic-in": {
-    "name": "YRF Music (1080p) 2",
-    "tvg_id": "YRFMusic.in",
-    "playlist_source_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "auto_source_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "wrapper_target_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/yrfmusic-in.m3u8",
-    "mode": "auto"
-  },
-  "yrfmusic-in-sd": {
-    "name": "YRF Music (1080p)",
-    "tvg_id": "YRFMusic.in@SD",
-    "playlist_source_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "auto_source_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "wrapper_target_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/yrfmusic-in-sd.m3u8",
-    "mode": "auto"
-  },
   "zainabiachannel-in-sd": {
     "name": "Zainabia Channel",
     "tvg_id": "ZainabiaChannel.in@SD",
@@ -3455,6 +3743,15 @@
     "public_url": "https://shahakshay938.github.io/streams/zbmusic-in-hd.m3u8",
     "mode": "auto"
   },
+  "zee24ghanta-in-sd": {
+    "name": "Zee 24 Ghanta",
+    "tvg_id": "Zee24Ghanta.in@SD",
+    "playlist_source_url": "https://d2dsoyvkr33m05.cloudfront.net/index_4.m3u8",
+    "auto_source_url": "https://d2dsoyvkr33m05.cloudfront.net/index_4.m3u8",
+    "wrapper_target_url": "https://d2dsoyvkr33m05.cloudfront.net/index_4.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/zee24ghanta-in-sd.m3u8",
+    "mode": "auto"
+  },
   "zee24kalak-in-sd": {
     "name": "Zee 24 Kalak (720p)",
     "tvg_id": "Zee24Kalak.in@SD",
@@ -3482,22 +3779,13 @@
     "public_url": "https://shahakshay938.github.io/streams/zeebanglasonar-in-sd.m3u8",
     "mode": "auto"
   },
-  "zeebiharjharkhand-in": {
-    "name": "Zee Bihar Jharkhand (720p) 2",
-    "tvg_id": "ZeeBiharJharkhand.in",
-    "playlist_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
-    "auto_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
-    "wrapper_target_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeebiharjharkhand-in.m3u8",
-    "mode": "auto"
-  },
-  "zeebiharjharkhand-in-sd": {
-    "name": "Zee Bihar Jharkhand (720p)",
-    "tvg_id": "ZeeBiharJharkhand.in@SD",
-    "playlist_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
-    "auto_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
-    "wrapper_target_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeebiharjharkhand-in-sd.m3u8",
+  "zeebharat-in-sd": {
+    "name": "Zee Bharat (720p)",
+    "tvg_id": "ZeeBharat.in@SD",
+    "playlist_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
+    "auto_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
+    "wrapper_target_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/zeebharat-in-sd.m3u8",
     "mode": "auto"
   },
   "zeebusiness-in": {
@@ -3545,24 +3833,6 @@
     "public_url": "https://shahakshay938.github.io/streams/zeecafe-in-hd.m3u8",
     "mode": "auto"
   },
-  "zeecinema-in-hd": {
-    "name": "Zee Cinema HD (1080p)",
-    "tvg_id": "ZeeCinema.in@HD",
-    "playlist_source_url": "http://103.157.248.140:8000/play/a00q/index.m3u8",
-    "auto_source_url": "http://103.157.248.140:8000/play/a00q/index.m3u8",
-    "wrapper_target_url": "http://103.157.248.140:8000/play/a00q/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeecinema-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "zeecinemalu-in-hd": {
-    "name": "Zee Cinemalu HD (1080p)",
-    "tvg_id": "ZeeCinemalu.in@HD",
-    "playlist_source_url": "https://mumbai-edge.smartplaytv.in/ZeeCinemaluHD/index.m3u8",
-    "auto_source_url": "https://mumbai-edge.smartplaytv.in/ZeeCinemaluHD/index.m3u8",
-    "wrapper_target_url": "https://mumbai-edge.smartplaytv.in/ZeeCinemaluHD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeecinemalu-in-hd.m3u8",
-    "mode": "auto"
-  },
   "zeeclassic-in-sd": {
     "name": "Zee Classic (576p)",
     "tvg_id": "ZeeClassic.in@SD",
@@ -3572,15 +3842,6 @@
     "public_url": "https://shahakshay938.github.io/streams/zeeclassic-in-sd.m3u8",
     "mode": "auto"
   },
-  "zeedelhincrharyana-in-sd": {
-    "name": "Zee Delhi NCR Haryana (720p)",
-    "tvg_id": "ZeeDelhiNCRHaryana.in@SD",
-    "playlist_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
-    "auto_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
-    "wrapper_target_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeedelhincrharyana-in-sd.m3u8",
-    "mode": "auto"
-  },
   "zeekannadanews-in-sd": {
     "name": "Zee Kannada News (720p)",
     "tvg_id": "ZeeKannadaNews.in@SD",
@@ -3588,6 +3849,15 @@
     "auto_source_url": "https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8",
     "wrapper_target_url": "https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/zeekannadanews-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "zeemadhyapradeshchhattisgarh-in-sd": {
+    "name": "Zee Madhya Pradesh Chhattisgarh (720p)",
+    "tvg_id": "ZeeMadhyaPradeshChhattisgarh.in@SD",
+    "playlist_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
+    "auto_source_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
+    "wrapper_target_url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/zeemadhyapradeshchhattisgarh-in-sd.m3u8",
     "mode": "auto"
   },
   "zeemalayalamnews-in-sd": {
@@ -3608,13 +3878,13 @@
     "public_url": "https://shahakshay938.github.io/streams/zeenews-in-sd.m3u8",
     "mode": "auto"
   },
-  "zeetelugu-in-hd": {
-    "name": "Zee Telugu HD (1080p)",
-    "tvg_id": "ZeeTelugu.in@HD",
-    "playlist_source_url": "https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8",
-    "auto_source_url": "https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8",
-    "wrapper_target_url": "https://mumbai-edge.smartplaytv.in/ZeeTeluguHD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeetelugu-in-hd.m3u8",
+  "zeetamilnews-in-sd": {
+    "name": "Zee Tamil News (720p)",
+    "tvg_id": "ZeeTamilNews.in@SD",
+    "playlist_source_url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8",
+    "auto_source_url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8",
+    "wrapper_target_url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/zeetamilnews-in-sd.m3u8",
     "mode": "auto"
   },
   "zeetelugunews-in-sd": {
@@ -3624,24 +3894,6 @@
     "auto_source_url": "https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8",
     "wrapper_target_url": "https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8",
     "public_url": "https://shahakshay938.github.io/streams/zeetelugunews-in-sd.m3u8",
-    "mode": "auto"
-  },
-  "zeethirai-in-hd": {
-    "name": "Zee Thirai HD (1080p)",
-    "tvg_id": "ZeeThirai.in@HD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/ZEE_THIRAI_HD/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/ZEE_THIRAI_HD/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/ZEE_THIRAI_HD/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeethirai-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "zeethirai-in-sd": {
-    "name": "Zee Thirai (576p)",
-    "tvg_id": "ZeeThirai.in@SD",
-    "playlist_source_url": "http://ajkiptv.ridsys.in/riptv/live/ZEE_THIRAI/index.m3u8",
-    "auto_source_url": "http://ajkiptv.ridsys.in/riptv/live/ZEE_THIRAI/index.m3u8",
-    "wrapper_target_url": "http://ajkiptv.ridsys.in/riptv/live/ZEE_THIRAI/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/zeethirai-in-sd.m3u8",
     "mode": "auto"
   },
   "zeetv-in": {

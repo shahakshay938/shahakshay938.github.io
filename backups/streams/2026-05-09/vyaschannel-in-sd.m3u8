@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Vyas NIC (576p)"
+https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8

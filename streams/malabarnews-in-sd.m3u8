@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Malabar News (720p)"
+http://cloud.logichost.in:1935/live/malabarnews/index.m3u8

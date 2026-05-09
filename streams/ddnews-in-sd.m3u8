@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="DD News"
+https://cdn-2.pishow.tv/live/12/master.m3u8

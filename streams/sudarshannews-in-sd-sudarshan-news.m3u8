@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Sudarshan News"
+https://cdn-2.pishow.tv/live/1516/master.m3u8

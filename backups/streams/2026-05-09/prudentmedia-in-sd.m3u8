@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Prudent Media (1080p)"
+https://prudentmcdn.rixcast.com/prudentm.m3u8

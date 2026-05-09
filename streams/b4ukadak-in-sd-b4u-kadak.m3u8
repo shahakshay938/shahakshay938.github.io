@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="B4U Kadak"
+https://cdn-2.pishow.tv/live/227/master.m3u8

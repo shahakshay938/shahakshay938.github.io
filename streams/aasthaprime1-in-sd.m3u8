@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Aastha Prime 1 (720p)"
+https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Republic TV"
+https://cdn-2.pishow.tv/live/271/master.m3u8

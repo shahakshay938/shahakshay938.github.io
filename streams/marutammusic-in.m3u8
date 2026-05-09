@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="MNTV Music (1080p)"
+https://mntv.livebox.co.in/musichls/live.m3u8

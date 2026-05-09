@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="10 TV (576p)"
+https://cdn-1.pishow.tv/live/391/master.m3u8
