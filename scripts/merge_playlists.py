@@ -104,18 +104,39 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
     updated = 0
     new = 0
     
+    # NEW: Logo Lookup Cache
+    logo_cache = {}
+    logo_file = 'scripts/logos.json'
+    if os.path.exists(logo_file):
+        import json
+        try:
+            with open(logo_file, 'r') as f:
+                # Map channel ID to logo URL
+                logo_cache = {l.get('channel', ''): l.get('url', '') for l in json.load(f) if l.get('channel')}
+        except Exception as e:
+            print(f"  ⚠️  Failed to load logos.json: {e}")
+
+    def get_logo(extinf):
+        match = re.search(r'tvg-logo="([^"]*)"', extinf)
+        return match.group(1) if match else ''
+
+    def inject_logo(extinf, logo_url):
+        if not logo_url: return extinf
+        if 'tvg-logo=""' in extinf:
+            return extinf.replace('tvg-logo=""', f'tvg-logo="{logo_url}"')
+        if 'tvg-logo=' not in extinf:
+            # Insert before the last comma
+            return re.sub(r',(.+)$', f' tvg-logo="{logo_url}",\\1', extinf)
+        return extinf
+
     # NEW: Restriction logic for specific channels the user wants simplified (e.g. Sony SAB)
     SIMPLIFIED_IDS = ["SonySAB.in", "SonyPal.in"]
     
     for ch in new_channels:
-        # 1. Protection for Simplified IDs: 
-        # If the ID is simplified, we check how many we already have in the EXISTING base. 
-        # If we have 2 (one HD, one SD), we ignore any "Fresh" additions for that ID.
+        # 1. Protection for Simplified IDs
         if ch['tvg_id'] in SIMPLIFIED_IDS:
             existing_for_id = [e for e in existing if e['tvg_id'] == ch['tvg_id']]
             if len(existing_for_id) >= 2:
-                # We already have the user's preferred dual-stream setup. 
-                # Check if this URL is already there to update metadata, but DON'T add a 3rd entry.
                 url_exists = any(ex['url'] == ch['url'] for ex in existing)
                 if not url_exists:
                     continue
@@ -124,6 +145,14 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
         found_exact = False
         for ex_ch in existing:
             if ex_ch['url'] == ch['url']:
+                # PRESERVE metadata if it's better in existing
+                existing_logo = get_logo(ex_ch['extinf'])
+                new_logo = get_logo(ch['extinf'])
+                
+                # If existing has a logo and new doesn't, preserve existing
+                if existing_logo and not new_logo:
+                    ch['extinf'] = inject_logo(ch['extinf'], existing_logo)
+                
                 # UPDATE: Refresh metadata but PROTECT manual labels (e.g. "Jio Proxy")
                 if "(Jio Proxy)" not in ex_ch['name']:
                      ex_ch['name'] = ch['name']
@@ -134,13 +163,16 @@ def merge_playlists(existing_path, new_path, output_path, changelog_path=None):
                 break
         
         if not found_exact:
-            # INSERT: If it's a new URL, add it. This restores HD/SD variants efficiently.
+            # AUTO-FILL logo for new channels if missing
+            if not get_logo(ch['extinf']) and ch['tvg_id']:
+                logo_url = logo_cache.get(ch['tvg_id'])
+                if logo_url:
+                    ch['extinf'] = inject_logo(ch['extinf'], logo_url)
+            
             existing.append(ch)
             new += 1
 
     # Step 2: Final Deduplication
-    # Ensures that even if sources are messy, the final file has unique stream links.
-    # We use (Name + URL) as the key to allow HD/SD variants to exist even if they share a URL.
     final_list = []
     seen = set()
     for ch in existing:

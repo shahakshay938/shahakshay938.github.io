@@ -64,12 +64,30 @@ def filter_m3u(input_path, output_path, good_urls):
                     extra.append(lines[i])
                     i += 1
             
-            # Special case: Always keep manual Sony variants even if they weren't in the report
-            # Or if they are in the report and OK
-            is_manual = '(Jio Proxy)' in extinf or '(Google DAI)' in extinf or '(Stable Restream)' in extinf
+            # Protection Logic
+            # 1. Manual markers (Jio Proxy, etc.)
+            is_manual = any(marker in extinf for marker in ['(Jio Proxy)', '(Google DAI)', '(Stable Restream)'])
+            
+            # 2. Protected Channel IDs (Essential channels)
+            PROTECTED_IDS = [
+                "StarGold.in", "StarGold2.in", "StarGoldSelect.in", "StarGoldThrills.in", "StarGoldRomance.in",
+                "SonyMax.in", "SonyMax2.in", "SonyWah.in", "SonyPal.in", "SonyPix.in", "SonyMAXHD.in",
+                "Colors.in", "SonySAB.in", "ZeeTV.in", "StarPlus.in", "SonyTen1.in", "StarSports1.in"
+            ]
+            is_protected_id = any(pid in extinf for pid in PROTECTED_IDS)
+            
+            # 3. Permanent Base Protection (If it has a jiotv-id or was in the original stable list)
+            # We assume anything with significant metadata in the base is worth keeping.
+            is_stable_base = 'jiotv-id=' in extinf or 'timeshift=' in extinf
+            
             resolved_url = resolve_stream_target(url)
             
-            if url in good_urls or resolved_url in good_urls or is_manual:
+            # Keep if:
+            # - URL is verified OK
+            # - OR it's a manual stream
+            # - OR it's a protected channel ID
+            # - OR it's a stable base channel (Always keep the old list!)
+            if url in good_urls or resolved_url in good_urls or is_manual or is_protected_id or is_stable_base:
                 filtered_lines.append(extinf + '\n')
                 filtered_lines.extend(extra)
                 filtered_lines.append(url + '\n')
