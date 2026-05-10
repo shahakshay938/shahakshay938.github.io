@@ -144,12 +144,12 @@ https://shahakshay938.github.io/streams/sanatv-in.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sonyaath-in.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB (720p)
+#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB HD 1" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB HD 1
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sonysab-in-sony-sab-720p.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB HD (1080p)
+#EXTINF:-1 tvg-id="SonySAB.in" jiotv-id="154" tvg-name="Sony SAB HD 2" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Sony SAB HD 2
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -369,6 +369,11 @@ https://shahakshay938.github.io/streams/sonymax-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sonymax-in-hd.m3u8
+#EXTINF:-1 tvg-id="SonyWah.in@SD" tvg-name="Sony WAH (SD)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Sony_Wah_logo.png/250px-Sony_Wah_logo.png" tvg-country="IN" tvg-language="Hindi" group-title="Movies" timeshift="1" aspect-ratio="16:9",Sony WAH (SD)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=1
+https://shahakshay938.github.io/streams/sonywah-in-sd.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen2.in" jiotv-id="3510" tvg-name="Sony Sports Ten 2 HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 2 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
@@ -1659,11 +1664,6 @@ https://shahakshay938.github.io/streams/shekinahtv-in-sd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/sirippolitv-in-sd.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@HD" jiotv-id="154" timeshift="1" aspect-ratio="16:9",Sony SAB HD (1080p)
-#EXTVLCOPT:network-caching=3000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-continuous=1
-https://shahakshay938.github.io/streams/sonysab-in-hd.m3u8
 #EXTINF:-1 tvg-id="StarGoldSelect.in@HD" jiotv-id="1113" timeshift="1" aspect-ratio="16:9",Star Gold Select HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
