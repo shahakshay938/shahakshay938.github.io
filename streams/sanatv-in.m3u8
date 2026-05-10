@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Sana TV (1080p) [Not 24/7]"
+#EXTINF:-1,Sana TV (1080p) [Not 24/7]
 https://galaxyott.live/hls/sanatv.m3u8

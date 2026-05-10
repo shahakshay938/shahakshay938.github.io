@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="CCV (480p)"
+#EXTINF:-1,CCV (480p)
 https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8

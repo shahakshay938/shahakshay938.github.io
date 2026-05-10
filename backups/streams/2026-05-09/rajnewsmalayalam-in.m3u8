@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Raj News Malayalam (576p)"
+#EXTINF:-1,Raj News Malayalam (576p)
 https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8

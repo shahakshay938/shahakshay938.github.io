@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Disney Channel (576p)"
+#EXTINF:-1,Disney Channel (576p)
 http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8

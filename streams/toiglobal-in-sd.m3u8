@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="TOI Global (1080p)"
+#EXTINF:-1,TOI Global (1080p)
 https://live.sli.ke/live/npnhm84gz9/master.m3u8

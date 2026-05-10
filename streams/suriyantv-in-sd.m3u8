@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Suriyan TV (576p)"
+#EXTINF:-1,Suriyan TV (576p)
 https://stream.sscloud7.com/live/suriyantv/index.m3u8

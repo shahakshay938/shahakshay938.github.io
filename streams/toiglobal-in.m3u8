@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Zoom Global (720p)"
+#EXTINF:-1,Zoom Global (720p)
 https://live.sli.ke/live/npnhm84gz9/master.m3u8

@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Vasanth TV (576p)"
+#EXTINF:-1,Vasanth TV (576p)
 https://mumt04.tangotv.in/VASANTHTV/index.m3u8

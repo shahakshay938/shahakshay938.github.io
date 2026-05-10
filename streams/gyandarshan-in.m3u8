@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Gyandarshan (720p)"
+#EXTINF:-1,Gyandarshan (720p)
 https://cdn-6.pishow.tv/live/14/master.m3u8

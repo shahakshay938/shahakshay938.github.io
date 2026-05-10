@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Dangal TV (720p)"
+#EXTINF:-1,Dangal TV (720p)
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8

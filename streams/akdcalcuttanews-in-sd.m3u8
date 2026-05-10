@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="AKD Calcutta News (1080p)"
+#EXTINF:-1,AKD Calcutta News (1080p)
 https://live.legitpro.co.in/cnnnews/index.m3u8

@@ -117,12 +117,26 @@ def build_slug_plan(entries: list[dict[str, object]]) -> list[str]:
 
 
 def wrapper_contents(name: str, target_url: str) -> str:
+    # NOTE: We intentionally do NOT use #EXT-X-STREAM-INF here.
+    #
+    # Using #EXT-X-STREAM-INF would make this file an HLS Master Playlist.
+    # The Astra upstream (target_url) also returns an HLS Master Playlist
+    # (with #EXT-X-STREAM-INF pointing to segment manifests using relative paths).
+    #
+    # A Master Playlist that references another Master Playlist is illegal per
+    # RFC 8216, and VLC / ExoPlayer / most players will abort playback.
+    #
+    # Instead, we emit a plain M3U playlist with a single URL entry.
+    # Players fetch target_url directly, keeping the Astra server as the base
+    # URL context, so relative paths like /play/xxx/yyy.m3u8 resolve correctly.
+    #
+    # TiviMate caches only the GitHub wrapper URL (which never changes).
+    # Players always re-fetch this file to discover the current Astra URL.
     safe_name = (name or "Primary").replace('"', "'")
     return "\n".join(
         [
-            "#EXTM3U",
-            "#EXT-X-VERSION:3",
-            f'#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="{safe_name}"',
+            f"#EXTM3U",
+            f"#EXTINF:-1,{safe_name}",
             target_url,
             "",
         ]

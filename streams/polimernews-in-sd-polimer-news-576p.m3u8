@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Polimer News (576p)"
+#EXTINF:-1,Polimer News (576p)
 https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8

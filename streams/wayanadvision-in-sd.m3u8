@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Wayanad Vision (1080p)"
+#EXTINF:-1,Wayanad Vision (1080p)
 https://cloudsavre.in.net/hls/stream.m3u8

@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Mh 1 News (360p)"
+#EXTINF:-1,Mh 1 News (360p)
 https://livestream.jswk.online/mhonenews/live/index.m3u8

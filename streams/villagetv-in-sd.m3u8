@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Village TV (576p)"
+#EXTINF:-1,Village TV (576p)
 https://villagetv.applelive.in/villagetv/villagetv/index.m3u8

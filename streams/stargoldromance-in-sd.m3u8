@@ -1,4 +1,4 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Star Gold Romance (576p)"
+#EXTINF:-1,Star Gold Romance (1080p)
 http://103.253.18.58:8000/play/a017
+

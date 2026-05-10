@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Hyder TV"
+#EXTINF:-1,Hyder TV
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8

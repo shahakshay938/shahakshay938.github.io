@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="R Plus (768p)"
+#EXTINF:-1,R Plus (768p)
 https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8

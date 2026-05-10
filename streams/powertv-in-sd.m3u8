@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Power TV (576p)"
+#EXTINF:-1,Power TV (576p)
 https://powertvkannada.com/hls/stream.m3u8

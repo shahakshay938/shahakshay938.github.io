@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="ANN News (1080p)"
+#EXTINF:-1,ANN News (1080p)
 https://legitpro.co.in/annnews/annnews/index.m3u8

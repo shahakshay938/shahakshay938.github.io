@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Studio Yuva (576p)"
+#EXTINF:-1,Studio Yuva (576p)
 https://mumt01.tangotv.in/STUDIOYUVA/index.m3u8

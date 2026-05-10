@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Salaam TV (720p)"
+#EXTINF:-1,Salaam TV (720p)
 https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8

@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="WION (240p)"
+#EXTINF:-1,WION (240p)
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
