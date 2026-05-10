@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Ultimate TV (576p)"
+https://mumbai-edge.smartplaytv.in/utv/index.m3u8

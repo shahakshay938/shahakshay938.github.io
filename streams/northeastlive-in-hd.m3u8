@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Northeast Live (720p)"
+https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8

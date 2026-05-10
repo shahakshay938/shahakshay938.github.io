@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Stingray The Spa (1080p)"
+https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8

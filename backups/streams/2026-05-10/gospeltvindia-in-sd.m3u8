@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Gospel TV India (720p)"
+https://server.livelegitpro.in:9899/gospeltv/index.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Nagaland TV (576p)"
+https://cdn-6.pishow.tv/live/10014/master.m3u8

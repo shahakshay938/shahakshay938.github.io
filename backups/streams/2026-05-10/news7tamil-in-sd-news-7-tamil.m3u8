@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="News 7 Tamil"
+https://cdn-3.pishow.tv/live/1498/master.m3u8
