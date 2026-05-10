@@ -188,7 +188,7 @@ def write_rewritten_playlist(
     for entry, slug in zip(entries, slugs):
         lines.append(str(entry["extinf"]))
         lines.extend(str(extra) for extra in entry["extra"])
-        lines.append(f"{public_base_url.rstrip('/')}/{slug}.m3u8")
+        lines.append(str(entry["url"]))
     playlist_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -213,6 +213,7 @@ def main() -> None:
         kept_files.add(wrapper_path.name)
 
         source_url = resolve_stream_target(str(entry["url"]))
+        entry["url"] = source_url  # Store resolved URL back in entry
         target_url, manual_override = choose_target_url(slug, source_url, wrapper_path, old_index)
         manual_overrides += int(manual_override)
 
