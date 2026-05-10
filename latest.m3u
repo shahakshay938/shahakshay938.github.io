@@ -359,6 +359,16 @@ https://shahakshay938.github.io/streams/zbcinema-in-hd.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://shahakshay938.github.io/streams/zeeclassic-in-sd.m3u8
+#EXTINF:-1 tvg-id="SonyMax.in@SD" tvg-name="Sony MAX (SD)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Sony_MAX_Logo.svg/250px-Sony_MAX_Logo.svg.png" tvg-country="IN" tvg-language="Hindi" group-title="Movies" timeshift="1" aspect-ratio="16:9",Sony MAX (SD)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=1
+https://shahakshay938.github.io/streams/sonymax-in-sd.m3u8
+#EXTINF:-1 tvg-id="SonyMax.in@HD" tvg-name="Sony MAX HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Sony_MAX_Logo.svg/250px-Sony_MAX_Logo.svg.png" tvg-country="IN" tvg-language="Hindi" group-title="Movies" timeshift="1" aspect-ratio="16:9",Sony MAX HD (1080p)
+#EXTVLCOPT:network-caching=3000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=1
+https://shahakshay938.github.io/streams/sonymax-in-hd.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen2.in" jiotv-id="3510" tvg-name="Sony Sports Ten 2 HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports" timeshift="1" aspect-ratio="16:9",Sony Sports Ten 2 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
