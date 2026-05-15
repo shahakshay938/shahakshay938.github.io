@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="T News (720p)"
+#EXTINF:-1,T News (720p)
 https://cdn-1.pishow.tv/live/385/master.m3u8

@@ -2474,31 +2474,40 @@
     "public_url": "https://shahakshay938.github.io/streams/sonyaath-in.m3u8",
     "mode": "auto"
   },
-  "sonysab-in-hd": {
-    "name": "Sony SAB HD (1080p)",
-    "tvg_id": "SonySAB.in@HD",
+  "sonymax-in-hd": {
+    "name": "Sony MAX HD (1080p)",
+    "tvg_id": "SonyMax.in@HD",
+    "playlist_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+    "auto_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+    "wrapper_target_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sonymax-in-hd.m3u8",
+    "mode": "auto"
+  },
+  "sonymax-in-sd": {
+    "name": "Sony MAX (SD)",
+    "tvg_id": "SonyMax.in@SD",
+    "playlist_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX.m3u8",
+    "auto_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX.m3u8",
+    "wrapper_target_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sonymax-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "sonysab-in-sony-sab-hd-1": {
+    "name": "Sony SAB HD 1",
+    "tvg_id": "SonySAB.in",
+    "playlist_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20SAB%20HD.m3u8",
+    "auto_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20SAB%20HD.m3u8",
+    "wrapper_target_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20SAB%20HD.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-sony-sab-hd-1.m3u8",
+    "mode": "auto"
+  },
+  "sonysab-in-sony-sab-hd-2": {
+    "name": "Sony SAB HD 2",
+    "tvg_id": "SonySAB.in",
     "playlist_source_url": "http://103.229.254.25:7001/play/a0db/index.m3u8",
     "auto_source_url": "http://103.229.254.25:7001/play/a0db/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a0db/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-hd.m3u8",
-    "mode": "auto"
-  },
-  "sonysab-in-sony-sab-720p": {
-    "name": "Sony SAB (720p)",
-    "tvg_id": "SonySAB.in",
-    "playlist_source_url": "http://103.229.254.25:7001/play/a09s/index.m3u8",
-    "auto_source_url": "http://103.229.254.25:7001/play/a09s/index.m3u8",
-    "wrapper_target_url": "http://103.229.254.25:7001/play/a09s/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-sony-sab-720p.m3u8",
-    "mode": "auto"
-  },
-  "sonysab-in-sony-sab-hd-1080p": {
-    "name": "Sony SAB HD (1080p)",
-    "tvg_id": "SonySAB.in",
-    "playlist_source_url": "http://103.229.254.25:7001/play/a09s/index.m3u8",
-    "auto_source_url": "http://103.229.254.25:7001/play/a09s/index.m3u8",
-    "wrapper_target_url": "http://103.229.254.25:7001/play/a09s/index.m3u8",
-    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-sony-sab-hd-1080p.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sonysab-in-sony-sab-hd-2.m3u8",
     "mode": "auto"
   },
   "sonysportsten2-in": {
@@ -2517,6 +2526,15 @@
     "auto_source_url": "http://103.229.254.25:7001/play/a09q/index.m3u8",
     "wrapper_target_url": "http://103.229.254.25:7001/play/a09q/index.m3u8",
     "public_url": "https://shahakshay938.github.io/streams/sonysportsten3hindi-in-sd.m3u8",
+    "mode": "auto"
+  },
+  "sonywah-in-sd": {
+    "name": "Sony WAH (SD)",
+    "tvg_id": "SonyWah.in@SD",
+    "playlist_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20WAH.m3u8",
+    "auto_source_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20WAH.m3u8",
+    "wrapper_target_url": "https://sl.vodep39240327.workers.dev/channel/SONY%20WAH.m3u8",
+    "public_url": "https://shahakshay938.github.io/streams/sonywah-in-sd.m3u8",
     "mode": "auto"
   },
   "southstation-in-hd": {
@@ -2655,7 +2673,7 @@
     "mode": "auto"
   },
   "starsports1hindi-in-sd": {
-    "name": "Star Sports 1 Hindi (576p)",
+    "name": "Star Sports 1 Hindi HD",
     "tvg_id": "StarSports1Hindi.in@SD",
     "playlist_source_url": "http://103.253.18.58:8000/play/a03o",
     "auto_source_url": "http://103.253.18.58:8000/play/a03o",

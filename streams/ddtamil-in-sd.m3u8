@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="DD Tamil"
+#EXTINF:-1,DD Tamil
 https://cdn-2.pishow.tv/live/26/master.m3u8

@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="PTC Punjabi"
+#EXTINF:-1,PTC Punjabi
 https://cdn-2.pishow.tv/live/1604/master.m3u8

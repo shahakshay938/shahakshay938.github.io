@@ -91,12 +91,24 @@ def verify_stream(channel):
         return {'name': name, 'status': 'CRASH', 'error': str(e), 'url': url, 'resolved_url': resolved_url}
 
 def main():
-    print(f"Reading playlist: {INPUT_M3U}")
-    channels = parse_m3u(INPUT_M3U)
-    print(f"Found {len(channels)} channels. Starting verification with {MAX_WORKERS} workers...")
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--input', default=INPUT_M3U)
+    parser.add_argument('--filter', default=None)
+    parser.add_argument('--workers', type=int, default=MAX_WORKERS)
+    args = parser.parse_args()
+
+    print(f"Reading playlist: {args.input}")
+    channels = parse_m3u(args.input)
+    
+    if args.filter:
+        channels = [ch for ch in channels if re.search(args.filter, ch['name'], re.IGNORECASE)]
+        print(f"Filtered to {len(channels)} channels.")
+
+    print(f"Starting verification with {args.workers} workers...")
     
     results = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
         future_to_ch = {executor.submit(verify_stream, ch): ch for ch in channels}
         
         count = 0

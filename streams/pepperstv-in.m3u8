@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Peppers TV (751p)"
+#EXTINF:-1,Peppers TV (751p)
 https://cdn-2.pishow.tv/live/1383/master.m3u8

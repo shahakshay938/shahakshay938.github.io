@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Jeevan TV (576p)"
+#EXTINF:-1,Jeevan TV (576p)
 https://cdn-3.pishow.tv/live/1467/master.m3u8

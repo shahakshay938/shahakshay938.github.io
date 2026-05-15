@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Ultimate TV (1080p)"
+#EXTINF:-1,Ultimate TV (1080p)
 https://stream.ottlive.co.in/utvtamil/index.m3u8

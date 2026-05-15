@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Vissa TV (576p)"
+#EXTINF:-1,Vissa TV (576p)
 https://mumt02.tangotv.in/VISSATV/index.m3u8

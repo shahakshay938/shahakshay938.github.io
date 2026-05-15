@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="22Scope News (1080p)"
+#EXTINF:-1,22Scope News (1080p)
 https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8

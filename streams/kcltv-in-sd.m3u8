@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="KCL TV (720p)"
+#EXTINF:-1,KCL TV (720p)
 https://kcltv.livebox.co.in/kclhls/live.m3u8

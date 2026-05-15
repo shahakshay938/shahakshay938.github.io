@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="StarPlus HD (1080p)"
+#EXTINF:-1,StarPlus HD (1080p)
 http://103.229.254.25:7001/play/a09z/index.m3u8

@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Madhimugam TV (576p)"
+#EXTINF:-1,Madhimugam TV (576p)
 https://cdn-3.pishow.tv/live/1476/master.m3u8

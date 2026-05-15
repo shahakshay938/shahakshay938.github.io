@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="HMTV (720p)"
+#EXTINF:-1,HMTV (720p)
 https://cdn-1.pishow.tv/live/280/master.m3u8

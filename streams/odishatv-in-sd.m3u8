@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Odisha TV (720p)"
+#EXTINF:-1,Odisha TV (720p)
 https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8

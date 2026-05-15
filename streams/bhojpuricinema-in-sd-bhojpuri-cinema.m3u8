@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="Bhojpuri Cinema"
+#EXTINF:-1,Bhojpuri Cinema
 https://cdn-4.pishow.tv/live/1033/master.m3u8

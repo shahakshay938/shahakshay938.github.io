@@ -1,4 +1,3 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1,NAME="DD Bangla"
+#EXTINF:-1,DD Bangla
 https://cdn-4.pishow.tv/live/37/master.m3u8
