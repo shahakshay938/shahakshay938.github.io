@@ -2,8 +2,8 @@ name: 📺 Daily Playlist Update
 
 on:
   schedule:
-    # 3:00 AM IST daily (9:30 PM UTC previous day)
-    - cron: '30 21 * * *'
+    # 2:00 AM IST daily (8:30 PM UTC previous day)
+    - cron: '30 20 * * *'
   workflow_dispatch:
 
 # Prevent concurrent runs that could corrupt files
@@ -36,42 +36,17 @@ jobs:
         id: download
         run: |
           SOURCES_OK=true
-
-          # ── Source 1: iptv-org India ──
           echo "🔍 Downloading iptv-org/iptv India streams..."
-          if curl -L -o /tmp/source_iptv_org.m3u \
-               --connect-timeout 30 --max-time 120 --retry 3 --retry-delay 5 \
-               "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u"; then
-            COUNT=$(grep -c "^#EXTINF" /tmp/source_iptv_org.m3u 2>/dev/null || echo 0)
-            echo "  iptv-org: ${COUNT} channels"
-            if [ "$COUNT" -lt 50 ]; then
-              echo "  ⚠️  Too few channels — skipping iptv-org source"
-              rm -f /tmp/source_iptv_org.m3u
-            fi
-          else
-            echo "  ❌ iptv-org download failed"
-            rm -f /tmp/source_iptv_org.m3u
-          fi
+          curl -L -o /tmp/source_iptv_org.m3u "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u" || true
+          
+      - name: 🚀 Deep Discovery (Scan Astra Proxies)
+        run: python3 scripts/mega_discovery.py
 
-          # ── Source 2: Add additional sources here ──
-          # Example:
-          # curl -L -o /tmp/source_custom.m3u --connect-timeout 30 --max-time 120 \
-          #   "https://example.com/india.m3u"
-
-          # Check that at least one source downloaded successfully
-          SOURCE_FILES=(/tmp/source_*.m3u)
-          if [ ${#SOURCE_FILES[@]} -eq 0 ] || [ ! -f "${SOURCE_FILES[0]}" ]; then
-            echo "❌ No playlist sources available — aborting"
-            echo "SOURCES_OK=false" >> $GITHUB_ENV
-          else
-            TOTAL_SOURCE=$(cat /tmp/source_*.m3u 2>/dev/null | grep -c "^#EXTINF" || echo 0)
-            echo "✅ Total source channels: ${TOTAL_SOURCE}"
-            echo "SOURCES_OK=true" >> $GITHUB_ENV
-          fi
-
-      - name: 🛠️ Self-healing (Repair dead Astra links in base)
-        if: env.SOURCES_OK == 'true'
-        run: python3 scripts/repair_base.py --source /tmp/source_iptv_org.m3u
+      - name: 🛠️ Self-healing (Repair ALL dead links in base)
+        run: |
+          # Use both the official source and our discovered Astra links to fix the base
+          python3 scripts/repair_base.py --source /tmp/source_iptv_org.m3u
+          python3 scripts/repair_base.py --source /tmp/discovery_source.m3u
 
       # ─── Merge + Verify ───────────────────────────────────────
 
