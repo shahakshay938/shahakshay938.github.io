@@ -69,6 +69,10 @@ jobs:
             echo "SOURCES_OK=true" >> $GITHUB_ENV
           fi
 
+      - name: 🛠️ Self-healing (Repair dead Astra links in base)
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/repair_base.py --source /tmp/source_iptv_org.m3u
+
       # ─── Merge + Verify ───────────────────────────────────────
 
       - name: 🔀 Merge sources with base playlist
@@ -120,6 +124,10 @@ jobs:
       - name: 🗂️ Normalize categories
         if: env.SOURCES_OK == 'true'
         run: python3 scripts/reorganize_categories.py
+
+      - name: 🎨 Clean and Standardize (Logos & Groups)
+        if: env.SOURCES_OK == 'true'
+        run: python3 scripts/clean_playlist.py
 
       - name: ✂️ Filter failing streams
         if: env.SOURCES_OK == 'true'
@@ -200,7 +208,7 @@ jobs:
           # Ensure runtime artifacts stay untracked
           git rm --cached stream_report.json loop_report.json astra_audit_report.json 2>/dev/null || true
 
-          git add latest.m3u streams/ backups/ README.md
+          git add latest.m3u streams/ backups/ README.md sources/base.m3u
 
           if git diff --cached --quiet; then
             echo "ℹ️  Nothing to commit"
