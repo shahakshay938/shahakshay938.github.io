@@ -69,24 +69,41 @@ def check_loop(channel):
 
 def main():
     print(f"Reading playlist: {INPUT_M3U}")
-    # Reuse parse logic or just grep URLs
+    
+    # 1. Load working channels from stream_report.json if available
+    ok_urls = set()
+    report_path = "stream_report.json"
+    if os.path.exists(report_path):
+        try:
+            with open(report_path, 'r') as f:
+                report = json.load(f)
+                ok_urls = {r['url'] for r in report if r.get('status') == 'OK'}
+            print(f"Loaded stream_report.json. Found {len(ok_urls)} working channels to verify.")
+        except Exception as e:
+            print(f"Error loading stream_report.json: {e}")
+            
     with open(INPUT_M3U, 'r') as f:
         lines = f.readlines()
     
     channels = []
-    # Only check High-Priority channels to save time (or all if we have time)
-    # For now, let's check ALL 442 channels in the filtered list
     i = 0
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith('#EXTINF:'):
             extinf = line
+            url = ""
             i += 1
             while i < len(lines):
                 if lines[i].strip() and not lines[i].strip().startswith('#'):
                     url = lines[i].strip()
                     break
                 i += 1
+            
+            # Skip if we have stream report and this stream is not OK
+            if ok_urls and url not in ok_urls:
+                i += 1
+                continue
+                
             ua_match = re.search(r'user-agent="([^"]*)"', extinf)
             name_match = re.search(r',(.+)$', extinf)
             channels.append({

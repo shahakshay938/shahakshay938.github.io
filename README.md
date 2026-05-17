@@ -8,7 +8,7 @@ Automated pipeline to maintain a stable, verified Indian IPTV playlist with EPG 
 | :--- | :--- | :--- |
 | **Stable Playlist** | M3U | `https://shahakshay938.github.io/latest.m3u` |
 | **EPG Guide** | XMLTV (gz) | `https://shahakshay938.github.io/epg.xml.gz` |
-| **Latest Backup** | M3U | `https://shahakshay938.github.io/backups/playlist-2026-05-10.m3u` |
+| **Latest Backup** | M3U | `https://shahakshay938.github.io/backups/playlist-2026-05-17.m3u` |
 | **Permanent Base** | M3U | `https://shahakshay938.github.io/sources/base.m3u` |
 
 ---
@@ -18,7 +18,7 @@ Automated pipeline to maintain a stable, verified Indian IPTV playlist with EPG 
 ```
 shahakshay938.github.io/
 ├── .github/workflows/
-│   ├── update-playlist.yml   # Daily 3 AM IST — stream verification + playlist update
+│   ├── update-playlist.yml   # Daily 2 AM IST — stream verification + playlist update
 │   └── update-epg.yml        # Every 6 hours — EPG refresh (JioTV → epg.pw fallback)
 ├── scripts/                  # All Python processing scripts
 ├── sources/
@@ -45,7 +45,7 @@ shahakshay938.github.io/
 
 ---
 
-## 🕵️ Daily Stream Verification (3 AM IST)
+## 🕵️ Daily Stream Verification (2 AM IST)
 
 1. **Download** fresh iptv-org India streams
 2. **Merge** with permanent base (additive, URL-keyed)
@@ -79,5 +79,5 @@ The permanent base at `sources/base.m3u` is always available as a stable fallbac
 ---
 
 > [!IMPORTANT]
-> **Total Verified Channels (Current):** 579
+> **Total Verified Channels (Current):** 1367
 > **Status:** 100% Automated | Multi-Variant | Daily Backups | EPG Every 6h

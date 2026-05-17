@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1,Time Vision News (720p)
+http://rtmp.logichost.in:1935/timevision/timevision/playlist.m3u8

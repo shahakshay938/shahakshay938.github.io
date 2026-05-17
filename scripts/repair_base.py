@@ -43,6 +43,15 @@ def normalize_name(name):
     n = re.sub(r'[^a-z0-9]', '', n)
     return n.strip()
 
+def extract_stream_id(url):
+    match = re.search(r'/play/([^/]+)', url)
+    if match:
+        val = match.group(1)
+        if '.' in val:
+            val = val.split('.')[0]
+        return val
+    return None
+
 def main():
     parser = argparse.ArgumentParser(description="Repair dead Astra links in base playlist using a fresh source.")
     parser.add_argument('--base', default=BASE_M3U, help="Path to the permanent base M3U")
@@ -61,6 +70,7 @@ def main():
     
     # Map by normalized name and tvg-id
     new_map = {}
+    id_map = {}
     for ch in new_channels:
         norm_name = normalize_name(ch['name'])
         # Store the URL
@@ -71,6 +81,11 @@ def main():
         if ch['tvg_id']:
             tvg_base = ch['tvg_id'].split('@')[0].lower()
             new_map[tvg_base] = ch['url']
+            
+        # Map by stream ID
+        sid = extract_stream_id(ch['url'])
+        if sid:
+            id_map[sid] = ch['url']
             
     repaired_count = 0
     for ch in base_channels:
@@ -89,6 +104,12 @@ def main():
             # Priority 2: Name match
             elif norm_name in new_map:
                 replacement_url = new_map[norm_name]
+                
+            # Priority 3: Stream ID match (for matching Astra proxy shifts)
+            if not replacement_url:
+                old_sid = extract_stream_id(ch['url'])
+                if old_sid and old_sid in id_map:
+                    replacement_url = id_map[old_sid]
                 
             if replacement_url and ch['url'] != replacement_url:
                 # Check if the replacement is also an Astra/Worker link (don't replace Astra with random web links)
