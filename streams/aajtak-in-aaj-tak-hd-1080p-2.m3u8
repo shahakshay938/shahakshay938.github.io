@@ -1,3 +1,3 @@
 #EXTM3U
 #EXTINF:-1,Aaj Tak HD (1080p) 2
-https://feeds.intoday.in/aajtak/api/master.m3u8
+http://103.213.31.109:90/AajtakHD/playlist.m3u8

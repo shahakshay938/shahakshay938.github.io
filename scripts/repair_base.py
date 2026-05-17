@@ -87,13 +87,31 @@ def main():
         if sid:
             id_map[sid] = ch['url']
             
+    # Load failed URLs from stream_report.json if it exists
+    failed_urls = set()
+    report_path = "stream_report.json"
+    if os.path.exists(report_path):
+        try:
+            with open(report_path, 'r', encoding='utf-8') as f:
+                report_data = json.load(f)
+                for item in report_data:
+                    if item.get('status') != 'OK':
+                        failed_urls.add(item.get('url'))
+            print(f"Loaded {len(failed_urls)} failed stream URLs from {report_path}")
+        except Exception as e:
+            print(f"⚠️ Could not load stream report: {e}")
+
     repaired_count = 0
     for ch in base_channels:
-        # We only want to repair Astra-style links if they look suspicious or if a better one is found
-        # Patterns: 103.x, 116.x, 103.229.x, workers.dev, etc.
-        is_astra = any(p in ch['url'] for p in ['103.', '116.', 'workers.dev', ':8000/play/', ':7001/play/'])
+        # We want to repair a base channel if:
+        # 1. It is an Astra link (to keep it synced to the best/latest working server)
+        # 2. It has a backup fallback URL (which are often dead or old snapshots)
+        # 3. It was marked as failing, timed out, or had an error in our stream report
+        is_astra = any(p in ch['url'] for p in ['103.', '116.', '149.71.', 'workers.dev', '/play/'])
+        is_backup = 'backups/' in ch['url'] or 'shahakshay938.github.io' in ch['url']
+        is_failed = ch['url'] in failed_urls
         
-        if is_astra:
+        if is_astra or is_backup or is_failed:
             norm_name = normalize_name(ch['name'])
             tvg_base = ch['tvg_id'].split('@')[0].lower() if ch['tvg_id'] else None
             
@@ -112,9 +130,12 @@ def main():
                     replacement_url = id_map[old_sid]
                 
             if replacement_url and ch['url'] != replacement_url:
-                # Check if the replacement is also an Astra/Worker link (don't replace Astra with random web links)
-                is_repl_astra = any(p in replacement_url for p in ['103.', '116.', 'workers.dev', '/play/'])
-                if is_repl_astra:
+                # Validation: If we are replacing an active Astra stream, we should only replace it with another Astra/Worker stream
+                is_repl_valid = True
+                if is_astra and not any(p in replacement_url for p in ['103.', '116.', '149.71.', 'workers.dev', '/play/']):
+                    is_repl_valid = False
+                    
+                if is_repl_valid:
                     print(f"🔧 Repairing {ch['name']}:")
                     print(f"   Old: {ch['url']}")
                     print(f"   New: {replacement_url}")
