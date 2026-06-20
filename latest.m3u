@@ -209,7 +209,7 @@ https://cdn-3.pishow.tv/live/1253/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8
-#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" jiotv-id="1984" tvg-logo="https://i.imgur.com/E5jjKHI.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Star Sports 1 Hindi (576p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" jiotv-id="1985" tvg-logo="https://i.imgur.com/E5jjKHI.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Star Sports 1 Hindi (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -399,12 +399,12 @@ https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://116.90.120.151:8000/play/a0h4/index.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in" jiotv-id="167" tvg-name="Zee TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Zee TV (576p)
+#EXTINF:-1 tvg-id="ZeeTV.in" jiotv-id="1351" tvg-name="Zee TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Zee TV (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.253.18.58:8000/play/a01r
-#EXTINF:-1 tvg-id="ZeeTV.in" jiotv-id="167" tvg-name="Zee TV HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Zee TV HD (1080p)
+#EXTINF:-1 tvg-id="ZeeTV.in" jiotv-id="1351" tvg-name="Zee TV HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" tvg-country="IN" tvg-language="Hindi" group-title="Entertainment" timeshift="1" aspect-ratio="16:9",Zee TV HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -609,7 +609,7 @@ http://103.72.101.252:8080/live/1691.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="3514" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Sony Sports Ten 2 HD (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="3510" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Sony Sports Ten 2 HD (1080p) [Geo-blocked]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -619,7 +619,7 @@ https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%202%20HD.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" jiotv-id="3514" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Sony Sports Ten 5 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" jiotv-id="3510" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Sony Sports Ten 5 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -629,12 +629,12 @@ http://103.122.249.134:8000/play/a03d
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.253.18.58:8000/play/a00m
-#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1984" tvg-name="Star Sports 1 Hindi (576p)" tvg-logo="https://i.imgur.com/E5jjKHI.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports" timeshift="1" aspect-ratio="16:9",Star Sports 1 Hindi (576p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1985" tvg-name="Star Sports 1 Hindi (576p)" tvg-logo="https://i.imgur.com/E5jjKHI.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports" timeshift="1" aspect-ratio="16:9",Star Sports 1 Hindi (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.253.18.58:8000/play/a059
-#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1984" tvg-name="Star Sports 1 Hindi HD (1080p)" tvg-logo="https://i.imgur.com/E5jjKHI.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports" timeshift="1" aspect-ratio="16:9",Star Sports 1 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in" jiotv-id="1985" tvg-name="Star Sports 1 Hindi HD (1080p)" tvg-logo="https://i.imgur.com/E5jjKHI.png" tvg-country="IN" tvg-language="Hindi" group-title="Sports" timeshift="1" aspect-ratio="16:9",Star Sports 1 Hindi HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -1934,7 +1934,7 @@ http://103.253.18.58:8000/play/a00l
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.253.18.58:8000/play/a00u
-#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="290" timeshift="1" aspect-ratio="16:9" group-title="Kids",Sonic (576p)
+#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="815" timeshift="1" aspect-ratio="16:9" group-title="Kids",Sonic (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2404,7 +2404,7 @@ https://mumt01.tangotv.in/OMTV/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumt04.tangotv.in/PARASGOLD/index.m3u8
-#EXTINF:-1 tvg-id="PeaceTVBangla.pk" jiotv-id="2933" tvg-name="Peace TV Bangla (1080p)" tvg-logo="https://i.imgur.com/1ztVXUi.png" tvg-country="IN" tvg-language="Bengali" group-title="Religious" timeshift="1" aspect-ratio="16:9",Peace TV Bangla (1080p)
+#EXTINF:-1 tvg-id="PeaceTVBangla.pk" jiotv-id="1962" tvg-name="Peace TV Bangla (1080p)" tvg-logo="https://i.imgur.com/1ztVXUi.png" tvg-country="IN" tvg-language="Bengali" group-title="Religious" timeshift="1" aspect-ratio="16:9",Peace TV Bangla (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -2804,7 +2804,7 @@ https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1984" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Star Sports 2 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" jiotv-id="1985" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" timeshift="1" aspect-ratio="16:9" group-title="Sports",Star Sports 2 Hindi HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3124,7 +3124,7 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0513/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://iptvcasomsapi.jprdigital.in/x-media/C0513/master.m3u8
-#EXTINF:-1 tvg-id="StarSports2Kannada.in@SD" jiotv-id="1984" tvg-name="Star Sports 2 Kannada (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports" timeshift="1" aspect-ratio="16:9",Star Sports 2 Kannada (576p)
+#EXTINF:-1 tvg-id="StarSports2Kannada.in@SD" jiotv-id="1985" tvg-name="Star Sports 2 Kannada (576p)" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_SD.png" tvg-country="IN" tvg-language="" group-title="Sports" timeshift="1" aspect-ratio="16:9",Star Sports 2 Kannada (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3244,7 +3244,7 @@ https://stream.galaxyott.live/live/subintv/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://mumt04.tangotv.in/VASANTHTV/index.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@SD" jiotv-id="167" timeshift="1" aspect-ratio="16:9" group-title="Entertainment",Zee TV (1080p)
+#EXTINF:-1 tvg-id="ZeeTV.in@SD" jiotv-id="1351" timeshift="1" aspect-ratio="16:9" group-title="Entertainment",Zee TV (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -3309,7 +3309,7 @@ https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d7
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="3514" timeshift="1" aspect-ratio="16:9" group-title="Sports",Sony Sports Ten 2 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" jiotv-id="3510" timeshift="1" aspect-ratio="16:9" group-title="Sports",Sony Sports Ten 2 HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -4014,7 +4014,7 @@ http://103.253.18.58:8000/play/a06i
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@HD" jiotv-id="165" timeshift="1" aspect-ratio="16:9" group-title="Movies",Zee Cinema HD (1080p)
+#EXTINF:-1 tvg-id="ZeeCinema.in@HD" jiotv-id="484" timeshift="1" aspect-ratio="16:9" group-title="Movies",Zee Cinema HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5129,12 +5129,12 @@ http://103.229.254.25:7001/play/a0cx/index.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@APAC" jiotv-id="165" timeshift="1" aspect-ratio="16:9" group-title="Movies",Zee Cinema APAC (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ZeeCinema.in@APAC" jiotv-id="484" timeshift="1" aspect-ratio="16:9" group-title="Movies",Zee Cinema APAC (1080p) [Geo-blocked]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://amg17931-zee-amg17931c5-samsung-au-8873.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@APAC" jiotv-id="165" timeshift="1" aspect-ratio="16:9" group-title="Movies",Zee Cinema APAC (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ZeeCinema.in@APAC" jiotv-id="484" timeshift="1" aspect-ratio="16:9" group-title="Movies",Zee Cinema APAC (1080p) [Geo-blocked]
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5389,7 +5389,7 @@ https://cdn-4.pishow.tv/live/270/master.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://cdn-6.pishow.tv/live/221/master.m3u8
-#EXTINF:-1 tvg-id="DDArunPrabha.in@SD" jiotv-id="3122" timeshift="1" aspect-ratio="16:9",DD Arun Prabha
+#EXTINF:-1 tvg-id="DDArunPrabha.in@SD" jiotv-id="3124" timeshift="1" aspect-ratio="16:9",DD Arun Prabha
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5489,7 +5489,7 @@ http://103.72.101.252:8080/live/405.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/404.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha20.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 20 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha20.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 20 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5499,7 +5499,7 @@ http://103.72.101.252:8080/live/403.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/402.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha19.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 19 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha19.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 19 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5624,177 +5624,177 @@ http://103.72.101.252:8080/live/1227.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/asianetmovies_live_https/index.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat16.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 16 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat16.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 16 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1094.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat15.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 15 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat15.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 15 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1093.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat14.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 14 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat14.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 14 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1092.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat13.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 13 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat13.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 13 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1091.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat12.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 12 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat12.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 12 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1090.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat11.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 11 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat11.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 11 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1089.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat10.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 10 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat10.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 10 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1088.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat9.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 9 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat9.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 9 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1087.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat8.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 8 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat8.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 8 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1086.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat7.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 7 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat7.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 7 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1085.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat6.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 6 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat6.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 6 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1084.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat5.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 5 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat5.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 5 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1083.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat3.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 3 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat3.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 3 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1082.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat4.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 4 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat4.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 4 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1071.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat2.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 2 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat2.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 2 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1070.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat1.in@SD" jiotv-id="1069" timeshift="1" aspect-ratio="16:9",Vande Gujarat 1 (576p)
+#EXTINF:-1 tvg-id="VandeGujarat1.in@SD" jiotv-id="1071" timeshift="1" aspect-ratio="16:9",Vande Gujarat 1 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/1069.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha18.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 18 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha18.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 18 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/999.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha22.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 22 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha22.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 22 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/998.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha21.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 21 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha21.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 21 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/997.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha17.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 17 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha17.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 17 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/996.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha15.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 15 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha15.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 15 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/995.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha16.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 16 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha16.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 16 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/994.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha14.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 14 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha14.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 14 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/993.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha13.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 13 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha13.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 13 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/992.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha12.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 12 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha12.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 12 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/991.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha11.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 11 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha11.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 11 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/990.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha10.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 10 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha10.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 10 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/989.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha9.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 9 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha9.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 9 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/988.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha6.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 6 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha6.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 6 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/987.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha5.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 5 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha5.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 5 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/986.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha7.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 7 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha7.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 7 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/985.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha4.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 4 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha4.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 4 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/984.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha8.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 8 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha8.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 8 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/983.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha3.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 3 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha3.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 3 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.72.101.252:8080/live/982.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha1.in@SD" jiotv-id="401" timeshift="1" aspect-ratio="16:9",Swayam Prabha 1 (576p)
+#EXTINF:-1 tvg-id="SwayamPrabha1.in@SD" jiotv-id="403" timeshift="1" aspect-ratio="16:9",Swayam Prabha 1 (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5859,7 +5859,7 @@ http://103.72.101.252:8080/live/722.m3u8
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.154.3.101:5001/live/559.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@HD" jiotv-id="167" timeshift="1" aspect-ratio="16:9" group-title="Entertainment",Zee TV HD (1080p)
+#EXTINF:-1 tvg-id="ZeeTV.in@HD" jiotv-id="1351" timeshift="1" aspect-ratio="16:9" group-title="Entertainment",Zee TV HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5919,7 +5919,7 @@ http://103.122.249.134:8000/play/a05a
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.122.249.134:8000/play/a04h
-#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="290" timeshift="1" aspect-ratio="16:9" group-title="Kids",Sonic (576p)
+#EXTINF:-1 tvg-id="Sonic.in@SD" jiotv-id="815" timeshift="1" aspect-ratio="16:9" group-title="Kids",Sonic (576p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5944,7 +5944,7 @@ http://103.122.249.134:8000/play/a04n
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.122.249.134:8000/play/a012
-#EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" jiotv-id="1984" timeshift="1" aspect-ratio="16:9" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" jiotv-id="1985" timeshift="1" aspect-ratio="16:9" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 Hindi HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
@@ -5964,7 +5964,7 @@ http://103.122.249.134:8000/play/a04i
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
 http://103.122.249.134:8000/play/a04u
-#EXTINF:-1 tvg-id="ZeeTV.in@HD" jiotv-id="167" timeshift="1" aspect-ratio="16:9" group-title="Entertainment",Zee TV HD (1080p)
+#EXTINF:-1 tvg-id="ZeeTV.in@HD" jiotv-id="1351" timeshift="1" aspect-ratio="16:9" group-title="Entertainment",Zee TV HD (1080p)
 #EXTVLCOPT:network-caching=3000
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-continuous=1
